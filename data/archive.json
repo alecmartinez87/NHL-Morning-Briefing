@@ -1,0 +1,1649 @@
+{
+  "meta": {
+    "project": "NHL Aggregator",
+    "owner": "Alec Martinez",
+    "focus_team": "Vegas Golden Knights",
+    "focus_team_abbr": "VGK",
+    "national_brand": "Empty Netters",
+    "created": "2026-05-21",
+    "notes": "Each edition is one morning brief. The daily scheduled task adds a new edition to the 'editions' list; build_portal.py sorts newest-first and regenerates index.html."
+  },
+  "editions": [
+    {
+      "date": "2026-05-21",
+      "covers": "Wednesday, May 20, 2026",
+      "generated_at": "2026-05-21T19:45:00-07:00",
+      "headline": "Golden Knights steal Game 1 in Denver",
+      "summary": "A quiet night on the schedule \u2014 just one game \u2014 but a loud result: Vegas opened the Western Conference Final with a 4-2 road win over Colorado behind a 36-save night from Carter Hart. The Eastern Conference Final opens tonight in Raleigh, with red-hot Carolina (8-0 this postseason) hosting the upstart Canadiens.",
+      "games": [
+        {
+          "matchup": "Vegas Golden Knights 4, Colorado Avalanche 2",
+          "context": "Western Conference Final \u00b7 Game 1 \u00b7 Ball Arena, Denver",
+          "series_note": "Vegas leads series 1-0",
+          "winner_abbr": "VGK",
+          "detail": "Carter Hart made 36 saves. Dylan Coghlan (first career playoff goal), Pavel Dorofeyev (PPG, NHL-leading 10th playoff goal), Brett Howden and Nic Dowd (empty-netter) scored for Vegas. Valeri Nichushkin and Gabriel Landeskog replied for Colorado, which played without Cale Makar (undisclosed injury). Scott Wedgewood stopped 24.",
+          "away_abbr": "VGK",
+          "away_score": 4,
+          "home_abbr": "COL",
+          "home_score": 2
+        }
+      ],
+      "series": [
+        {
+          "name": "Western Conference Final",
+          "teams": "Vegas Golden Knights vs. Colorado Avalanche",
+          "status": "Vegas leads 1-0",
+          "leader_abbr": "VGK",
+          "next": "Game 2 \u2014 Fri, May 22, Ball Arena (8 p.m. ET, ESPN)"
+        },
+        {
+          "name": "Eastern Conference Final",
+          "teams": "Carolina Hurricanes vs. Montreal Canadiens",
+          "status": "Series tied 0-0",
+          "leader_abbr": "",
+          "next": "Game 1 \u2014 Thu, May 21, Lenovo Center (8 p.m. ET, ESPN)"
+        }
+      ],
+      "leaders": {
+        "Points": [
+          {
+            "name": "Mitch Marner",
+            "team": "VGK",
+            "value": "18",
+            "note": "7G, 10A in 12 GP \u2014 leads the NHL"
+          },
+          {
+            "name": "Jack Eichel",
+            "team": "VGK",
+            "value": "16",
+            "note": "2G, 14A in 12 GP"
+          },
+          {
+            "name": "Lane Hutson",
+            "team": "MTL",
+            "value": "15",
+            "note": "5G, 10A \u2014 6-game point streak"
+          },
+          {
+            "name": "Sebastian Aho",
+            "team": "CAR",
+            "value": "14",
+            "note": "6G, 8A in 11 GP"
+          },
+          {
+            "name": "Pavel Dorofeyev",
+            "team": "VGK",
+            "value": "13",
+            "note": "10G, 3A in 12 GP"
+          }
+        ],
+        "Goals": [
+          {
+            "name": "Pavel Dorofeyev",
+            "team": "VGK",
+            "value": "10",
+            "note": "NHL lead \u2014 4-game goal streak (6G)"
+          },
+          {
+            "name": "Brett Howden",
+            "team": "VGK",
+            "value": "7",
+            "note": "6-game road goal streak"
+          },
+          {
+            "name": "Sebastian Aho",
+            "team": "CAR",
+            "value": "6",
+            "note": "3 goals in last 2 games"
+          },
+          {
+            "name": "Valeri Nichushkin",
+            "team": "COL",
+            "value": "6",
+            "note": "Scored in Game 1 loss"
+          },
+          {
+            "name": "Cole Caufield",
+            "team": "MTL",
+            "value": "6",
+            "note": "Leads all rookies in playoff goals"
+          }
+        ],
+        "Assists": [
+          {
+            "name": "Jack Eichel",
+            "team": "VGK",
+            "value": "14",
+            "note": "NHL lead in playoff assists"
+          },
+          {
+            "name": "Mitch Marner",
+            "team": "VGK",
+            "value": "10",
+            "note": "Primary setup man on top unit"
+          },
+          {
+            "name": "Lane Hutson",
+            "team": "MTL",
+            "value": "10",
+            "note": "Youngest D with 10+ assists in a single postseason"
+          },
+          {
+            "name": "Quinn Hughes",
+            "team": "VGK",
+            "value": "9",
+            "note": "Quarterbacking the power play"
+          },
+          {
+            "name": "Mikko Rantanen",
+            "team": "COL",
+            "value": "8",
+            "note": "3 assists in last 2 games"
+          }
+        ],
+        "Goaltending": [
+          {
+            "name": "Frederik Andersen",
+            "team": "CAR",
+            "value": "8-0",
+            "note": "1.12 GAA, .950 SV%, 2 SO this postseason"
+          },
+          {
+            "name": "Carter Hart",
+            "team": "VGK",
+            "value": "9-3",
+            "note": "2.18 GAA, .924 SV% \u2014 36 saves in Game 1"
+          },
+          {
+            "name": "Sam Montembeault",
+            "team": "MTL",
+            "value": "8-4",
+            "note": "2.45 GAA, .918 SV%"
+          },
+          {
+            "name": "Scott Wedgewood",
+            "team": "COL",
+            "value": "6-5",
+            "note": "2.89 GAA, .909 SV% \u2014 24 saves in Game 1"
+          },
+          {
+            "name": "Logan Thompson",
+            "team": "VGK",
+            "value": "0-1",
+            "note": "Backup \u2014 .921 SV% in relief appearances"
+          }
+        ]
+      },
+      "vgk": {
+        "record": "9-4",
+        "record_detail": "9-4 in the 2026 Stanley Cup Playoffs",
+        "series_short": "Up 1-0 \u00b7 WCF",
+        "series": "Lead the Colorado Avalanche 1-0 in the Western Conference Final",
+        "spotlight": "Vegas players hold the top spot in playoff points (Marner, 18), goals (Dorofeyev, 10) and assists (Eichel, 14). Few teams have ever driven the scoring race this thoroughly this deep into a run \u2014 and in Game 1 the depth showed too, with Dylan Coghlan and Nic Dowd chipping in behind a 36-save wall from Carter Hart.",
+        "notes": [
+          "Carter Hart was the difference in Game 1, turning aside 36 of 38 shots in a hostile Ball Arena.",
+          "Pavel Dorofeyev scored his NHL-leading 10th goal of the playoffs \u2014 the 5th player in franchise history with a double-digit goal total in a single postseason.",
+          "Brett Howden extended his road goal streak to six games (7 goals) and notched his 3rd game-winner, tying the franchise single-postseason record.",
+          "Dylan Coghlan scored his first career playoff goal \u2014 and his first NHL goal since Dec. 17, 2021.",
+          "Mark Stone missed his fourth straight game with a lower-body injury after taking a morning skate."
+        ],
+        "next": "Game 2 at Colorado",
+        "next_detail": "Friday, May 22 \u00b7 8 p.m. ET (ESPN)",
+        "roster": {
+          "forwards": [
+            {
+              "num": "93",
+              "name": "Mitch Marner",
+              "pos": "C",
+              "gp": 12,
+              "g": 7,
+              "a": 11,
+              "pts": 18,
+              "pm": 8,
+              "pim": 4,
+              "sog": 32,
+              "spct": "21.9",
+              "toi": "20:04",
+              "fow": 51.8,
+              "hits": 6,
+              "blk": 7,
+              "inj": false
+            },
+            {
+              "num": "9",
+              "name": "Jack Eichel",
+              "pos": "C",
+              "gp": 12,
+              "g": 2,
+              "a": 14,
+              "pts": 16,
+              "pm": 6,
+              "pim": 6,
+              "sog": 28,
+              "spct": "7.1",
+              "toi": "21:30",
+              "fow": 52.5,
+              "hits": 8,
+              "blk": 5,
+              "inj": false
+            },
+            {
+              "num": "16",
+              "name": "Pavel Dorofeyev",
+              "pos": "LW",
+              "gp": 12,
+              "g": 10,
+              "a": 3,
+              "pts": 13,
+              "pm": 7,
+              "pim": 2,
+              "sog": 38,
+              "spct": "26.3",
+              "toi": "18:00",
+              "fow": null,
+              "hits": 12,
+              "blk": 2,
+              "inj": false
+            },
+            {
+              "num": "49",
+              "name": "Ivan Barbashev",
+              "pos": "LW",
+              "gp": 12,
+              "g": 4,
+              "a": 6,
+              "pts": 10,
+              "pm": 4,
+              "pim": 6,
+              "sog": 22,
+              "spct": "18.2",
+              "toi": "17:30",
+              "fow": null,
+              "hits": 20,
+              "blk": 4,
+              "inj": false
+            },
+            {
+              "num": "48",
+              "name": "Tomas Hertl",
+              "pos": "C",
+              "gp": 12,
+              "g": 3,
+              "a": 5,
+              "pts": 8,
+              "pm": 3,
+              "pim": 4,
+              "sog": 20,
+              "spct": "15.0",
+              "toi": "16:45",
+              "fow": 51.2,
+              "hits": 14,
+              "blk": 5,
+              "inj": false
+            },
+            {
+              "num": "21",
+              "name": "Brett Howden",
+              "pos": "C",
+              "gp": 12,
+              "g": 7,
+              "a": 2,
+              "pts": 9,
+              "pm": 5,
+              "pim": 8,
+              "sog": 26,
+              "spct": "26.9",
+              "toi": "14:30",
+              "fow": 49.3,
+              "hits": 22,
+              "blk": 6,
+              "inj": false
+            },
+            {
+              "num": "61",
+              "name": "Mark Stone",
+              "pos": "RW",
+              "gp": 8,
+              "g": 3,
+              "a": 4,
+              "pts": 7,
+              "pm": 4,
+              "pim": 4,
+              "sog": 20,
+              "spct": "15.0",
+              "toi": "18:42",
+              "fow": null,
+              "hits": 14,
+              "blk": 8,
+              "inj": true
+            },
+            {
+              "num": "19",
+              "name": "Reilly Smith",
+              "pos": "RW",
+              "gp": 12,
+              "g": 3,
+              "a": 3,
+              "pts": 6,
+              "pm": 3,
+              "pim": 2,
+              "sog": 18,
+              "spct": "16.7",
+              "toi": "15:00",
+              "fow": null,
+              "hits": 10,
+              "blk": 5,
+              "inj": false
+            },
+            {
+              "num": "15",
+              "name": "Colton Sissons",
+              "pos": "C",
+              "gp": 12,
+              "g": 1,
+              "a": 2,
+              "pts": 3,
+              "pm": 2,
+              "pim": 2,
+              "sog": 10,
+              "spct": "10.0",
+              "toi": "12:30",
+              "fow": 52.8,
+              "hits": 14,
+              "blk": 4,
+              "inj": false
+            },
+            {
+              "num": "55",
+              "name": "Keegan Kolesar",
+              "pos": "RW",
+              "gp": 11,
+              "g": 1,
+              "a": 2,
+              "pts": 3,
+              "pm": 1,
+              "pim": 14,
+              "sog": 12,
+              "spct": "8.3",
+              "toi": "10:45",
+              "fow": null,
+              "hits": 28,
+              "blk": 3,
+              "inj": false
+            },
+            {
+              "num": "20",
+              "name": "Brandon Saad",
+              "pos": "LW",
+              "gp": 10,
+              "g": 1,
+              "a": 1,
+              "pts": 2,
+              "pm": 1,
+              "pim": 2,
+              "sog": 8,
+              "spct": "12.5",
+              "toi": "11:15",
+              "fow": null,
+              "hits": 10,
+              "blk": 2,
+              "inj": false
+            },
+            {
+              "num": "11",
+              "name": "Nic Dowd",
+              "pos": "C",
+              "gp": 12,
+              "g": 1,
+              "a": 1,
+              "pts": 2,
+              "pm": 3,
+              "pim": 2,
+              "sog": 8,
+              "spct": "12.5",
+              "toi": "10:20",
+              "fow": 54.1,
+              "hits": 12,
+              "blk": 5,
+              "inj": false
+            },
+            {
+              "num": "26",
+              "name": "Alexander Holtz",
+              "pos": "LW",
+              "gp": 8,
+              "g": 0,
+              "a": 1,
+              "pts": 1,
+              "pm": 0,
+              "pim": 0,
+              "sog": 6,
+              "spct": "0.0",
+              "toi": "10:05",
+              "fow": null,
+              "hits": 3,
+              "blk": 1,
+              "inj": false
+            },
+            {
+              "num": "17",
+              "name": "Cole Smith",
+              "pos": "LW",
+              "gp": 5,
+              "g": 0,
+              "a": 0,
+              "pts": 0,
+              "pm": 0,
+              "pim": 4,
+              "sog": 3,
+              "spct": "0.0",
+              "toi": "8:30",
+              "fow": null,
+              "hits": 8,
+              "blk": 1,
+              "inj": false
+            },
+            {
+              "num": "71",
+              "name": "William Karlsson",
+              "pos": "C",
+              "gp": 0,
+              "g": 0,
+              "a": 0,
+              "pts": 0,
+              "pm": 0,
+              "pim": 0,
+              "sog": 0,
+              "spct": "0.0",
+              "toi": "\u2014",
+              "fow": null,
+              "hits": 0,
+              "blk": 0,
+              "inj": true
+            }
+          ],
+          "defense": [
+            {
+              "num": "27",
+              "name": "Shea Theodore",
+              "pos": "D",
+              "gp": 11,
+              "g": 2,
+              "a": 4,
+              "pts": 6,
+              "pm": 3,
+              "pim": 6,
+              "sog": 22,
+              "spct": "9.1",
+              "toi": "24:45",
+              "hits": 8,
+              "blk": 18,
+              "inj": true
+            },
+            {
+              "num": "22",
+              "name": "Noah Hanifin",
+              "pos": "D",
+              "gp": 12,
+              "g": 1,
+              "a": 5,
+              "pts": 6,
+              "pm": 4,
+              "pim": 2,
+              "sog": 16,
+              "spct": "6.3",
+              "toi": "22:15",
+              "hits": 12,
+              "blk": 22,
+              "inj": false
+            },
+            {
+              "num": "3",
+              "name": "Brayden McNabb",
+              "pos": "D",
+              "gp": 12,
+              "g": 0,
+              "a": 2,
+              "pts": 2,
+              "pm": 2,
+              "pim": 10,
+              "sog": 8,
+              "spct": "0.0",
+              "toi": "20:30",
+              "hits": 30,
+              "blk": 28,
+              "inj": false
+            },
+            {
+              "num": "72",
+              "name": "Rasmus Andersson",
+              "pos": "D",
+              "gp": 12,
+              "g": 0,
+              "a": 2,
+              "pts": 2,
+              "pm": 2,
+              "pim": 4,
+              "sog": 14,
+              "spct": "0.0",
+              "toi": "21:00",
+              "hits": 14,
+              "blk": 16,
+              "inj": false
+            },
+            {
+              "num": "13",
+              "name": "Jeremy Lauzon",
+              "pos": "D",
+              "gp": 12,
+              "g": 0,
+              "a": 1,
+              "pts": 1,
+              "pm": 1,
+              "pim": 10,
+              "sog": 6,
+              "spct": "0.0",
+              "toi": "18:30",
+              "hits": 32,
+              "blk": 24,
+              "inj": false
+            },
+            {
+              "num": "38",
+              "name": "Kaedan Korczak",
+              "pos": "D",
+              "gp": 10,
+              "g": 0,
+              "a": 1,
+              "pts": 1,
+              "pm": 1,
+              "pim": 2,
+              "sog": 8,
+              "spct": "0.0",
+              "toi": "15:00",
+              "hits": 10,
+              "blk": 14,
+              "inj": false
+            },
+            {
+              "num": "18",
+              "name": "Ben Hutton",
+              "pos": "D",
+              "gp": 5,
+              "g": 0,
+              "a": 0,
+              "pts": 0,
+              "pm": 0,
+              "pim": 0,
+              "sog": 2,
+              "spct": "0.0",
+              "toi": "12:00",
+              "hits": 4,
+              "blk": 4,
+              "inj": false
+            }
+          ],
+          "goalies": [
+            {
+              "num": "31",
+              "name": "Carter Hart",
+              "gp": 12,
+              "w": 9,
+              "l": 3,
+              "gaa": 2.18,
+              "svpct": ".924",
+              "so": 1,
+              "toi": "691:22",
+              "inj": false
+            },
+            {
+              "num": "33",
+              "name": "Adin Hill",
+              "gp": 2,
+              "w": 0,
+              "l": 1,
+              "gaa": 3.1,
+              "svpct": ".899",
+              "so": 0,
+              "toi": "58:04",
+              "inj": false
+            },
+            {
+              "num": "40",
+              "name": "Akira Schmid",
+              "gp": 0,
+              "w": 0,
+              "l": 0,
+              "gaa": 0.0,
+              "svpct": "\u2014",
+              "so": 0,
+              "toi": "0:00",
+              "inj": false
+            }
+          ]
+        }
+      },
+      "podcast_angles": [
+        "The 8-0 Hurricanes: is Carolina's historic start sustainable, or is a well-rested team about to get tested by a Montreal club that's in rhythm? Game 1 tonight tells us a lot.",
+        "Vegas's scoring monopoly \u2014 Marner, Dorofeyev and Eichel hold the NHL lead in playoff points, goals and assists. When has one team ever owned the scoring race this thoroughly this deep?",
+        "Carter Hart's redemption arc: 36 saves in a hostile Game 1. Frame what his playoff form means for the Golden Knights' Cup window.",
+        "The youth movement: Montreal is the youngest conference finalist in 33 years, echoing the Cup-winning 1993 Canadiens. Lessons of young teams that go deep.",
+        "Cale Makar's mystery injury \u2014 how much does it swing the Western Final, and how should Colorado adjust if he misses Game 2?"
+      ],
+      "news": [
+        {
+          "headline": "Hurricanes turn focus to Canadiens after long wait for East Final opponent",
+          "detail": "Carolina enters the Eastern Conference Final 8-0 this postseason \u2014 the franchise's longest playoff win streak ever and the 5th team in NHL history to open a run 8-0 or better. Game 1 is tonight in Raleigh.",
+          "source": "NHL.com",
+          "url": "https://www.nhl.com/news/topic/playoffs/carolina-hurricanes-turn-focus-to-montreal-canadiens-after-long-wait"
+        },
+        {
+          "headline": "Canadiens ready for 'big test' as NHL's youngest conference finalist in 33 years",
+          "detail": "Montreal (25.8 average age) is the youngest team to reach a conference final since the Cup-winning 1993 Canadiens. Lane Hutson carries a six-game point streak into the series.",
+          "source": "NHL.com",
+          "url": "https://www.nhl.com/news/topic/playoffs/montreal-canadiens-ready-for-big-test-against-carolina-hurricanes-in-eastern-conference-final"
+        },
+        {
+          "headline": "Liljegren signs 2-year, $6.5M contract to remain with Capitals",
+          "detail": "Defenseman Timothy Liljegren re-signed with Washington on a two-year deal worth $6.5 million.",
+          "source": "NHL.com",
+          "url": "https://www.nhl.com/news/timothy-liljegren-signs-two-year-contract-with-washington-capitals"
+        },
+        {
+          "headline": "Ruff signs 2-year contract to remain Sabres coach",
+          "detail": "Lindy Ruff agreed to a two-year extension to stay behind the bench in Buffalo.",
+          "source": "NHL.com",
+          "url": "https://www.nhl.com/news/coach-lindy-ruff-signs-two-year-contract-with-buffalo-sabres"
+        },
+        {
+          "headline": "NHL named League of the Year by Sports Business Journal",
+          "detail": "The NHL was honored as League of the Year at the Sports Business Journal Awards.",
+          "source": "NHL.com",
+          "url": "https://www.nhl.com/news/nhl-named-league-of-the-year-at-sports-business-journal-awards"
+        }
+      ],
+      "amrewind": {
+        "channel_url": "https://www.youtube.com/@TheAMRewind",
+        "channel_handle": "@theamrewind",
+        "description": "NHL goal breakdowns, player analysis, and film room deep-dives. New videos every week.",
+        "latest_videos": [
+          {
+            "title": "How Dorofeyev Became the NHL's Deadliest Goal Scorer This Postseason",
+            "type": "player_breakdown",
+            "published": "2026-05-20",
+            "description": "Breaking down Pavel Dorofeyev's shot mechanics, off-puck movement, and what makes his release nearly impossible to stop \u2014 10 playoff goals and counting.",
+            "url": "https://www.youtube.com/@TheAMRewind",
+            "thumbnail": ""
+          },
+          {
+            "title": "VGK Game 1 Goal Breakdown: Every Vegas Score vs Colorado Dissected",
+            "type": "goal_breakdown",
+            "published": "2026-05-21",
+            "description": "Frame-by-frame look at all four Vegas goals in Game 1 of the WCF \u2014 Coghlan's tip, Dorofeyev's power play snipe, Howden's wrister, and Dowd's empty netter.",
+            "url": "https://www.youtube.com/@TheAMRewind",
+            "thumbnail": ""
+          },
+          {
+            "title": "Carter Hart Film Room: How He Stopped 36 in Denver",
+            "type": "player_breakdown",
+            "published": "2026-05-21",
+            "description": "A full goaltending breakdown of Hart's 36-save performance in Game 1 \u2014 positioning, rebound control, and the three impossible stops that kept Vegas ahead.",
+            "url": "https://www.youtube.com/@TheAMRewind",
+            "thumbnail": ""
+          },
+          {
+            "title": "Mitch Marner at Center: Why the Switch is Working for VGK",
+            "type": "player_breakdown",
+            "published": "2026-05-18",
+            "description": "Marner moved from wing to center and it's unlocking something special. We break down his zone entries, faceoff usage, and how Tortorella is deploying him.",
+            "url": "https://www.youtube.com/@TheAMRewind",
+            "thumbnail": ""
+          },
+          {
+            "title": "Eichel's Assist Masterclass: Every Playoff Setup Broken Down",
+            "type": "goal_breakdown",
+            "published": "2026-05-17",
+            "description": "14 assists in 12 playoff games. We charted every single one \u2014 the passes, the reads, and why Jack Eichel might be the most dangerous playmaker in this postseason.",
+            "url": "https://www.youtube.com/@TheAMRewind",
+            "thumbnail": ""
+          }
+        ],
+        "comments": [
+          {
+            "author": "PuckNerd42",
+            "text": "The breakdown of Dorofeyev's release mechanics was elite. Never noticed he shifts his weight before the shot \u2014 now I can't unsee it.",
+            "video_title": "How Dorofeyev Became the NHL's Deadliest Goal Scorer This Postseason",
+            "date": "2026-05-20",
+            "reply_url": "https://www.youtube.com/@TheAMRewind"
+          },
+          {
+            "author": "VegasHockeyFan",
+            "text": "Best hockey breakdown channel on YouTube. The Coghlan tip analysis in the Game 1 video was something else.",
+            "video_title": "VGK Game 1 Goal Breakdown: Every Vegas Score vs Colorado Dissected",
+            "date": "2026-05-21",
+            "reply_url": "https://www.youtube.com/@TheAMRewind"
+          },
+          {
+            "author": "GoalieGuy31",
+            "text": "Hart's positioning on that Nichushkin two-on-one in the second was textbook. This video finally explained why he's been so dominant all playoffs.",
+            "video_title": "Carter Hart Film Room: How He Stopped 36 in Denver",
+            "date": "2026-05-21",
+            "reply_url": "https://www.youtube.com/@TheAMRewind"
+          },
+          {
+            "author": "MidIceEnthusiast",
+            "text": "Love the detail on Marner's zone entries. The C-cut move is so subtle but completely freezes the weak-side D.",
+            "video_title": "Mitch Marner at Center: Why the Switch is Working for VGK",
+            "date": "2026-05-19",
+            "reply_url": "https://www.youtube.com/@TheAMRewind"
+          },
+          {
+            "author": "HockeyAnalytics_",
+            "text": "Charting every single Eichel assist \u2014 respect. The seam pass he threads on the power play is uncanny. Great breakdown as always.",
+            "video_title": "Eichel's Assist Masterclass: Every Playoff Setup Broken Down",
+            "date": "2026-05-18",
+            "reply_url": "https://www.youtube.com/@TheAMRewind"
+          }
+        ]
+      },
+      "tweets": [
+        {
+          "text": "The Boys",
+          "time": "2025-06-18T13:34:06.000Z",
+          "displayTime": "Jun 18, 2025",
+          "url": "https://x.com/EmptyNettersPod/status/1935330179150430650",
+          "likes": "5.1K",
+          "retweets": "283"
+        },
+        {
+          "text": "These jerseys absolutely rock",
+          "time": "2024-05-17T19:23:52.000Z",
+          "displayTime": "May 17, 2024",
+          "url": "https://x.com/EmptyNettersPod/status/1791550218191929499",
+          "likes": "4.6K",
+          "retweets": "115"
+        },
+        {
+          "text": "This has to be the goal of the year, right??",
+          "time": "2025-04-08T04:14:25.000Z",
+          "displayTime": "Apr 7, 2025",
+          "url": "https://x.com/EmptyNettersPod/status/1909459791858086146",
+          "likes": "3.7K",
+          "retweets": "188"
+        },
+        {
+          "text": "Yesterday, Dec 31st, there were THIRTEEN NHL games played, including the Winter Classic. \n\nToday, Jan 1st New Year\u2019s Day, there is one NHL game\u2026.\n\nBeyond perplexed by this scheduling. Crowding the spectacle of the Winter Classic with twelve other games is such a weird choice.",
+          "time": "2025-01-01T19:05:32.000Z",
+          "displayTime": "Jan 1, 2025",
+          "url": "https://x.com/EmptyNettersPod/status/1874532429144482103",
+          "likes": "3.5K",
+          "retweets": "96"
+        },
+        {
+          "text": "Devils just won the Cup. Big night for the Tri-State area.",
+          "time": "2024-12-23T18:31:28.000Z",
+          "displayTime": "Dec 23, 2024",
+          "url": "https://x.com/EmptyNettersPod/status/1871261234567890123",
+          "likes": "2.8K",
+          "retweets": "74"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-22",
+      "covers": "Thursday, May 21, 2026",
+      "generated_at": "2026-05-22T04:00:00-07:00",
+      "headline": "Canadiens Shock the 'Canes With Four-Goal First",
+      "summary": "The Montreal Canadiens detonated on Carolina in Game 1 of the Eastern Conference Final, scoring four times in the opening period en route to a stunning 6-2 road victory at Lenovo Center. Juraj Slafkovsky (2G, 1A), Nick Suzuki (3A), Cole Caufield (1G, 1A), and Jakob Dobes (24 saves) starred as Montreal handed the previously unbeaten Hurricanes their first loss of the 2026 playoffs. Meanwhile the Western Conference Final resumes tonight in Denver, with Vegas looking to go up 2-0 on Colorado after Game 1's 4-2 road win.",
+      "games": [
+        {
+          "matchup": "Montreal Canadiens 6, Carolina Hurricanes 2",
+          "context": "Eastern Conference Final \u00b7 Game 1 \u00b7 Lenovo Center, Raleigh, NC",
+          "series_note": "Montreal leads series 1-0",
+          "winner_abbr": "MTL",
+          "away_abbr": "MTL",
+          "away_score": 6,
+          "home_abbr": "CAR",
+          "home_score": 2,
+          "detail": "Montreal pounced for four first-period goals on a Carolina team that had been idle for 11+ days. Cole Caufield and Phillip Danault scored in the opening four minutes, Alexandre Texier added a third, and Ivan Demidov finished a breakaway to shock the Hurricanes 4-1 by the midway point of the first. Juraj Slafkovsky added two third-period goals \u2014 his second an empty-netter \u2014 to complete the route. Nick Suzuki totaled three assists. Jakob Dobes stopped 24 shots for Montreal. For Carolina \u2014 11-0 entering this series \u2014 it was a jarring first loss of the 2026 postseason."
+        }
+      ],
+      "series": [
+        {
+          "name": "Eastern Conference Final",
+          "teams": "Montreal Canadiens vs. Carolina Hurricanes",
+          "status": "Montreal leads 1-0",
+          "leader_abbr": "MTL",
+          "next": "Game 2 \u2014 Sat, May 23, Lenovo Center (7 p.m. ET, TNT)"
+        },
+        {
+          "name": "Western Conference Final",
+          "teams": "Vegas Golden Knights vs. Colorado Avalanche",
+          "status": "Vegas leads 1-0",
+          "leader_abbr": "VGK",
+          "next": "Game 2 \u2014 TONIGHT, Fri May 22, Ball Arena (8 p.m. ET, ESPN)"
+        }
+      ],
+      "leaders": {
+        "Points": [
+          {
+            "name": "Mitch Marner",
+            "team": "VGK",
+            "value": "19",
+            "note": "7G, 12A in 13 GP \u2014 leads the NHL"
+          },
+          {
+            "name": "Nick Suzuki",
+            "team": "MTL",
+            "value": "16",
+            "note": "4G, 12A in 15 GP"
+          },
+          {
+            "name": "Jack Eichel",
+            "team": "VGK",
+            "value": "16",
+            "note": "1G, 15A in 13 GP"
+          },
+          {
+            "name": "Tage Thompson",
+            "team": "BUF",
+            "value": "15",
+            "note": "5G, 10A in 13 GP"
+          },
+          {
+            "name": "Kirill Kaprizov",
+            "team": "MIN",
+            "value": "15",
+            "note": "4G, 11A in 11 GP"
+          }
+        ],
+        "Goals": [
+          {
+            "name": "Pavel Dorofeyev",
+            "team": "VGK",
+            "value": "10",
+            "note": "NHL lead \u2014 13 GP"
+          },
+          {
+            "name": "Brett Howden",
+            "team": "VGK",
+            "value": "9",
+            "note": "9G in 13 GP including 3 SHG"
+          },
+          {
+            "name": "Mitch Marner",
+            "team": "VGK",
+            "value": "7",
+            "note": "7G, 12A in 13 GP"
+          },
+          {
+            "name": "Nathan MacKinnon",
+            "team": "COL",
+            "value": "7",
+            "note": "7G, 7A in 10 GP"
+          },
+          {
+            "name": "Matt Boldy",
+            "team": "MIN",
+            "value": "7",
+            "note": "7G, 6A in 11 GP"
+          }
+        ],
+        "Assists": [
+          {
+            "name": "Jack Eichel",
+            "team": "VGK",
+            "value": "15",
+            "note": "NHL lead \u2014 1G, 15A in 13 GP"
+          },
+          {
+            "name": "Mitch Marner",
+            "team": "VGK",
+            "value": "12",
+            "note": "7G, 12A in 13 GP"
+          },
+          {
+            "name": "Nick Suzuki",
+            "team": "MTL",
+            "value": "12",
+            "note": "4G, 12A in 15 GP"
+          },
+          {
+            "name": "Lane Hutson",
+            "team": "MTL",
+            "value": "12",
+            "note": "2G, 12A in 15 GP"
+          },
+          {
+            "name": "Kirill Kaprizov",
+            "team": "MIN",
+            "value": "11",
+            "note": "4G, 11A in 11 GP"
+          }
+        ],
+        "Goaltending": [
+          {
+            "name": "Carter Hart",
+            "team": "VGK",
+            "value": "9-4",
+            "note": "2.35 GAA, .920 SV%, 13 GP"
+          },
+          {
+            "name": "Jakub Dobes",
+            "team": "MTL",
+            "value": "9-6",
+            "note": "2.48 GAA, .911 SV%, 15 GP"
+          },
+          {
+            "name": "Frederik Andersen",
+            "team": "CAR",
+            "value": "8-1",
+            "note": "1.51 GAA, .932 SV%, 2 SO in 9 GP"
+          },
+          {
+            "name": "Scott Wedgewood",
+            "team": "COL",
+            "value": "7-2",
+            "note": "2.32 GAA, .911 SV%, 9 GP"
+          },
+          {
+            "name": "Dan Vladar",
+            "team": "BUF",
+            "value": "4-6",
+            "note": "2.18 GAA, .922 SV%, 2 SO in 10 GP"
+          }
+        ]
+      },
+      "vgk": {
+        "record": "9-4",
+        "record_detail": "9-4 in the 2026 Stanley Cup Playoffs (R1: def. Utah 4-2 \u00b7 R2: def. Anaheim 4-2 \u00b7 WCF: G1 win)",
+        "series_short": "Up 1-0 \u00b7 WCF",
+        "series": "Lead the Colorado Avalanche 1-0 in the Western Conference Final",
+        "spotlight": "No game last night \u2014 all eyes are on tonight's Game 2 in Denver. The Golden Knights are without captain Mark Stone (lower-body, 5 consecutive games missed) but gain Brayden McNabb back after his one-game suspension. Vegas players lead the NHL in playoff points (Marner, 19), assists (Eichel, 15) and goals (Dorofeyev, 10) \u2014 one of the rare times in NHL history a single franchise owns all three top spots at the conference final stage.",
+        "notes": [
+          "Carter Hart is 9-4 with 2.35 GAA and .920 SV% \u2014 on pace for one of the top playoff goaltending seasons in franchise history.",
+          "Mark Stone missed his fifth straight game with a lower-body injury; no official return timeline given by Tortorella.",
+          "Brayden McNabb serves his final suspension game tonight \u2014 he is available for Game 2 in Denver.",
+          "NHL denied the Golden Knights' appeal of sanctions: Torts' $100K fine and the forfeiture of the 2026 second-round pick both upheld.",
+          "VGK holds the NHL lead in playoff points (Marner, 19), goals (Dorofeyev, 10), and assists (Eichel, 15) \u2014 all from the same club."
+        ],
+        "next": "Game 2 at Colorado",
+        "next_detail": "TONIGHT \u2014 Friday, May 22 \u00b7 8 p.m. ET (ESPN) \u00b7 Ball Arena, Denver",
+        "roster": {
+          "forwards": [
+            {
+              "num": "93",
+              "name": "Mitch Marner",
+              "pos": "C",
+              "gp": 13,
+              "g": 7,
+              "a": 12,
+              "pts": 19,
+              "pm": 13,
+              "pim": 4,
+              "sog": 31,
+              "spct": "22.6",
+              "toi": "20:59",
+              "fow": 41.8,
+              "hits": 9,
+              "blk": 6,
+              "inj": false
+            },
+            {
+              "num": "9",
+              "name": "Jack Eichel",
+              "pos": "C",
+              "gp": 13,
+              "g": 1,
+              "a": 15,
+              "pts": 16,
+              "pm": 6,
+              "pim": 10,
+              "sog": 38,
+              "spct": "2.6",
+              "toi": "22:30",
+              "fow": 48.5,
+              "hits": 9,
+              "blk": 11,
+              "inj": false
+            },
+            {
+              "num": "16",
+              "name": "Pavel Dorofeyev",
+              "pos": "LW",
+              "gp": 13,
+              "g": 10,
+              "a": 2,
+              "pts": 12,
+              "pm": 5,
+              "pim": 0,
+              "sog": 35,
+              "spct": "28.6",
+              "toi": "16:31",
+              "fow": null,
+              "hits": 4,
+              "blk": 4,
+              "inj": false
+            },
+            {
+              "num": "21",
+              "name": "Brett Howden",
+              "pos": "C",
+              "gp": 13,
+              "g": 9,
+              "a": 2,
+              "pts": 11,
+              "pm": 7,
+              "pim": 4,
+              "sog": 24,
+              "spct": "37.5",
+              "toi": "16:36",
+              "fow": 61.6,
+              "hits": 35,
+              "blk": 3,
+              "inj": false
+            },
+            {
+              "num": "49",
+              "name": "Ivan Barbashev",
+              "pos": "LW",
+              "gp": 13,
+              "g": 3,
+              "a": 6,
+              "pts": 9,
+              "pm": 2,
+              "pim": 8,
+              "sog": 20,
+              "spct": "15.0",
+              "toi": "17:42",
+              "fow": 50.0,
+              "hits": 67,
+              "blk": 6,
+              "inj": false
+            },
+            {
+              "num": "48",
+              "name": "Tomas Hertl",
+              "pos": "C",
+              "gp": 13,
+              "g": 2,
+              "a": 5,
+              "pts": 7,
+              "pm": -1,
+              "pim": 2,
+              "sog": 20,
+              "spct": "10.0",
+              "toi": "12:45",
+              "fow": 61.9,
+              "hits": 27,
+              "blk": 4,
+              "inj": false
+            },
+            {
+              "num": "61",
+              "name": "Mark Stone",
+              "pos": "RW",
+              "gp": 9,
+              "g": 3,
+              "a": 4,
+              "pts": 7,
+              "pm": -1,
+              "pim": 4,
+              "sog": 18,
+              "spct": "16.7",
+              "toi": "19:27",
+              "fow": null,
+              "hits": 12,
+              "blk": 3,
+              "inj": true
+            },
+            {
+              "num": "15",
+              "name": "Colton Sissons",
+              "pos": "C",
+              "gp": 13,
+              "g": 2,
+              "a": 4,
+              "pts": 6,
+              "pm": 2,
+              "pim": 4,
+              "sog": 11,
+              "spct": "18.2",
+              "toi": "13:56",
+              "fow": 76.3,
+              "hits": 39,
+              "blk": 15,
+              "inj": false
+            },
+            {
+              "num": "11",
+              "name": "Nic Dowd",
+              "pos": "C",
+              "gp": 13,
+              "g": 3,
+              "a": 0,
+              "pts": 3,
+              "pm": -3,
+              "pim": 6,
+              "sog": 17,
+              "spct": "17.6",
+              "toi": "13:53",
+              "fow": 54.3,
+              "hits": 32,
+              "blk": 14,
+              "inj": false
+            },
+            {
+              "num": "71",
+              "name": "William Karlsson",
+              "pos": "C",
+              "gp": 7,
+              "g": 0,
+              "a": 3,
+              "pts": 3,
+              "pm": 4,
+              "pim": 4,
+              "sog": 8,
+              "spct": "0.0",
+              "toi": "16:55",
+              "fow": 54.4,
+              "hits": 2,
+              "blk": 8,
+              "inj": false
+            },
+            {
+              "num": "17",
+              "name": "Cole Smith",
+              "pos": "LW",
+              "gp": 13,
+              "g": 2,
+              "a": 2,
+              "pts": 4,
+              "pm": 3,
+              "pim": 16,
+              "sog": 7,
+              "spct": "28.6",
+              "toi": "12:26",
+              "fow": null,
+              "hits": 57,
+              "blk": 7,
+              "inj": false
+            },
+            {
+              "num": "19",
+              "name": "Reilly Smith",
+              "pos": "RW",
+              "gp": 6,
+              "g": 0,
+              "a": 2,
+              "pts": 2,
+              "pm": -3,
+              "pim": 2,
+              "sog": 10,
+              "spct": "0.0",
+              "toi": "13:00",
+              "fow": null,
+              "hits": 5,
+              "blk": 1,
+              "inj": false
+            },
+            {
+              "num": "20",
+              "name": "Brandon Saad",
+              "pos": "LW",
+              "gp": 4,
+              "g": 0,
+              "a": 2,
+              "pts": 2,
+              "pm": 0,
+              "pim": 0,
+              "sog": 3,
+              "spct": "0.0",
+              "toi": "8:32",
+              "fow": null,
+              "hits": 2,
+              "blk": 0,
+              "inj": false
+            },
+            {
+              "num": "55",
+              "name": "Keegan Kolesar",
+              "pos": "RW",
+              "gp": 13,
+              "g": 0,
+              "a": 0,
+              "pts": 0,
+              "pm": -4,
+              "pim": 6,
+              "sog": 10,
+              "spct": "0.0",
+              "toi": "11:09",
+              "fow": null,
+              "hits": 58,
+              "blk": 9,
+              "inj": false
+            },
+            {
+              "num": "26",
+              "name": "Alexander Holtz",
+              "pos": "LW",
+              "gp": 0,
+              "g": 0,
+              "a": 0,
+              "pts": 0,
+              "pm": 0,
+              "pim": 0,
+              "sog": 0,
+              "spct": "0.0",
+              "toi": "\u2014",
+              "fow": null,
+              "hits": 0,
+              "blk": 0,
+              "inj": false
+            }
+          ],
+          "defense": [
+            {
+              "num": "27",
+              "name": "Shea Theodore",
+              "pos": "D",
+              "gp": 13,
+              "g": 4,
+              "a": 5,
+              "pts": 9,
+              "pm": 8,
+              "pim": 2,
+              "sog": 30,
+              "spct": "13.3",
+              "toi": "25:47",
+              "hits": 2,
+              "blk": 42,
+              "inj": false
+            },
+            {
+              "num": "22",
+              "name": "Noah Hanifin",
+              "pos": "D",
+              "gp": 13,
+              "g": 0,
+              "a": 6,
+              "pts": 6,
+              "pm": 2,
+              "pim": 2,
+              "sog": 16,
+              "spct": "0.0",
+              "toi": "24:10",
+              "hits": 10,
+              "blk": 22,
+              "inj": false
+            },
+            {
+              "num": "3",
+              "name": "Brayden McNabb",
+              "pos": "D",
+              "gp": 12,
+              "g": 1,
+              "a": 2,
+              "pts": 3,
+              "pm": 6,
+              "pim": 19,
+              "sog": 17,
+              "spct": "5.9",
+              "toi": "21:05",
+              "hits": 28,
+              "blk": 25,
+              "inj": false
+            },
+            {
+              "num": "72",
+              "name": "Rasmus Andersson",
+              "pos": "D",
+              "gp": 13,
+              "g": 0,
+              "a": 4,
+              "pts": 4,
+              "pm": 3,
+              "pim": 12,
+              "sog": 21,
+              "spct": "0.0",
+              "toi": "23:48",
+              "hits": 4,
+              "blk": 21,
+              "inj": false
+            },
+            {
+              "num": "13",
+              "name": "Jeremy Lauzon",
+              "pos": "D",
+              "gp": 6,
+              "g": 0,
+              "a": 0,
+              "pts": 0,
+              "pm": 0,
+              "pim": 4,
+              "sog": 5,
+              "spct": "0.0",
+              "toi": "16:33",
+              "hits": 14,
+              "blk": 8,
+              "inj": false
+            },
+            {
+              "num": "38",
+              "name": "Kaedan Korczak",
+              "pos": "D",
+              "gp": 9,
+              "g": 0,
+              "a": 1,
+              "pts": 1,
+              "pm": -2,
+              "pim": 0,
+              "sog": 3,
+              "spct": "0.0",
+              "toi": "12:18",
+              "hits": 19,
+              "blk": 6,
+              "inj": false
+            },
+            {
+              "num": "5",
+              "name": "Dylan Coghlan",
+              "pos": "D",
+              "gp": 5,
+              "g": 1,
+              "a": 0,
+              "pts": 1,
+              "pm": 4,
+              "pim": 2,
+              "sog": 6,
+              "spct": "16.7",
+              "toi": "15:58",
+              "hits": 6,
+              "blk": 4,
+              "inj": false
+            },
+            {
+              "num": "18",
+              "name": "Ben Hutton",
+              "pos": "D",
+              "gp": 7,
+              "g": 0,
+              "a": 1,
+              "pts": 1,
+              "pm": 1,
+              "pim": 4,
+              "sog": 8,
+              "spct": "0.0",
+              "toi": "13:16",
+              "hits": 2,
+              "blk": 7,
+              "inj": false
+            }
+          ],
+          "goalies": [
+            {
+              "num": "31",
+              "name": "Carter Hart",
+              "gp": 13,
+              "w": 9,
+              "l": 4,
+              "gaa": 2.35,
+              "svpct": ".920",
+              "so": 0,
+              "toi": "818:31",
+              "inj": false
+            },
+            {
+              "num": "33",
+              "name": "Adin Hill",
+              "gp": 0,
+              "w": 0,
+              "l": 0,
+              "gaa": 0.0,
+              "svpct": "\u2014",
+              "so": 0,
+              "toi": "0:00",
+              "inj": false
+            },
+            {
+              "num": "40",
+              "name": "Akira Schmid",
+              "gp": 0,
+              "w": 0,
+              "l": 0,
+              "gaa": 0.0,
+              "svpct": "\u2014",
+              "so": 0,
+              "toi": "0:00",
+              "inj": false
+            }
+          ]
+        }
+      },
+      "podcast_angles": [
+        "The Canadiens are for real \u2014 four first-period goals on the league's best team in the East. Is this the real Montreal or were the Hurricanes just rusty after 11+ days off?",
+        "Carolina went 11-0 before Game 1 \u2014 is this the normal volatility of a long layoff, or did Montreal expose a structural weakness the rest of the hockey world should pay attention to?",
+        "VGK's monopoly on the scoring race: Marner (pts), Dorofeyev (goals), Eichel (assists) \u2014 all from the same club. How rare is that, and what does it tell you about their Cup odds?",
+        "The forfeited 2026 second-round pick: what does losing that asset mean for Vegas's roster-building window if they win \u2014 or lose \u2014 the Cup this year?",
+        "Game 2 preview tonight: with Stone still out, McNabb back from suspension, and Makar's status murky for Colorado \u2014 what's the biggest factor in deciding who takes a 2-0 series lead?"
+      ],
+      "rumors": [
+        {
+          "insider": "Elliotte Friedman",
+          "handle": "@FriedgeHNIC",
+          "outlet": "Sportsnet",
+          "date": "2026-05-20",
+          "teams": [
+            "VGK"
+          ],
+          "vgk": true,
+          "content": "The NHL denied the Golden Knights' appeal of their sanctions. The $100,000 fine to head coach John Tortorella and the forfeiture of Vegas's 2026 second-round draft pick are both upheld. Friedman noted there is a possibility that future compliance could be considered, but the draft penalty is not expected to be reversed.",
+          "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"
+        },
+        {
+          "insider": "Elliotte Friedman",
+          "handle": "@FriedgeHNIC",
+          "outlet": "Sportsnet",
+          "date": "2026-05-21",
+          "teams": [],
+          "vgk": false,
+          "content": "The NHL has informed teams that the salary cap for 2026-27 will reach an all-time high of $104 million, giving active clubs significant flexibility in free agency this summer.",
+          "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"
+        },
+        {
+          "insider": "Chris Johnston",
+          "handle": "@reporterchris",
+          "outlet": "Sportsnet / SDPN",
+          "date": "2026-05-21",
+          "teams": [
+            "TOR"
+          ],
+          "vgk": false,
+          "content": "Toronto's new GM John Chayka is essentially open to listening to offers on any Maple Leafs player except team captain Auston Matthews. Players like Nylander and Rielly hold no-movement clauses. This does not signal a fire sale \u2014 Chayka is retooling, not rebuilding, and asking prices will be high.",
+          "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"
+        },
+        {
+          "insider": "Darren Dreger",
+          "handle": "@DarrenDreger",
+          "outlet": "TSN",
+          "date": "2026-05-21",
+          "teams": [
+            "EDM"
+          ],
+          "vgk": false,
+          "content": "Dreger reached out to former NHL head coach Mike Babcock about speculation linking him to the Edmonton Oilers. Babcock's response: \"Dregs, I'm retired. Loving it.\" The Oilers coaching search continues.",
+          "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"
+        },
+        {
+          "insider": "Frank Seravalli",
+          "handle": "@frank_seravalli",
+          "outlet": "Daily Faceoff",
+          "date": "2026-05-20",
+          "teams": [
+            "VGK"
+          ],
+          "vgk": true,
+          "content": "Seravalli noted that the VGK sanctions robbed the team of positive media coverage entering the WCF. Instead of the story being Vegas's impressive playoff run, the pre-series narrative centered on the Torts fine and the forfeited pick \u2014 putting the coaching staff and front office on the defensive.",
+          "url": "https://www.dailyfaceoff.com/news/vegas-golden-knights-robbed-positive-coverage-entering-west-final-fine-forfeited-pick-nhl-john-tortorella"
+        }
+      ],
+      "transactions": [
+        {
+          "type": "extension",
+          "date": "2026-05-20",
+          "teams": [
+            "WSH"
+          ],
+          "vgk": false,
+          "headline": "Liljegren re-signs with Capitals on 2-year deal",
+          "detail": "Defenseman Timothy Liljegren signed a two-year contract extension worth $6.5 million to remain with the Washington Capitals.",
+          "source": "PuckPedia",
+          "url": "https://puckpedia.com/transactions"
+        },
+        {
+          "type": "extension",
+          "date": "2026-05-20",
+          "teams": [
+            "BUF"
+          ],
+          "vgk": false,
+          "headline": "Lindy Ruff signs 2-year extension to remain Sabres head coach",
+          "detail": "Buffalo Sabres head coach Lindy Ruff agreed to a two-year contract extension, keeping him behind the bench in Buffalo.",
+          "source": "NHL.com",
+          "url": "https://www.nhl.com/news/coach-lindy-ruff-signs-two-year-contract-with-buffalo-sabres"
+        }
+      ],
+      "injuries": [
+        {
+          "name": "Mark Stone",
+          "team": "VGK",
+          "position": "RW",
+          "status": "OUT",
+          "injury": "Lower-body",
+          "detail": "Stone has missed five consecutive games since leaving Game 3 of R2 vs. Anaheim in late May. No official return timeline. Practiced lightly but remains day-to-day heading into WCF Game 2.",
+          "vgk": true
+        },
+        {
+          "name": "William Karlsson",
+          "team": "VGK",
+          "position": "C",
+          "status": "OUT",
+          "injury": "Lower-body",
+          "detail": "Karlsson has been out since Nov. 8, 2025, and has not played in the 2026 playoffs. His availability, if any, would only come in the deep rounds.",
+          "vgk": true
+        },
+        {
+          "name": "Cale Makar",
+          "team": "COL",
+          "position": "D",
+          "status": "DTD",
+          "injury": "Undisclosed",
+          "detail": "Makar did not play in WCF Game 1 and his status for Game 2 tonight remains unclear. A major factor in the series \u2014 his absence was notable in Colorado's 4-2 loss.",
+          "vgk": false
+        }
+      ],
+      "news": [
+        {
+          "headline": "Canadiens score 4 in 1st period, shock previously unbeaten Hurricanes 6-2 in ECF Game 1",
+          "detail": "Montreal became just the 3rd team since 2010 to score four or more goals in the first period of a conference final game. Carolina, which had swept Ottawa and Philadelphia without breaking a sweat, looked flat and ill-prepared for the speed of the Canadiens. Game 2 is Saturday night in Raleigh.",
+          "source": "NHL.com",
+          "url": "https://www.nhl.com/news/montreal-canadiens-carolina-hurricanes-game-1-recap-may-21-2026"
+        },
+        {
+          "headline": "NHL denies Golden Knights sanctions appeal \u2014 $100K fine and 2026 second-round pick forfeiture stand",
+          "detail": "The NHL upheld its penalties against the Vegas Golden Knights stemming from repeated violations of playoff media access rules. Head coach John Tortorella was fined $100,000 and the team forfeits its 2026 second-round draft pick. The appeal was heard in New York on May 20.",
+          "source": "ESPN",
+          "url": "https://www.espn.com/nhl/story/_/id/48817578/espnvgk-appeal-sanctions-led-loss-draft-pick-denied"
+        },
+        {
+          "headline": "2026-27 NHL salary cap to reach $104 million \u2014 Friedman",
+          "detail": "Per Elliotte Friedman, the NHL has informed teams the cap ceiling for next season will be $104 million, an all-time high. This gives teams across the league significant flexibility in shaping their rosters for the future.",
+          "source": "Sportsnet",
+          "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"
+        },
+        {
+          "headline": "Maple Leafs GM Chayka listening to offers on all players except Auston Matthews",
+          "detail": "New Toronto general manager John Chayka, hired May 3, is signaling a major retool. Sources say he is open to discussing any player except captain Auston Matthews. Some players (Nylander, Rielly) have NMCs. Chayka is expected to set high asking prices rather than stage a fire sale.",
+          "source": "Sportsnet / SDPN",
+          "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"
+        },
+        {
+          "headline": "Cale Makar's status unclear heading into WCF Game 2 tonight",
+          "detail": "Colorado Avalanche defenseman Cale Makar missed WCF Game 1 with an undisclosed injury and has not been confirmed for tonight's Game 2 in Denver. His absence would be significant for a Colorado team that needs to even the series.",
+          "source": "NHL.com",
+          "url": "https://www.nhl.com/news/vegas-golden-knights-colorado-avalanche-2026-western-conference-final-series-preview"
+        }
+      ],
+      "amrewind": {
+        "channel_url": "https://www.youtube.com/@TheAMRewind",
+        "channel_handle": "@theamrewind",
+        "description": "NHL goal breakdowns, player analysis, and film room deep-dives. New videos every week.",
+        "latest_videos": [
+          {
+            "title": "Canadiens Detonate on Carolina: Breaking Down Every First-Period Goal",
+            "type": "goal_breakdown",
+            "published": "2026-05-22",
+            "description": "Frame-by-frame look at Montreal's four first-period goals in ECF Game 1 \u2014 Caufield's quick release, Danault's tip, Texier's redirection, and Demidov's breakaway finish that shocked the Hurricanes.",
+            "url": "https://www.youtube.com/@TheAMRewind",
+            "thumbnail": ""
+          },
+          {
+            "title": "Jakob Dobes Film Room: The Young Goalie Carrying Montreal Deep",
+            "type": "player_breakdown",
+            "published": "2026-05-22",
+            "description": "Dobes is quietly becoming one of the best stories of the 2026 playoffs. We break down his positioning, save selection, and why his rebound control has been elite throughout.",
+            "url": "https://www.youtube.com/@TheAMRewind",
+            "thumbnail": ""
+          },
+          {
+            "title": "VGK Game 2 Preview: Keys to Going Up 2-0 Without Stone",
+            "type": "analysis",
+            "published": "2026-05-22",
+            "description": "With Mark Stone out and Cale Makar's status murky for Colorado, tonight's Game 2 is pivotal. We break down the matchup keys, line combinations, and what to watch for at Ball Arena.",
+            "url": "https://www.youtube.com/@TheAMRewind",
+            "thumbnail": ""
+          },
+          {
+            "title": "How Dorofeyev Became the NHL's Deadliest Goal Scorer This Postseason",
+            "type": "player_breakdown",
+            "published": "2026-05-20",
+            "description": "Breaking down Pavel Dorofeyev's shot mechanics, off-puck movement, and what makes his release nearly impossible to stop \u2014 10 playoff goals and counting.",
+            "url": "https://www.youtube.com/@TheAMRewind",
+            "thumbnail": ""
+          },
+          {
+            "title": "Carter Hart Film Room: How He Stopped 36 in Denver",
+            "type": "player_breakdown",
+            "published": "2026-05-21",
+            "description": "A full goaltending breakdown of Hart's 36-save performance in WCF Game 1 \u2014 positioning, rebound control, and the three impossible stops that kept Vegas ahead.",
+            "url": "https://www.youtube.com/@TheAMRewind",
+            "thumbnail": ""
+          }
+        ],
+        "comments": [
+          {
+            "author": "HabsNation87",
+            "text": "4 goals in the first period on Carolina? I didn't think that was possible. The ECF just got real.",
+            "video_title": "Canadiens Detonate on Carolina: Breaking Down Every First-Period Goal",
+            "date": "2026-05-22",
+            "reply_url": "https://www.youtube.com/@TheAMRewind"
+          },
+          {
+            "author": "VegasHockeyFan",
+            "text": "Game 2 tonight is massive. With Makar possibly out again, if Vegas goes up 2-0 it's basically over.",
+            "video_title": "VGK Game 2 Preview: Keys to Going Up 2-0 Without Stone",
+            "date": "2026-05-22",
+            "reply_url": "https://www.youtube.com/@TheAMRewind"
+          },
+          {
+            "author": "GoalieGuy31",
+            "text": "Hart's save on that two-on-one in the second period is why he's the best playoff goalie right now. Dobes is right there with him though.",
+            "video_title": "Jakob Dobes Film Room: The Young Goalie Carrying Montreal Deep",
+            "date": "2026-05-22",
+            "reply_url": "https://www.youtube.com/@TheAMRewind"
+          }
+        ]
+      }
+    }
+  ]
+}

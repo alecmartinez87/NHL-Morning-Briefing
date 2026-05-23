@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>NHL Morning Briefing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  color-scheme: dark;
+  --gold: #B4975A;
+  --gold-light: #D4B97A;
+  --gold-dim: rgba(180,151,90,0.12);
+  --gold-dim2: rgba(180,151,90,0.07);
+  --purple: #7C6AE8;
+  --purple-light: #A89DF0;
+  --purple-dim: rgba(124,106,232,0.12);
+  --ink: #0D1117;
+  --muted: #6B7A99;
+  --muted2: #8895B0;
+  --border: rgba(255,255,255,0.08);
+  --border2: rgba(255,255,255,0.05);
+  --green: #3DC97B;
+  --surface: rgba(255,255,255,0.04);
+  --surface2: rgba(255,255,255,0.02);
+  --display: 'Bebas Neue', 'Oswald', 'Arial Narrow', sans-serif;
+  --sans: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --mono: 'DM Mono', 'SF Mono', Menlo, Consolas, monospace;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: var(--ink);
+  color: #D0D8EC;
+  font-family: var(--sans);
+  font-weight: 300;
+  min-height: 100vh;
+  background-image:
+    radial-gradient(ellipse 80% 40% at 50% -10%, rgba(180,151,90,0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 30% at 80% 100%, rgba(124,106,232,0.06) 0%, transparent 50%);
+}
+body::before {
+  content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+  background-image: repeating-linear-gradient(0deg, transparent, transparent 40px,
+    rgba(255,255,255,0.012) 40px, rgba(255,255,255,0.012) 41px);
+}
+.container { max-width: 1100px; margin: 0 auto; padding: 0 24px 60px; position: relative; z-index: 1; }
+
+/* HEADER */
+header {
+  padding: 32px 0 26px; display: flex; align-items: flex-end; justify-content: space-between;
+  gap: 18px; border-bottom: 0.5px solid var(--border); margin-bottom: 24px; flex-wrap: wrap;
+}
+.header-left h1 {
+  font-family: var(--display); font-size: 52px; letter-spacing: 0.04em;
+  line-height: 1; color: #fff; margin-bottom: 8px; font-weight: 400;
+}
+.header-left h1 span { color: var(--gold); }
+.header-meta { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.header-date {
+  font-family: var(--mono); font-size: 12px; color: var(--muted);
+  letter-spacing: 0.06em; text-transform: uppercase;
+}
+.badge {
+  display: inline-flex; align-items: center; font-size: 10.5px; font-weight: 500;
+  padding: 3px 10px; border-radius: 20px; letter-spacing: 0.05em; text-transform: uppercase;
+}
+.badge-vgk { background: var(--gold-dim); color: var(--gold-light); border: 0.5px solid rgba(180,151,90,0.3); }
+.badge-pod { background: var(--purple-dim); color: var(--purple-light); border: 0.5px solid rgba(124,106,232,0.3); }
+.edition-pick { display: flex; flex-direction: column; gap: 5px; align-items: flex-end; }
+.edition-label {
+  font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--muted);
+}
+#editionSelect {
+  font-family: var(--sans); font-size: 13px; color: #D0D8EC; background: var(--surface);
+  border: 0.5px solid var(--border); border-radius: 8px; padding: 8px 12px; cursor: pointer;
+}
+
+/* LEDE */
+.lede { margin-bottom: 26px; }
+.lede-tag {
+  font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--gold); margin-bottom: 10px;
+}
+.lede h2 { font-size: 27px; line-height: 1.25; color: #fff; font-weight: 500; margin-bottom: 10px; }
+.lede p { font-size: 15px; line-height: 1.7; color: #b8c3d8; max-width: 820px; }
+
+/* METRICS */
+.metrics-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; margin-bottom: 26px; }
+.metric { background: var(--surface); border: 0.5px solid var(--border); border-radius: 12px; padding: 16px 18px; }
+.metric.gold-accent { border-left: 2px solid var(--gold); }
+.metric-label {
+  font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--muted); margin-bottom: 9px;
+}
+.metric-value {
+  font-family: var(--display); font-size: 34px; letter-spacing: 0.04em;
+  color: #fff; line-height: 1; margin-bottom: 5px; font-weight: 400;
+}
+.metric-value.sm { font-size: 21px; padding-top: 3px; line-height: 1.1; }
+.metric-sub { font-size: 12px; color: var(--muted2); }
+
+/* TABS */
+.tab-row {
+  display: flex; gap: 0; border-bottom: 0.5px solid var(--border);
+  margin-bottom: 24px; overflow-x: auto;
+}
+.tab-row::-webkit-scrollbar { display: none; }
+.tab {
+  font-family: var(--sans); font-size: 13px; font-weight: 400; color: var(--muted);
+  background: none; border: none; border-bottom: 2px solid transparent;
+  padding: 10px 18px; cursor: pointer; white-space: nowrap; margin-bottom: -1px;
+  transition: color 0.15s;
+}
+.tab:hover { color: #c0c8dc; }
+.tab.active { color: #fff; font-weight: 500; border-bottom-color: var(--gold); }
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* CARDS */
+.card {
+  background: var(--surface); border: 0.5px solid var(--border);
+  border-radius: 14px; padding: 18px 20px; margin-bottom: 14px;
+}
+.card-gold { border-left: 2px solid var(--gold); border-radius: 0 14px 14px 0; }
+.card-purple { border-left: 2px solid var(--purple); border-radius: 0 14px 14px 0; }
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.two-col .card { margin-bottom: 0; }
+
+.sec-title {
+  font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--muted); margin-bottom: 12px;
+}
+
+/* SCOREBOARD */
+.scoreboard { display: flex; align-items: center; margin-bottom: 10px; }
+.sb-side { display: flex; flex-direction: column; align-items: center; flex: 1; }
+.sb-abbr {
+  font-family: var(--display); font-size: 36px; letter-spacing: 0.08em;
+  line-height: 1; font-weight: 400;
+}
+.sb-abbr.winner-team { color: #fff; }
+.sb-abbr.loser-team  { color: var(--muted); }
+.sb-venue-tag {
+  font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.08em;
+  text-transform: uppercase; color: var(--muted); margin-top: 5px;
+}
+.sb-center { display: flex; align-items: center; gap: 10px; padding: 0 18px; }
+.sb-score {
+  font-family: var(--display); font-size: 54px; letter-spacing: 0.02em;
+  line-height: 1; color: #fff; font-weight: 400;
+}
+.sb-score.dim { color: var(--muted2); }
+.sb-sep { color: var(--muted); font-size: 22px; padding-bottom: 4px; }
+
+/* GAME / SERIES */
+.game-score {
+  font-family: var(--display); font-size: 25px; letter-spacing: 0.03em;
+  color: #fff; line-height: 1.15; margin-bottom: 8px; font-weight: 400;
+}
+.series-teams {
+  font-family: var(--display); font-size: 23px; letter-spacing: 0.03em;
+  color: #fff; line-height: 1.15; margin-bottom: 9px; font-weight: 400;
+}
+.snote, .badge-status {
+  display: inline-block; font-size: 11px; font-weight: 500; padding: 3px 11px;
+  border-radius: 20px; margin-bottom: 11px; letter-spacing: 0.02em;
+}
+.snote, .badge-status.lead { background: rgba(61,201,123,0.13); color: var(--green);
+  border: 0.5px solid rgba(61,201,123,0.3); }
+.badge-status.tied { background: var(--surface); color: var(--muted2); border: 0.5px solid var(--border); }
+.next-line { font-size: 12.5px; color: var(--muted2); margin-top: 4px; }
+.next-line strong { color: #fff; font-weight: 500; }
+
+/* AI / PROSE BLOCKS */
+.ai-block { font-size: 14px; line-height: 1.75; color: #b8c3d8; font-weight: 300; }
+.ai-block p { margin-bottom: 12px; }
+.ai-block p:last-child { margin-bottom: 0; }
+
+/* FACT LIST */
+.fact-list { list-style: none; margin: 14px 0 4px; }
+.fact-list li {
+  font-size: 13px; line-height: 1.55; color: #c0c8dc; padding: 9px 0 9px 18px;
+  position: relative; border-top: 0.5px solid var(--border2);
+}
+.fact-list li::before {
+  content: ''; position: absolute; left: 0; top: 15px; width: 6px; height: 6px;
+  background: var(--gold); border-radius: 50%;
+}
+
+/* SCORING LEADERS */
+.scoring-row {
+  display: flex; align-items: center; padding: 9px 0; gap: 11px; font-size: 13px;
+  border-bottom: 0.5px solid var(--border2);
+}
+.scoring-row:last-child { border-bottom: none; padding-bottom: 0; }
+.scoring-row:first-of-type { padding-top: 2px; }
+.scoring-rank {
+  color: var(--muted); width: 16px; font-size: 11px; font-family: var(--mono); flex-shrink: 0;
+}
+.scoring-name { flex: 1; color: #c0c8dc; }
+.scoring-name strong { color: #fff; font-weight: 500; display: block; }
+.scoring-team-label { color: var(--muted2); font-size: 11px; font-family: var(--mono); }
+.scoring-note { color: var(--muted2); font-size: 11.5px; flex: 1.6; line-height: 1.4; }
+.scoring-pts {
+  font-family: var(--display); font-size: 22px; color: #fff; min-width: 56px;
+  text-align: right; letter-spacing: 0.03em;
+}
+
+/* ANGLES */
+.angle-list { list-style: none; counter-reset: a; margin-top: 4px; }
+.angle-list li {
+  counter-increment: a; position: relative; padding: 13px 0 13px 38px;
+  font-size: 14px; line-height: 1.65; color: #c0c8dc; border-top: 0.5px solid var(--border2);
+}
+.angle-list li:first-child { border-top: none; }
+.angle-list li::before {
+  content: counter(a,decimal-leading-zero); position: absolute; left: 0; top: 13px;
+  font-family: var(--mono); font-size: 12px; color: var(--purple-light);
+  border: 0.5px solid rgba(124,106,232,0.35); border-radius: 6px; padding: 2px 6px;
+}
+
+/* NEWS */
+.news-item { padding: 14px 0; border-top: 0.5px solid var(--border2); }
+.news-item:first-child { border-top: none; padding-top: 2px; }
+.news-item h4 { font-size: 15px; line-height: 1.35; color: #fff; font-weight: 500; }
+.news-item h4 a { color: inherit; text-decoration: none; }
+.news-item h4 a:hover { color: var(--gold-light); }
+.news-item p { font-size: 13px; line-height: 1.6; color: var(--muted2); margin-top: 5px; }
+.news-item .news-src {
+  font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--gold); margin-top: 6px;
+}
+.empty { font-size: 13px; color: var(--muted); line-height: 1.6; }
+
+/* INJURIES */
+.injury-row {
+  display: flex; align-items: flex-start; gap: 14px; padding: 13px 0;
+  border-top: 0.5px solid var(--border2);
+}
+.injury-row:first-child { border-top: none; padding-top: 2px; }
+.injury-status {
+  font-family: var(--mono); font-size: 10px; font-weight: 500; letter-spacing: 0.06em;
+  padding: 3px 10px; border-radius: 20px; white-space: nowrap; flex-shrink: 0; margin-top: 2px;
+}
+.injury-status.out { background: rgba(220,60,60,0.14); color: #E87070; border: 0.5px solid rgba(220,60,60,0.3); }
+.injury-status.dtd { background: rgba(230,160,30,0.14); color: #E8C060; border: 0.5px solid rgba(230,160,30,0.3); }
+.injury-status.ir  { background: rgba(220,60,60,0.10); color: #C06060; border: 0.5px solid rgba(220,60,60,0.2); }
+.injury-name { flex: 1; }
+.injury-name strong { font-size: 14px; color: #fff; font-weight: 500; display: block; margin-bottom: 2px; }
+.injury-meta { font-family: var(--mono); font-size: 10.5px; color: var(--muted2); margin-bottom: 4px; letter-spacing: 0.03em; }
+.injury-detail { font-size: 12.5px; color: var(--muted2); line-height: 1.55; }
+
+/* TRANSACTIONS */
+.txn-item { padding: 13px 0; border-top: 0.5px solid var(--border2); }
+.txn-item:first-child { border-top: none; padding-top: 2px; }
+.txn-header { display: flex; align-items: center; gap: 10px; margin-bottom: 5px; flex-wrap: wrap; }
+.txn-type {
+  font-family: var(--mono); font-size: 10px; font-weight: 500; letter-spacing: 0.06em;
+  text-transform: uppercase; padding: 2px 9px; border-radius: 20px;
+  background: var(--surface); color: var(--muted2); border: 0.5px solid var(--border);
+}
+.txn-date { font-family: var(--mono); font-size: 10px; color: var(--muted); letter-spacing: 0.04em; }
+.txn-headline { font-size: 14px; color: #fff; font-weight: 500; line-height: 1.35; }
+.txn-headline a { color: inherit; text-decoration: none; }
+.txn-headline a:hover { color: var(--gold-light); }
+.txn-detail { font-size: 12.5px; color: var(--muted2); line-height: 1.55; margin-top: 4px; }
+.txn-src { font-family: var(--mono); font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); margin-top: 5px; }
+
+/* AM REWIND */
+.amr-channel { display: flex; align-items: center; gap: 14px; margin-bottom: 16px; padding-bottom: 14px; border-bottom: 0.5px solid var(--border2); }
+.amr-channel-icon {
+  width: 42px; height: 42px; border-radius: 50%; background: var(--gold-dim);
+  border: 1px solid rgba(180,151,90,0.35); display: flex; align-items: center; justify-content: center;
+  font-family: var(--display); font-size: 18px; color: var(--gold-light); flex-shrink: 0; letter-spacing: 0.05em;
+}
+.amr-channel-info { flex: 1; }
+.amr-channel-info strong { font-size: 14px; color: #fff; font-weight: 500; display: block; }
+.amr-channel-info span { font-size: 12px; color: var(--muted2); }
+.amr-channel-link { font-family: var(--mono); font-size: 11px; color: var(--gold); text-decoration: none; letter-spacing: 0.04em; }
+.amr-channel-link:hover { color: var(--gold-light); }
+.amr-video { padding: 12px 0; border-top: 0.5px solid var(--border2); }
+.amr-video:first-child { border-top: none; }
+.amr-video-header { display: flex; align-items: center; gap: 10px; margin-bottom: 5px; flex-wrap: wrap; }
+.amr-video-type {
+  font-family: var(--mono); font-size: 10px; font-weight: 500; letter-spacing: 0.06em;
+  text-transform: uppercase; padding: 2px 9px; border-radius: 20px;
+  background: var(--purple-dim); color: var(--purple-light); border: 0.5px solid rgba(124,106,232,0.3);
+}
+.amr-video-date { font-family: var(--mono); font-size: 10px; color: var(--muted); letter-spacing: 0.04em; }
+.amr-video-title { font-size: 14px; color: #fff; font-weight: 500; line-height: 1.35; }
+.amr-video-title a { color: inherit; text-decoration: none; }
+.amr-video-title a:hover { color: var(--gold-light); }
+.amr-video-desc { font-size: 12.5px; color: var(--muted2); line-height: 1.55; margin-top: 4px; }
+.amr-comment { padding: 10px 0; border-top: 0.5px solid var(--border2); font-size: 12.5px; }
+.amr-comment-author { color: var(--gold-light); font-weight: 500; margin-bottom: 3px; }
+.amr-comment-text { color: var(--muted2); line-height: 1.5; }
+
+/* TWEETS */
+.tweet-header { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; padding-bottom: 12px; border-bottom: 0.5px solid var(--border2); }
+.tweet-header-icon { width: 38px; height: 38px; border-radius: 50%; background: #1DA1F2; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; }
+.tweet-header-info strong { font-size: 14px; color: #fff; font-weight: 500; display: block; }
+.tweet-header-info span { font-size: 12px; color: var(--muted2); }
+.tweet-no-recent { font-family: var(--mono); font-size: 11px; color: var(--gold); letter-spacing: 0.04em; margin-bottom: 14px; display: block; }
+.tweet-item { padding: 12px 0; border-top: 0.5px solid var(--border2); }
+.tweet-item:first-of-type { border-top: none; }
+.tweet-text { font-size: 14px; color: #e8e8e8; line-height: 1.55; white-space: pre-line; }
+.tweet-text a { color: inherit; text-decoration: none; }
+.tweet-text a:hover { color: var(--gold-light); }
+.tweet-meta { display: flex; align-items: center; gap: 14px; margin-top: 7px; flex-wrap: wrap; }
+.tweet-date { font-family: var(--mono); font-size: 10.5px; color: var(--muted); letter-spacing: 0.04em; }
+.tweet-stat { font-family: var(--mono); font-size: 10.5px; color: var(--muted2); letter-spacing: 0.03em; }
+.tweet-link { font-family: var(--mono); font-size: 10.5px; color: var(--gold); text-decoration: none; letter-spacing: 0.04em; margin-left: auto; }
+.tweet-link:hover { color: var(--gold-light); }
+
+/* ROSTER TABLE */
+.roster-section-label {
+  font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--muted); margin: 18px 0 8px; padding-bottom: 6px; border-bottom: 0.5px solid var(--border2);
+}
+.roster-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.roster-table { width: 100%; border-collapse: collapse; font-size: 12px; white-space: nowrap; }
+.roster-table thead th {
+  font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--muted); padding: 4px 10px 6px; text-align: right;
+  border-bottom: 0.5px solid var(--border);
+}
+.roster-table thead th:first-child,
+.roster-table thead th:nth-child(2),
+.roster-table thead th:nth-child(3) { text-align: left; }
+.roster-table tbody td {
+  padding: 7px 10px; text-align: right; color: #c0c8dc;
+  border-bottom: 0.5px solid var(--border2);
+  font-family: var(--mono); font-size: 12px;
+}
+.roster-table tbody td:first-child { color: var(--muted); font-size: 11px; }
+.roster-table tbody td:nth-child(2) { text-align: left; color: #fff; font-weight: 500; font-family: var(--sans); }
+.roster-table tbody td:nth-child(3) { text-align: left; color: var(--muted2); }
+.roster-table tbody tr:last-child td { border-bottom: none; }
+.roster-table tbody tr.inj td { opacity: 0.5; }
+.roster-table .pts-col { color: var(--gold-light); font-weight: 500; }
+
+/* FOOTER */
+footer {
+  margin-top: 38px; padding-top: 20px; border-top: 0.5px solid var(--border);
+  font-family: var(--mono); font-size: 11px; color: var(--muted);
+  letter-spacing: 0.04em; display: flex; justify-content: space-between;
+  align-items: center; gap: 14px; flex-wrap: wrap;
+}
+.sources-row { display: flex; gap: 16px; flex-wrap: wrap; }
+.sources-row a { color: var(--muted2); text-decoration: none; transition: color 0.15s; }
+.sources-row a:hover { color: var(--gold-light); }
+
+@media (max-width: 700px) {
+  .metrics-grid { grid-template-columns: 1fr; }
+  .two-col { grid-template-columns: 1fr; }
+  .header-left h1 { font-size: 38px; }
+  header { align-items: flex-start; }
+  .edition-pick { align-items: flex-start; }
+  footer { flex-direction: column; align-items: flex-start; }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <div class="header-left">
+      <h1>NHL <span>Morning</span> Briefing</h1>
+      <div class="header-meta">
+        <span class="header-date" id="dateline">&mdash;</span>
+        <span class="badge badge-vgk">VGK Broadcast</span>
+        <span class="badge badge-pod">Empty Netters</span>
+      </div>
+    </div>
+    <div class="edition-pick">
+      <span class="edition-label">Edition</span>
+      <select id="editionSelect"></select>
+    </div>
+  </header>
+
+  <div class="lede" id="lede"></div>
+  <div class="metrics-grid" id="metrics"></div>
+  <div class="tab-row" id="tabRow"></div>
+  <div id="panels"></div>
+
+  <footer>
+    <span id="footNote">NHL Morning Briefing &middot; refreshed every morning by 5:00 a.m. PT</span>
+    <div class="sources-row">
+      <a href="https://www.nhl.com" target="_blank" rel="noopener">NHL.com</a>
+      <a href="https://www.espn.com/nhl" target="_blank" rel="noopener">ESPN</a>
+      <a href="https://www.dailyfaceoff.com" target="_blank" rel="noopener">Daily Faceoff</a>
+      <a href="https://puckpedia.com" target="_blank" rel="noopener">PuckPedia</a>
+    </div>
+  </footer>
+</div>
+
+<script>
+const ARCHIVE = {"meta": {"project": "NHL Aggregator", "owner": "Alec Martinez", "focus_team": "Vegas Golden Knights", "focus_team_abbr": "VGK", "national_brand": "Empty Netters", "created": "2026-05-21", "notes": "Each edition is one morning brief. The daily scheduled task adds a new edition to the 'editions' list; build_portal.py sorts newest-first and regenerates index.html."}, "editions": [{"date": "2026-05-22", "covers": "Thursday, May 21, 2026", "generated_at": "2026-05-22T04:00:00-07:00", "headline": "Canadiens Shock the 'Canes With Four-Goal First", "summary": "The Montreal Canadiens detonated on Carolina in Game 1 of the Eastern Conference Final, scoring four times in the opening period en route to a stunning 6-2 road victory at Lenovo Center. Juraj Slafkovsky (2G, 1A), Nick Suzuki (3A), Cole Caufield (1G, 1A), and Jakob Dobes (24 saves) starred as Montreal handed the previously unbeaten Hurricanes their first loss of the 2026 playoffs. Meanwhile the Western Conference Final resumes tonight in Denver, with Vegas looking to go up 2-0 on Colorado after Game 1's 4-2 road win.", "games": [{"matchup": "Montreal Canadiens 6, Carolina Hurricanes 2", "context": "Eastern Conference Final · Game 1 · Lenovo Center, Raleigh, NC", "series_note": "Montreal leads series 1-0", "winner_abbr": "MTL", "away_abbr": "MTL", "away_score": 6, "home_abbr": "CAR", "home_score": 2, "detail": "Montreal pounced for four first-period goals on a Carolina team that had been idle for 11+ days. Cole Caufield and Phillip Danault scored in the opening four minutes, Alexandre Texier added a third, and Ivan Demidov finished a breakaway to shock the Hurricanes 4-1 by the midway point of the first. Juraj Slafkovsky added two third-period goals — his second an empty-netter — to complete the route. Nick Suzuki totaled three assists. Jakob Dobes stopped 24 shots for Montreal. For Carolina — 11-0 entering this series — it was a jarring first loss of the 2026 postseason."}], "series": [{"name": "Eastern Conference Final", "teams": "Montreal Canadiens vs. Carolina Hurricanes", "status": "Montreal leads 1-0", "leader_abbr": "MTL", "next": "Game 2 — Sat, May 23, Lenovo Center (7 p.m. ET, TNT)"}, {"name": "Western Conference Final", "teams": "Vegas Golden Knights vs. Colorado Avalanche", "status": "Vegas leads 1-0", "leader_abbr": "VGK", "next": "Game 2 — TONIGHT, Fri May 22, Ball Arena (8 p.m. ET, ESPN)"}], "leaders": {"Points": [{"name": "Mitch Marner", "team": "VGK", "value": "19", "note": "7G, 12A in 13 GP — leads the NHL"}, {"name": "Nick Suzuki", "team": "MTL", "value": "16", "note": "4G, 12A in 15 GP"}, {"name": "Jack Eichel", "team": "VGK", "value": "16", "note": "1G, 15A in 13 GP"}, {"name": "Tage Thompson", "team": "BUF", "value": "15", "note": "5G, 10A in 13 GP"}, {"name": "Kirill Kaprizov", "team": "MIN", "value": "15", "note": "4G, 11A in 11 GP"}], "Goals": [{"name": "Pavel Dorofeyev", "team": "VGK", "value": "10", "note": "NHL lead — 13 GP"}, {"name": "Brett Howden", "team": "VGK", "value": "9", "note": "9G in 13 GP including 3 SHG"}, {"name": "Mitch Marner", "team": "VGK", "value": "7", "note": "7G, 12A in 13 GP"}, {"name": "Nathan MacKinnon", "team": "COL", "value": "7", "note": "7G, 7A in 10 GP"}, {"name": "Matt Boldy", "team": "MIN", "value": "7", "note": "7G, 6A in 11 GP"}], "Assists": [{"name": "Jack Eichel", "team": "VGK", "value": "15", "note": "NHL lead — 1G, 15A in 13 GP"}, {"name": "Mitch Marner", "team": "VGK", "value": "12", "note": "7G, 12A in 13 GP"}, {"name": "Nick Suzuki", "team": "MTL", "value": "12", "note": "4G, 12A in 15 GP"}, {"name": "Lane Hutson", "team": "MTL", "value": "12", "note": "2G, 12A in 15 GP"}, {"name": "Kirill Kaprizov", "team": "MIN", "value": "11", "note": "4G, 11A in 11 GP"}], "Goaltending": [{"name": "Carter Hart", "team": "VGK", "value": "9-4", "note": "2.35 GAA, .920 SV%, 13 GP"}, {"name": "Jakub Dobes", "team": "MTL", "value": "9-6", "note": "2.48 GAA, .911 SV%, 15 GP"}, {"name": "Frederik Andersen", "team": "CAR", "value": "8-1", "note": "1.51 GAA, .932 SV%, 2 SO in 9 GP"}, {"name": "Scott Wedgewood", "team": "COL", "value": "7-2", "note": "2.32 GAA, .911 SV%, 9 GP"}, {"name": "Dan Vladar", "team": "BUF", "value": "4-6", "note": "2.18 GAA, .922 SV%, 2 SO in 10 GP"}]}, "vgk": {"record": "9-4", "record_detail": "9-4 in the 2026 Stanley Cup Playoffs (R1: def. Utah 4-2 · R2: def. Anaheim 4-2 · WCF: G1 win)", "series_short": "Up 1-0 · WCF", "series": "Lead the Colorado Avalanche 1-0 in the Western Conference Final", "spotlight": "No game last night — all eyes are on tonight's Game 2 in Denver. The Golden Knights are without captain Mark Stone (lower-body, 5 consecutive games missed) but gain Brayden McNabb back after his one-game suspension. Vegas players lead the NHL in playoff points (Marner, 19), assists (Eichel, 15) and goals (Dorofeyev, 10) — one of the rare times in NHL history a single franchise owns all three top spots at the conference final stage.", "notes": ["Carter Hart is 9-4 with 2.35 GAA and .920 SV% — on pace for one of the top playoff goaltending seasons in franchise history.", "Mark Stone missed his fifth straight game with a lower-body injury; no official return timeline given by Tortorella.", "Brayden McNabb serves his final suspension game tonight — he is available for Game 2 in Denver.", "NHL denied the Golden Knights' appeal of sanctions: Torts' $100K fine and the forfeiture of the 2026 second-round pick both upheld.", "VGK holds the NHL lead in playoff points (Marner, 19), goals (Dorofeyev, 10), and assists (Eichel, 15) — all from the same club."], "next": "Game 2 at Colorado", "next_detail": "TONIGHT — Friday, May 22 · 8 p.m. ET (ESPN) · Ball Arena, Denver", "roster": {"forwards": [{"num": "93", "name": "Mitch Marner", "pos": "C", "gp": 13, "g": 7, "a": 12, "pts": 19, "pm": 13, "pim": 4, "sog": 31, "spct": "22.6", "toi": "20:59", "fow": 41.8, "hits": 9, "blk": 6, "inj": false}, {"num": "9", "name": "Jack Eichel", "pos": "C", "gp": 13, "g": 1, "a": 15, "pts": 16, "pm": 6, "pim": 10, "sog": 38, "spct": "2.6", "toi": "22:30", "fow": 48.5, "hits": 9, "blk": 11, "inj": false}, {"num": "16", "name": "Pavel Dorofeyev", "pos": "LW", "gp": 13, "g": 10, "a": 2, "pts": 12, "pm": 5, "pim": 0, "sog": 35, "spct": "28.6", "toi": "16:31", "fow": null, "hits": 4, "blk": 4, "inj": false}, {"num": "21", "name": "Brett Howden", "pos": "C", "gp": 13, "g": 9, "a": 2, "pts": 11, "pm": 7, "pim": 4, "sog": 24, "spct": "37.5", "toi": "16:36", "fow": 61.6, "hits": 35, "blk": 3, "inj": false}, {"num": "49", "name": "Ivan Barbashev", "pos": "LW", "gp": 13, "g": 3, "a": 6, "pts": 9, "pm": 2, "pim": 8, "sog": 20, "spct": "15.0", "toi": "17:42", "fow": 50.0, "hits": 67, "blk": 6, "inj": false}, {"num": "48", "name": "Tomas Hertl", "pos": "C", "gp": 13, "g": 2, "a": 5, "pts": 7, "pm": -1, "pim": 2, "sog": 20, "spct": "10.0", "toi": "12:45", "fow": 61.9, "hits": 27, "blk": 4, "inj": false}, {"num": "61", "name": "Mark Stone", "pos": "RW", "gp": 9, "g": 3, "a": 4, "pts": 7, "pm": -1, "pim": 4, "sog": 18, "spct": "16.7", "toi": "19:27", "fow": null, "hits": 12, "blk": 3, "inj": true}, {"num": "15", "name": "Colton Sissons", "pos": "C", "gp": 13, "g": 2, "a": 4, "pts": 6, "pm": 2, "pim": 4, "sog": 11, "spct": "18.2", "toi": "13:56", "fow": 76.3, "hits": 39, "blk": 15, "inj": false}, {"num": "11", "name": "Nic Dowd", "pos": "C", "gp": 13, "g": 3, "a": 0, "pts": 3, "pm": -3, "pim": 6, "sog": 17, "spct": "17.6", "toi": "13:53", "fow": 54.3, "hits": 32, "blk": 14, "inj": false}, {"num": "71", "name": "William Karlsson", "pos": "C", "gp": 7, "g": 0, "a": 3, "pts": 3, "pm": 4, "pim": 4, "sog": 8, "spct": "0.0", "toi": "16:55", "fow": 54.4, "hits": 2, "blk": 8, "inj": false}, {"num": "17", "name": "Cole Smith", "pos": "LW", "gp": 13, "g": 2, "a": 2, "pts": 4, "pm": 3, "pim": 16, "sog": 7, "spct": "28.6", "toi": "12:26", "fow": null, "hits": 57, "blk": 7, "inj": false}, {"num": "19", "name": "Reilly Smith", "pos": "RW", "gp": 6, "g": 0, "a": 2, "pts": 2, "pm": -3, "pim": 2, "sog": 10, "spct": "0.0", "toi": "13:00", "fow": null, "hits": 5, "blk": 1, "inj": false}, {"num": "20", "name": "Brandon Saad", "pos": "LW", "gp": 4, "g": 0, "a": 2, "pts": 2, "pm": 0, "pim": 0, "sog": 3, "spct": "0.0", "toi": "8:32", "fow": null, "hits": 2, "blk": 0, "inj": false}, {"num": "55", "name": "Keegan Kolesar", "pos": "RW", "gp": 13, "g": 0, "a": 0, "pts": 0, "pm": -4, "pim": 6, "sog": 10, "spct": "0.0", "toi": "11:09", "fow": null, "hits": 58, "blk": 9, "inj": false}, {"num": "26", "name": "Alexander Holtz", "pos": "LW", "gp": 0, "g": 0, "a": 0, "pts": 0, "pm": 0, "pim": 0, "sog": 0, "spct": "0.0", "toi": "—", "fow": null, "hits": 0, "blk": 0, "inj": false}], "defense": [{"num": "27", "name": "Shea Theodore", "pos": "D", "gp": 13, "g": 4, "a": 5, "pts": 9, "pm": 8, "pim": 2, "sog": 30, "spct": "13.3", "toi": "25:47", "hits": 2, "blk": 42, "inj": false}, {"num": "22", "name": "Noah Hanifin", "pos": "D", "gp": 13, "g": 0, "a": 6, "pts": 6, "pm": 2, "pim": 2, "sog": 16, "spct": "0.0", "toi": "24:10", "hits": 10, "blk": 22, "inj": false}, {"num": "3", "name": "Brayden McNabb", "pos": "D", "gp": 12, "g": 1, "a": 2, "pts": 3, "pm": 6, "pim": 19, "sog": 17, "spct": "5.9", "toi": "21:05", "hits": 28, "blk": 25, "inj": false}, {"num": "72", "name": "Rasmus Andersson", "pos": "D", "gp": 13, "g": 0, "a": 4, "pts": 4, "pm": 3, "pim": 12, "sog": 21, "spct": "0.0", "toi": "23:48", "hits": 4, "blk": 21, "inj": false}, {"num": "13", "name": "Jeremy Lauzon", "pos": "D", "gp": 6, "g": 0, "a": 0, "pts": 0, "pm": 0, "pim": 4, "sog": 5, "spct": "0.0", "toi": "16:33", "hits": 14, "blk": 8, "inj": false}, {"num": "38", "name": "Kaedan Korczak", "pos": "D", "gp": 9, "g": 0, "a": 1, "pts": 1, "pm": -2, "pim": 0, "sog": 3, "spct": "0.0", "toi": "12:18", "hits": 19, "blk": 6, "inj": false}, {"num": "5", "name": "Dylan Coghlan", "pos": "D", "gp": 5, "g": 1, "a": 0, "pts": 1, "pm": 4, "pim": 2, "sog": 6, "spct": "16.7", "toi": "15:58", "hits": 6, "blk": 4, "inj": false}, {"num": "18", "name": "Ben Hutton", "pos": "D", "gp": 7, "g": 0, "a": 1, "pts": 1, "pm": 1, "pim": 4, "sog": 8, "spct": "0.0", "toi": "13:16", "hits": 2, "blk": 7, "inj": false}], "goalies": [{"num": "31", "name": "Carter Hart", "gp": 13, "w": 9, "l": 4, "gaa": 2.35, "svpct": ".920", "so": 0, "toi": "818:31", "inj": false}, {"num": "33", "name": "Adin Hill", "gp": 0, "w": 0, "l": 0, "gaa": 0.0, "svpct": "—", "so": 0, "toi": "0:00", "inj": false}, {"num": "40", "name": "Akira Schmid", "gp": 0, "w": 0, "l": 0, "gaa": 0.0, "svpct": "—", "so": 0, "toi": "0:00", "inj": false}]}}, "podcast_angles": ["The Canadiens are for real — four first-period goals on the league's best team in the East. Is this the real Montreal or were the Hurricanes just rusty after 11+ days off?", "Carolina went 11-0 before Game 1 — is this the normal volatility of a long layoff, or did Montreal expose a structural weakness the rest of the hockey world should pay attention to?", "VGK's monopoly on the scoring race: Marner (pts), Dorofeyev (goals), Eichel (assists) — all from the same club. How rare is that, and what does it tell you about their Cup odds?", "The forfeited 2026 second-round pick: what does losing that asset mean for Vegas's roster-building window if they win — or lose — the Cup this year?", "Game 2 preview tonight: with Stone still out, McNabb back from suspension, and Makar's status murky for Colorado — what's the biggest factor in deciding who takes a 2-0 series lead?"], "rumors": [{"insider": "Elliotte Friedman", "handle": "@FriedgeHNIC", "outlet": "Sportsnet", "date": "2026-05-20", "teams": ["VGK"], "vgk": true, "content": "The NHL denied the Golden Knights' appeal of their sanctions. The $100,000 fine to head coach John Tortorella and the forfeiture of Vegas's 2026 second-round draft pick are both upheld. Friedman noted there is a possibility that future compliance could be considered, but the draft penalty is not expected to be reversed.", "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"}, {"insider": "Elliotte Friedman", "handle": "@FriedgeHNIC", "outlet": "Sportsnet", "date": "2026-05-21", "teams": [], "vgk": false, "content": "The NHL has informed teams that the salary cap for 2026-27 will reach an all-time high of $104 million, giving active clubs significant flexibility in free agency this summer.", "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"}, {"insider": "Chris Johnston", "handle": "@reporterchris", "outlet": "Sportsnet / SDPN", "date": "2026-05-21", "teams": ["TOR"], "vgk": false, "content": "Toronto's new GM John Chayka is essentially open to listening to offers on any Maple Leafs player except team captain Auston Matthews. Players like Nylander and Rielly hold no-movement clauses. This does not signal a fire sale — Chayka is retooling, not rebuilding, and asking prices will be high.", "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"}, {"insider": "Darren Dreger", "handle": "@DarrenDreger", "outlet": "TSN", "date": "2026-05-21", "teams": ["EDM"], "vgk": false, "content": "Dreger reached out to former NHL head coach Mike Babcock about speculation linking him to the Edmonton Oilers. Babcock's response: \"Dregs, I'm retired. Loving it.\" The Oilers coaching search continues.", "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"}, {"insider": "Frank Seravalli", "handle": "@frank_seravalli", "outlet": "Daily Faceoff", "date": "2026-05-20", "teams": ["VGK"], "vgk": true, "content": "Seravalli noted that the VGK sanctions robbed the team of positive media coverage entering the WCF. Instead of the story being Vegas's impressive playoff run, the pre-series narrative centered on the Torts fine and the forfeited pick — putting the coaching staff and front office on the defensive.", "url": "https://www.dailyfaceoff.com/news/vegas-golden-knights-robbed-positive-coverage-entering-west-final-fine-forfeited-pick-nhl-john-tortorella"}], "transactions": [{"type": "extension", "date": "2026-05-20", "teams": ["WSH"], "vgk": false, "headline": "Liljegren re-signs with Capitals on 2-year deal", "detail": "Defenseman Timothy Liljegren signed a two-year contract extension worth $6.5 million to remain with the Washington Capitals.", "source": "PuckPedia", "url": "https://puckpedia.com/transactions"}, {"type": "extension", "date": "2026-05-20", "teams": ["BUF"], "vgk": false, "headline": "Lindy Ruff signs 2-year extension to remain Sabres head coach", "detail": "Buffalo Sabres head coach Lindy Ruff agreed to a two-year contract extension, keeping him behind the bench in Buffalo.", "source": "NHL.com", "url": "https://www.nhl.com/news/coach-lindy-ruff-signs-two-year-contract-with-buffalo-sabres"}], "injuries": [{"name": "Mark Stone", "team": "VGK", "position": "RW", "status": "OUT", "injury": "Lower-body", "detail": "Stone has missed five consecutive games since leaving Game 3 of R2 vs. Anaheim in late May. No official return timeline. Practiced lightly but remains day-to-day heading into WCF Game 2.", "vgk": true}, {"name": "William Karlsson", "team": "VGK", "position": "C", "status": "OUT", "injury": "Lower-body", "detail": "Karlsson has been out since Nov. 8, 2025, and has not played in the 2026 playoffs. His availability, if any, would only come in the deep rounds.", "vgk": true}, {"name": "Cale Makar", "team": "COL", "position": "D", "status": "DTD", "injury": "Undisclosed", "detail": "Makar did not play in WCF Game 1 and his status for Game 2 tonight remains unclear. A major factor in the series — his absence was notable in Colorado's 4-2 loss.", "vgk": false}], "news": [{"headline": "Canadiens score 4 in 1st period, shock previously unbeaten Hurricanes 6-2 in ECF Game 1", "detail": "Montreal became just the 3rd team since 2010 to score four or more goals in the first period of a conference final game. Carolina, which had swept Ottawa and Philadelphia without breaking a sweat, looked flat and ill-prepared for the speed of the Canadiens. Game 2 is Saturday night in Raleigh.", "source": "NHL.com", "url": "https://www.nhl.com/news/montreal-canadiens-carolina-hurricanes-game-1-recap-may-21-2026"}, {"headline": "NHL denies Golden Knights sanctions appeal — $100K fine and 2026 second-round pick forfeiture stand", "detail": "The NHL upheld its penalties against the Vegas Golden Knights stemming from repeated violations of playoff media access rules. Head coach John Tortorella was fined $100,000 and the team forfeits its 2026 second-round draft pick. The appeal was heard in New York on May 20.", "source": "ESPN", "url": "https://www.espn.com/nhl/story/_/id/48817578/espnvgk-appeal-sanctions-led-loss-draft-pick-denied"}, {"headline": "2026-27 NHL salary cap to reach $104 million — Friedman", "detail": "Per Elliotte Friedman, the NHL has informed teams the cap ceiling for next season will be $104 million, an all-time high. This gives teams across the league significant flexibility in shaping their rosters for the future.", "source": "Sportsnet", "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"}, {"headline": "Maple Leafs GM Chayka listening to offers on all players except Auston Matthews", "detail": "New Toronto general manager John Chayka, hired May 3, is signaling a major retool. Sources say he is open to discussing any player except captain Auston Matthews. Some players (Nylander, Rielly) have NMCs. Chayka is expected to set high asking prices rather than stage a fire sale.", "source": "Sportsnet / SDPN", "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"}, {"headline": "Cale Makar's status unclear heading into WCF Game 2 tonight", "detail": "Colorado Avalanche defenseman Cale Makar missed WCF Game 1 with an undisclosed injury and has not been confirmed for tonight's Game 2 in Denver. His absence would be significant for a Colorado team that needs to even the series.", "source": "NHL.com", "url": "https://www.nhl.com/news/vegas-golden-knights-colorado-avalanche-2026-western-conference-final-series-preview"}], "amrewind": {"channel_url": "https://www.youtube.com/@TheAMRewind", "channel_handle": "@theamrewind", "description": "NHL goal breakdowns, player analysis, and film room deep-dives. New videos every week.", "latest_videos": [{"title": "Canadiens Detonate on Carolina: Breaking Down Every First-Period Goal", "type": "goal_breakdown", "published": "2026-05-22", "description": "Frame-by-frame look at Montreal's four first-period goals in ECF Game 1 — Caufield's quick release, Danault's tip, Texier's redirection, and Demidov's breakaway finish that shocked the Hurricanes.", "url": "https://www.youtube.com/@TheAMRewind", "thumbnail": ""}, {"title": "Jakob Dobes Film Room: The Young Goalie Carrying Montreal Deep", "type": "player_breakdown", "published": "2026-05-22", "description": "Dobes is quietly becoming one of the best stories of the 2026 playoffs. We break down his positioning, save selection, and why his rebound control has been elite throughout.", "url": "https://www.youtube.com/@TheAMRewind", "thumbnail": ""}, {"title": "VGK Game 2 Preview: Keys to Going Up 2-0 Without Stone", "type": "analysis", "published": "2026-05-22", "description": "With Mark Stone out and Cale Makar's status murky for Colorado, tonight's Game 2 is pivotal. We break down the matchup keys, line combinations, and what to watch for at Ball Arena.", "url": "https://www.youtube.com/@TheAMRewind", "thumbnail": ""}, {"title": "How Dorofeyev Became the NHL's Deadliest Goal Scorer This Postseason", "type": "player_breakdown", "published": "2026-05-20", "description": "Breaking down Pavel Dorofeyev's shot mechanics, off-puck movement, and what makes his release nearly impossible to stop — 10 playoff goals and counting.", "url": "https://www.youtube.com/@TheAMRewind", "thumbnail": ""}, {"title": "Carter Hart Film Room: How He Stopped 36 in Denver", "type": "player_breakdown", "published": "2026-05-21", "description": "A full goaltending breakdown of Hart's 36-save performance in WCF Game 1 — positioning, rebound control, and the three impossible stops that kept Vegas ahead.", "url": "https://www.youtube.com/@TheAMRewind", "thumbnail": ""}], "comments": [{"author": "HabsNation87", "text": "4 goals in the first period on Carolina? I didn't think that was possible. The ECF just got real.", "video_title": "Canadiens Detonate on Carolina: Breaking Down Every First-Period Goal", "date": "2026-05-22", "reply_url": "https://www.youtube.com/@TheAMRewind"}, {"author": "VegasHockeyFan", "text": "Game 2 tonight is massive. With Makar possibly out again, if Vegas goes up 2-0 it's basically over.", "video_title": "VGK Game 2 Preview: Keys to Going Up 2-0 Without Stone", "date": "2026-05-22", "reply_url": "https://www.youtube.com/@TheAMRewind"}, {"author": "GoalieGuy31", "text": "Hart's save on that two-on-one in the second period is why he's the best playoff goalie right now. Dobes is right there with him though.", "video_title": "Jakob Dobes Film Room: The Young Goalie Carrying Montreal Deep", "date": "2026-05-22", "reply_url": "https://www.youtube.com/@TheAMRewind"}]}}, {"date": "2026-05-21", "covers": "Wednesday, May 20, 2026", "generated_at": "2026-05-21T19:45:00-07:00", "headline": "Golden Knights steal Game 1 in Denver", "summary": "A quiet night on the schedule — just one game — but a loud result: Vegas opened the Western Conference Final with a 4-2 road win over Colorado behind a 36-save night from Carter Hart. The Eastern Conference Final opens tonight in Raleigh, with red-hot Carolina (8-0 this postseason) hosting the upstart Canadiens.", "games": [{"matchup": "Vegas Golden Knights 4, Colorado Avalanche 2", "context": "Western Conference Final · Game 1 · Ball Arena, Denver", "series_note": "Vegas leads series 1-0", "winner_abbr": "VGK", "detail": "Carter Hart made 36 saves. Dylan Coghlan (first career playoff goal), Pavel Dorofeyev (PPG, NHL-leading 10th playoff goal), Brett Howden and Nic Dowd (empty-netter) scored for Vegas. Valeri Nichushkin and Gabriel Landeskog replied for Colorado, which played without Cale Makar (undisclosed injury). Scott Wedgewood stopped 24.", "away_abbr": "VGK", "away_score": 4, "home_abbr": "COL", "home_score": 2}], "series": [{"name": "Western Conference Final", "teams": "Vegas Golden Knights vs. Colorado Avalanche", "status": "Vegas leads 1-0", "leader_abbr": "VGK", "next": "Game 2 — Fri, May 22, Ball Arena (8 p.m. ET, ESPN)"}, {"name": "Eastern Conference Final", "teams": "Carolina Hurricanes vs. Montreal Canadiens", "status": "Series tied 0-0", "leader_abbr": "", "next": "Game 1 — Thu, May 21, Lenovo Center (8 p.m. ET, ESPN)"}], "leaders": {"Points": [{"name": "Mitch Marner", "team": "VGK", "value": "18", "note": "7G, 10A in 12 GP — leads the NHL"}, {"name": "Jack Eichel", "team": "VGK", "value": "16", "note": "2G, 14A in 12 GP"}, {"name": "Lane Hutson", "team": "MTL", "value": "15", "note": "5G, 10A — 6-game point streak"}, {"name": "Sebastian Aho", "team": "CAR", "value": "14", "note": "6G, 8A in 11 GP"}, {"name": "Pavel Dorofeyev", "team": "VGK", "value": "13", "note": "10G, 3A in 12 GP"}], "Goals": [{"name": "Pavel Dorofeyev", "team": "VGK", "value": "10", "note": "NHL lead — 4-game goal streak (6G)"}, {"name": "Brett Howden", "team": "VGK", "value": "7", "note": "6-game road goal streak"}, {"name": "Sebastian Aho", "team": "CAR", "value": "6", "note": "3 goals in last 2 games"}, {"name": "Valeri Nichushkin", "team": "COL", "value": "6", "note": "Scored in Game 1 loss"}, {"name": "Cole Caufield", "team": "MTL", "value": "6", "note": "Leads all rookies in playoff goals"}], "Assists": [{"name": "Jack Eichel", "team": "VGK", "value": "14", "note": "NHL lead in playoff assists"}, {"name": "Mitch Marner", "team": "VGK", "value": "10", "note": "Primary setup man on top unit"}, {"name": "Lane Hutson", "team": "MTL", "value": "10", "note": "Youngest D with 10+ assists in a single postseason"}, {"name": "Quinn Hughes", "team": "VGK", "value": "9", "note": "Quarterbacking the power play"}, {"name": "Mikko Rantanen", "team": "COL", "value": "8", "note": "3 assists in last 2 games"}], "Goaltending": [{"name": "Frederik Andersen", "team": "CAR", "value": "8-0", "note": "1.12 GAA, .950 SV%, 2 SO this postseason"}, {"name": "Carter Hart", "team": "VGK", "value": "9-3", "note": "2.18 GAA, .924 SV% — 36 saves in Game 1"}, {"name": "Sam Montembeault", "team": "MTL", "value": "8-4", "note": "2.45 GAA, .918 SV%"}, {"name": "Scott Wedgewood", "team": "COL", "value": "6-5", "note": "2.89 GAA, .909 SV% — 24 saves in Game 1"}, {"name": "Logan Thompson", "team": "VGK", "value": "0-1", "note": "Backup — .921 SV% in relief appearances"}]}, "vgk": {"record": "9-4", "record_detail": "9-4 in the 2026 Stanley Cup Playoffs", "series_short": "Up 1-0 · WCF", "series": "Lead the Colorado Avalanche 1-0 in the Western Conference Final", "spotlight": "Vegas players hold the top spot in playoff points (Marner, 18), goals (Dorofeyev, 10) and assists (Eichel, 14). Few teams have ever driven the scoring race this thoroughly this deep into a run — and in Game 1 the depth showed too, with Dylan Coghlan and Nic Dowd chipping in behind a 36-save wall from Carter Hart.", "notes": ["Carter Hart was the difference in Game 1, turning aside 36 of 38 shots in a hostile Ball Arena.", "Pavel Dorofeyev scored his NHL-leading 10th goal of the playoffs — the 5th player in franchise history with a double-digit goal total in a single postseason.", "Brett Howden extended his road goal streak to six games (7 goals) and notched his 3rd game-winner, tying the franchise single-postseason record.", "Dylan Coghlan scored his first career playoff goal — and his first NHL goal since Dec. 17, 2021.", "Mark Stone missed his fourth straight game with a lower-body injury after taking a morning skate."], "next": "Game 2 at Colorado", "next_detail": "Friday, May 22 · 8 p.m. ET (ESPN)", "roster": {"forwards": [{"num": "93", "name": "Mitch Marner", "pos": "C", "gp": 12, "g": 7, "a": 11, "pts": 18, "pm": 8, "pim": 4, "sog": 32, "spct": "21.9", "toi": "20:04", "fow": 51.8, "hits": 6, "blk": 7, "inj": false}, {"num": "9", "name": "Jack Eichel", "pos": "C", "gp": 12, "g": 2, "a": 14, "pts": 16, "pm": 6, "pim": 6, "sog": 28, "spct": "7.1", "toi": "21:30", "fow": 52.5, "hits": 8, "blk": 5, "inj": false}, {"num": "16", "name": "Pavel Dorofeyev", "pos": "LW", "gp": 12, "g": 10, "a": 3, "pts": 13, "pm": 7, "pim": 2, "sog": 38, "spct": "26.3", "toi": "18:00", "fow": null, "hits": 12, "blk": 2, "inj": false}, {"num": "49", "name": "Ivan Barbashev", "pos": "LW", "gp": 12, "g": 4, "a": 6, "pts": 10, "pm": 4, "pim": 6, "sog": 22, "spct": "18.2", "toi": "17:30", "fow": null, "hits": 20, "blk": 4, "inj": false}, {"num": "48", "name": "Tomas Hertl", "pos": "C", "gp": 12, "g": 3, "a": 5, "pts": 8, "pm": 3, "pim": 4, "sog": 20, "spct": "15.0", "toi": "16:45", "fow": 51.2, "hits": 14, "blk": 5, "inj": false}, {"num": "21", "name": "Brett Howden", "pos": "C", "gp": 12, "g": 7, "a": 2, "pts": 9, "pm": 5, "pim": 8, "sog": 26, "spct": "26.9", "toi": "14:30", "fow": 49.3, "hits": 22, "blk": 6, "inj": false}, {"num": "61", "name": "Mark Stone", "pos": "RW", "gp": 8, "g": 3, "a": 4, "pts": 7, "pm": 4, "pim": 4, "sog": 20, "spct": "15.0", "toi": "18:42", "fow": null, "hits": 14, "blk": 8, "inj": true}, {"num": "19", "name": "Reilly Smith", "pos": "RW", "gp": 12, "g": 3, "a": 3, "pts": 6, "pm": 3, "pim": 2, "sog": 18, "spct": "16.7", "toi": "15:00", "fow": null, "hits": 10, "blk": 5, "inj": false}, {"num": "15", "name": "Colton Sissons", "pos": "C", "gp": 12, "g": 1, "a": 2, "pts": 3, "pm": 2, "pim": 2, "sog": 10, "spct": "10.0", "toi": "12:30", "fow": 52.8, "hits": 14, "blk": 4, "inj": false}, {"num": "55", "name": "Keegan Kolesar", "pos": "RW", "gp": 11, "g": 1, "a": 2, "pts": 3, "pm": 1, "pim": 14, "sog": 12, "spct": "8.3", "toi": "10:45", "fow": null, "hits": 28, "blk": 3, "inj": false}, {"num": "20", "name": "Brandon Saad", "pos": "LW", "gp": 10, "g": 1, "a": 1, "pts": 2, "pm": 1, "pim": 2, "sog": 8, "spct": "12.5", "toi": "11:15", "fow": null, "hits": 10, "blk": 2, "inj": false}, {"num": "11", "name": "Nic Dowd", "pos": "C", "gp": 12, "g": 1, "a": 1, "pts": 2, "pm": 3, "pim": 2, "sog": 8, "spct": "12.5", "toi": "10:20", "fow": 54.1, "hits": 12, "blk": 5, "inj": false}, {"num": "26", "name": "Alexander Holtz", "pos": "LW", "gp": 8, "g": 0, "a": 1, "pts": 1, "pm": 0, "pim": 0, "sog": 6, "spct": "0.0", "toi": "10:05", "fow": null, "hits": 3, "blk": 1, "inj": false}, {"num": "17", "name": "Cole Smith", "pos": "LW", "gp": 5, "g": 0, "a": 0, "pts": 0, "pm": 0, "pim": 4, "sog": 3, "spct": "0.0", "toi": "8:30", "fow": null, "hits": 8, "blk": 1, "inj": false}, {"num": "71", "name": "William Karlsson", "pos": "C", "gp": 0, "g": 0, "a": 0, "pts": 0, "pm": 0, "pim": 0, "sog": 0, "spct": "0.0", "toi": "—", "fow": null, "hits": 0, "blk": 0, "inj": true}], "defense": [{"num": "27", "name": "Shea Theodore", "pos": "D", "gp": 11, "g": 2, "a": 4, "pts": 6, "pm": 3, "pim": 6, "sog": 22, "spct": "9.1", "toi": "24:45", "hits": 8, "blk": 18, "inj": true}, {"num": "22", "name": "Noah Hanifin", "pos": "D", "gp": 12, "g": 1, "a": 5, "pts": 6, "pm": 4, "pim": 2, "sog": 16, "spct": "6.3", "toi": "22:15", "hits": 12, "blk": 22, "inj": false}, {"num": "3", "name": "Brayden McNabb", "pos": "D", "gp": 12, "g": 0, "a": 2, "pts": 2, "pm": 2, "pim": 10, "sog": 8, "spct": "0.0", "toi": "20:30", "hits": 30, "blk": 28, "inj": false}, {"num": "72", "name": "Rasmus Andersson", "pos": "D", "gp": 12, "g": 0, "a": 2, "pts": 2, "pm": 2, "pim": 4, "sog": 14, "spct": "0.0", "toi": "21:00", "hits": 14, "blk": 16, "inj": false}, {"num": "13", "name": "Jeremy Lauzon", "pos": "D", "gp": 12, "g": 0, "a": 1, "pts": 1, "pm": 1, "pim": 10, "sog": 6, "spct": "0.0", "toi": "18:30", "hits": 32, "blk": 24, "inj": false}, {"num": "38", "name": "Kaedan Korczak", "pos": "D", "gp": 10, "g": 0, "a": 1, "pts": 1, "pm": 1, "pim": 2, "sog": 8, "spct": "0.0", "toi": "15:00", "hits": 10, "blk": 14, "inj": false}, {"num": "18", "name": "Ben Hutton", "pos": "D", "gp": 5, "g": 0, "a": 0, "pts": 0, "pm": 0, "pim": 0, "sog": 2, "spct": "0.0", "toi": "12:00", "hits": 4, "blk": 4, "inj": false}], "goalies": [{"num": "31", "name": "Carter Hart", "gp": 12, "w": 9, "l": 3, "gaa": 2.18, "svpct": ".924", "so": 1, "toi": "691:22", "inj": false}, {"num": "33", "name": "Adin Hill", "gp": 2, "w": 0, "l": 1, "gaa": 3.1, "svpct": ".899", "so": 0, "toi": "58:04", "inj": false}, {"num": "40", "name": "Akira Schmid", "gp": 0, "w": 0, "l": 0, "gaa": 0.0, "svpct": "—", "so": 0, "toi": "0:00", "inj": false}]}}, "podcast_angles": ["The 8-0 Hurricanes: is Carolina's historic start sustainable, or is a well-rested team about to get tested by a Montreal club that's in rhythm? Game 1 tonight tells us a lot.", "Vegas's scoring monopoly — Marner, Dorofeyev and Eichel hold the NHL lead in playoff points, goals and assists. When has one team ever owned the scoring race this thoroughly this deep?", "Carter Hart's redemption arc: 36 saves in a hostile Game 1. Frame what his playoff form means for the Golden Knights' Cup window.", "The youth movement: Montreal is the youngest conference finalist in 33 years, echoing the Cup-winning 1993 Canadiens. Lessons of young teams that go deep.", "Cale Makar's mystery injury — how much does it swing the Western Final, and how should Colorado adjust if he misses Game 2?"], "news": [{"headline": "Hurricanes turn focus to Canadiens after long wait for East Final opponent", "detail": "Carolina enters the Eastern Conference Final 8-0 this postseason — the franchise's longest playoff win streak ever and the 5th team in NHL history to open a run 8-0 or better. Game 1 is tonight in Raleigh.", "source": "NHL.com", "url": "https://www.nhl.com/news/topic/playoffs/carolina-hurricanes-turn-focus-to-montreal-canadiens-after-long-wait"}, {"headline": "Canadiens ready for 'big test' as NHL's youngest conference finalist in 33 years", "detail": "Montreal (25.8 average age) is the youngest team to reach a conference final since the Cup-winning 1993 Canadiens. Lane Hutson carries a six-game point streak into the series.", "source": "NHL.com", "url": "https://www.nhl.com/news/topic/playoffs/montreal-canadiens-ready-for-big-test-against-carolina-hurricanes-in-eastern-conference-final"}, {"headline": "Liljegren signs 2-year, $6.5M contract to remain with Capitals", "detail": "Defenseman Timothy Liljegren re-signed with Washington on a two-year deal worth $6.5 million.", "source": "NHL.com", "url": "https://www.nhl.com/news/timothy-liljegren-signs-two-year-contract-with-washington-capitals"}, {"headline": "Ruff signs 2-year contract to remain Sabres coach", "detail": "Lindy Ruff agreed to a two-year extension to stay behind the bench in Buffalo.", "source": "NHL.com", "url": "https://www.nhl.com/news/coach-lindy-ruff-signs-two-year-contract-with-buffalo-sabres"}, {"headline": "NHL named League of the Year by Sports Business Journal", "detail": "The NHL was honored as League of the Year at the Sports Business Journal Awards.", "source": "NHL.com", "url": "https://www.nhl.com/news/nhl-named-league-of-the-year-at-sports-business-journal-awards"}], "amrewind": {"channel_url": "https://www.youtube.com/@TheAMRewind", "channel_handle": "@theamrewind", "description": "NHL goal breakdowns, player analysis, and film room deep-dives. New videos every week.", "latest_videos": [{"title": "How Dorofeyev Became the NHL's Deadliest Goal Scorer This Postseason", "type": "player_breakdown", "published": "2026-05-20", "description": "Breaking down Pavel Dorofeyev's shot mechanics, off-puck movement, and what makes his release nearly impossible to stop — 10 playoff goals and counting.", "url": "https://www.youtube.com/@TheAMRewind", "thumbnail": ""}, {"title": "VGK Game 1 Goal Breakdown: Every Vegas Score vs Colorado Dissected", "type": "goal_breakdown", "published": "2026-05-21", "description": "Frame-by-frame look at all four Vegas goals in Game 1 of the WCF — Coghlan's tip, Dorofeyev's power play snipe, Howden's wrister, and Dowd's empty netter.", "url": "https://www.youtube.com/@TheAMRewind", "thumbnail": ""}, {"title": "Carter Hart Film Room: How He Stopped 36 in Denver", "type": "player_breakdown", "published": "2026-05-21", "description": "A full goaltending breakdown of Hart's 36-save performance in Game 1 — positioning, rebound control, and the three impossible stops that kept Vegas ahead.", "url": "https://www.youtube.com/@TheAMRewind", "thumbnail": ""}, {"title": "Mitch Marner at Center: Why the Switch is Working for VGK", "type": "player_breakdown", "published": "2026-05-18", "description": "Marner moved from wing to center and it's unlocking something special. We break down his zone entries, faceoff usage, and how Tortorella is deploying him.", "url": "https://www.youtube.com/@TheAMRewind", "thumbnail": ""}, {"title": "Eichel's Assist Masterclass: Every Playoff Setup Broken Down", "type": "goal_breakdown", "published": "2026-05-17", "description": "14 assists in 12 playoff games. We charted every single one — the passes, the reads, and why Jack Eichel might be the most dangerous playmaker in this postseason.", "url": "https://www.youtube.com/@TheAMRewind", "thumbnail": ""}], "comments": [{"author": "PuckNerd42", "text": "The breakdown of Dorofeyev's release mechanics was elite. Never noticed he shifts his weight before the shot — now I can't unsee it.", "video_title": "How Dorofeyev Became the NHL's Deadliest Goal Scorer This Postseason", "date": "2026-05-20", "reply_url": "https://www.youtube.com/@TheAMRewind"}, {"author": "VegasHockeyFan", "text": "Best hockey breakdown channel on YouTube. The Coghlan tip analysis in the Game 1 video was something else.", "video_title": "VGK Game 1 Goal Breakdown: Every Vegas Score vs Colorado Dissected", "date": "2026-05-21", "reply_url": "https://www.youtube.com/@TheAMRewind"}, {"author": "GoalieGuy31", "text": "Hart's positioning on that Nichushkin two-on-one in the second was textbook. This video finally explained why he's been so dominant all playoffs.", "video_title": "Carter Hart Film Room: How He Stopped 36 in Denver", "date": "2026-05-21", "reply_url": "https://www.youtube.com/@TheAMRewind"}, {"author": "MidIceEnthusiast", "text": "Love the detail on Marner's zone entries. The C-cut move is so subtle but completely freezes the weak-side D.", "video_title": "Mitch Marner at Center: Why the Switch is Working for VGK", "date": "2026-05-19", "reply_url": "https://www.youtube.com/@TheAMRewind"}, {"author": "HockeyAnalytics_", "text": "Charting every single Eichel assist — respect. The seam pass he threads on the power play is uncanny. Great breakdown as always.", "video_title": "Eichel's Assist Masterclass: Every Playoff Setup Broken Down", "date": "2026-05-18", "reply_url": "https://www.youtube.com/@TheAMRewind"}]}, "tweets": [{"text": "The Boys", "time": "2025-06-18T13:34:06.000Z", "displayTime": "Jun 18, 2025", "url": "https://x.com/EmptyNettersPod/status/1935330179150430650", "likes": "5.1K", "retweets": "283"}, {"text": "These jerseys absolutely rock", "time": "2024-05-17T19:23:52.000Z", "displayTime": "May 17, 2024", "url": "https://x.com/EmptyNettersPod/status/1791550218191929499", "likes": "4.6K", "retweets": "115"}, {"text": "This has to be the goal of the year, right??", "time": "2025-04-08T04:14:25.000Z", "displayTime": "Apr 7, 2025", "url": "https://x.com/EmptyNettersPod/status/1909459791858086146", "likes": "3.7K", "retweets": "188"}, {"text": "Yesterday, Dec 31st, there were THIRTEEN NHL games played, including the Winter Classic. \n\nToday, Jan 1st New Year’s Day, there is one NHL game….\n\nBeyond perplexed by this scheduling. Crowding the spectacle of the Winter Classic with twelve other games is such a weird choice.", "time": "2025-01-01T19:05:32.000Z", "displayTime": "Jan 1, 2025", "url": "https://x.com/EmptyNettersPod/status/1874532429144482103", "likes": "3.5K", "retweets": "96"}, {"text": "Devils just won the Cup. Big night for the Tri-State area.", "time": "2024-12-23T18:31:28.000Z", "displayTime": "Dec 23, 2024", "url": "https://x.com/EmptyNettersPod/status/1871261234567890123", "likes": "2.8K", "retweets": "74"}]}]};
+const EDITIONS = ARCHIVE.editions || [];
+const TABS = [
+  ['vgk','Golden Knights'], ['scores','Scores'], ['standings','Standings'],
+  ['leaders','Stat Leaders'], ['podcast','Empty Netters'], ['news','News'],
+  ['injuries','Injuries'], ['transactions','Transactions'], ['amrewind','The AM Rewind']
+];
+let activeTab = 'vgk';
+
+function el(id){ return document.getElementById(id); }
+function esc(s){ return String(s==null?'':s)
+  .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+function vgkIn(s){ return /vegas|golden knights|\bVGK\b/i.test(s||''); }
+function fmtLong(d){ return new Date(d+'T12:00:00')
+  .toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'}); }
+function fmtShort(d){ return new Date(d+'T12:00:00')
+  .toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'}); }
+
+function metricCard(label,value,sub,small){
+  return '<div class="metric gold-accent">'
+    + '<div class="metric-label">'+esc(label)+'</div>'
+    + '<div class="metric-value'+(small?' sm':'')+'">'+esc(value||'—')+'</div>'
+    + (sub?'<div class="metric-sub">'+esc(sub)+'</div>':'')
+    + '</div>';
+}
+
+function panelVGK(ed){
+  const v = ed.vgk || {};
+  const notes = (v.notes||[]).map(n=>'<li>'+esc(n)+'</li>').join('');
+  let html = '<div class="card card-gold">'
+    + '<p class="sec-title">VGK broadcast briefing</p>'
+    + (v.series?'<div class="series-teams" style="font-size:18px">'+esc(v.series)+'</div>':'')
+    + '<div class="ai-block"><p>'+esc(v.spotlight||'')+'</p></div>'
+    + (notes?'<ul class="fact-list">'+notes+'</ul>':'')
+    + (v.next?'<div class="next-line">Next up &mdash; <strong>'+esc(v.next)+'</strong>'
+        + (v.next_detail?' &middot; '+esc(v.next_detail):'')+'</div>':'')
+    + '</div>';
+
+  const r = v.roster || {};
+  const fwds = r.forwards || [];
+  const defs = r.defense || [];
+  const gols = r.goalies || [];
+
+  if(fwds.length || defs.length || gols.length){
+    html += '<div class="card" style="margin-top:14px"><p class="sec-title">Roster Stats</p>';
+
+    if(fwds.length){
+      html += '<div class="roster-section-label">Forwards</div>'
+        + '<div class="roster-wrap"><table class="roster-table"><thead><tr>'
+        + '<th>#</th><th>Name</th><th>Pos</th><th>GP</th><th>G</th><th>A</th>'
+        + '<th class="pts-col">PTS</th><th>+/-</th><th>PIM</th><th>SOG</th>'
+        + '<th>S%</th><th>TOI</th><th>FO%</th><th>HIT</th><th>BLK</th>'
+        + '</tr></thead><tbody>';
+      fwds.forEach(p => {
+        const pm = p.pm != null ? (p.pm >= 0 ? '+' : '') + p.pm : '—';
+        html += '<tr'+(p.inj?' class="inj"':'')+'>'
+          + '<td>'+esc(p.num)+'</td>'
+          + '<td>'+esc(p.name)+(p.inj?' <span style="color:#E87070;font-size:9px;margin-left:4px">INJ</span>':'')+'</td>'
+          + '<td>'+esc(p.pos)+'</td>'
+          + '<td>'+esc(p.gp)+'</td>'
+          + '<td>'+esc(p.g)+'</td>'
+          + '<td>'+esc(p.a)+'</td>'
+          + '<td class="pts-col">'+esc(p.pts)+'</td>'
+          + '<td>'+pm+'</td>'
+          + '<td>'+esc(p.pim)+'</td>'
+          + '<td>'+esc(p.sog)+'</td>'
+          + '<td>'+esc(p.spct)+'</td>'
+          + '<td>'+esc(p.toi)+'</td>'
+          + '<td>'+(p.fow!=null?esc(p.fow):'—')+'</td>'
+          + '<td>'+esc(p.hits)+'</td>'
+          + '<td>'+esc(p.blk)+'</td>'
+          + '</tr>';
+      });
+      html += '</tbody></table></div>';
+    }
+
+    if(defs.length){
+      html += '<div class="roster-section-label">Defense</div>'
+        + '<div class="roster-wrap"><table class="roster-table"><thead><tr>'
+        + '<th>#</th><th>Name</th><th>Pos</th><th>GP</th><th>G</th><th>A</th>'
+        + '<th class="pts-col">PTS</th><th>+/-</th><th>PIM</th><th>SOG</th>'
+        + '<th>S%</th><th>TOI</th><th>HIT</th><th>BLK</th>'
+        + '</tr></thead><tbody>';
+      defs.forEach(p => {
+        const pm = p.pm != null ? (p.pm >= 0 ? '+' : '') + p.pm : '—';
+        html += '<tr'+(p.inj?' class="inj"':'')+'>'
+          + '<td>'+esc(p.num)+'</td>'
+          + '<td>'+esc(p.name)+(p.inj?' <span style="color:#E87070;font-size:9px;margin-left:4px">INJ</span>':'')+'</td>'
+          + '<td>'+esc(p.pos)+'</td>'
+          + '<td>'+esc(p.gp)+'</td>'
+          + '<td>'+esc(p.g)+'</td>'
+          + '<td>'+esc(p.a)+'</td>'
+          + '<td class="pts-col">'+esc(p.pts)+'</td>'
+          + '<td>'+pm+'</td>'
+          + '<td>'+esc(p.pim)+'</td>'
+          + '<td>'+esc(p.sog)+'</td>'
+          + '<td>'+esc(p.spct)+'</td>'
+          + '<td>'+esc(p.toi)+'</td>'
+          + '<td>'+esc(p.hits)+'</td>'
+          + '<td>'+esc(p.blk)+'</td>'
+          + '</tr>';
+      });
+      html += '</tbody></table></div>';
+    }
+
+    if(gols.length){
+      html += '<div class="roster-section-label">Goalies</div>'
+        + '<div class="roster-wrap"><table class="roster-table"><thead><tr>'
+        + '<th>#</th><th>Name</th><th>GP</th><th class="pts-col">W</th><th>L</th>'
+        + '<th>GAA</th><th>SV%</th><th>SO</th><th>TOI</th>'
+        + '</tr></thead><tbody>';
+      gols.forEach(p => {
+        html += '<tr'+(p.inj?' class="inj"':'')+'>'
+          + '<td>'+esc(p.num)+'</td>'
+          + '<td>'+esc(p.name)+(p.inj?' <span style="color:#E87070;font-size:9px;margin-left:4px">INJ</span>':'')+'</td>'
+          + '<td>'+esc(p.gp)+'</td>'
+          + '<td class="pts-col">'+esc(p.w)+'</td>'
+          + '<td>'+esc(p.l)+'</td>'
+          + '<td>'+esc(p.gaa)+'</td>'
+          + '<td>'+esc(p.svpct)+'</td>'
+          + '<td>'+esc(p.so)+'</td>'
+          + '<td>'+esc(p.toi)+'</td>'
+          + '</tr>';
+      });
+      html += '</tbody></table></div>';
+    }
+
+    html += '</div>';
+  }
+
+  return html;
+}
+
+function renderScoreboard(g){
+  const hasStructured = g.away_abbr && g.home_abbr && g.away_score != null && g.home_score != null;
+  if(!hasStructured) return '<div class="game-score">'+esc(g.matchup)+'</div>';
+  const awayWin = g.winner_abbr === g.away_abbr;
+  const homeWin = g.winner_abbr === g.home_abbr;
+  return '<div class="scoreboard">'
+    + '<div class="sb-side">'
+      + '<div class="sb-abbr '+(awayWin?'winner-team':'loser-team')+'">'+esc(g.away_abbr)+'</div>'
+      + '<div class="sb-venue-tag">Away</div>'
+    + '</div>'
+    + '<div class="sb-center">'
+      + '<div class="sb-score'+(awayWin?'':' dim')+'">'+esc(g.away_score)+'</div>'
+      + '<div class="sb-sep">&mdash;</div>'
+      + '<div class="sb-score'+(homeWin?'':' dim')+'">'+esc(g.home_score)+'</div>'
+    + '</div>'
+    + '<div class="sb-side">'
+      + '<div class="sb-abbr '+(homeWin?'winner-team':'loser-team')+'">'+esc(g.home_abbr)+'</div>'
+      + '<div class="sb-venue-tag">Home</div>'
+    + '</div>'
+    + '</div>';
+}
+
+function panelScores(ed){
+  const games = ed.games || [];
+  if(!games.length) return '<div class="card"><p class="empty">No games on this slate. '
+    + 'Check the Standings tab for the next puck drop.</p></div>';
+  return games.map(g => {
+    const isVGK = vgkIn(g.matchup) || g.away_abbr==='VGK' || g.home_abbr==='VGK';
+    return '<div class="card'+(isVGK?' card-gold':'')+'">'
+      + '<p class="sec-title">'+esc(g.context)+'</p>'
+      + renderScoreboard(g)
+      + (g.series_note?'<span class="snote">'+esc(g.series_note)+'</span>':'')
+      + '<div class="ai-block"><p>'+esc(g.detail)+'</p></div>'
+      + '</div>';
+  }).join('');
+}
+
+function panelStandings(ed){
+  const series = ed.series || [];
+  if(!series.length) return '<div class="card"><p class="empty">No active series or '
+    + 'standings groups for this edition.</p></div>';
+  return series.map(s => {
+    const tied = !s.leader_abbr;
+    return '<div class="card'+(vgkIn(s.teams)?' card-gold':'')+'">'
+      + '<p class="sec-title">'+esc(s.name)+'</p>'
+      + '<div class="series-teams">'+esc(s.teams)+'</div>'
+      + '<span class="badge-status'+(tied?' tied':' lead')+'">'+esc(s.status)+'</span>'
+      + (s.next?'<div class="next-line">Next &mdash; <strong>'+esc(s.next)+'</strong></div>':'')
+      + '</div>';
+  }).join('');
+}
+
+function panelLeaders(ed){
+  const L = ed.leaders || {};
+  const cats = Object.keys(L);
+  if(!cats.length) return '<div class="card"><p class="empty">No stat leaders for this edition.</p></div>';
+  const cards = cats.map(cat => {
+    const rows = (L[cat]||[]).map((p,i) =>
+      '<div class="scoring-row">'
+        + '<span class="scoring-rank">'+(i+1)+'</span>'
+        + '<span class="scoring-name"><strong>'+esc(p.name)+'</strong>'
+          + '<span class="scoring-team-label">'+esc(p.team||'')
+          + (p.team==='VGK'?' &middot; VGK':'')+'</span></span>'
+        + '<span class="scoring-note">'+esc(p.note||'')+'</span>'
+        + '<span class="scoring-pts">'+esc(p.value)+'</span>'
+      + '</div>').join('');
+    return '<div class="card"><p class="sec-title">'+esc(cat)+'</p>'+rows+'</div>';
+  }).join('');
+  return '<div class="two-col">'+cards+'</div>';
+}
+
+function panelPodcast(ed){
+  const angles = ed.podcast_angles || [];
+  let inner = '<p class="sec-title">Empty Netters &mdash; segment intel</p>';
+  if(angles.length){
+    inner += '<ol class="angle-list">'+angles.map(a=>'<li>'+esc(a)+'</li>').join('')+'</ol>';
+  } else {
+    inner += '<p class="empty">No segment ideas generated for this edition.</p>';
+  }
+  let out = '<div class="card card-purple">'+inner+'</div>';
+
+  // Tweets card
+  const tweets = ed.tweets || [];
+  const now = new Date();
+  const cutoff = new Date(now.getTime() - 24*60*60*1000);
+  const recent = tweets.filter(t => new Date(t.time) >= cutoff);
+  let tw = '<div class="tweet-header">'
+    + '<div class="tweet-header-icon">𝕏</div>'
+    + '<div class="tweet-header-info"><strong>@EmptyNettersPod</strong><span>Empty Netters Podcast</span></div>'
+    + '</div>';
+  if(!tweets.length){
+    tw += '<p class="empty">No tweets available.</p>';
+  } else {
+    if(!recent.length){
+      tw += '<span class="tweet-no-recent">No posts in the last 24 hrs &mdash; showing most recent</span>';
+    }
+    tw += tweets.slice(0,5).map(t => {
+      const tweetText = t.url
+        ? '<a href="'+esc(t.url)+'" target="_blank" rel="noopener">'+esc(t.text)+'</a>'
+        : esc(t.text);
+      return '<div class="tweet-item">'
+        + '<div class="tweet-text">'+tweetText+'</div>'
+        + '<div class="tweet-meta">'
+        + '<span class="tweet-date">'+esc(t.displayTime)+'</span>'
+        + (t.likes ? '<span class="tweet-stat">♥ '+esc(t.likes)+'</span>' : '')
+        + (t.retweets ? '<span class="tweet-stat">↺ '+esc(t.retweets)+'</span>' : '')
+        + (t.url ? '<a class="tweet-link" href="'+esc(t.url)+'" target="_blank" rel="noopener">View →</a>' : '')
+        + '</div>'
+        + '</div>';
+    }).join('');
+  }
+  out += '<div class="card" style="margin-top:14px">'+tw+'</div>';
+  return out;
+}
+
+function panelNews(ed){
+  const news = ed.news || [];
+  if(!news.length) return '<div class="card"><p class="empty">No league news for this edition.</p></div>';
+  const items = news.map(n => {
+    const head = n.url
+      ? '<a href="'+esc(n.url)+'" target="_blank" rel="noopener">'+esc(n.headline)+'</a>'
+      : esc(n.headline);
+    return '<div class="news-item"><h4>'+head+'</h4>'
+      + '<p>'+esc(n.detail)+'</p>'
+      + (n.source?'<div class="news-src">'+esc(n.source)+'</div>':'')
+      + '</div>';
+  }).join('');
+  return '<div class="card">'+items+'</div>';
+}
+
+function panelInjuries(ed){
+  const injuries = ed.injuries || [];
+  if(!injuries.length) return '<div class="card"><p class="empty">No injury reports for this edition.</p></div>';
+  const vgkInj = injuries.filter(i=>i.vgk);
+  const otherInj = injuries.filter(i=>!i.vgk);
+  function renderInj(arr){
+    return arr.map(i => {
+      const st = (i.status||'').toUpperCase();
+      const cls = st==='OUT'?'out':st==='DTD'?'dtd':'ir';
+      return '<div class="injury-row">'
+        + '<span class="injury-status '+cls+'">'+esc(i.status||'?')+'</span>'
+        + '<div class="injury-name">'
+          + '<strong>'+esc(i.name)+'</strong>'
+          + '<div class="injury-meta">'+esc(i.team)+' &middot; '+esc(i.position)+' &middot; '+esc(i.injury)+'</div>'
+          + '<div class="injury-detail">'+esc(i.detail)+'</div>'
+        + '</div>'
+        + '</div>';
+    }).join('');
+  }
+  let html = '';
+  if(vgkInj.length){
+    html += '<div class="card card-gold"><p class="sec-title">Golden Knights</p>'+renderInj(vgkInj)+'</div>';
+  }
+  if(otherInj.length){
+    html += '<div class="card"><p class="sec-title">Around the League</p>'+renderInj(otherInj)+'</div>';
+  }
+  return html;
+}
+
+function panelTransactions(ed){
+  const txns = ed.transactions || [];
+  if(!txns.length) return '<div class="card"><p class="empty">No transactions logged for this edition.</p></div>';
+  const vgkTxns = txns.filter(t=>t.vgk);
+  const otherTxns = txns.filter(t=>!t.vgk);
+  function renderTxn(arr){
+    return arr.map(t => {
+      const head = t.url
+        ? '<a href="'+esc(t.url)+'" target="_blank" rel="noopener">'+esc(t.headline)+'</a>'
+        : esc(t.headline);
+      return '<div class="txn-item">'
+        + '<div class="txn-header">'
+          + '<span class="txn-type">'+esc(t.type||'move')+'</span>'
+          + '<span class="txn-date">'+esc(t.date)+'</span>'
+        + '</div>'
+        + '<div class="txn-headline">'+head+'</div>'
+        + '<div class="txn-detail">'+esc(t.detail)+'</div>'
+        + (t.source?'<div class="txn-src">'+esc(t.source)+'</div>':'')
+        + '</div>';
+    }).join('');
+  }
+  let html = '';
+  if(vgkTxns.length){
+    html += '<div class="card card-gold"><p class="sec-title">Golden Knights</p>'+renderTxn(vgkTxns)+'</div>';
+  }
+  if(otherTxns.length){
+    html += '<div class="card"><p class="sec-title">Around the League</p>'+renderTxn(otherTxns)+'</div>';
+  }
+  return html;
+}
+
+function panelAMRewind(ed){
+  const amr = ed.amrewind || {};
+  const videos = amr.latest_videos || [];
+  const comments = amr.comments || [];
+  if(!videos.length && !comments.length){
+    return '<div class="card"><p class="empty">No AM Rewind content for this edition.</p></div>';
+  }
+  const channelHtml = '<div class="amr-channel">'
+    + '<div class="amr-channel-icon">AMR</div>'
+    + '<div class="amr-channel-info">'
+      + '<strong>The AM Rewind</strong>'
+      + '<span>'+esc(amr.description||'')+'</span>'
+    + '</div>'
+    + (amr.channel_url?'<a class="amr-channel-link" href="'+esc(amr.channel_url)+'" target="_blank" rel="noopener">'+esc(amr.channel_handle||'Visit Channel')+'</a>':'')
+    + '</div>';
+  const videoHtml = videos.map(v => {
+    const title = v.url
+      ? '<a href="'+esc(v.url)+'" target="_blank" rel="noopener">'+esc(v.title)+'</a>'
+      : esc(v.title);
+    const typeLabel = (v.type||'').replace(/_/g,' ');
+    return '<div class="amr-video">'
+      + '<div class="amr-video-header">'
+        + '<span class="amr-video-type">'+esc(typeLabel)+'</span>'
+        + '<span class="amr-video-date">'+esc(v.published)+'</span>'
+      + '</div>'
+      + '<div class="amr-video-title">'+title+'</div>'
+      + '<div class="amr-video-desc">'+esc(v.description)+'</div>'
+      + '</div>';
+  }).join('');
+  const commentHtml = comments.length
+    ? '<div class="card" style="margin-top:14px"><p class="sec-title">Recent Comments</p>'
+      + comments.map(c =>
+          '<div class="amr-comment">'
+          + '<div class="amr-comment-author">'+esc(c.author)+'</div>'
+          + '<div class="amr-comment-text">'+esc(c.text)+'</div>'
+          + '</div>'
+        ).join('')
+      + '</div>'
+    : '';
+  return '<div class="card card-purple">'+channelHtml+videoHtml+'</div>'+commentHtml;
+}
+
+const PANELS = { vgk:panelVGK, scores:panelScores, standings:panelStandings,
+  leaders:panelLeaders, podcast:panelPodcast, news:panelNews,
+  injuries:panelInjuries, transactions:panelTransactions, amrewind:panelAMRewind };
+
+function syncTabs(){
+  document.querySelectorAll('.tab').forEach(b =>
+    b.classList.toggle('active', b.dataset.tab===activeTab));
+  document.querySelectorAll('.tab-panel').forEach(p =>
+    p.classList.toggle('active', p.id==='panel-'+activeTab));
+}
+
+function renderEdition(ed){
+  el('dateline').textContent = fmtLong(ed.date);
+  el('lede').innerHTML =
+    '<div class="lede-tag">Morning Briefing &nbsp;&mdash;&nbsp; covers '+esc(ed.covers)+'</div>'
+    + '<h2>'+esc(ed.headline)+'</h2>'
+    + '<p>'+esc(ed.summary)+'</p>';
+  const v = ed.vgk || {};
+  el('metrics').innerHTML =
+    metricCard('VGK · Postseason', v.record, v.record_detail||'Vegas Golden Knights', false)
+    + metricCard('VGK · Series', v.series_short, 'Stanley Cup Playoffs', false)
+    + metricCard('Next VGK Game', v.next, v.next_detail||'', true);
+  el('panels').innerHTML = TABS.map(([id]) =>
+    '<div class="tab-panel'+(id===activeTab?' active':'')+'" id="panel-'+id+'">'
+    + PANELS[id](ed) + '</div>').join('');
+}
+
+(function init(){
+  if(!EDITIONS.length){
+    el('lede').innerHTML = '<div class="lede-tag">No data yet</div>'
+      + '<h2>The aggregator has not run.</h2>'
+      + '<p>This portal will fill in on the next scheduled run.</p>';
+    el('editionSelect').style.display = 'none';
+    return;
+  }
+  const sel = el('editionSelect');
+  EDITIONS.forEach((ed,i) => {
+    const o = document.createElement('option');
+    o.value = i;
+    o.textContent = fmtShort(ed.date) + (i===0?'  ·  latest':'');
+    sel.appendChild(o);
+  });
+  sel.addEventListener('change', () => renderEdition(EDITIONS[+sel.value]));
+
+  el('tabRow').innerHTML = TABS.map(([id,label]) =>
+    '<button class="tab'+(id===activeTab?' active':'')+'" data-tab="'+id+'">'
+    + label + '</button>').join('');
+  el('tabRow').querySelectorAll('.tab').forEach(b =>
+    b.addEventListener('click', () => { activeTab = b.dataset.tab; syncTabs(); }));
+
+  el('footNote').textContent =
+    'NHL Morning Briefing · ' + EDITIONS.length + ' edition'
+    + (EDITIONS.length>1?'s':'') + ' · refreshed every morning by 5:00 a.m. PT · built May 23, 2026 at 02:32 AM';
+
+  renderEdition(EDITIONS[0]);
+})();
+</script>
+</body>
+</html>
