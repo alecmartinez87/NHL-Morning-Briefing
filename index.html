@@ -994,8 +994,25 @@ function panelTransactions(ed){
 }
 
 function panelRumors(ed){
-  const insiders = ed.rumors || [];
-  if(!insiders.length) return '<div class="card"><p class="empty">No rumor data for this edition.</p></div>';
+  const rawRumors = ed.rumors || [];
+  if(!rawRumors.length) return '<div class="card"><p class="empty">No rumor data for this edition.</p></div>';
+
+  // Support both flat {insider,content,date,url} and grouped {insider,tweets:[]} formats
+  const insiderMap = {};
+  const insiderOrder = [];
+  rawRumors.forEach(r => {
+    const key = r.insider || 'Unknown';
+    if(!insiderMap[key]){
+      insiderMap[key] = { insider: r.insider, handle: r.handle, outlet: r.outlet, tweets: r.tweets || [] };
+      insiderOrder.push(key);
+    }
+    // Flat format: promote content → tweet entry
+    if(!r.tweets && r.content){
+      insiderMap[key].tweets.push({ date: r.date, text: r.content, url: r.url || '' });
+    }
+  });
+  const insiders = insiderOrder.map(k => insiderMap[k]);
+
   const cards = insiders.map((ins, idx) => {
     const tweets = ins.tweets || [];
     const first5 = tweets.slice(0, 2);
@@ -1118,7 +1135,7 @@ function renderEdition(ed){
 
   el('footNote').textContent =
     'NHL Morning Briefing · ' + EDITIONS.length + ' edition'
-    + (EDITIONS.length>1?'s':'') + ' · refreshed every morning by 5:00 a.m. PT · built May 24, 2026 at 10:38 PM';
+    + (EDITIONS.length>1?'s':'') + ' · refreshed every morning by 5:00 a.m. PT · built May 24, 2026 at 10:40 PM';
 
   renderEdition(EDITIONS[0]);
 })();

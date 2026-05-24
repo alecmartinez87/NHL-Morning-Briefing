@@ -31,8 +31,11 @@ def git_push(date_str):
         # Remove stale lock file if present — can be left behind by interrupted runs
         lock_file = os.path.join(BASE, ".git", "HEAD.lock")
         if os.path.exists(lock_file):
-            os.remove(lock_file)
-            print("Removed stale git lock file.")
+            try:
+                os.remove(lock_file)
+                print("Removed stale git lock file.")
+            except OSError:
+                pass  # Can't remove in sandbox; user must run: rm .git/HEAD.lock
         subprocess.run(["git", "-C", BASE, "add", "data/archive.json", "index.html"], check=True)
         subprocess.run(["git", "-C", BASE, "commit", "-m", "Morning briefing — %s" % date_str], check=True)
         subprocess.run(["git", "-C", BASE, "push", "origin", "main"], check=True)
@@ -1059,8 +1062,25 @@ function panelTransactions(ed){
 }
 
 function panelRumors(ed){
-  const insiders = ed.rumors || [];
-  if(!insiders.length) return '<div class="card"><p class="empty">No rumor data for this edition.</p></div>';
+  const rawRumors = ed.rumors || [];
+  if(!rawRumors.length) return '<div class="card"><p class="empty">No rumor data for this edition.</p></div>';
+
+  // Support both flat {insider,content,date,url} and grouped {insider,tweets:[]} formats
+  const insiderMap = {};
+  const insiderOrder = [];
+  rawRumors.forEach(r => {
+    const key = r.insider || 'Unknown';
+    if(!insiderMap[key]){
+      insiderMap[key] = { insider: r.insider, handle: r.handle, outlet: r.outlet, tweets: r.tweets || [] };
+      insiderOrder.push(key);
+    }
+    // Flat format: promote content → tweet entry
+    if(!r.tweets && r.content){
+      insiderMap[key].tweets.push({ date: r.date, text: r.content, url: r.url || '' });
+    }
+  });
+  const insiders = insiderOrder.map(k => insiderMap[k]);
+
   const cards = insiders.map((ins, idx) => {
     const tweets = ins.tweets || [];
     const first5 = tweets.slice(0, 2);
