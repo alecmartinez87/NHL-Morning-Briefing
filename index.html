@@ -68,7 +68,7 @@ header {
   padding: 3px 10px; border-radius: 20px; letter-spacing: 0.05em; text-transform: uppercase;
 }
 .badge-vgk { background: var(--gold-dim); color: var(--gold-light); border: 0.5px solid rgba(180,151,90,0.3); }
-.badge-pod { background: var(--purple-dim); color: var(--purple-light); border: 0.5px solid rgba(124,106,232,0.3); }
+.badge-pod { background: linear-gradient(90deg, rgba(30,80,200,0.18) 0%, rgba(200,30,40,0.18) 100%); color: #fff; border: 0.5px solid rgba(200,30,40,0.4); }
 .edition-pick { display: flex; flex-direction: column; gap: 5px; align-items: flex-end; }
 .edition-label {
   font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em;
@@ -1118,7 +1118,7 @@ function renderEdition(ed){
 
   el('footNote').textContent =
     'NHL Morning Briefing · ' + EDITIONS.length + ' edition'
-    + (EDITIONS.length>1?'s':'') + ' · refreshed every morning by 5:00 a.m. PT · built May 24, 2026 at 10:16 PM';
+    + (EDITIONS.length>1?'s':'') + ' · refreshed every morning by 5:00 a.m. PT · built May 24, 2026 at 10:37 PM';
 
   renderEdition(EDITIONS[0]);
 })();
