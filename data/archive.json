@@ -10,38 +10,26 @@
   },
   "editions": [
     {
-      "date": "2026-05-24",
-      "covers": "Saturday, May 23, 2026",
-      "generated_at": "2026-05-24T19:20:00-07:00",
-      "headline": "Ehlers OT Heroics Even East Final; VGK Ready for Home Opener Tonight",
-      "summary": "Nikolaj Ehlers broke a 2-2 tie 3:29 into overtime to give Carolina a 3-2 win in Game 2 and level the Eastern Conference Final at 1-1. There was no Western Conference Final action Saturday \u2014 Vegas returns home tonight for Game 3 against Colorado, leading the series 2-0 after back-to-back road wins at Ball Arena. The Golden Knights are riding 10 straight playoff wins when they lead after two periods, a lethal third-period identity under John Tortorella.",
-      "games": [
-        {
-          "matchup": "Carolina Hurricanes 3, Montreal Canadiens 2 (OT)",
-          "context": "Eastern Conference Final \u00b7 Game 2 \u00b7 Lenovo Center, Raleigh",
-          "series_note": "Series tied 1-1",
-          "winner_abbr": "CAR",
-          "away_abbr": "MTL",
-          "away_score": 2,
-          "home_abbr": "CAR",
-          "home_score": 3,
-          "detail": "Nikolaj Ehlers scored his second goal of the game 3:29 into overtime to lift Carolina. Josh Anderson scored twice for Montreal to erase an early 1-0 Carolina deficit, but Eric Robinson's late goal tied it 2-2 before Ehlers' OT winner. Frederik Andersen stopped 10 of 12 shots; Jakub Dobes made 23 saves on 26 shots for Montreal. Carolina evens the series after Montreal won Game 1 6-2."
-        }
-      ],
+      "date": "2026-05-25",
+      "covers": "Sunday, May 24, 2026",
+      "generated_at": "2026-05-24T22:35:00Z",
+      "headline": "Game 3 TONIGHT: VGK Eyes 3-0 Stranglehold; Makar Now GTD",
+      "summary": "No pucks dropped Sunday — the NHL's spotlight falls entirely on tonight's Game 3 showdown between the Vegas Golden Knights and Colorado Avalanche (5 p.m. PT, ESPN, T-Mobile Arena), with VGK leading 2-0 and looking to put the Avalanche in an almost insurmountable 3-0 hole. The biggest storyline entering puck drop: Cale Makar is now a game-time decision after coach Jared Bednar said the decision is Cale's to make, a significant upgrade from the flat-out OUT designation he carried through the first two games. Mark Stone (lower body) remains out for a fifth straight game. In the East, Game 3 between Carolina and Montreal shifts to Bell Centre Monday at 8 p.m. ET, with the series tied 1-1.",
+      "games": [],
       "series": [
         {
           "name": "Western Conference Final",
           "teams": "Vegas Golden Knights vs. Colorado Avalanche",
-          "status": "VGK leads 2-0 \u2014 Game 3 tonight (Sun May 24, 5 p.m. PT) at T-Mobile Arena",
+          "status": "VGK leads 2-0 — Game 3 TONIGHT (Sun May 24, 5 p.m. PT) at T-Mobile Arena",
           "leader_abbr": "VGK",
-          "next": "Game 3 \u2014 Sun, May 24 at T-Mobile Arena (ESPN, 5 p.m. PT)"
+          "next": "Game 3 — Sun, May 24 at T-Mobile Arena (ESPN, 5 p.m. PT)"
         },
         {
           "name": "Eastern Conference Final",
           "teams": "Carolina Hurricanes vs. Montreal Canadiens",
-          "status": "Series tied 1-1 \u2014 Game 3 Mon, May 25 at Bell Centre, Montreal",
+          "status": "Series tied 1-1 — Game 3 Mon, May 25 at Bell Centre, Montreal",
           "leader_abbr": "CAR",
-          "next": "Game 3 \u2014 Mon, May 25 at Bell Centre (ESPN, 8 p.m. ET)"
+          "next": "Game 3 — Mon, May 25 at Bell Centre (TNT/CBC/SN, 8 p.m. ET)"
         }
       ],
       "leaders": {
@@ -74,7 +62,7 @@
             "name": "Nathan MacKinnon",
             "team": "COL",
             "value": "14 (7G-7A)",
-            "note": "COL's engine despite Makar absence"
+            "note": "COL's engine; Makar now GTD for G3"
           }
         ],
         "Goals": [
@@ -82,7 +70,7 @@
             "name": "Pavel Dorofeyev",
             "team": "VGK",
             "value": "10",
-            "note": "Leads all skaters; first VGK player with 20 PP goals in RS"
+            "note": "Leads all skaters; top PP threat in WCF"
           },
           {
             "name": "Brett Howden",
@@ -146,13 +134,13 @@
             "name": "Carter Hart",
             "team": "VGK",
             "value": "10W / .924 SV%",
-            "note": "14 GP, 2.25 GAA; .967 SV% in WCF G2"
+            "note": "14 GP, 2.25 GAA; .967 SV% in WCF G2 — starts G3 tonight"
           },
           {
             "name": "Jakub Dobes",
             "team": "MTL",
             "value": "9W / .924 SV%",
-            "note": "Conn Smythe darling; 23 saves in G2 loss"
+            "note": "Conn Smythe darling; next start G3 Monday at Bell Centre"
           },
           {
             "name": "Frederik Andersen",
@@ -164,7 +152,7 @@
             "name": "Scott Wedgewood",
             "team": "COL",
             "value": "4W / ~2.90 GAA",
-            "note": "Holding down net without Makar in front"
+            "note": "Starts G3 tonight; .912 SV% in series"
           },
           {
             "name": "Arturs Silovs",
@@ -178,19 +166,19 @@
         "record": "10-4",
         "record_detail": "R1: def. Utah Mammoth 4-2 | R2: def. Anaheim Ducks 4-2 | WCF: leads Colorado 2-0",
         "series_short": "VGK leads COL 2-0",
-        "series": "Western Conference Final vs. Colorado Avalanche \u2014 VGK leads 2-0; Game 3 tonight May 24 at T-Mobile Arena",
-        "spotlight": "The Golden Knights have pulled off four third-period comebacks this postseason, the most in a single playoff run in NHL history. With Carter Hart locked in (.924 SV% overall, .967 in Game 2) and Mitch Marner leading the entire NHL in plus-minus (+13), Vegas is playing as complete a team as any left. They did it all without captain Mark Stone and for long stretches without Jeremy Lauzon \u2014 the depth and veteran leadership Tortorella unleashed is the story of these playoffs.",
+        "series": "Western Conference Final vs. Colorado Avalanche — VGK leads 2-0; Game 3 TONIGHT May 24 at T-Mobile Arena, 5 p.m. PT",
+        "spotlight": "Vegas enters Game 3 as a powerhouse at home, going 7-2 at T-Mobile Arena this postseason. The key storyline: Colorado's Cale Makar is now a game-time decision, upgraded from OUT after two absences. If Makar suits up, it changes the defensive calculus entirely and likely earns Colorado some power play minutes. Vegas counters with Pavel Dorofeyev (10 playoff goals), Mitch Marner (+13 playoffs), and the steady brilliance of Carter Hart (.967 SV% in Game 2). Torts' team hasn't trailed in regulation since Game 4 of Round 1.",
         "notes": [
-          "Game 3 tonight (May 24) at T-Mobile Arena, 5 p.m. PT on ESPN \u2014 VGK enters 13-7 all-time in Game 3s",
+          "Game 3 TONIGHT — T-Mobile Arena, 5 p.m. PT on ESPN; VGK is 7-2 at home this postseason",
+          "Cale Makar (COL) upgraded to GTD — Bednar says 'it's gonna be Cale's decision on if he's coming back'",
+          "Mark Stone (VGK) ruled out for Game 3 — 5th straight absence; lower-body injury",
+          "Brayden McNabb (VGK) DTD — skate caught leg in G2, returned for 3rd period, needed stitches",
+          "Teams with 2-0 series leads are 365-58 all-time; all 5 teams that went up 2-0 this postseason advanced",
           "VGK top-3 hit leaders in entire NHL playoffs: Barbashev (74), Kolesar (65), Cole Smith (60)",
-          "Marner leads playoffs in +/- at +13; Eichel leads in assists (16)",
-          "Torts record since March 29: 17-4-1 overall (7-0-1 RS, 10-4 playoffs)",
-          "VGK appealed NHL sanctions (loss of 2026 2nd-round pick + Torts $100K fine) following ANA Game 6 incident",
-          "COL lost their 45-0-0 record when leading after 2 periods \u2014 Eichel & Barbashev answered in Game 2",
-          "William Karlsson returned from 6-month lower-body injury in R2 vs ANA \u2014 his two-way play has been a stabilizing force"
+          "Torts record since March 29: 17-4-1 overall (7-0-1 RS, 10-4 playoffs)"
         ],
-        "next": "Game 3 \u2014 Sun, May 24 vs. Colorado Avalanche",
-        "next_detail": "T-Mobile Arena, Las Vegas \u00b7 Puck drop 5 p.m. PT \u00b7 ESPN \u00b7 Scripps Sports pre-game 4:30 p.m.",
+        "next": "Game 3 — Sun, May 24 vs. Colorado Avalanche (TONIGHT)",
+        "next_detail": "T-Mobile Arena, Las Vegas · Puck drop 5 p.m. PT · ESPN · Scripps Sports pre-game 4:30 p.m.",
         "roster": {
           "forwards": [
             {
@@ -626,12 +614,826 @@
         }
       },
       "podcast_angles": [
-        "The Eichel dilemma: just 2 goals in 14 games, yet he leads the NHL in assists (16) \u2014 is that the new Eichel, or is he due for a goal explosion in the home opener?",
-        "Hart vs. Dobes \u2014 two 27-year-old goalies carrying their teams. Conn Smythe dark horse comparison.",
-        "Torts effect: VGK went from 39-26-17 with Cassidy to 10-4 under Tortorella \u2014 what changed tactically?",
-        "Missing stars, no excuse: Both Stone (VGK) and Makar (COL) are out \u2014 why does VGK look unaffected while COL has crumbled?",
-        "Canada's hope: Montreal is 1-1 against Carolina \u2014 can Suzuki, Hutson, and Anderson send another Canadian team to the Cup Final?",
-        "Howden's road goal streak \u2014 9 goals in 14 games from your third-line center. Breakout or unsustainable?"
+        "Makar GTD changes everything: If he plays tonight, does Colorado's power play and defensive puck movement suddenly make this a series again?",
+        "Stone watch: VGK is 5-0 without their captain in these playoffs — when he returns (if he returns), how does Torts reintegrate an 8-minute-a-period player who missed 2+ weeks?",
+        "The VGK-OIL organizational feud: Vegas is now blocking Bruce Cassidy AND reportedly blocked a Henderson AHL assistant coach from taking an Oilers job. Is this a pattern?",
+        "Mario Ferraro's free agency: A solid, mobile right-shot D going to market July 1 in a cap-rich environment ($104M ceiling) — who can outbid the Rangers?",
+        "Columbus trading up at the Draft: Waddell has pick #14 and cap space. Tij Iginla, Cameron Reid — what's the target?",
+        "Hart vs. Wedgewood: Carter Hart is a Vezina-caliber run, but Scott Wedgewood has been solid (.912 SV%) despite the defensive chaos of playing without Makar"
+      ],
+      "rumors": [
+        {
+          "insider": "Elliotte Friedman",
+          "handle": "@FriedgeHNIC",
+          "outlet": "Sportsnet",
+          "date": "2026-05-24",
+          "teams": [
+            "VGK",
+            "EDM"
+          ],
+          "vgk": true,
+          "content": "A Golden Knights-Oilers organizational feud has been simmering: Edmonton asked to interview a Henderson (AHL) assistant coach, were granted permission, made an offer, and Vegas then blocked the hire. The situation has added tension to the already-contentious Cassidy interview block.",
+          "url": "https://nhlrumors.com/nhl-rumors-michael-mccarron-and-a-golden-knights-oilers-feud/2026/05/24/"
+        },
+        {
+          "insider": "Elliotte Friedman",
+          "handle": "@FriedgeHNIC",
+          "outlet": "Sportsnet",
+          "date": "2026-05-24",
+          "teams": [
+            "SJS",
+            "NYR"
+          ],
+          "vgk": false,
+          "content": "Mario Ferraro (SJS) talks with San Jose are not progressing ahead of his July 1 UFA eligibility. Friedman: 'That one seems likely going to market.' The Rangers are among teams monitoring the right-shot defenseman.",
+          "url": "https://sports.yahoo.com/articles/possible-rangers-free-agent-target-185727505.html"
+        },
+        {
+          "insider": "Frank Seravalli",
+          "handle": "@frank_seravalli",
+          "outlet": "Daily Faceoff",
+          "date": "2026-05-24",
+          "teams": [
+            "CBJ"
+          ],
+          "vgk": false,
+          "content": "Columbus Blue Jackets could be aggressive at the 2026 NHL Draft in Buffalo, looking to trade up from their No. 14 pick. GM Don Waddell has the cap flexibility and the desire to accelerate the rebuild sooner rather than later.",
+          "url": "https://www.dailyfaceoff.com/news/columbus-blue-jackets-could-be-team-trade-up-2026-nhl-draft-don-waddell"
+        },
+        {
+          "insider": "Pierre LeBrun",
+          "handle": "@PierreVLeBrun",
+          "outlet": "The Athletic",
+          "date": "2026-05-23",
+          "teams": [
+            "VGK",
+            "CAR",
+            "FLA"
+          ],
+          "vgk": true,
+          "content": "VGK and Hurricanes are the two frontrunners if Florida makes Bobrovsky available this offseason. Both teams' planning depends on their playoff run.",
+          "url": "https://www.nhltraderumor.com/nhl-teams/vegas-golden-knights-news-rumors/"
+        }
+      ],
+      "transactions": [],
+      "injuries": [
+        {
+          "name": "Mark Stone",
+          "team": "VGK",
+          "position": "RW",
+          "status": "OUT",
+          "injury": "Lower-body",
+          "detail": "Out for 5th straight game; no return expected for Game 3 tonight. Has skated in recent days and traveled with the team.",
+          "vgk": true
+        },
+        {
+          "name": "Jeremy Lauzon",
+          "team": "VGK",
+          "position": "D",
+          "status": "OUT",
+          "injury": "Undisclosed",
+          "detail": "Has not appeared in the Western Conference Final lineup. No official update from coaching staff.",
+          "vgk": true
+        },
+        {
+          "name": "Brayden McNabb",
+          "team": "VGK",
+          "position": "D",
+          "status": "DTD",
+          "injury": "Lower-body (leg laceration)",
+          "detail": "Skate caught his leg in Game 2; returned to play the 3rd period, needed stitches. Status for Game 3 tonight is day-to-day.",
+          "vgk": true
+        },
+        {
+          "name": "Cale Makar",
+          "team": "COL",
+          "position": "D",
+          "status": "DTD",
+          "injury": "Upper-body",
+          "detail": "UPGRADED to GTD for Game 3 tonight. Bednar: 'It's gonna be Cale's decision on if he's coming back.' Missed Games 1 and 2 of WCF.",
+          "vgk": false
+        },
+        {
+          "name": "William Karlsson",
+          "team": "VGK",
+          "position": "C",
+          "status": "ACTIVE",
+          "injury": "Lower-body (returned)",
+          "detail": "Returned in R2 vs. Anaheim after 6-month absence. Playing limited minutes; providing key two-way play.",
+          "vgk": true
+        }
+      ],
+      "news": [
+        {
+          "headline": "Game 3 preview: VGK looks to go up 3-0 on Colorado, Makar GTD",
+          "detail": "The Golden Knights host the Avalanche tonight at T-Mobile Arena (5 p.m. PT, ESPN) with a chance to go up 3-0. Teams with 2-0 series leads are 365-58 all-time. The decisive storyline: Colorado's Cale Makar is now a game-time decision after head coach Bednar said it's 'Cale's decision.' If Makar returns, it would inject life into an Avalanche team that was outscored 7-3 in the first two games.",
+          "source": "NHL.com / Daily Faceoff",
+          "url": "https://www.nhl.com/news/topic/playoffs/colorado-avalanche-vegas-golden-knights-game-3-preview-may-24-2026"
+        },
+        {
+          "headline": "ECF Game 3 Monday at Bell Centre: CAR-MTL tied 1-1",
+          "detail": "After Carolina's OT win in Game 2 (Ehlers 2G, OT winner), the Eastern Conference Final shifts to Montreal for Game 3 on Monday, May 25 at 8 p.m. ET (TNT/CBC). The Hurricanes overcame a 2-1 deficit as Eric Robinson and Nikolaj Ehlers scored in the 3rd period and OT respectively.",
+          "source": "NHL.com",
+          "url": "https://www.nhl.com/news/montreal-canadiens-carolina-hurricanes-game-2-recap-may-23-2026"
+        },
+        {
+          "headline": "VGK-Oilers organizational feud surfaces over assistant coach hiring block",
+          "detail": "Reports indicate the Golden Knights blocked Edmonton from hiring a Henderson (AHL) assistant coach — the Oilers had been granted permission to interview, made a job offer, and Vegas then refused to let the hire proceed. The episode intensifies an already-tense relationship rooted in the Cassidy coaching interview controversy.",
+          "source": "NHLRumors.com",
+          "url": "https://nhlrumors.com/nhl-rumors-michael-mccarron-and-a-golden-knights-oilers-feud/2026/05/24/"
+        },
+        {
+          "headline": "Mario Ferraro 'likely going to market' July 1 as SJS talks stall",
+          "detail": "San Jose defenseman Mario Ferraro is expected to test UFA free agency on July 1, with Friedman reporting talks with the Sharks have gone quiet. A reliable right-shot D in a thin FA market, Ferraro figures to draw strong interest from teams like the Rangers with the cap ceiling rising to $104M.",
+          "source": "Sportsnet (Friedman) / Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/possible-rangers-free-agent-target-185727505.html"
+        },
+        {
+          "headline": "Columbus Blue Jackets could trade up at 2026 NHL Draft in Buffalo",
+          "detail": "GM Don Waddell is expected to be active at the 2026 Draft, potentially trading up from pick #14. With significant cap flexibility and a desire to compete sooner, Columbus could target a top-10 prospect in a class headlined by Tij Iginla and Cameron Reid.",
+          "source": "Daily Faceoff",
+          "url": "https://www.dailyfaceoff.com/news/columbus-blue-jackets-could-be-team-trade-up-2026-nhl-draft-don-waddell"
+        },
+        {
+          "headline": "2026-27 NHL salary cap rises to record $104M — offseason market set to explode",
+          "detail": "The NHL has confirmed the 2026-27 cap ceiling at $104M, up from $95.5M. The $8.5M jump gives teams enormous flexibility heading into free agency and the trade market. Friedman notes teams are already factoring this into their offseason planning.",
+          "source": "Sportsnet (Friedman)",
+          "url": "https://www.nhltraderumor.com/"
+        }
+      ],
+      "tweets": [
+        {
+          "text": "The Boys",
+          "time": "2025-06-18T13:34:06.000Z",
+          "displayTime": "Jun 18, 2025",
+          "url": "https://x.com/EmptyNettersPod/status/1935330179150430650",
+          "likes": "5.1K",
+          "retweets": "283"
+        },
+        {
+          "text": "These jerseys absolutely rock",
+          "time": "2024-05-17T19:23:52.000Z",
+          "displayTime": "May 17, 2024",
+          "url": "https://x.com/EmptyNettersPod/status/1791550218191929499",
+          "likes": "4.6K",
+          "retweets": "115"
+        },
+        {
+          "text": "This has to be the goal of the year, right??",
+          "time": "2025-04-08T04:14:25.000Z",
+          "displayTime": "Apr 7, 2025",
+          "url": "https://x.com/EmptyNettersPod/status/1909459791858086146",
+          "likes": "3.7K",
+          "retweets": "162"
+        },
+        {
+          "text": "Yesterday, Dec 31st, there were THIRTEEN NHL games played, including the Winter Classic. \n\nToday, Jan 1st New Year's Day, there is one NHL game….\n\nBeyond perplexed by this scheduling.",
+          "time": "2025-01-01T19:05:32.000Z",
+          "displayTime": "Jan 1, 2025",
+          "url": "https://x.com/EmptyNettersPod/status/1874532429144482103",
+          "likes": "3.5K",
+          "retweets": "103"
+        },
+        {
+          "text": "Devils just won the Cup. Big",
+          "time": "2024-12-23T18:31:28.000Z",
+          "displayTime": "Dec 23, 2024",
+          "url": "https://x.com/EmptyNettersPod/status/1871262362176823692",
+          "likes": "3.2K",
+          "retweets": "43"
+        }
+      ],
+      "amrewind": {
+        "channel_url": "https://www.youtube.com/@TheAMRewind",
+        "channel_handle": "@theamrewind",
+        "description": "NHL goal breakdowns, player analysis, and film room deep-dives. New videos every week.",
+        "latest_videos": [],
+        "comments": []
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "covers": "Saturday, May 23, 2026",
+      "generated_at": "2026-05-24T19:20:00-07:00",
+      "headline": "Ehlers OT Heroics Even East Final; VGK Ready for Home Opener Tonight",
+      "summary": "Nikolaj Ehlers broke a 2-2 tie 3:29 into overtime to give Carolina a 3-2 win in Game 2 and level the Eastern Conference Final at 1-1. There was no Western Conference Final action Saturday — Vegas returns home tonight for Game 3 against Colorado, leading the series 2-0 after back-to-back road wins at Ball Arena. The Golden Knights are riding 10 straight playoff wins when they lead after two periods, a lethal third-period identity under John Tortorella.",
+      "games": [
+        {
+          "matchup": "Carolina Hurricanes 3, Montreal Canadiens 2 (OT)",
+          "context": "Eastern Conference Final · Game 2 · Lenovo Center, Raleigh",
+          "series_note": "Series tied 1-1",
+          "winner_abbr": "CAR",
+          "away_abbr": "MTL",
+          "away_score": 2,
+          "home_abbr": "CAR",
+          "home_score": 3,
+          "detail": "Nikolaj Ehlers scored his second goal of the game 3:29 into overtime to lift Carolina. Josh Anderson scored twice for Montreal to erase an early 1-0 Carolina deficit, but Eric Robinson's late goal tied it 2-2 before Ehlers' OT winner. Frederik Andersen stopped 10 of 12 shots; Jakub Dobes made 23 saves on 26 shots for Montreal. Carolina evens the series after Montreal won Game 1 6-2."
+        }
+      ],
+      "series": [
+        {
+          "name": "Western Conference Final",
+          "teams": "Vegas Golden Knights vs. Colorado Avalanche",
+          "status": "VGK leads 2-0 — Game 3 tonight (Sun May 24, 5 p.m. PT) at T-Mobile Arena",
+          "leader_abbr": "VGK",
+          "next": "Game 3 — Sun, May 24 at T-Mobile Arena (ESPN, 5 p.m. PT)"
+        },
+        {
+          "name": "Eastern Conference Final",
+          "teams": "Carolina Hurricanes vs. Montreal Canadiens",
+          "status": "Series tied 1-1 — Game 3 Mon, May 25 at Bell Centre, Montreal",
+          "leader_abbr": "CAR",
+          "next": "Game 3 — Mon, May 25 at Bell Centre (ESPN, 8 p.m. ET)"
+        }
+      ],
+      "leaders": {
+        "Points": [
+          {
+            "name": "Mitch Marner",
+            "team": "VGK",
+            "value": "19 (7G-12A)",
+            "note": "Leads playoffs; +13 in 14 GP"
+          },
+          {
+            "name": "Jack Eichel",
+            "team": "VGK",
+            "value": "18 (2G-16A)",
+            "note": "NHL-leading 16 playoff assists"
+          },
+          {
+            "name": "Nick Suzuki",
+            "team": "MTL",
+            "value": "16",
+            "note": "Canadiens captain driving ECF offense"
+          },
+          {
+            "name": "Pavel Dorofeyev",
+            "team": "VGK",
+            "value": "14 (10G-4A)",
+            "note": "NHL-leading 10 playoff goals"
+          },
+          {
+            "name": "Nathan MacKinnon",
+            "team": "COL",
+            "value": "14 (7G-7A)",
+            "note": "COL's engine despite Makar absence"
+          }
+        ],
+        "Goals": [
+          {
+            "name": "Pavel Dorofeyev",
+            "team": "VGK",
+            "value": "10",
+            "note": "Leads all skaters; first VGK player with 20 PP goals in RS"
+          },
+          {
+            "name": "Brett Howden",
+            "team": "VGK",
+            "value": "9",
+            "note": "Longest road goal streak in VGK playoff history"
+          },
+          {
+            "name": "Mitch Marner",
+            "team": "VGK",
+            "value": "7",
+            "note": "VGK's Swiss army knife at center"
+          },
+          {
+            "name": "Nathan MacKinnon",
+            "team": "COL",
+            "value": "7",
+            "note": "Tied 3rd"
+          },
+          {
+            "name": "Logan Stankoven",
+            "team": "CAR",
+            "value": "7",
+            "note": "0.88 G/GP leads all skaters in rate"
+          }
+        ],
+        "Assists": [
+          {
+            "name": "Jack Eichel",
+            "team": "VGK",
+            "value": "16",
+            "note": "Leads all skaters"
+          },
+          {
+            "name": "Lane Hutson",
+            "team": "MTL",
+            "value": "12",
+            "note": "MTL sophomore D making big impact"
+          },
+          {
+            "name": "Mitch Marner",
+            "team": "VGK",
+            "value": "12",
+            "note": "Tied 2nd"
+          },
+          {
+            "name": "Martin Necas",
+            "team": "COL",
+            "value": "10",
+            "note": "COL's top setup man"
+          },
+          {
+            "name": "Nick Suzuki",
+            "team": "MTL",
+            "value": "~9",
+            "note": "Fueling Canadiens attack"
+          }
+        ],
+        "Goaltending": [
+          {
+            "name": "Carter Hart",
+            "team": "VGK",
+            "value": "10W / .924 SV%",
+            "note": "14 GP, 2.25 GAA; .967 SV% in WCF G2"
+          },
+          {
+            "name": "Jakub Dobes",
+            "team": "MTL",
+            "value": "9W / .924 SV%",
+            "note": "Conn Smythe darling; 23 saves in G2 loss"
+          },
+          {
+            "name": "Frederik Andersen",
+            "team": "CAR",
+            "value": "9W / 1.55 GAA",
+            "note": "Best GAA among active starters; 2 SO"
+          },
+          {
+            "name": "Scott Wedgewood",
+            "team": "COL",
+            "value": "4W / ~2.90 GAA",
+            "note": "Holding down net without Makar in front"
+          },
+          {
+            "name": "Arturs Silovs",
+            "team": "MIN",
+            "value": "Elim. / 1.52 GAA",
+            "note": "Best GAA of any 2026 goalie (eliminated R2)"
+          }
+        ]
+      },
+      "vgk": {
+        "record": "10-4",
+        "record_detail": "R1: def. Utah Mammoth 4-2 | R2: def. Anaheim Ducks 4-2 | WCF: leads Colorado 2-0",
+        "series_short": "VGK leads COL 2-0",
+        "series": "Western Conference Final vs. Colorado Avalanche — VGK leads 2-0; Game 3 tonight May 24 at T-Mobile Arena",
+        "spotlight": "The Golden Knights have pulled off four third-period comebacks this postseason, the most in a single playoff run in NHL history. With Carter Hart locked in (.924 SV% overall, .967 in Game 2) and Mitch Marner leading the entire NHL in plus-minus (+13), Vegas is playing as complete a team as any left. They did it all without captain Mark Stone and for long stretches without Jeremy Lauzon — the depth and veteran leadership Tortorella unleashed is the story of these playoffs.",
+        "notes": [
+          "Game 3 tonight (May 24) at T-Mobile Arena, 5 p.m. PT on ESPN — VGK enters 13-7 all-time in Game 3s",
+          "VGK top-3 hit leaders in entire NHL playoffs: Barbashev (74), Kolesar (65), Cole Smith (60)",
+          "Marner leads playoffs in +/- at +13; Eichel leads in assists (16)",
+          "Torts record since March 29: 17-4-1 overall (7-0-1 RS, 10-4 playoffs)",
+          "VGK appealed NHL sanctions (loss of 2026 2nd-round pick + Torts $100K fine) following ANA Game 6 incident",
+          "COL lost their 45-0-0 record when leading after 2 periods — Eichel & Barbashev answered in Game 2",
+          "William Karlsson returned from 6-month lower-body injury in R2 vs ANA — his two-way play has been a stabilizing force"
+        ],
+        "next": "Game 3 — Sun, May 24 vs. Colorado Avalanche",
+        "next_detail": "T-Mobile Arena, Las Vegas · Puck drop 5 p.m. PT · ESPN · Scripps Sports pre-game 4:30 p.m.",
+        "roster": {
+          "forwards": [
+            {
+              "num": "16",
+              "name": "Mitch Marner",
+              "pos": "C",
+              "gp": 14,
+              "g": 7,
+              "a": 12,
+              "pts": 19,
+              "pm": 13,
+              "pim": 2,
+              "sog": 30,
+              "spct": "23.3",
+              "toi": "18:32",
+              "fow": 55.8,
+              "hits": 14,
+              "blk": 6,
+              "inj": false
+            },
+            {
+              "num": "9",
+              "name": "Jack Eichel",
+              "pos": "C",
+              "gp": 14,
+              "g": 2,
+              "a": 16,
+              "pts": 18,
+              "pm": 8,
+              "pim": 6,
+              "sog": 34,
+              "spct": "5.9",
+              "toi": "20:18",
+              "fow": 54.2,
+              "hits": 12,
+              "blk": 7,
+              "inj": false
+            },
+            {
+              "num": "16",
+              "name": "Pavel Dorofeyev",
+              "pos": "RW",
+              "gp": 14,
+              "g": 10,
+              "a": 4,
+              "pts": 14,
+              "pm": 9,
+              "pim": 4,
+              "sog": 42,
+              "spct": "23.8",
+              "toi": "16:24",
+              "fow": null,
+              "hits": 16,
+              "blk": 4,
+              "inj": false
+            },
+            {
+              "num": "49",
+              "name": "Ivan Barbashev",
+              "pos": "LW",
+              "gp": 14,
+              "g": 5,
+              "a": 7,
+              "pts": 12,
+              "pm": 7,
+              "pim": 14,
+              "sog": 28,
+              "spct": "17.9",
+              "toi": "16:45",
+              "fow": null,
+              "hits": 74,
+              "blk": 6,
+              "inj": false
+            },
+            {
+              "num": "21",
+              "name": "Brett Howden",
+              "pos": "C",
+              "gp": 14,
+              "g": 9,
+              "a": 2,
+              "pts": 11,
+              "pm": 6,
+              "pim": 8,
+              "sog": 30,
+              "spct": "30.0",
+              "toi": "13:18",
+              "fow": 52.3,
+              "hits": 22,
+              "blk": 10,
+              "inj": false
+            },
+            {
+              "num": "48",
+              "name": "Tomas Hertl",
+              "pos": "C",
+              "gp": 14,
+              "g": 2,
+              "a": 5,
+              "pts": 7,
+              "pm": 4,
+              "pim": 6,
+              "sog": 22,
+              "spct": "9.1",
+              "toi": "14:22",
+              "fow": 50.1,
+              "hits": 18,
+              "blk": 7,
+              "inj": false
+            },
+            {
+              "num": "71",
+              "name": "William Karlsson",
+              "pos": "C",
+              "gp": 9,
+              "g": 1,
+              "a": 3,
+              "pts": 4,
+              "pm": 3,
+              "pim": 0,
+              "sog": 14,
+              "spct": "7.1",
+              "toi": "14:05",
+              "fow": 51.8,
+              "hits": 8,
+              "blk": 4,
+              "inj": false
+            },
+            {
+              "num": "19",
+              "name": "Reilly Smith",
+              "pos": "RW",
+              "gp": 14,
+              "g": 2,
+              "a": 1,
+              "pts": 3,
+              "pm": 1,
+              "pim": 4,
+              "sog": 16,
+              "spct": "12.5",
+              "toi": "11:02",
+              "fow": null,
+              "hits": 10,
+              "blk": 3,
+              "inj": false
+            },
+            {
+              "num": "26",
+              "name": "Nic Dowd",
+              "pos": "C",
+              "gp": 14,
+              "g": 1,
+              "a": 1,
+              "pts": 2,
+              "pm": 2,
+              "pim": 2,
+              "sog": 6,
+              "spct": "16.7",
+              "toi": "8:12",
+              "fow": 54.6,
+              "hits": 9,
+              "blk": 3,
+              "inj": false
+            },
+            {
+              "num": "15",
+              "name": "Colton Sissons",
+              "pos": "C",
+              "gp": 14,
+              "g": 0,
+              "a": 1,
+              "pts": 1,
+              "pm": 0,
+              "pim": 4,
+              "sog": 8,
+              "spct": "0.0",
+              "toi": "9:00",
+              "fow": 47.8,
+              "hits": 14,
+              "blk": 5,
+              "inj": false
+            },
+            {
+              "num": "55",
+              "name": "Keegan Kolesar",
+              "pos": "RW",
+              "gp": 14,
+              "g": 0,
+              "a": 1,
+              "pts": 1,
+              "pm": 1,
+              "pim": 10,
+              "sog": 12,
+              "spct": "0.0",
+              "toi": "10:30",
+              "fow": null,
+              "hits": 65,
+              "blk": 5,
+              "inj": false
+            },
+            {
+              "num": "36",
+              "name": "Cole Smith",
+              "pos": "LW",
+              "gp": 14,
+              "g": 0,
+              "a": 0,
+              "pts": 0,
+              "pm": 1,
+              "pim": 6,
+              "sog": 8,
+              "spct": "0.0",
+              "toi": "7:30",
+              "fow": null,
+              "hits": 60,
+              "blk": 3,
+              "inj": false
+            },
+            {
+              "num": "20",
+              "name": "Brandon Saad",
+              "pos": "LW",
+              "gp": 10,
+              "g": 0,
+              "a": 0,
+              "pts": 0,
+              "pm": 0,
+              "pim": 4,
+              "sog": 5,
+              "spct": "0.0",
+              "toi": "6:00",
+              "fow": null,
+              "hits": 4,
+              "blk": 1,
+              "inj": false
+            },
+            {
+              "num": "10",
+              "name": "Alexander Holtz",
+              "pos": "RW",
+              "gp": 7,
+              "g": 0,
+              "a": 0,
+              "pts": 0,
+              "pm": 0,
+              "pim": 0,
+              "sog": 4,
+              "spct": "0.0",
+              "toi": "5:10",
+              "fow": null,
+              "hits": 2,
+              "blk": 1,
+              "inj": false
+            },
+            {
+              "num": "61",
+              "name": "Mark Stone",
+              "pos": "RW",
+              "gp": 10,
+              "g": 3,
+              "a": 5,
+              "pts": 8,
+              "pm": 4,
+              "pim": 4,
+              "sog": 18,
+              "spct": "16.7",
+              "toi": "17:30",
+              "fow": null,
+              "hits": 14,
+              "blk": 8,
+              "inj": true
+            }
+          ],
+          "defense": [
+            {
+              "num": "27",
+              "name": "Shea Theodore",
+              "pos": "D",
+              "gp": 14,
+              "g": 4,
+              "a": 7,
+              "pts": 11,
+              "pm": 6,
+              "pim": 6,
+              "sog": 28,
+              "spct": "14.3",
+              "toi": "22:30",
+              "hits": 16,
+              "blk": 42,
+              "inj": false
+            },
+            {
+              "num": "5",
+              "name": "Noah Hanifin",
+              "pos": "D",
+              "gp": 14,
+              "g": 1,
+              "a": 6,
+              "pts": 7,
+              "pm": 5,
+              "pim": 4,
+              "sog": 20,
+              "spct": "5.0",
+              "toi": "20:42",
+              "hits": 16,
+              "blk": 28,
+              "inj": false
+            },
+            {
+              "num": "4",
+              "name": "Rasmus Andersson",
+              "pos": "D",
+              "gp": 14,
+              "g": 1,
+              "a": 3,
+              "pts": 4,
+              "pm": 3,
+              "pim": 10,
+              "sog": 16,
+              "spct": "6.3",
+              "toi": "18:22",
+              "hits": 18,
+              "blk": 22,
+              "inj": false
+            },
+            {
+              "num": "75",
+              "name": "Kaedan Korczak",
+              "pos": "D",
+              "gp": 14,
+              "g": 0,
+              "a": 3,
+              "pts": 3,
+              "pm": 4,
+              "pim": 2,
+              "sog": 10,
+              "spct": "0.0",
+              "toi": "13:30",
+              "hits": 8,
+              "blk": 18,
+              "inj": false
+            },
+            {
+              "num": "3",
+              "name": "Brayden McNabb",
+              "pos": "D",
+              "gp": 13,
+              "g": 0,
+              "a": 1,
+              "pts": 1,
+              "pm": 1,
+              "pim": 8,
+              "sog": 6,
+              "spct": "0.0",
+              "toi": "16:24",
+              "hits": 28,
+              "blk": 32,
+              "inj": false
+            },
+            {
+              "num": "23",
+              "name": "Ben Hutton",
+              "pos": "D",
+              "gp": 8,
+              "g": 0,
+              "a": 1,
+              "pts": 1,
+              "pm": 0,
+              "pim": 2,
+              "sog": 5,
+              "spct": "0.0",
+              "toi": "8:30",
+              "hits": 6,
+              "blk": 8,
+              "inj": false
+            },
+            {
+              "num": "28",
+              "name": "Jeremy Lauzon",
+              "pos": "D",
+              "gp": 8,
+              "g": 0,
+              "a": 0,
+              "pts": 0,
+              "pm": 0,
+              "pim": 4,
+              "sog": 2,
+              "spct": "0.0",
+              "toi": "13:00",
+              "hits": 22,
+              "blk": 12,
+              "inj": true
+            }
+          ],
+          "goalies": [
+            {
+              "num": "31",
+              "name": "Carter Hart",
+              "gp": 14,
+              "w": 10,
+              "l": 4,
+              "gaa": 2.25,
+              "svpct": ".924",
+              "so": 0,
+              "toi": "817:45",
+              "inj": false
+            },
+            {
+              "num": "33",
+              "name": "Adin Hill",
+              "gp": 0,
+              "w": 0,
+              "l": 0,
+              "gaa": 0.0,
+              "svpct": ".000",
+              "so": 0,
+              "toi": "0:00",
+              "inj": false
+            },
+            {
+              "num": "40",
+              "name": "Akira Schmid",
+              "gp": 0,
+              "w": 0,
+              "l": 0,
+              "gaa": 0.0,
+              "svpct": ".000",
+              "so": 0,
+              "toi": "0:00",
+              "inj": false
+            }
+          ]
+        }
+      },
+      "podcast_angles": [
+        "The Eichel dilemma: just 2 goals in 14 games, yet he leads the NHL in assists (16) — is that the new Eichel, or is he due for a goal explosion in the home opener?",
+        "Hart vs. Dobes — two 27-year-old goalies carrying their teams. Conn Smythe dark horse comparison.",
+        "Torts effect: VGK went from 39-26-17 with Cassidy to 10-4 under Tortorella — what changed tactically?",
+        "Missing stars, no excuse: Both Stone (VGK) and Makar (COL) are out — why does VGK look unaffected while COL has crumbled?",
+        "Canada's hope: Montreal is 1-1 against Carolina — can Suzuki, Hutson, and Anderson send another Canadian team to the Cup Final?",
+        "Howden's road goal streak — 9 goals in 14 games from your third-line center. Breakout or unsustainable?"
       ],
       "rumors": [
         {
@@ -670,7 +1472,7 @@
             "NHL"
           ],
           "vgk": true,
-          "content": "VGK officially appealed NHL sanctions in New York \u2014 the league stripped VGK of a 2026 second-round pick and fined Torts $100K for refusing to speak with media after their Game 6 series-clinching win over Anaheim.",
+          "content": "VGK officially appealed NHL sanctions in New York — the league stripped VGK of a 2026 second-round pick and fined Torts $100K for refusing to speak with media after their Game 6 series-clinching win over Anaheim.",
           "url": "https://vegashockeyknight.com/vegas-golden-knights-rumors/"
         },
         {
@@ -730,8 +1532,8 @@
             "CAR"
           ],
           "vgk": false,
-          "headline": "Noel Frans\u00e9n signs 3-year, $2.97M entry deal with Carolina",
-          "detail": "Defenseman Noel Frans\u00e9n signed a 3-year, $2.97 million contract with the Carolina Hurricanes.",
+          "headline": "Noel Fransén signs 3-year, $2.97M entry deal with Carolina",
+          "detail": "Defenseman Noel Fransén signed a 3-year, $2.97 million contract with the Carolina Hurricanes.",
           "source": "PuckPedia",
           "url": "https://puckpedia.com/transactions"
         },
@@ -798,7 +1600,7 @@
       "news": [
         {
           "headline": "Ehlers' overtime heroics even the Eastern Conference Final",
-          "detail": "Nikolaj Ehlers scored twice, including the OT winner at 3:29 of extra time, as Carolina fought back from trailing 2-1 to win 3-2 and tie the ECF at 1-1. After Carolina's historic run (10-0 through two rounds, best start in NHL playoff history), Montreal proved in Game 1 they can score in bunches \u2014 but the Hurricanes showed their identity in Game 2.",
+          "detail": "Nikolaj Ehlers scored twice, including the OT winner at 3:29 of extra time, as Carolina fought back from trailing 2-1 to win 3-2 and tie the ECF at 1-1. After Carolina's historic run (10-0 through two rounds, best start in NHL playoff history), Montreal proved in Game 1 they can score in bunches — but the Hurricanes showed their identity in Game 2.",
           "source": "NHL.com",
           "url": "https://www.nhl.com/news/montreal-canadiens-carolina-hurricanes-game-2-recap-may-23-2026"
         },
@@ -822,7 +1624,7 @@
         },
         {
           "headline": "2026-27 salary cap rising to NHL-record $104 million",
-          "detail": "The NHL has confirmed the 2026-27 cap ceiling will hit $104M \u2014 up from $95.5M \u2014 giving teams significantly more flexibility to re-sign players and make trades this summer. Front offices are already factoring the jump into offseason planning.",
+          "detail": "The NHL has confirmed the 2026-27 cap ceiling will hit $104M — up from $95.5M — giving teams significantly more flexibility to re-sign players and make trades this summer. Front offices are already factoring the jump into offseason planning.",
           "source": "Sportsnet (Friedman)",
           "url": "https://www.nhltraderumor.com/"
         },
@@ -859,7 +1661,7 @@
           "retweets": "162"
         },
         {
-          "text": "Yesterday, Dec 31st, there were THIRTEEN NHL games played, including the Winter Classic. \n\nToday, Jan 1st New Year's Day, there is one NHL game\u2026.\n\nBeyond perplexed by this scheduling.",
+          "text": "Yesterday, Dec 31st, there were THIRTEEN NHL games played, including the Winter Classic. \n\nToday, Jan 1st New Year's Day, there is one NHL game….\n\nBeyond perplexed by this scheduling.",
           "time": "2025-01-01T19:05:32.000Z",
           "displayTime": "Jan 1, 2025",
           "url": "https://x.com/EmptyNettersPod/status/1874532429144482103",
@@ -892,7 +1694,7 @@
       "games": [
         {
           "matchup": "Montreal Canadiens 6, Carolina Hurricanes 2",
-          "context": "Eastern Conference Final \u00b7 Game 1 \u00b7 Lenovo Center, Raleigh, NC",
+          "context": "Eastern Conference Final · Game 1 · Lenovo Center, Raleigh, NC",
           "series_note": "Montreal leads series 1-0",
           "winner_abbr": "MTL",
           "away_abbr": "MTL",
@@ -973,7 +1775,7 @@
               "strength": "EN"
             }
           ],
-          "detail": "Montreal pounced for four first-period goals on a Carolina team that had been idle for 11+ days. Cole Caufield and Phillip Danault scored in the opening four minutes, Alexandre Texier added a third, and Ivan Demidov finished a breakaway to shock the Hurricanes 4-1 by the midway point of the first. Juraj Slafkovsky added two third-period goals \u2014 his second an empty-netter \u2014 to complete the route. Nick Suzuki totaled three assists. Jakob Dobes stopped 24 shots for Montreal. For Carolina \u2014 11-0 entering this series \u2014 it was a jarring first loss of the 2026 postseason."
+          "detail": "Montreal pounced for four first-period goals on a Carolina team that had been idle for 11+ days. Cole Caufield and Phillip Danault scored in the opening four minutes, Alexandre Texier added a third, and Ivan Demidov finished a breakaway to shock the Hurricanes 4-1 by the midway point of the first. Juraj Slafkovsky added two third-period goals — his second an empty-netter — to complete the route. Nick Suzuki totaled three assists. Jakob Dobes stopped 24 shots for Montreal. For Carolina — 11-0 entering this series — it was a jarring first loss of the 2026 postseason."
         }
       ],
       "series": [
@@ -982,14 +1784,14 @@
           "teams": "Montreal Canadiens vs. Carolina Hurricanes",
           "status": "Montreal leads 1-0",
           "leader_abbr": "MTL",
-          "next": "Game 2 \u2014 Sat, May 23, Lenovo Center (7 p.m. ET, TNT)"
+          "next": "Game 2 — Sat, May 23, Lenovo Center (7 p.m. ET, TNT)"
         },
         {
           "name": "Western Conference Final",
           "teams": "Vegas Golden Knights vs. Colorado Avalanche",
           "status": "Vegas leads 1-0",
           "leader_abbr": "VGK",
-          "next": "Game 2 \u2014 TONIGHT, Fri May 22, Ball Arena (8 p.m. ET, ESPN)"
+          "next": "Game 2 — TONIGHT, Fri May 22, Ball Arena (8 p.m. ET, ESPN)"
         }
       ],
       "leaders": {
@@ -998,7 +1800,7 @@
             "name": "Mitch Marner",
             "team": "VGK",
             "value": "19",
-            "note": "7G, 12A in 13 GP \u2014 leads the NHL"
+            "note": "7G, 12A in 13 GP — leads the NHL"
           },
           {
             "name": "Nick Suzuki",
@@ -1030,7 +1832,7 @@
             "name": "Pavel Dorofeyev",
             "team": "VGK",
             "value": "10",
-            "note": "NHL lead \u2014 13 GP"
+            "note": "NHL lead — 13 GP"
           },
           {
             "name": "Brett Howden",
@@ -1062,7 +1864,7 @@
             "name": "Jack Eichel",
             "team": "VGK",
             "value": "15",
-            "note": "NHL lead \u2014 1G, 15A in 13 GP"
+            "note": "NHL lead — 1G, 15A in 13 GP"
           },
           {
             "name": "Mitch Marner",
@@ -1124,19 +1926,19 @@
       },
       "vgk": {
         "record": "9-4",
-        "record_detail": "9-4 in the 2026 Stanley Cup Playoffs (R1: def. Utah 4-2 \u00b7 R2: def. Anaheim 4-2 \u00b7 WCF: G1 win)",
-        "series_short": "Up 1-0 \u00b7 WCF",
+        "record_detail": "9-4 in the 2026 Stanley Cup Playoffs (R1: def. Utah 4-2 · R2: def. Anaheim 4-2 · WCF: G1 win)",
+        "series_short": "Up 1-0 · WCF",
         "series": "Lead the Colorado Avalanche 1-0 in the Western Conference Final",
-        "spotlight": "No game last night \u2014 all eyes are on tonight's Game 2 in Denver. The Golden Knights are without captain Mark Stone (lower-body, 5 consecutive games missed) but gain Brayden McNabb back after his one-game suspension. Vegas players lead the NHL in playoff points (Marner, 19), assists (Eichel, 15) and goals (Dorofeyev, 10) \u2014 one of the rare times in NHL history a single franchise owns all three top spots at the conference final stage.",
+        "spotlight": "No game last night — all eyes are on tonight's Game 2 in Denver. The Golden Knights are without captain Mark Stone (lower-body, 5 consecutive games missed) but gain Brayden McNabb back after his one-game suspension. Vegas players lead the NHL in playoff points (Marner, 19), assists (Eichel, 15) and goals (Dorofeyev, 10) — one of the rare times in NHL history a single franchise owns all three top spots at the conference final stage.",
         "notes": [
-          "Carter Hart is 9-4 with 2.35 GAA and .920 SV% \u2014 on pace for one of the top playoff goaltending seasons in franchise history.",
+          "Carter Hart is 9-4 with 2.35 GAA and .920 SV% — on pace for one of the top playoff goaltending seasons in franchise history.",
           "Mark Stone missed his fifth straight game with a lower-body injury; no official return timeline given by Tortorella.",
-          "Brayden McNabb serves his final suspension game tonight \u2014 he is available for Game 2 in Denver.",
+          "Brayden McNabb serves his final suspension game tonight — he is available for Game 2 in Denver.",
           "NHL denied the Golden Knights' appeal of sanctions: Torts' $100K fine and the forfeiture of the 2026 second-round pick both upheld.",
-          "VGK holds the NHL lead in playoff points (Marner, 19), goals (Dorofeyev, 10), and assists (Eichel, 15) \u2014 all from the same club."
+          "VGK holds the NHL lead in playoff points (Marner, 19), goals (Dorofeyev, 10), and assists (Eichel, 15) — all from the same club."
         ],
         "next": "Game 2 at Colorado",
-        "next_detail": "TONIGHT \u2014 Friday, May 22 \u00b7 8 p.m. ET (ESPN) \u00b7 Ball Arena, Denver",
+        "next_detail": "TONIGHT — Friday, May 22 · 8 p.m. ET (ESPN) · Ball Arena, Denver",
         "roster": {
           "forwards": [
             {
@@ -1403,7 +2205,7 @@
               "pim": 0,
               "sog": 0,
               "spct": "0.0",
-              "toi": "\u2014",
+              "toi": "—",
               "fow": null,
               "hits": 0,
               "blk": 0,
@@ -1568,7 +2370,7 @@
               "w": 0,
               "l": 0,
               "gaa": 0.0,
-              "svpct": "\u2014",
+              "svpct": "—",
               "so": 0,
               "toi": "0:00",
               "inj": false
@@ -1580,7 +2382,7 @@
               "w": 0,
               "l": 0,
               "gaa": 0.0,
-              "svpct": "\u2014",
+              "svpct": "—",
               "so": 0,
               "toi": "0:00",
               "inj": false
@@ -1589,11 +2391,11 @@
         }
       },
       "podcast_angles": [
-        "The Canadiens are for real \u2014 four first-period goals on the league's best team in the East. Is this the real Montreal or were the Hurricanes just rusty after 11+ days off?",
-        "Carolina went 11-0 before Game 1 \u2014 is this the normal volatility of a long layoff, or did Montreal expose a structural weakness the rest of the hockey world should pay attention to?",
-        "VGK's monopoly on the scoring race: Marner (pts), Dorofeyev (goals), Eichel (assists) \u2014 all from the same club. How rare is that, and what does it tell you about their Cup odds?",
-        "The forfeited 2026 second-round pick: what does losing that asset mean for Vegas's roster-building window if they win \u2014 or lose \u2014 the Cup this year?",
-        "Game 2 preview tonight: with Stone still out, McNabb back from suspension, and Makar's status murky for Colorado \u2014 what's the biggest factor in deciding who takes a 2-0 series lead?"
+        "The Canadiens are for real — four first-period goals on the league's best team in the East. Is this the real Montreal or were the Hurricanes just rusty after 11+ days off?",
+        "Carolina went 11-0 before Game 1 — is this the normal volatility of a long layoff, or did Montreal expose a structural weakness the rest of the hockey world should pay attention to?",
+        "VGK's monopoly on the scoring race: Marner (pts), Dorofeyev (goals), Eichel (assists) — all from the same club. How rare is that, and what does it tell you about their Cup odds?",
+        "The forfeited 2026 second-round pick: what does losing that asset mean for Vegas's roster-building window if they win — or lose — the Cup this year?",
+        "Game 2 preview tonight: with Stone still out, McNabb back from suspension, and Makar's status murky for Colorado — what's the biggest factor in deciding who takes a 2-0 series lead?"
       ],
       "rumors": [
         {
@@ -1609,7 +2411,7 @@
             },
             {
               "date": "May 21",
-              "text": "2026-27 salary cap officially set at $104 million. Teams were informed today. Expect aggressive movement \u2014 lots of cap space across the league.",
+              "text": "2026-27 salary cap officially set at $104 million. Teams were informed today. Expect aggressive movement — lots of cap space across the league.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"
             },
             {
@@ -1642,7 +2444,7 @@
           "tweets": [
             {
               "date": "May 21",
-              "text": "Minnesota's Quinn Hughes extension is the No. 1 priority for Bill Guerin before any trade pursuit. Hughes wants to stay \u2014 both sides optimistic.",
+              "text": "Minnesota's Quinn Hughes extension is the No. 1 priority for Bill Guerin before any trade pursuit. Hughes wants to stay — both sides optimistic.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-19-2026/"
             },
             {
@@ -1675,7 +2477,7 @@
           "tweets": [
             {
               "date": "May 21",
-              "text": "Reached out to Mike Babcock on Edmonton rumors. His response: 'Dregs, I'm retired. Loving it.' Oilers coaching search is ongoing \u2014 no frontrunner yet.",
+              "text": "Reached out to Mike Babcock on Edmonton rumors. His response: 'Dregs, I'm retired. Loving it.' Oilers coaching search is ongoing — no frontrunner yet.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"
             },
             {
@@ -1708,7 +2510,7 @@
           "tweets": [
             {
               "date": "May 21",
-              "text": "Toronto GM John Chayka open to listening on any Maple Leaf except Auston Matthews. Nylander and Rielly both have NMCs \u2014 that constrains options significantly.",
+              "text": "Toronto GM John Chayka open to listening on any Maple Leaf except Auston Matthews. Nylander and Rielly both have NMCs — that constrains options significantly.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"
             },
             {
@@ -1718,12 +2520,12 @@
             },
             {
               "date": "May 20",
-              "text": "Chayka framing the summer as a retool, not a rebuild. He believes the core is salvageable \u2014 just needs pieces around it and cap flexibility.",
+              "text": "Chayka framing the summer as a retool, not a rebuild. He believes the core is salvageable — just needs pieces around it and cap flexibility.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"
             },
             {
               "date": "May 20",
-              "text": "Toronto won the draft lottery \u2014 selecting first overall. Gavin McKenna is the expected pick. That pick becomes a negotiating chip regardless.",
+              "text": "Toronto won the draft lottery — selecting first overall. Gavin McKenna is the expected pick. That pick becomes a negotiating chip regardless.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-19-2026/"
             }
           ]
@@ -1746,7 +2548,7 @@
             },
             {
               "date": "May 20",
-              "text": "Lafreni\u00e8re on the market: Rangers willing to discuss him in a package. He's young and has term but hasn't taken the step NYR hoped for.",
+              "text": "Lafrenière on the market: Rangers willing to discuss him in a package. He's young and has term but hasn't taken the step NYR hoped for.",
               "url": "https://nhlrumors.com/nhl-rumors-will-there-be-many-trades-this-offseason/2026/05/21/"
             },
             {
@@ -1779,7 +2581,7 @@
             },
             {
               "date": "May 20",
-              "text": "Kyrou, Lafreni\u00e8re, Hellebuyck, Tippett (health permitting) \u2014 the trade market this summer could be more star-studded than any in recent memory.",
+              "text": "Kyrou, Lafrenière, Hellebuyck, Tippett (health permitting) — the trade market this summer could be more star-studded than any in recent memory.",
               "url": "https://nhlrumors.com/nhl-rumors-will-there-be-many-trades-this-offseason/2026/05/21/"
             },
             {
@@ -1789,7 +2591,7 @@
             },
             {
               "date": "May 19",
-              "text": "Montreal's success changes their off-season dynamic completely. They were sellers a year ago \u2014 they're buyers now. Slafkovsky, Demidov, Caufield as untouchables.",
+              "text": "Montreal's success changes their off-season dynamic completely. They were sellers a year ago — they're buyers now. Slafkovsky, Demidov, Caufield as untouchables.",
               "url": "https://nhlrumors.com/nhl-rumors-will-there-be-many-trades-this-offseason/2026/05/21/"
             },
             {
@@ -1807,7 +2609,7 @@
           "tweets": [
             {
               "date": "May 21",
-              "text": "Carolina falls flat in Game 1 after 11 days off. 6-2. Storyline of the conference final suddenly flipped \u2014 Montreal is the team to beat.",
+              "text": "Carolina falls flat in Game 1 after 11 days off. 6-2. Storyline of the conference final suddenly flipped — Montreal is the team to beat.",
               "url": "https://nhlrumors.com/nhl-rumors-will-there-be-many-trades-this-offseason/2026/05/21/"
             },
             {
@@ -1817,7 +2619,7 @@
             },
             {
               "date": "May 20",
-              "text": "Wild paid a massive price for Quinn Hughes. A first-line center acquisition is next. Hard to imagine they stop there \u2014 Guerin is all-in on this window.",
+              "text": "Wild paid a massive price for Quinn Hughes. A first-line center acquisition is next. Hard to imagine they stop there — Guerin is all-in on this window.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-19-2026/"
             },
             {
@@ -1835,12 +2637,12 @@
           "tweets": [
             {
               "date": "May 21",
-              "text": "Vancouver not ready to move Garland. The ask is a first plus a real return \u2014 Columbus won't go there yet. This one drags into the summer.",
+              "text": "Vancouver not ready to move Garland. The ask is a first plus a real return — Columbus won't go there yet. This one drags into the summer.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-19-2026/"
             },
             {
               "date": "May 21",
-              "text": "Thatcher Demko extension is Vancouver's summer priority. If that gets done, Canucks become sellers of depth. If not \u2014 his name enters trade talks.",
+              "text": "Thatcher Demko extension is Vancouver's summer priority. If that gets done, Canucks become sellers of depth. If not — his name enters trade talks.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-19-2026/"
             },
             {
@@ -1850,7 +2652,7 @@
             },
             {
               "date": "May 19",
-              "text": "Elias Pettersson extension talks ongoing \u2014 both sides want it done before July 1. No concern this gets messy but term and AAV still being negotiated.",
+              "text": "Elias Pettersson extension talks ongoing — both sides want it done before July 1. No concern this gets messy but term and AAV still being negotiated.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-19-2026/"
             }
           ]
@@ -1868,7 +2670,7 @@
             },
             {
               "date": "May 21",
-              "text": "Florida possibly trading Bobrovsky signals a full reset. If they move Reinhart too \u2014 this Panthers era is over. Significant rebuild territory.",
+              "text": "Florida possibly trading Bobrovsky signals a full reset. If they move Reinhart too — this Panthers era is over. Significant rebuild territory.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-19-2026/"
             },
             {
@@ -1878,12 +2680,12 @@
             },
             {
               "date": "May 20",
-              "text": "Montreal's young core is completely untouchable after that Game 1 performance. Slafkovsky, Demidov, Caufield, Dobes \u2014 the Habs are building something real.",
+              "text": "Montreal's young core is completely untouchable after that Game 1 performance. Slafkovsky, Demidov, Caufield, Dobes — the Habs are building something real.",
               "url": "https://nhlrumors.com/nhl-rumors-will-there-be-many-trades-this-offseason/2026/05/21/"
             },
             {
               "date": "May 19",
-              "text": "Carolina after Game 1: the 11-day layoff was real. They looked flat and slow. Still elite \u2014 but they've been exposed as vulnerable. Game 2 is must-watch.",
+              "text": "Carolina after Game 1: the 11-day layoff was real. They looked flat and slow. Still elite — but they've been exposed as vulnerable. Game 2 is must-watch.",
               "url": "https://nhlrumors.com/nhl-rumors-will-there-be-many-trades-this-offseason/2026/05/21/"
             }
           ]
@@ -1896,7 +2698,7 @@
           "tweets": [
             {
               "date": "May 21",
-              "text": "Rangers face real decisions on Lafreni\u00e8re and Chytil. Drury wants better up the middle. One of those two becomes the centerpiece of an acquisition.",
+              "text": "Rangers face real decisions on Lafrenière and Chytil. Drury wants better up the middle. One of those two becomes the centerpiece of an acquisition.",
               "url": "https://nhlrumors.com/nhl-rumors-will-there-be-many-trades-this-offseason/2026/05/21/"
             },
             {
@@ -1906,7 +2708,7 @@
             },
             {
               "date": "May 20",
-              "text": "New Jersey committed to keeping Hischier and Jack Hughes \u2014 those are off the table. But depth pieces could move to create cap flexibility this summer.",
+              "text": "New Jersey committed to keeping Hischier and Jack Hughes — those are off the table. But depth pieces could move to create cap flexibility this summer.",
               "url": "https://nhlrumors.com/nhl-rumors-will-there-be-many-trades-this-offseason/2026/05/21/"
             },
             {
@@ -1916,7 +2718,7 @@
             },
             {
               "date": "May 19",
-              "text": "Devils sat 11 players who were above replacement level this year \u2014 they have real trade chips. The question is whether any of that becomes a star.",
+              "text": "Devils sat 11 players who were above replacement level this year — they have real trade chips. The question is whether any of that becomes a star.",
               "url": "https://nhlrumors.com/nhl-rumors-will-there-be-many-trades-this-offseason/2026/05/21/"
             }
           ]
@@ -1973,7 +2775,7 @@
           "position": "D",
           "status": "DTD",
           "injury": "Undisclosed",
-          "detail": "Makar did not play in WCF Game 1 and his status for Game 2 tonight remains unclear. A major factor in the series \u2014 his absence was notable in Colorado's 4-2 loss.",
+          "detail": "Makar did not play in WCF Game 1 and his status for Game 2 tonight remains unclear. A major factor in the series — his absence was notable in Colorado's 4-2 loss.",
           "vgk": false
         }
       ],
@@ -1985,13 +2787,13 @@
           "url": "https://www.nhl.com/news/montreal-canadiens-carolina-hurricanes-game-1-recap-may-21-2026"
         },
         {
-          "headline": "NHL denies Golden Knights sanctions appeal \u2014 $100K fine and 2026 second-round pick forfeiture stand",
+          "headline": "NHL denies Golden Knights sanctions appeal — $100K fine and 2026 second-round pick forfeiture stand",
           "detail": "The NHL upheld its penalties against the Vegas Golden Knights stemming from repeated violations of playoff media access rules. Head coach John Tortorella was fined $100,000 and the team forfeits its 2026 second-round draft pick. The appeal was heard in New York on May 20.",
           "source": "ESPN",
           "url": "https://www.espn.com/nhl/story/_/id/48817578/espnvgk-appeal-sanctions-led-loss-draft-pick-denied"
         },
         {
-          "headline": "2026-27 NHL salary cap to reach $104 million \u2014 Friedman",
+          "headline": "2026-27 NHL salary cap to reach $104 million — Friedman",
           "detail": "Per Elliotte Friedman, the NHL has informed teams the cap ceiling for next season will be $104 million, an all-time high. This gives teams across the league significant flexibility in shaping their rosters for the future.",
           "source": "Sportsnet",
           "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"
@@ -2010,12 +2812,12 @@
         }
       ],
       "amrewind": {
-        "description": "NHL goal breakdowns and deep dives by 3X Stanley Cup Champion and former NHL defenseman Alec Martinez \u2014 showcasing talent that doesn't always show up on the scoresheet.",
+        "description": "NHL goal breakdowns and deep dives by 3X Stanley Cup Champion and former NHL defenseman Alec Martinez — showcasing talent that doesn't always show up on the scoresheet.",
         "channel_url": "https://www.youtube.com/@theamrewind",
         "channel_handle": "@TheAMRewind",
         "latest_videos": [
           {
-            "title": "QUICK BONUS CONTENT \u2014 Newhook's Series Clinching OT Winner",
+            "title": "QUICK BONUS CONTENT — Newhook's Series Clinching OT Winner",
             "url": "https://www.youtube.com/watch?v=qVHrLWesIZM",
             "published": "May 20, 2026",
             "type": "bonus_content",
@@ -2085,7 +2887,7 @@
               "title": "NHL Conference Finals Preview w/ Alec Martinez",
               "date": "May 20, 2026",
               "duration": "74 min",
-              "description": "Habs vs. Canes. Vegas vs. Avs. Can Carolina stop the ECF curse? Are the Habs a team of destiny? Can the Avs break the President's Trophy curse \u2014 or can Vegas and Mitch Marner stay hot?",
+              "description": "Habs vs. Canes. Vegas vs. Avs. Can Carolina stop the ECF curse? Are the Habs a team of destiny? Can the Avs break the President's Trophy curse — or can Vegas and Mitch Marner stay hot?",
               "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/episode/nhl-conference-finals-preview-w-alec-334216394/"
             }
           ]
@@ -2098,10 +2900,10 @@
           "url": "https://allin.com/episodes",
           "episodes": [
             {
-              "title": "Episode #273 \u2014 Marc Benioff",
+              "title": "Episode #273 — Marc Benioff",
               "date": "May 15, 2026",
               "duration": null,
-              "description": "U.S.-China relations, Taiwan, and AI's impact on enterprise software. Marc Benioff discusses Salesforce's strategy, the OpenAI vs. Apple competition, and the science corner covers El Ni\u00f1o climate effects.",
+              "description": "U.S.-China relations, Taiwan, and AI's impact on enterprise software. Marc Benioff discusses Salesforce's strategy, the OpenAI vs. Apple competition, and the science corner covers El Niño climate effects.",
               "url": "https://youtube.com/watch?v=jJRAvZNGUvI"
             },
             {
@@ -2115,7 +2917,7 @@
               "title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
               "date": "May 10, 2026",
               "duration": null,
-              "description": "Spencer Pratt's campaign for LA Mayor \u2014 analyzing emergency response failures, homelessness policy, NGO corruption, Karen Bass's leadership, and a vision for LA's future infrastructure.",
+              "description": "Spencer Pratt's campaign for LA Mayor — analyzing emergency response failures, homelessness policy, NGO corruption, Karen Bass's leadership, and a vision for LA's future infrastructure.",
               "url": "https://youtube.com/watch?v=GCpjy3TC8Pg"
             }
           ]
@@ -2124,25 +2926,25 @@
           "show": "The Joe Rogan Experience",
           "icon": "JRE",
           "color": "muted",
-          "description": "The official podcast of comedian Joe Rogan \u2014 wide-ranging conversations with fascinating guests.",
+          "description": "The official podcast of comedian Joe Rogan — wide-ranging conversations with fascinating guests.",
           "url": "https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk",
           "episodes": [
             {
-              "title": "#2503 \u2014 Eric Weinstein",
+              "title": "#2503 — Eric Weinstein",
               "date": "May 21, 2026",
               "duration": "2h 53m",
               "description": "Mathematical physicist and managing director Eric Weinstein joins Joe for a wide-ranging discussion on physics, economics, academia, and the institutions shaping modern society.",
               "url": "https://jrelibrary.com/2503-eric-weinstein/"
             },
             {
-              "title": "#2502 \u2014 David Paulides",
+              "title": "#2502 — David Paulides",
               "date": "May 20, 2026",
               "duration": "2h 20m",
-              "description": "Former law enforcement officer and researcher David Paulides discusses his Missing 411 investigations \u2014 mysterious disappearances in national parks and wilderness areas across North America.",
+              "description": "Former law enforcement officer and researcher David Paulides discusses his Missing 411 investigations — mysterious disappearances in national parks and wilderness areas across North America.",
               "url": "https://jrelibrary.com/2502-david-paulides/"
             },
             {
-              "title": "#2501 \u2014 Marc Andreessen",
+              "title": "#2501 — Marc Andreessen",
               "date": "May 19, 2026",
               "duration": "3h 20m",
               "description": "Venture capitalist and tech pioneer Marc Andreessen on surveillance technology's role in law enforcement, AI's future trajectory, progressive policy effects on cities, and the state of Silicon Valley.",
@@ -2168,14 +2970,14 @@
               "title": "How to Overcome Social Anxiety | Dr. Nick Epley",
               "date": "May 18, 2026",
               "duration": null,
-              "description": "Dr. Nick Epley, behavioral scientist at the University of Chicago, explores the psychology and neuroscience behind social anxiety \u2014 and science-backed strategies to overcome it.",
+              "description": "Dr. Nick Epley, behavioral scientist at the University of Chicago, explores the psychology and neuroscience behind social anxiety — and science-backed strategies to overcome it.",
               "url": "https://www.hubermanlab.com/episode/how-to-overcome-social-anxiety-nick-epley"
             },
             {
               "title": "Essentials: Understanding & Controlling Aggression",
               "date": "May 14, 2026",
               "duration": null,
-              "description": "The neuroscience of aggression \u2014 how hormones, genes, and environment shape aggressive behavior, plus science-backed tools to regulate it and channel it constructively.",
+              "description": "The neuroscience of aggression — how hormones, genes, and environment shape aggressive behavior, plus science-backed tools to regulate it and channel it constructively.",
               "url": "https://www.hubermanlab.com/episode/essentials-understanding-and-controlling-aggression"
             }
           ]
@@ -2217,11 +3019,11 @@
       "covers": "Wednesday, May 20, 2026",
       "generated_at": "2026-05-21T19:45:00-07:00",
       "headline": "Golden Knights steal Game 1 in Denver",
-      "summary": "A quiet night on the schedule \u2014 just one game \u2014 but a loud result: Vegas opened the Western Conference Final with a 4-2 road win over Colorado behind a 36-save night from Carter Hart. The Eastern Conference Final opens tonight in Raleigh, with red-hot Carolina (8-0 this postseason) hosting the upstart Canadiens.",
+      "summary": "A quiet night on the schedule — just one game — but a loud result: Vegas opened the Western Conference Final with a 4-2 road win over Colorado behind a 36-save night from Carter Hart. The Eastern Conference Final opens tonight in Raleigh, with red-hot Carolina (8-0 this postseason) hosting the upstart Canadiens.",
       "games": [
         {
           "matchup": "Vegas Golden Knights 4, Colorado Avalanche 2",
-          "context": "Western Conference Final \u00b7 Game 1 \u00b7 Ball Arena, Denver",
+          "context": "Western Conference Final · Game 1 · Ball Arena, Denver",
           "series_note": "Vegas leads series 1-0",
           "winner_abbr": "VGK",
           "detail": "Carter Hart made 36 saves. Dylan Coghlan (first career playoff goal), Pavel Dorofeyev (PPG, NHL-leading 10th playoff goal), Brett Howden and Nic Dowd (empty-netter) scored for Vegas. Valeri Nichushkin and Gabriel Landeskog replied for Colorado, which played without Cale Makar (undisclosed injury). Scott Wedgewood stopped 24.",
@@ -2293,14 +3095,14 @@
           "teams": "Vegas Golden Knights vs. Colorado Avalanche",
           "status": "Vegas leads 1-0",
           "leader_abbr": "VGK",
-          "next": "Game 2 \u2014 Fri, May 22, Ball Arena (8 p.m. ET, ESPN)"
+          "next": "Game 2 — Fri, May 22, Ball Arena (8 p.m. ET, ESPN)"
         },
         {
           "name": "Eastern Conference Final",
           "teams": "Carolina Hurricanes vs. Montreal Canadiens",
           "status": "Series tied 0-0",
           "leader_abbr": "",
-          "next": "Game 1 \u2014 Thu, May 21, Lenovo Center (8 p.m. ET, ESPN)"
+          "next": "Game 1 — Thu, May 21, Lenovo Center (8 p.m. ET, ESPN)"
         }
       ],
       "leaders": {
@@ -2309,7 +3111,7 @@
             "name": "Mitch Marner",
             "team": "VGK",
             "value": "18",
-            "note": "7G, 10A in 12 GP \u2014 leads the NHL"
+            "note": "7G, 10A in 12 GP — leads the NHL"
           },
           {
             "name": "Jack Eichel",
@@ -2321,7 +3123,7 @@
             "name": "Lane Hutson",
             "team": "MTL",
             "value": "15",
-            "note": "5G, 10A \u2014 6-game point streak"
+            "note": "5G, 10A — 6-game point streak"
           },
           {
             "name": "Sebastian Aho",
@@ -2341,7 +3143,7 @@
             "name": "Pavel Dorofeyev",
             "team": "VGK",
             "value": "10",
-            "note": "NHL lead \u2014 4-game goal streak (6G)"
+            "note": "NHL lead — 4-game goal streak (6G)"
           },
           {
             "name": "Brett Howden",
@@ -2411,7 +3213,7 @@
             "name": "Carter Hart",
             "team": "VGK",
             "value": "9-3",
-            "note": "2.18 GAA, .924 SV% \u2014 36 saves in Game 1"
+            "note": "2.18 GAA, .924 SV% — 36 saves in Game 1"
           },
           {
             "name": "Sam Montembeault",
@@ -2423,31 +3225,31 @@
             "name": "Scott Wedgewood",
             "team": "COL",
             "value": "6-5",
-            "note": "2.89 GAA, .909 SV% \u2014 24 saves in Game 1"
+            "note": "2.89 GAA, .909 SV% — 24 saves in Game 1"
           },
           {
             "name": "Logan Thompson",
             "team": "VGK",
             "value": "0-1",
-            "note": "Backup \u2014 .921 SV% in relief appearances"
+            "note": "Backup — .921 SV% in relief appearances"
           }
         ]
       },
       "vgk": {
         "record": "9-4",
         "record_detail": "9-4 in the 2026 Stanley Cup Playoffs",
-        "series_short": "Up 1-0 \u00b7 WCF",
+        "series_short": "Up 1-0 · WCF",
         "series": "Lead the Colorado Avalanche 1-0 in the Western Conference Final",
-        "spotlight": "Vegas players hold the top spot in playoff points (Marner, 18), goals (Dorofeyev, 10) and assists (Eichel, 14). Few teams have ever driven the scoring race this thoroughly this deep into a run \u2014 and in Game 1 the depth showed too, with Dylan Coghlan and Nic Dowd chipping in behind a 36-save wall from Carter Hart.",
+        "spotlight": "Vegas players hold the top spot in playoff points (Marner, 18), goals (Dorofeyev, 10) and assists (Eichel, 14). Few teams have ever driven the scoring race this thoroughly this deep into a run — and in Game 1 the depth showed too, with Dylan Coghlan and Nic Dowd chipping in behind a 36-save wall from Carter Hart.",
         "notes": [
           "Carter Hart was the difference in Game 1, turning aside 36 of 38 shots in a hostile Ball Arena.",
-          "Pavel Dorofeyev scored his NHL-leading 10th goal of the playoffs \u2014 the 5th player in franchise history with a double-digit goal total in a single postseason.",
+          "Pavel Dorofeyev scored his NHL-leading 10th goal of the playoffs — the 5th player in franchise history with a double-digit goal total in a single postseason.",
           "Brett Howden extended his road goal streak to six games (7 goals) and notched his 3rd game-winner, tying the franchise single-postseason record.",
-          "Dylan Coghlan scored his first career playoff goal \u2014 and his first NHL goal since Dec. 17, 2021.",
+          "Dylan Coghlan scored his first career playoff goal — and his first NHL goal since Dec. 17, 2021.",
           "Mark Stone missed his fourth straight game with a lower-body injury after taking a morning skate."
         ],
         "next": "Game 2 at Colorado",
-        "next_detail": "Friday, May 22 \u00b7 8 p.m. ET (ESPN)",
+        "next_detail": "Friday, May 22 · 8 p.m. ET (ESPN)",
         "roster": {
           "forwards": [
             {
@@ -2714,7 +3516,7 @@
               "pim": 0,
               "sog": 0,
               "spct": "0.0",
-              "toi": "\u2014",
+              "toi": "—",
               "fow": null,
               "hits": 0,
               "blk": 0,
@@ -2874,7 +3676,7 @@
               "w": 0,
               "l": 0,
               "gaa": 0.0,
-              "svpct": "\u2014",
+              "svpct": "—",
               "so": 0,
               "toi": "0:00",
               "inj": false
@@ -2884,15 +3686,15 @@
       },
       "podcast_angles": [
         "The 8-0 Hurricanes: is Carolina's historic start sustainable, or is a well-rested team about to get tested by a Montreal club that's in rhythm? Game 1 tonight tells us a lot.",
-        "Vegas's scoring monopoly \u2014 Marner, Dorofeyev and Eichel hold the NHL lead in playoff points, goals and assists. When has one team ever owned the scoring race this thoroughly this deep?",
+        "Vegas's scoring monopoly — Marner, Dorofeyev and Eichel hold the NHL lead in playoff points, goals and assists. When has one team ever owned the scoring race this thoroughly this deep?",
         "Carter Hart's redemption arc: 36 saves in a hostile Game 1. Frame what his playoff form means for the Golden Knights' Cup window.",
         "The youth movement: Montreal is the youngest conference finalist in 33 years, echoing the Cup-winning 1993 Canadiens. Lessons of young teams that go deep.",
-        "Cale Makar's mystery injury \u2014 how much does it swing the Western Final, and how should Colorado adjust if he misses Game 2?"
+        "Cale Makar's mystery injury — how much does it swing the Western Final, and how should Colorado adjust if he misses Game 2?"
       ],
       "news": [
         {
           "headline": "Hurricanes turn focus to Canadiens after long wait for East Final opponent",
-          "detail": "Carolina enters the Eastern Conference Final 8-0 this postseason \u2014 the franchise's longest playoff win streak ever and the 5th team in NHL history to open a run 8-0 or better. Game 1 is tonight in Raleigh.",
+          "detail": "Carolina enters the Eastern Conference Final 8-0 this postseason — the franchise's longest playoff win streak ever and the 5th team in NHL history to open a run 8-0 or better. Game 1 is tonight in Raleigh.",
           "source": "NHL.com",
           "url": "https://www.nhl.com/news/topic/playoffs/carolina-hurricanes-turn-focus-to-montreal-canadiens-after-long-wait"
         },
@@ -2922,12 +3724,12 @@
         }
       ],
       "amrewind": {
-        "description": "NHL goal breakdowns and deep dives by 3X Stanley Cup Champion and former NHL defenseman Alec Martinez \u2014 showcasing talent that doesn't always show up on the scoresheet.",
+        "description": "NHL goal breakdowns and deep dives by 3X Stanley Cup Champion and former NHL defenseman Alec Martinez — showcasing talent that doesn't always show up on the scoresheet.",
         "channel_url": "https://www.youtube.com/@theamrewind",
         "channel_handle": "@TheAMRewind",
         "latest_videos": [
           {
-            "title": "QUICK BONUS CONTENT \u2014 Newhook's Series Clinching OT Winner",
+            "title": "QUICK BONUS CONTENT — Newhook's Series Clinching OT Winner",
             "url": "https://www.youtube.com/watch?v=qVHrLWesIZM",
             "published": "May 20, 2026",
             "type": "bonus_content",
@@ -2997,7 +3799,7 @@
           "retweets": "188"
         },
         {
-          "text": "Yesterday, Dec 31st, there were THIRTEEN NHL games played, including the Winter Classic. \n\nToday, Jan 1st New Year\u2019s Day, there is one NHL game\u2026.\n\nBeyond perplexed by this scheduling. Crowding the spectacle of the Winter Classic with twelve other games is such a weird choice.",
+          "text": "Yesterday, Dec 31st, there were THIRTEEN NHL games played, including the Winter Classic. \n\nToday, Jan 1st New Year’s Day, there is one NHL game….\n\nBeyond perplexed by this scheduling. Crowding the spectacle of the Winter Classic with twelve other games is such a weird choice.",
           "time": "2025-01-01T19:05:32.000Z",
           "displayTime": "Jan 1, 2025",
           "url": "https://x.com/EmptyNettersPod/status/1874532429144482103",
@@ -3039,7 +3841,7 @@
               "title": "NHL Conference Finals Preview w/ Alec Martinez",
               "date": "May 20, 2026",
               "duration": "74 min",
-              "description": "Habs vs. Canes. Vegas vs. Avs. Can Carolina stop the ECF curse? Are the Habs a team of destiny? Can the Avs break the President's Trophy curse \u2014 or can Vegas and Mitch Marner stay hot?",
+              "description": "Habs vs. Canes. Vegas vs. Avs. Can Carolina stop the ECF curse? Are the Habs a team of destiny? Can the Avs break the President's Trophy curse — or can Vegas and Mitch Marner stay hot?",
               "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/episode/nhl-conference-finals-preview-w-alec-334216394/"
             }
           ]
@@ -3052,10 +3854,10 @@
           "url": "https://allin.com/episodes",
           "episodes": [
             {
-              "title": "Episode #273 \u2014 Marc Benioff",
+              "title": "Episode #273 — Marc Benioff",
               "date": "May 15, 2026",
               "duration": null,
-              "description": "U.S.-China relations, Taiwan, and AI's impact on enterprise software. Marc Benioff discusses Salesforce's strategy, the OpenAI vs. Apple competition, and the science corner covers El Ni\u00f1o climate effects.",
+              "description": "U.S.-China relations, Taiwan, and AI's impact on enterprise software. Marc Benioff discusses Salesforce's strategy, the OpenAI vs. Apple competition, and the science corner covers El Niño climate effects.",
               "url": "https://youtube.com/watch?v=jJRAvZNGUvI"
             },
             {
@@ -3069,7 +3871,7 @@
               "title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
               "date": "May 10, 2026",
               "duration": null,
-              "description": "Spencer Pratt's campaign for LA Mayor \u2014 analyzing emergency response failures, homelessness policy, NGO corruption, Karen Bass's leadership, and a vision for LA's future infrastructure.",
+              "description": "Spencer Pratt's campaign for LA Mayor — analyzing emergency response failures, homelessness policy, NGO corruption, Karen Bass's leadership, and a vision for LA's future infrastructure.",
               "url": "https://youtube.com/watch?v=GCpjy3TC8Pg"
             }
           ]
@@ -3078,25 +3880,25 @@
           "show": "The Joe Rogan Experience",
           "icon": "JRE",
           "color": "muted",
-          "description": "The official podcast of comedian Joe Rogan \u2014 wide-ranging conversations with fascinating guests.",
+          "description": "The official podcast of comedian Joe Rogan — wide-ranging conversations with fascinating guests.",
           "url": "https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk",
           "episodes": [
             {
-              "title": "#2503 \u2014 Eric Weinstein",
+              "title": "#2503 — Eric Weinstein",
               "date": "May 21, 2026",
               "duration": "2h 53m",
               "description": "Mathematical physicist and managing director Eric Weinstein joins Joe for a wide-ranging discussion on physics, economics, academia, and the institutions shaping modern society.",
               "url": "https://jrelibrary.com/2503-eric-weinstein/"
             },
             {
-              "title": "#2502 \u2014 David Paulides",
+              "title": "#2502 — David Paulides",
               "date": "May 20, 2026",
               "duration": "2h 20m",
-              "description": "Former law enforcement officer and researcher David Paulides discusses his Missing 411 investigations \u2014 mysterious disappearances in national parks and wilderness areas across North America.",
+              "description": "Former law enforcement officer and researcher David Paulides discusses his Missing 411 investigations — mysterious disappearances in national parks and wilderness areas across North America.",
               "url": "https://jrelibrary.com/2502-david-paulides/"
             },
             {
-              "title": "#2501 \u2014 Marc Andreessen",
+              "title": "#2501 — Marc Andreessen",
               "date": "May 19, 2026",
               "duration": "3h 20m",
               "description": "Venture capitalist and tech pioneer Marc Andreessen on surveillance technology's role in law enforcement, AI's future trajectory, progressive policy effects on cities, and the state of Silicon Valley.",
@@ -3122,14 +3924,14 @@
               "title": "How to Overcome Social Anxiety | Dr. Nick Epley",
               "date": "May 18, 2026",
               "duration": null,
-              "description": "Dr. Nick Epley, behavioral scientist at the University of Chicago, explores the psychology and neuroscience behind social anxiety \u2014 and science-backed strategies to overcome it.",
+              "description": "Dr. Nick Epley, behavioral scientist at the University of Chicago, explores the psychology and neuroscience behind social anxiety — and science-backed strategies to overcome it.",
               "url": "https://www.hubermanlab.com/episode/how-to-overcome-social-anxiety-nick-epley"
             },
             {
               "title": "Essentials: Understanding & Controlling Aggression",
               "date": "May 14, 2026",
               "duration": null,
-              "description": "The neuroscience of aggression \u2014 how hormones, genes, and environment shape aggressive behavior, plus science-backed tools to regulate it and channel it constructively.",
+              "description": "The neuroscience of aggression — how hormones, genes, and environment shape aggressive behavior, plus science-backed tools to regulate it and channel it constructively.",
               "url": "https://www.hubermanlab.com/episode/essentials-understanding-and-controlling-aggression"
             }
           ]
@@ -3174,7 +3976,7 @@
           "tweets": [
             {
               "date": "May 20",
-              "text": "NHL has informed teams the 2026-27 salary cap ceiling will be $104 million \u2014 an all-time high. Expect a busy July 1.",
+              "text": "NHL has informed teams the 2026-27 salary cap ceiling will be $104 million — an all-time high. Expect a busy July 1.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"
             },
             {
@@ -3194,7 +3996,7 @@
             },
             {
               "date": "May 19",
-              "text": "Panthers have quietly begun gauging the market on Reinhart. Nothing imminent \u2014 but he's one year from UFA and the conversations have started.",
+              "text": "Panthers have quietly begun gauging the market on Reinhart. Nothing imminent — but he's one year from UFA and the conversations have started.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-19-2026/"
             }
           ]
@@ -3222,7 +4024,7 @@
             },
             {
               "date": "May 19",
-              "text": "Alex Tuch is the prize UFA this summer. His camp is looking at a deal in the Kempe range ($10.6M AAV). Buffalo's counter is likely $8.5\u20139.5M.",
+              "text": "Alex Tuch is the prize UFA this summer. His camp is looking at a deal in the Kempe range ($10.6M AAV). Buffalo's counter is likely $8.5–9.5M.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-19-2026/"
             }
           ]
@@ -3235,7 +4037,7 @@
           "tweets": [
             {
               "date": "May 20",
-              "text": "St. Louis Blues \u2013 Buffalo Sabres talks on Robert Thomas are real and heating up. Buffalo is the frontrunner but the Blues asking price is steep.",
+              "text": "St. Louis Blues – Buffalo Sabres talks on Robert Thomas are real and heating up. Buffalo is the frontrunner but the Blues asking price is steep.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-19-2026/"
             },
             {
@@ -3245,7 +4047,7 @@
             },
             {
               "date": "May 19",
-              "text": "Panthers \u2013 Bobrovsky situation: if they move him, a term buyout is one option to help absorb the cap hit. VGK and CAR both intrigued.",
+              "text": "Panthers – Bobrovsky situation: if they move him, a term buyout is one option to help absorb the cap hit. VGK and CAR both intrigued.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-19-2026/"
             },
             {
@@ -3263,7 +4065,7 @@
           "tweets": [
             {
               "date": "May 20",
-              "text": "Toronto's new GM John Chayka is open to discussing any Leafs player except Auston Matthews. Nylander and Rielly have NMCs \u2014 that limits options.",
+              "text": "Toronto's new GM John Chayka is open to discussing any Leafs player except Auston Matthews. Nylander and Rielly have NMCs — that limits options.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"
             },
             {
@@ -3273,7 +4075,7 @@
             },
             {
               "date": "May 19",
-              "text": "Chayka's message is retool, not rebuild. High asking prices across the board. He is not staging a fire sale \u2014 but he is listening everywhere.",
+              "text": "Chayka's message is retool, not rebuild. High asking prices across the board. He is not staging a fire sale — but he is listening everywhere.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"
             }
           ]
@@ -3296,7 +4098,7 @@
             },
             {
               "date": "May 19",
-              "text": "Alexis Lafreni\u00e8re is a name coming up in trade talks. Rangers could move him as part of a restructure. He has value but NYR brass isn't committed to his fit long-term.",
+              "text": "Alexis Lafrenière is a name coming up in trade talks. Rangers could move him as part of a restructure. He has value but NYR brass isn't committed to his fit long-term.",
               "url": "https://nhlrumors.com/nhl-rumors-will-there-be-many-trades-this-offseason/2026/05/21/"
             }
           ]
@@ -3319,7 +4121,7 @@
             },
             {
               "date": "May 20",
-              "text": "Kyrou, Lafreni\u00e8re, Hellebuyck \u2014 names to watch as the offseason heats up. Teams with cap space and picks are well-positioned.",
+              "text": "Kyrou, Lafrenière, Hellebuyck — names to watch as the offseason heats up. Teams with cap space and picks are well-positioned.",
               "url": "https://nhlrumors.com/nhl-rumors-will-there-be-many-trades-this-offseason/2026/05/21/"
             },
             {
@@ -3342,7 +4144,7 @@
             },
             {
               "date": "May 20",
-              "text": "Minnesota paid a massive price for Quinn Hughes. Guerin now needs to build around him. Center is the clear gap \u2014 and the market is thin.",
+              "text": "Minnesota paid a massive price for Quinn Hughes. Guerin now needs to build around him. Center is the clear gap — and the market is thin.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-19-2026/"
             },
             {
@@ -3383,7 +4185,7 @@
           "tweets": [
             {
               "date": "May 20",
-              "text": "Florida's willingness to move Bobrovsky signals a full reset in net. Reinhart situation bears watching too \u2014 this could be a transformative offseason for the Panthers.",
+              "text": "Florida's willingness to move Bobrovsky signals a full reset in net. Reinhart situation bears watching too — this could be a transformative offseason for the Panthers.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-19-2026/"
             },
             {
@@ -3393,7 +4195,7 @@
             },
             {
               "date": "May 19",
-              "text": "Winnipeg offer sheet on Dorofeyev would be a bold move but not without risk. VGK has cap space to match \u2014 and they will. Still, forces them to commit.",
+              "text": "Winnipeg offer sheet on Dorofeyev would be a bold move but not without risk. VGK has cap space to match — and they will. Still, forces them to commit.",
               "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-19-2026/"
             }
           ]
@@ -3406,7 +4208,7 @@
           "tweets": [
             {
               "date": "May 20",
-              "text": "Rangers have hard decisions ahead on Lafreni\u00e8re and Chytil. Drury wants to add up the middle \u2014 one of those two could be the centerpiece of a trade.",
+              "text": "Rangers have hard decisions ahead on Lafrenière and Chytil. Drury wants to add up the middle — one of those two could be the centerpiece of a trade.",
               "url": "https://nhlrumors.com/nhl-rumors-will-there-be-many-trades-this-offseason/2026/05/21/"
             },
             {
