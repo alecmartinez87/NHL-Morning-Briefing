@@ -18,10 +18,27 @@ Visual design matches the dark "NHL Morning Briefing" broadcast layout.
 import json
 import os
 import datetime
+import subprocess
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ARCHIVE = os.path.join(BASE, "data", "archive.json")
 OUT = os.path.join(BASE, "index.html")
+
+
+def git_push(date_str):
+    """Commit updated files and push to GitHub (triggers Netlify deploy)."""
+    try:
+        # Remove stale lock file if present — can be left behind by interrupted runs
+        lock_file = os.path.join(BASE, ".git", "HEAD.lock")
+        if os.path.exists(lock_file):
+            os.remove(lock_file)
+            print("Removed stale git lock file.")
+        subprocess.run(["git", "-C", BASE, "add", "data/archive.json", "index.html"], check=True)
+        subprocess.run(["git", "-C", BASE, "commit", "-m", "Morning briefing — %s" % date_str], check=True)
+        subprocess.run(["git", "-C", BASE, "push", "origin", "main"], check=True)
+        print("Pushed to GitHub — Netlify deploy triggered.")
+    except subprocess.CalledProcessError as e:
+        print("Git push failed: %s" % e)
 
 
 def main():
@@ -36,11 +53,14 @@ def main():
     data_json = data_json.replace("</", "<\\/")  # safe inside <script>
 
     built = datetime.datetime.now().strftime("%b %d, %Y at %I:%M %p")
+    today = datetime.date.today().isoformat()
 
     html = TEMPLATE.replace("/*DATA*/", data_json).replace("{{BUILT}}", built)
     with open(OUT, "w", encoding="utf-8") as f:
         f.write(html)
     print("Built %s with %d edition(s)." % (OUT, len(editions)))
+
+    git_push(today)
 
 
 TEMPLATE = r'''<!DOCTYPE html>
@@ -95,8 +115,8 @@ body::before {
 
 /* HEADER */
 header {
-  padding: 32px 0 26px; display: flex; align-items: flex-end; justify-content: space-between;
-  gap: 18px; border-bottom: 0.5px solid var(--border); margin-bottom: 24px; flex-wrap: wrap;
+  padding: 32px 0 18px; display: flex; align-items: flex-end; justify-content: space-between;
+  gap: 18px; margin-bottom: 0; flex-wrap: wrap;
 }
 .header-left h1 {
   font-family: var(--display); font-size: 52px; letter-spacing: 0.04em;
@@ -134,19 +154,19 @@ header {
 .lede p { font-size: 15px; line-height: 1.7; color: #b8c3d8; max-width: 820px; }
 
 /* METRICS */
-.metrics-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 12px; margin-bottom: 26px; }
-.metric { background: var(--surface); border: 0.5px solid var(--border); border-radius: 12px; padding: 16px 18px; }
+.metrics-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; margin-bottom: 22px; }
+.metric { background: var(--surface); border: 0.5px solid var(--border); border-radius: 10px; padding: 11px 14px; }
 .metric.gold-accent { border-left: 2px solid var(--gold); }
 .metric-label {
-  font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em;
-  text-transform: uppercase; color: var(--muted); margin-bottom: 9px;
+  font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--muted); margin-bottom: 6px;
 }
 .metric-value {
-  font-family: var(--display); font-size: 34px; letter-spacing: 0.04em;
-  color: #fff; line-height: 1; margin-bottom: 5px; font-weight: 400;
+  font-family: var(--display); font-size: 26px; letter-spacing: 0.04em;
+  color: #fff; line-height: 1; margin-bottom: 4px; font-weight: 400;
 }
-.metric-value.sm { font-size: 21px; padding-top: 3px; line-height: 1.1; }
-.metric-sub { font-size: 12px; color: var(--muted2); }
+.metric-value.sm { font-size: 17px; padding-top: 2px; line-height: 1.1; }
+.metric-sub { font-size: 11px; color: var(--muted2); }
 
 /* TABS */
 .tab-row {
@@ -155,9 +175,9 @@ header {
 }
 .tab-row::-webkit-scrollbar { display: none; }
 .tab {
-  font-family: var(--sans); font-size: 13px; font-weight: 400; color: var(--muted);
+  font-family: var(--sans); font-size: 14px; font-weight: 400; color: var(--muted);
   background: none; border: none; border-bottom: 2px solid transparent;
-  padding: 10px 18px; cursor: pointer; white-space: nowrap; margin-bottom: -1px;
+  padding: 10px 11px; cursor: pointer; white-space: nowrap; margin-bottom: -1px;
   transition: color 0.15s;
 }
 .tab:hover { color: #c0c8dc; }
@@ -201,6 +221,30 @@ header {
 .sb-score.dim { color: var(--muted2); }
 .sb-sep { color: var(--muted); font-size: 22px; padding-bottom: 4px; }
 
+/* SCORES PANEL — compact cards + responsive grid */
+.scores-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 10px; }
+.score-card {
+  background: var(--surface); border: 0.5px solid var(--border);
+  border-radius: 12px; padding: 11px 14px;
+}
+.score-card.card-gold { border-left: 2px solid var(--gold); border-radius: 0 12px 12px 0; }
+.score-card .sec-title { font-size: 9px; margin-bottom: 7px; }
+.score-card .scoreboard { margin-bottom: 7px; }
+.score-card .sb-abbr { font-size: 22px; }
+.score-card .sb-score { font-size: 36px; }
+.score-card .sb-sep { font-size: 14px; padding-bottom: 2px; }
+.score-card .sb-center { padding: 0 10px; gap: 7px; }
+.score-card .sb-venue-tag { font-size: 8.5px; margin-top: 3px; }
+.score-card .snote { font-size: 10px; padding: 2px 8px; margin-bottom: 8px; }
+.score-card .goal-log { margin: 6px 0 9px; }
+.score-card .goal-period-header { font-size: 8px; padding: 6px 0 3px; }
+.score-card .goal-row { font-size: 11.5px; padding: 4px 0; gap: 6px; }
+.score-card .goal-time { font-size: 9.5px; min-width: 30px; }
+.score-card .goal-team-badge { font-size: 8px; padding: 1px 5px; }
+.score-card .goal-assists { font-size: 11px; }
+.score-card .goal-strength { font-size: 8px; padding: 1px 4px; }
+.score-card .ai-block { font-size: 12px; line-height: 1.55; }
+
 /* GAME / SERIES */
 .game-score {
   font-family: var(--display); font-size: 25px; letter-spacing: 0.03em;
@@ -219,6 +263,49 @@ header {
 .badge-status.tied { background: var(--surface); color: var(--muted2); border: 0.5px solid var(--border); }
 .next-line { font-size: 12.5px; color: var(--muted2); margin-top: 4px; }
 .next-line strong { color: #fff; font-weight: 500; }
+
+/* GOAL LOG */
+.goal-log { margin: 10px 0 14px; border-top: 0.5px solid var(--border2); }
+.goal-period-header {
+  font-family: var(--mono); font-size: 9px; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--muted); padding: 8px 0 4px; margin-top: 2px;
+}
+.goal-row {
+  display: flex; align-items: baseline; gap: 8px;
+  padding: 5px 0; border-top: 0.5px solid var(--border2); font-size: 12.5px;
+}
+.goal-time { font-family: var(--mono); font-size: 10.5px; color: var(--muted2); min-width: 36px; flex-shrink: 0; }
+.goal-team-badge {
+  font-family: var(--mono); font-size: 9px; font-weight: 600; letter-spacing: 0.06em;
+  padding: 2px 6px; border-radius: 4px; flex-shrink: 0;
+  background: var(--surface); border: 0.5px solid var(--border); color: var(--muted2);
+}
+.goal-team-badge.vgk { background: rgba(180,151,90,0.15); border-color: rgba(180,151,90,0.35); color: var(--gold); }
+.goal-scorer { color: #fff; font-weight: 500; flex-shrink: 0; }
+.goal-assists { color: var(--muted2); font-size: 12px; }
+.goal-strength {
+  margin-left: auto; font-family: var(--mono); font-size: 9px; letter-spacing: 0.06em;
+  padding: 1px 5px; border-radius: 3px; flex-shrink: 0;
+}
+.goal-strength.pp { background: rgba(180,151,90,0.15); color: var(--gold); border: 0.5px solid rgba(180,151,90,0.3); }
+.goal-strength.en { background: rgba(100,100,120,0.2); color: var(--muted2); border: 0.5px solid var(--border); }
+.goal-strength.sh { background: rgba(61,201,123,0.1); color: var(--green); border: 0.5px solid rgba(61,201,123,0.25); }
+
+/* RECAP TOGGLE (inside score cards) */
+.recap-toggle-btn {
+  display: flex; align-items: center; justify-content: space-between;
+  width: 100%; background: none; border: none;
+  border-top: 0.5px solid var(--border2);
+  padding: 7px 0 0; margin-top: 6px; cursor: pointer;
+  font-family: var(--mono); font-size: 9px; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--muted);
+  transition: color 0.15s;
+}
+.recap-toggle-btn:hover, .recap-toggle-btn.open { color: var(--gold-light); }
+.recap-toggle-btn .rtb-chevron { font-size: 10px; transition: transform 0.2s; display: inline-block; line-height: 1; }
+.recap-toggle-btn.open .rtb-chevron { transform: rotate(180deg); }
+.recap-body { display: none; padding-top: 9px; }
+.recap-body.open { display: block; }
 
 /* AI / PROSE BLOCKS */
 .ai-block { font-size: 14px; line-height: 1.75; color: #b8c3d8; font-weight: 300; }
@@ -344,6 +431,36 @@ header {
 .amr-comment-author { color: var(--gold-light); font-weight: 500; margin-bottom: 3px; }
 .amr-comment-text { color: var(--muted2); line-height: 1.5; }
 
+/* PODCAST HUB */
+.pod-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 700px) { .pod-grid { grid-template-columns: 1fr; } }
+.pod-card { background: var(--surface); border: 0.5px solid var(--border); border-radius: 14px; padding: 14px 16px; display: flex; flex-direction: column; }
+.pod-card.gold { border-left: 2px solid var(--gold); border-radius: 0 14px 14px 0; }
+.pod-card.purple { border-left: 2px solid var(--purple); border-radius: 0 14px 14px 0; }
+.pod-card.green { border-left: 2px solid var(--green); border-radius: 0 14px 14px 0; }
+.pod-show-header { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; padding-bottom: 10px; border-bottom: 0.5px solid var(--border2); }
+.pod-show-icon {
+  width: 34px; height: 34px; border-radius: 8px; background: var(--surface);
+  border: 0.5px solid var(--border); display: flex; align-items: center; justify-content: center;
+  font-family: var(--mono); font-size: 9px; font-weight: 500; color: var(--muted2); flex-shrink: 0; letter-spacing: 0.03em;
+}
+.pod-show-icon.gold { background: var(--gold-dim); border-color: rgba(180,151,90,0.3); color: var(--gold-light); }
+.pod-show-icon.purple { background: var(--purple-dim); border-color: rgba(124,106,232,0.3); color: var(--purple-light); }
+.pod-show-icon.green { background: rgba(61,201,123,0.1); border-color: rgba(61,201,123,0.3); color: var(--green); }
+.pod-show-info { flex: 1; min-width: 0; }
+.pod-show-info strong { font-size: 12px; color: #fff; font-weight: 500; display: block; margin-bottom: 1px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pod-show-info span { font-size: 10.5px; color: var(--muted2); }
+.pod-show-link { font-family: var(--mono); font-size: 10px; color: var(--gold); text-decoration: none; letter-spacing: 0.04em; flex-shrink: 0; }
+.pod-show-link:hover { color: var(--gold-light); }
+.pod-ep { padding: 8px 0; border-top: 0.5px solid var(--border2); }
+.pod-ep:first-of-type { border-top: none; padding-top: 0; }
+.pod-ep-meta { display: flex; align-items: center; gap: 7px; margin-bottom: 3px; flex-wrap: wrap; }
+.pod-ep-date { font-family: var(--mono); font-size: 9.5px; color: var(--muted); letter-spacing: 0.04em; }
+.pod-ep-dur { font-family: var(--mono); font-size: 9.5px; color: var(--muted2); letter-spacing: 0.03em; }
+.pod-ep-title { font-size: 12px; color: #fff; font-weight: 500; line-height: 1.35; }
+.pod-ep-title a { color: inherit; text-decoration: none; }
+.pod-ep-title a:hover { color: var(--gold-light); }
+
 /* TWEETS */
 .tweet-header { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; padding-bottom: 12px; border-bottom: 0.5px solid var(--border2); }
 .tweet-header-icon { width: 38px; height: 38px; border-radius: 50%; background: #1DA1F2; display: flex; align-items: center; justify-content: center; font-size: 18px; flex-shrink: 0; }
@@ -360,6 +477,41 @@ header {
 .tweet-stat { font-family: var(--mono); font-size: 10.5px; color: var(--muted2); letter-spacing: 0.03em; }
 .tweet-link { font-family: var(--mono); font-size: 10.5px; color: var(--gold); text-decoration: none; letter-spacing: 0.04em; margin-left: auto; }
 .tweet-link:hover { color: var(--gold-light); }
+
+/* ROSTER TOGGLE */
+.roster-toggle-btn {
+  display: flex; align-items: center; justify-content: space-between;
+  width: 100%; background: var(--surface); border: 0.5px solid var(--border);
+  border-radius: 10px; padding: 11px 16px; cursor: pointer; margin-top: 14px;
+  font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--muted);
+  transition: border-color 0.15s, color 0.15s;
+}
+.roster-toggle-btn:hover { border-color: rgba(180,151,90,0.5); color: var(--gold-light); }
+.roster-toggle-btn.open {
+  border-color: rgba(180,151,90,0.5); color: var(--gold-light);
+  border-radius: 10px 10px 0 0;
+}
+/* gold-accented variant (briefing card) */
+.roster-toggle-btn.rtb-gold {
+  border-left: 2px solid var(--gold); border-radius: 0 10px 10px 0;
+  border-top-color: rgba(180,151,90,0.35); border-right-color: rgba(180,151,90,0.35);
+  border-bottom-color: rgba(180,151,90,0.35); color: var(--gold-light);
+}
+.roster-toggle-btn.rtb-gold.open { border-radius: 0 10px 0 0; }
+.rtb-label { display: flex; align-items: center; gap: 8px; }
+.rtb-chevron { font-size: 11px; transition: transform 0.2s; display: inline-block; line-height: 1; }
+.roster-toggle-btn.open .rtb-chevron { transform: rotate(180deg); }
+.roster-body {
+  display: none; background: var(--surface);
+  border: 0.5px solid rgba(180,151,90,0.4); border-top: none;
+  border-radius: 0 0 10px 10px; padding: 2px 0 14px; margin-bottom: 0;
+}
+.roster-body.rtb-gold {
+  border-left: 2px solid var(--gold); border-radius: 0 0 10px 0;
+}
+.roster-body.open { display: block; }
+.rtb-content { padding: 12px 18px 2px; }
 
 /* ROSTER TABLE */
 .roster-section-label {
@@ -387,6 +539,39 @@ header {
 .roster-table tbody tr:last-child td { border-bottom: none; }
 .roster-table tbody tr.inj td { opacity: 0.5; }
 .roster-table .pts-col { color: var(--gold-light); font-weight: 500; }
+
+/* RUMORS */
+.rumors-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+@media (max-width: 700px) { .rumors-grid { grid-template-columns: 1fr; } }
+.rumor-card { background: var(--surface); border: 0.5px solid var(--border); border-radius: 14px; padding: 14px 16px; }
+.rumor-header { display: flex; align-items: center; gap: 11px; margin-bottom: 10px; padding-bottom: 10px; border-bottom: 0.5px solid var(--border2); }
+.rumor-avatar {
+  width: 38px; height: 38px; border-radius: 50%; background: var(--surface2);
+  border: 0.5px solid var(--border); display: flex; align-items: center; justify-content: center;
+  font-family: var(--mono); font-size: 10px; font-weight: 600; color: var(--muted2); flex-shrink: 0;
+}
+.rumor-meta { flex: 1; min-width: 0; }
+.rumor-name { font-size: 13.5px; color: #fff; font-weight: 500; }
+.rumor-handle { font-family: var(--mono); font-size: 10px; color: var(--gold); letter-spacing: 0.04em; }
+.rumor-outlet { font-size: 11px; color: var(--muted2); margin-top: 1px; }
+.rumor-tweet { padding: 8px 0; border-top: 0.5px solid var(--border2); }
+.rumor-tweet:first-child { border-top: none; }
+.rumor-tweet-date { font-family: var(--mono); font-size: 9.5px; color: var(--muted); margin-bottom: 4px; letter-spacing: 0.04em; }
+.rumor-tweet-text { font-size: 13px; line-height: 1.6; color: #c5cfe0; }
+.rumor-tweet-text a { color: var(--gold); text-decoration: none; }
+.rumor-tweet-text a:hover { color: var(--gold-light); }
+.rumor-more-btn {
+  display: flex; align-items: center; justify-content: space-between;
+  width: 100%; background: none; border: none; border-top: 0.5px solid var(--border2);
+  padding: 8px 0 0; margin-top: 4px; cursor: pointer;
+  font-family: var(--mono); font-size: 9px; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--muted); transition: color 0.15s;
+}
+.rumor-more-btn:hover, .rumor-more-btn.open { color: var(--gold-light); }
+.rumor-more-btn .rtb-chevron { font-size: 10px; transition: transform 0.2s; display: inline-block; }
+.rumor-more-btn.open .rtb-chevron { transform: rotate(180deg); }
+.rumor-overflow { display: none; }
+.rumor-overflow.open { display: block; }
 
 /* FOOTER */
 footer {
@@ -426,8 +611,6 @@ footer {
     </div>
   </header>
 
-  <div class="lede" id="lede"></div>
-  <div class="metrics-grid" id="metrics"></div>
   <div class="tab-row" id="tabRow"></div>
   <div id="panels"></div>
 
@@ -446,16 +629,32 @@ footer {
 const ARCHIVE = /*DATA*/;
 const EDITIONS = ARCHIVE.editions || [];
 const TABS = [
-  ['vgk','Golden Knights'], ['scores','Scores'], ['standings','Standings'],
-  ['leaders','Stat Leaders'], ['podcast','Empty Netters'], ['news','News'],
-  ['injuries','Injuries'], ['transactions','Transactions'], ['amrewind','The AM Rewind']
+  ['news','News'], ['vgk','Golden Knights'], ['scores','Scores'], ['standings','Standings'],
+  ['leaders','Stat Leaders'], ['injuries','Injuries'], ['transactions','Transactions'],
+  ['rumors','Rumors'], ['podcast','Empty Netters'], ['amrewind','The AM Rewind'], ['podcasts','Podcasts']
 ];
-let activeTab = 'vgk';
+let activeTab = 'news';
 
 function el(id){ return document.getElementById(id); }
 function esc(s){ return String(s==null?'':s)
   .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
 function vgkIn(s){ return /vegas|golden knights|\bVGK\b/i.test(s||''); }
+const TEAM_ABBR = {
+  'Anaheim Ducks':'ANA','Arizona Coyotes':'ARI','Utah Hockey Club':'UTA',
+  'Boston Bruins':'BOS','Buffalo Sabres':'BUF','Calgary Flames':'CGY',
+  'Carolina Hurricanes':'CAR','Chicago Blackhawks':'CHI','Colorado Avalanche':'COL',
+  'Columbus Blue Jackets':'CBJ','Dallas Stars':'DAL','Detroit Red Wings':'DET',
+  'Edmonton Oilers':'EDM','Florida Panthers':'FLA','Los Angeles Kings':'LAK',
+  'Minnesota Wild':'MIN','Montréal Canadiens':'MTL','Montreal Canadiens':'MTL',
+  'Nashville Predators':'NSH','New Jersey Devils':'NJD','New York Islanders':'NYI',
+  'New York Rangers':'NYR','Ottawa Senators':'OTT','Philadelphia Flyers':'PHI',
+  'Pittsburgh Penguins':'PIT','San Jose Sharks':'SJS','Seattle Kraken':'SEA',
+  'St. Louis Blues':'STL','Tampa Bay Lightning':'TBL','Toronto Maple Leafs':'TOR',
+  'Vancouver Canucks':'VAN','Vegas Golden Knights':'VGK','Washington Capitals':'WSH',
+  'Winnipeg Jets':'WPG'
+};
+function teamAbbr(name){ return TEAM_ABBR[name.trim()] || name.trim(); }
+function teamsToAbbr(str){ return (str||'').split(' vs. ').map(teamAbbr).join(' vs. '); }
 function fmtLong(d){ return new Date(d+'T12:00:00')
   .toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric',year:'numeric'}); }
 function fmtShort(d){ return new Date(d+'T12:00:00')
@@ -472,13 +671,24 @@ function metricCard(label,value,sub,small){
 function panelVGK(ed){
   const v = ed.vgk || {};
   const notes = (v.notes||[]).map(n=>'<li>'+esc(n)+'</li>').join('');
-  let html = '<div class="card card-gold">'
-    + '<p class="sec-title">VGK broadcast briefing</p>'
-    + (v.series?'<div class="series-teams" style="font-size:18px">'+esc(v.series)+'</div>':'')
+  const toggleFn = "var b=this.nextElementSibling;this.classList.toggle('open');b.classList.toggle('open');";
+  let html = '<div class="metrics-grid">'
+    + metricCard('VGK · Postseason', v.record, v.record_detail||'Vegas Golden Knights', false)
+    + metricCard('VGK · Series', v.series_short, 'Stanley Cup Playoffs', false)
+    + metricCard('Next VGK Game', v.next, v.next_detail||'', true)
+    + '</div>';
+  html += '<button class="roster-toggle-btn rtb-gold" onclick="'+toggleFn+'">'
+    + '<span class="rtb-label">VGK Broadcast Briefing</span>'
+    + '<span class="rtb-chevron">▾</span>'
+    + '</button>'
+    + '<div class="roster-body rtb-gold">'
+    + '<div class="rtb-content">'
+    + (v.series?'<div class="series-teams" style="font-size:18px;margin-bottom:10px">'+esc(v.series)+'</div>':'')
     + '<div class="ai-block"><p>'+esc(v.spotlight||'')+'</p></div>'
     + (notes?'<ul class="fact-list">'+notes+'</ul>':'')
     + (v.next?'<div class="next-line">Next up &mdash; <strong>'+esc(v.next)+'</strong>'
         + (v.next_detail?' &middot; '+esc(v.next_detail):'')+'</div>':'')
+    + '</div>'
     + '</div>';
 
   const r = v.roster || {};
@@ -487,7 +697,12 @@ function panelVGK(ed){
   const gols = r.goalies || [];
 
   if(fwds.length || defs.length || gols.length){
-    html += '<div class="card" style="margin-top:14px"><p class="sec-title">Roster Stats</p>';
+    const toggleFn = "var b=this.nextElementSibling;this.classList.toggle('open');b.classList.toggle('open');";
+    html += '<button class="roster-toggle-btn" onclick="'+toggleFn+'">'
+      + '<span class="rtb-label">Roster Stats</span>'
+      + '<span class="rtb-chevron">▾</span>'
+      + '</button>'
+      + '<div class="roster-body">';
 
     if(fwds.length){
       html += '<div class="roster-section-label">Forwards</div>'
@@ -570,7 +785,7 @@ function panelVGK(ed){
       html += '</tbody></table></div>';
     }
 
-    html += '</div>';
+    html += '</div>'; // close roster-body
   }
 
   return html;
@@ -598,19 +813,59 @@ function renderScoreboard(g){
     + '</div>';
 }
 
+function renderGoals(g){
+  const goals = g.goals || [];
+  if(!goals.length) return '';
+  // group by period
+  const periods = [];
+  const byPeriod = {};
+  goals.forEach(goal => {
+    if(!byPeriod[goal.period]){ byPeriod[goal.period] = []; periods.push(goal.period); }
+    byPeriod[goal.period].push(goal);
+  });
+  const periodLabel = p => p === 'P1' ? '1st Period' : p === 'P2' ? '2nd Period' : p === 'P3' ? '3rd Period' : p.replace('P','') + ' OT';
+  let html = '<div class="goal-log">';
+  periods.forEach(p => {
+    html += '<div class="goal-period-header">'+periodLabel(p)+'</div>';
+    byPeriod[p].forEach(goal => {
+      const isVGKGoal = goal.team === 'VGK';
+      const teamBadge = '<span class="goal-team-badge'+(isVGKGoal?' vgk':'')+'">' + esc(goal.team) + '</span>';
+      const assists = [goal.a1, goal.a2].filter(Boolean);
+      const assistStr = assists.length ? '<span class="goal-assists"> ('+assists.map(esc).join(', ')+')</span>' : '';
+      const st = (goal.strength||'EV').toLowerCase();
+      const stBadge = (st !== 'ev') ? '<span class="goal-strength '+st+'">'+st.toUpperCase()+'</span>' : '';
+      html += '<div class="goal-row">'
+        + '<span class="goal-time">'+esc(goal.time)+'</span>'
+        + teamBadge
+        + '<span class="goal-scorer">'+esc(goal.scorer)+'</span>'
+        + assistStr
+        + stBadge
+        + '</div>';
+    });
+  });
+  html += '</div>';
+  return html;
+}
+
 function panelScores(ed){
   const games = ed.games || [];
   if(!games.length) return '<div class="card"><p class="empty">No games on this slate. '
     + 'Check the Standings tab for the next puck drop.</p></div>';
-  return games.map(g => {
+  const cards = games.map(g => {
     const isVGK = vgkIn(g.matchup) || g.away_abbr==='VGK' || g.home_abbr==='VGK';
-    return '<div class="card'+(isVGK?' card-gold':'')+'">'
+    return '<div class="score-card'+(isVGK?' card-gold':'')+'">'
       + '<p class="sec-title">'+esc(g.context)+'</p>'
       + renderScoreboard(g)
       + (g.series_note?'<span class="snote">'+esc(g.series_note)+'</span>':'')
-      + '<div class="ai-block"><p>'+esc(g.detail)+'</p></div>'
+      + renderGoals(g)
+      + (g.detail
+          ? '<button class="recap-toggle-btn" onclick="var b=this.nextElementSibling;this.classList.toggle(\'open\');b.classList.toggle(\'open\');">'
+            + 'Game Recap <span class="rtb-chevron">▾</span></button>'
+            + '<div class="recap-body"><div class="ai-block"><p>'+esc(g.detail)+'</p></div></div>'
+          : '')
       + '</div>';
   }).join('');
+  return '<div class="scores-grid">'+cards+'</div>';
 }
 
 function panelStandings(ed){
@@ -621,7 +876,7 @@ function panelStandings(ed){
     const tied = !s.leader_abbr;
     return '<div class="card'+(vgkIn(s.teams)?' card-gold':'')+'">'
       + '<p class="sec-title">'+esc(s.name)+'</p>'
-      + '<div class="series-teams">'+esc(s.teams)+'</div>'
+      + '<div class="series-teams">'+teamsToAbbr(esc(s.teams))+'</div>'
       + '<span class="badge-status'+(tied?' tied':' lead')+'">'+esc(s.status)+'</span>'
       + (s.next?'<div class="next-line">Next &mdash; <strong>'+esc(s.next)+'</strong></div>':'')
       + '</div>';
@@ -691,9 +946,46 @@ function panelPodcast(ed){
   return out;
 }
 
+function panelPodcasts(ed){
+  const shows = ed.podcasts || [];
+  if(!shows.length) return '<div class="card"><p class="empty">No podcast data for this edition.</p></div>';
+  const cards = shows.map(show => {
+    const colorCls = 'gold';
+    const iconHtml = '<div class="pod-show-icon '+colorCls+'">'+esc(show.icon||'POD')+'</div>';
+    const infoHtml = '<div class="pod-show-info">'
+      + '<strong>'+esc(show.show)+'</strong>'
+      + '</div>';
+    const linkHtml = show.url
+      ? '<a class="pod-show-link" href="'+esc(show.url)+'" target="_blank" rel="noopener">Listen →</a>'
+      : '';
+    const headerHtml = '<div class="pod-show-header">'+iconHtml+infoHtml+linkHtml+'</div>';
+    const eps = (show.episodes || []).map(ep => {
+      const title = ep.url
+        ? '<a href="'+esc(ep.url)+'" target="_blank" rel="noopener">'+esc(ep.title)+'</a>'
+        : esc(ep.title);
+      return '<div class="pod-ep">'
+        + '<div class="pod-ep-meta">'
+          + '<span class="pod-ep-date">'+esc(ep.date)+'</span>'
+          + (ep.duration ? '<span class="pod-ep-dur">'+esc(ep.duration)+'</span>' : '')
+        + '</div>'
+        + '<div class="pod-ep-title">'+title+'</div>'
+        + '</div>';
+    }).join('');
+    return '<div class="pod-card '+colorCls+'">'+headerHtml+eps+'</div>';
+  }).join('');
+  return '<div class="pod-grid">'+cards+'</div>';
+}
+
 function panelNews(ed){
+  const ledeHtml = (ed.headline||ed.summary)
+    ? '<div class="lede">'
+      + '<div class="lede-tag">Morning Briefing &nbsp;&mdash;&nbsp; covers '+esc(ed.covers||ed.date)+'</div>'
+      + (ed.headline?'<h2>'+esc(ed.headline)+'</h2>':'')
+      + (ed.summary?'<p>'+esc(ed.summary)+'</p>':'')
+      + '</div>'
+    : '';
   const news = ed.news || [];
-  if(!news.length) return '<div class="card"><p class="empty">No league news for this edition.</p></div>';
+  if(!news.length) return ledeHtml + '<div class="card"><p class="empty">No league news for this edition.</p></div>';
   const items = news.map(n => {
     const head = n.url
       ? '<a href="'+esc(n.url)+'" target="_blank" rel="noopener">'+esc(n.headline)+'</a>'
@@ -703,7 +995,7 @@ function panelNews(ed){
       + (n.source?'<div class="news-src">'+esc(n.source)+'</div>':'')
       + '</div>';
   }).join('');
-  return '<div class="card">'+items+'</div>';
+  return ledeHtml + '<div class="card">'+items+'</div>';
 }
 
 function panelInjuries(ed){
@@ -766,6 +1058,46 @@ function panelTransactions(ed){
   return html;
 }
 
+function panelRumors(ed){
+  const insiders = ed.rumors || [];
+  if(!insiders.length) return '<div class="card"><p class="empty">No rumor data for this edition.</p></div>';
+  const cards = insiders.map((ins, idx) => {
+    const tweets = ins.tweets || [];
+    const first5 = tweets.slice(0, 2);
+    const rest   = tweets.slice(2);
+    function renderTweet(tw){
+      const link = tw.url
+        ? '<a href="'+esc(tw.url)+'" target="_blank" rel="noopener">'+esc(tw.text)+'</a>'
+        : esc(tw.text);
+      return '<div class="rumor-tweet">'
+        + '<div class="rumor-tweet-date">'+esc(tw.date)+'</div>'
+        + '<div class="rumor-tweet-text">'+link+'</div>'
+        + '</div>';
+    }
+    const overflowId = 'ro-'+idx;
+    const btnId = 'rb-'+idx;
+    const toggleFn = "var o=document.getElementById('"+overflowId+"'),b=document.getElementById('"+btnId+"');o.classList.toggle('open');b.classList.toggle('open');";
+    const moreBtn = rest.length
+      ? '<button class="rumor-more-btn" id="'+btnId+'" onclick="'+toggleFn+'">'
+        + rest.length+' more <span class="rtb-chevron">▾</span></button>'
+        + '<div class="rumor-overflow" id="'+overflowId+'">'+rest.map(renderTweet).join('')+'</div>'
+      : '';
+    return '<div class="rumor-card">'
+      + '<div class="rumor-header">'
+        + '<div class="rumor-avatar">'+esc(ins.avatar||ins.insider.split(' ').map(w=>w[0]).join('').slice(0,2))+'</div>'
+        + '<div class="rumor-meta">'
+          + '<div class="rumor-name">'+esc(ins.insider)+'</div>'
+          + '<div class="rumor-handle">'+esc(ins.handle)+'</div>'
+          + '<div class="rumor-outlet">'+esc(ins.outlet)+'</div>'
+        + '</div>'
+      + '</div>'
+      + first5.map(renderTweet).join('')
+      + moreBtn
+      + '</div>';
+  }).join('');
+  return '<div class="rumors-grid">'+cards+'</div>';
+}
+
 function panelAMRewind(ed){
   const amr = ed.amrewind || {};
   const videos = amr.latest_videos || [];
@@ -809,8 +1141,8 @@ function panelAMRewind(ed){
 }
 
 const PANELS = { vgk:panelVGK, scores:panelScores, standings:panelStandings,
-  leaders:panelLeaders, podcast:panelPodcast, news:panelNews,
-  injuries:panelInjuries, transactions:panelTransactions, amrewind:panelAMRewind };
+  leaders:panelLeaders, podcast:panelPodcast, podcasts:panelPodcasts, news:panelNews,
+  injuries:panelInjuries, transactions:panelTransactions, rumors:panelRumors, amrewind:panelAMRewind };
 
 function syncTabs(){
   document.querySelectorAll('.tab').forEach(b =>
@@ -821,15 +1153,6 @@ function syncTabs(){
 
 function renderEdition(ed){
   el('dateline').textContent = fmtLong(ed.date);
-  el('lede').innerHTML =
-    '<div class="lede-tag">Morning Briefing &nbsp;&mdash;&nbsp; covers '+esc(ed.covers)+'</div>'
-    + '<h2>'+esc(ed.headline)+'</h2>'
-    + '<p>'+esc(ed.summary)+'</p>';
-  const v = ed.vgk || {};
-  el('metrics').innerHTML =
-    metricCard('VGK · Postseason', v.record, v.record_detail||'Vegas Golden Knights', false)
-    + metricCard('VGK · Series', v.series_short, 'Stanley Cup Playoffs', false)
-    + metricCard('Next VGK Game', v.next, v.next_detail||'', true);
   el('panels').innerHTML = TABS.map(([id]) =>
     '<div class="tab-panel'+(id===activeTab?' active':'')+'" id="panel-'+id+'">'
     + PANELS[id](ed) + '</div>').join('');
@@ -837,9 +1160,9 @@ function renderEdition(ed){
 
 (function init(){
   if(!EDITIONS.length){
-    el('lede').innerHTML = '<div class="lede-tag">No data yet</div>'
+    el('panels').innerHTML = '<div class="lede"><div class="lede-tag">No data yet</div>'
       + '<h2>The aggregator has not run.</h2>'
-      + '<p>This portal will fill in on the next scheduled run.</p>';
+      + '<p>This portal will fill in on the next scheduled run.</p></div>';
     el('editionSelect').style.display = 'none';
     return;
   }
