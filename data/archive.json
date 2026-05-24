@@ -14,11 +14,11 @@
       "covers": "Wednesday, May 20, 2026",
       "generated_at": "2026-05-21T19:45:00-07:00",
       "headline": "Golden Knights steal Game 1 in Denver",
-      "summary": "A quiet night on the schedule \u2014 just one game \u2014 but a loud result: Vegas opened the Western Conference Final with a 4-2 road win over Colorado behind a 36-save night from Carter Hart. The Eastern Conference Final opens tonight in Raleigh, with red-hot Carolina (8-0 this postseason) hosting the upstart Canadiens.",
+      "summary": "A quiet night on the schedule — just one game — but a loud result: Vegas opened the Western Conference Final with a 4-2 road win over Colorado behind a 36-save night from Carter Hart. The Eastern Conference Final opens tonight in Raleigh, with red-hot Carolina (8-0 this postseason) hosting the upstart Canadiens.",
       "games": [
         {
           "matchup": "Vegas Golden Knights 4, Colorado Avalanche 2",
-          "context": "Western Conference Final \u00b7 Game 1 \u00b7 Ball Arena, Denver",
+          "context": "Western Conference Final · Game 1 · Ball Arena, Denver",
           "series_note": "Vegas leads series 1-0",
           "winner_abbr": "VGK",
           "detail": "Carter Hart made 36 saves. Dylan Coghlan (first career playoff goal), Pavel Dorofeyev (PPG, NHL-leading 10th playoff goal), Brett Howden and Nic Dowd (empty-netter) scored for Vegas. Valeri Nichushkin and Gabriel Landeskog replied for Colorado, which played without Cale Makar (undisclosed injury). Scott Wedgewood stopped 24.",
@@ -34,14 +34,14 @@
           "teams": "Vegas Golden Knights vs. Colorado Avalanche",
           "status": "Vegas leads 1-0",
           "leader_abbr": "VGK",
-          "next": "Game 2 \u2014 Fri, May 22, Ball Arena (8 p.m. ET, ESPN)"
+          "next": "Game 2 — Fri, May 22, Ball Arena (8 p.m. ET, ESPN)"
         },
         {
           "name": "Eastern Conference Final",
           "teams": "Carolina Hurricanes vs. Montreal Canadiens",
           "status": "Series tied 0-0",
           "leader_abbr": "",
-          "next": "Game 1 \u2014 Thu, May 21, Lenovo Center (8 p.m. ET, ESPN)"
+          "next": "Game 1 — Thu, May 21, Lenovo Center (8 p.m. ET, ESPN)"
         }
       ],
       "leaders": {
@@ -50,7 +50,7 @@
             "name": "Mitch Marner",
             "team": "VGK",
             "value": "18",
-            "note": "7G, 10A in 12 GP \u2014 leads the NHL"
+            "note": "7G, 10A in 12 GP — leads the NHL"
           },
           {
             "name": "Jack Eichel",
@@ -62,7 +62,7 @@
             "name": "Lane Hutson",
             "team": "MTL",
             "value": "15",
-            "note": "5G, 10A \u2014 6-game point streak"
+            "note": "5G, 10A — 6-game point streak"
           },
           {
             "name": "Sebastian Aho",
@@ -82,7 +82,7 @@
             "name": "Pavel Dorofeyev",
             "team": "VGK",
             "value": "10",
-            "note": "NHL lead \u2014 4-game goal streak (6G)"
+            "note": "NHL lead — 4-game goal streak (6G)"
           },
           {
             "name": "Brett Howden",
@@ -152,7 +152,7 @@
             "name": "Carter Hart",
             "team": "VGK",
             "value": "9-3",
-            "note": "2.18 GAA, .924 SV% \u2014 36 saves in Game 1"
+            "note": "2.18 GAA, .924 SV% — 36 saves in Game 1"
           },
           {
             "name": "Sam Montembeault",
@@ -164,31 +164,31 @@
             "name": "Scott Wedgewood",
             "team": "COL",
             "value": "6-5",
-            "note": "2.89 GAA, .909 SV% \u2014 24 saves in Game 1"
+            "note": "2.89 GAA, .909 SV% — 24 saves in Game 1"
           },
           {
             "name": "Logan Thompson",
             "team": "VGK",
             "value": "0-1",
-            "note": "Backup \u2014 .921 SV% in relief appearances"
+            "note": "Backup — .921 SV% in relief appearances"
           }
         ]
       },
       "vgk": {
         "record": "9-4",
         "record_detail": "9-4 in the 2026 Stanley Cup Playoffs",
-        "series_short": "Up 1-0 \u00b7 WCF",
+        "series_short": "Up 1-0 · WCF",
         "series": "Lead the Colorado Avalanche 1-0 in the Western Conference Final",
-        "spotlight": "Vegas players hold the top spot in playoff points (Marner, 18), goals (Dorofeyev, 10) and assists (Eichel, 14). Few teams have ever driven the scoring race this thoroughly this deep into a run \u2014 and in Game 1 the depth showed too, with Dylan Coghlan and Nic Dowd chipping in behind a 36-save wall from Carter Hart.",
+        "spotlight": "Vegas players hold the top spot in playoff points (Marner, 18), goals (Dorofeyev, 10) and assists (Eichel, 14). Few teams have ever driven the scoring race this thoroughly this deep into a run — and in Game 1 the depth showed too, with Dylan Coghlan and Nic Dowd chipping in behind a 36-save wall from Carter Hart.",
         "notes": [
           "Carter Hart was the difference in Game 1, turning aside 36 of 38 shots in a hostile Ball Arena.",
-          "Pavel Dorofeyev scored his NHL-leading 10th goal of the playoffs \u2014 the 5th player in franchise history with a double-digit goal total in a single postseason.",
+          "Pavel Dorofeyev scored his NHL-leading 10th goal of the playoffs — the 5th player in franchise history with a double-digit goal total in a single postseason.",
           "Brett Howden extended his road goal streak to six games (7 goals) and notched his 3rd game-winner, tying the franchise single-postseason record.",
-          "Dylan Coghlan scored his first career playoff goal \u2014 and his first NHL goal since Dec. 17, 2021.",
+          "Dylan Coghlan scored his first career playoff goal — and his first NHL goal since Dec. 17, 2021.",
           "Mark Stone missed his fourth straight game with a lower-body injury after taking a morning skate."
         ],
         "next": "Game 2 at Colorado",
-        "next_detail": "Friday, May 22 \u00b7 8 p.m. ET (ESPN)",
+        "next_detail": "Friday, May 22 · 8 p.m. ET (ESPN)",
         "roster": {
           "forwards": [
             {
@@ -455,7 +455,7 @@
               "pim": 0,
               "sog": 0,
               "spct": "0.0",
-              "toi": "\u2014",
+              "toi": "—",
               "fow": null,
               "hits": 0,
               "blk": 0,
@@ -615,7 +615,7 @@
               "w": 0,
               "l": 0,
               "gaa": 0.0,
-              "svpct": "\u2014",
+              "svpct": "—",
               "so": 0,
               "toi": "0:00",
               "inj": false
@@ -625,15 +625,15 @@
       },
       "podcast_angles": [
         "The 8-0 Hurricanes: is Carolina's historic start sustainable, or is a well-rested team about to get tested by a Montreal club that's in rhythm? Game 1 tonight tells us a lot.",
-        "Vegas's scoring monopoly \u2014 Marner, Dorofeyev and Eichel hold the NHL lead in playoff points, goals and assists. When has one team ever owned the scoring race this thoroughly this deep?",
+        "Vegas's scoring monopoly — Marner, Dorofeyev and Eichel hold the NHL lead in playoff points, goals and assists. When has one team ever owned the scoring race this thoroughly this deep?",
         "Carter Hart's redemption arc: 36 saves in a hostile Game 1. Frame what his playoff form means for the Golden Knights' Cup window.",
         "The youth movement: Montreal is the youngest conference finalist in 33 years, echoing the Cup-winning 1993 Canadiens. Lessons of young teams that go deep.",
-        "Cale Makar's mystery injury \u2014 how much does it swing the Western Final, and how should Colorado adjust if he misses Game 2?"
+        "Cale Makar's mystery injury — how much does it swing the Western Final, and how should Colorado adjust if he misses Game 2?"
       ],
       "news": [
         {
           "headline": "Hurricanes turn focus to Canadiens after long wait for East Final opponent",
-          "detail": "Carolina enters the Eastern Conference Final 8-0 this postseason \u2014 the franchise's longest playoff win streak ever and the 5th team in NHL history to open a run 8-0 or better. Game 1 is tonight in Raleigh.",
+          "detail": "Carolina enters the Eastern Conference Final 8-0 this postseason — the franchise's longest playoff win streak ever and the 5th team in NHL history to open a run 8-0 or better. Game 1 is tonight in Raleigh.",
           "source": "NHL.com",
           "url": "https://www.nhl.com/news/topic/playoffs/carolina-hurricanes-turn-focus-to-montreal-canadiens-after-long-wait"
         },
@@ -671,7 +671,7 @@
             "title": "How Dorofeyev Became the NHL's Deadliest Goal Scorer This Postseason",
             "type": "player_breakdown",
             "published": "2026-05-20",
-            "description": "Breaking down Pavel Dorofeyev's shot mechanics, off-puck movement, and what makes his release nearly impossible to stop \u2014 10 playoff goals and counting.",
+            "description": "Breaking down Pavel Dorofeyev's shot mechanics, off-puck movement, and what makes his release nearly impossible to stop — 10 playoff goals and counting.",
             "url": "https://www.youtube.com/@TheAMRewind",
             "thumbnail": ""
           },
@@ -679,7 +679,7 @@
             "title": "VGK Game 1 Goal Breakdown: Every Vegas Score vs Colorado Dissected",
             "type": "goal_breakdown",
             "published": "2026-05-21",
-            "description": "Frame-by-frame look at all four Vegas goals in Game 1 of the WCF \u2014 Coghlan's tip, Dorofeyev's power play snipe, Howden's wrister, and Dowd's empty netter.",
+            "description": "Frame-by-frame look at all four Vegas goals in Game 1 of the WCF — Coghlan's tip, Dorofeyev's power play snipe, Howden's wrister, and Dowd's empty netter.",
             "url": "https://www.youtube.com/@TheAMRewind",
             "thumbnail": ""
           },
@@ -687,7 +687,7 @@
             "title": "Carter Hart Film Room: How He Stopped 36 in Denver",
             "type": "player_breakdown",
             "published": "2026-05-21",
-            "description": "A full goaltending breakdown of Hart's 36-save performance in Game 1 \u2014 positioning, rebound control, and the three impossible stops that kept Vegas ahead.",
+            "description": "A full goaltending breakdown of Hart's 36-save performance in Game 1 — positioning, rebound control, and the three impossible stops that kept Vegas ahead.",
             "url": "https://www.youtube.com/@TheAMRewind",
             "thumbnail": ""
           },
@@ -703,7 +703,7 @@
             "title": "Eichel's Assist Masterclass: Every Playoff Setup Broken Down",
             "type": "goal_breakdown",
             "published": "2026-05-17",
-            "description": "14 assists in 12 playoff games. We charted every single one \u2014 the passes, the reads, and why Jack Eichel might be the most dangerous playmaker in this postseason.",
+            "description": "14 assists in 12 playoff games. We charted every single one — the passes, the reads, and why Jack Eichel might be the most dangerous playmaker in this postseason.",
             "url": "https://www.youtube.com/@TheAMRewind",
             "thumbnail": ""
           }
@@ -711,7 +711,7 @@
         "comments": [
           {
             "author": "PuckNerd42",
-            "text": "The breakdown of Dorofeyev's release mechanics was elite. Never noticed he shifts his weight before the shot \u2014 now I can't unsee it.",
+            "text": "The breakdown of Dorofeyev's release mechanics was elite. Never noticed he shifts his weight before the shot — now I can't unsee it.",
             "video_title": "How Dorofeyev Became the NHL's Deadliest Goal Scorer This Postseason",
             "date": "2026-05-20",
             "reply_url": "https://www.youtube.com/@TheAMRewind"
@@ -739,7 +739,7 @@
           },
           {
             "author": "HockeyAnalytics_",
-            "text": "Charting every single Eichel assist \u2014 respect. The seam pass he threads on the power play is uncanny. Great breakdown as always.",
+            "text": "Charting every single Eichel assist — respect. The seam pass he threads on the power play is uncanny. Great breakdown as always.",
             "video_title": "Eichel's Assist Masterclass: Every Playoff Setup Broken Down",
             "date": "2026-05-18",
             "reply_url": "https://www.youtube.com/@TheAMRewind"
@@ -772,7 +772,7 @@
           "retweets": "188"
         },
         {
-          "text": "Yesterday, Dec 31st, there were THIRTEEN NHL games played, including the Winter Classic. \n\nToday, Jan 1st New Year\u2019s Day, there is one NHL game\u2026.\n\nBeyond perplexed by this scheduling. Crowding the spectacle of the Winter Classic with twelve other games is such a weird choice.",
+          "text": "Yesterday, Dec 31st, there were THIRTEEN NHL games played, including the Winter Classic. \n\nToday, Jan 1st New Year’s Day, there is one NHL game….\n\nBeyond perplexed by this scheduling. Crowding the spectacle of the Winter Classic with twelve other games is such a weird choice.",
           "time": "2025-01-01T19:05:32.000Z",
           "displayTime": "Jan 1, 2025",
           "url": "https://x.com/EmptyNettersPod/status/1874532429144482103",
@@ -787,6 +787,158 @@
           "likes": "2.8K",
           "retweets": "74"
         }
+      ],
+      "podcasts": [
+        {
+          "show": "Empty Netters",
+          "icon": "EN",
+          "color": "gold",
+          "description": "Brothers Dan & Chris Powers bring the best news, analysis & interviews in hockey.",
+          "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/",
+          "episodes": [
+            {
+              "title": "Game 1 Of The Eastern Conference Final Was A Nightmare For Carolina",
+              "date": "May 22, 2026",
+              "duration": "96 min",
+              "description": "Game 1 of the ECF couldn't have gone worse for the Hurricanes, and it couldn't have gone better for the Habs. The boys recap all the action and discuss what Colorado needs to get back on track in Game 2.",
+              "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/episode/game-1-of-the-eastern-conference-334509722/"
+            },
+            {
+              "title": "How Did Nobody Tell Us Makar Is Actually Hurt?!",
+              "date": "May 21, 2026",
+              "duration": "92 min",
+              "description": "Vegas takes advantage of a Makar-less Avalanche and wins Game 1. Marner continues to dominate even without Mark Stone. The boys are LIVE recapping the first night of the Conference Finals.",
+              "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/episode/how-did-nobody-tell-us-makar-334391303/"
+            },
+            {
+              "title": "NHL Conference Finals Preview w/ Alec Martinez",
+              "date": "May 20, 2026",
+              "duration": "74 min",
+              "description": "Habs vs. Canes. Vegas vs. Avs. Can Carolina stop the ECF curse? Are the Habs a team of destiny? Can the Avs break the President's Trophy curse — or can Vegas and Mitch Marner stay hot?",
+              "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/episode/nhl-conference-finals-preview-w-alec-334216394/"
+            }
+          ]
+        },
+        {
+          "show": "The All-In Podcast",
+          "icon": "AI",
+          "color": "purple",
+          "description": "Chamath, Jason, Sacks & Friedberg on tech, startups, politics, and the economy.",
+          "url": "https://allin.com/episodes",
+          "episodes": [
+            {
+              "title": "Episode #273 — Marc Benioff",
+              "date": "May 15, 2026",
+              "duration": null,
+              "description": "U.S.-China relations, Taiwan, and AI's impact on enterprise software. Marc Benioff discusses Salesforce's strategy, the OpenAI vs. Apple competition, and the science corner covers El Niño climate effects.",
+              "url": "https://youtube.com/watch?v=jJRAvZNGUvI"
+            },
+            {
+              "title": "Charles & Chase Koch: How We Grew Koch Industries to $150B Without Going Public",
+              "date": "May 12, 2026",
+              "duration": null,
+              "description": "Koch Industries' history, growth through strategic acquisitions like Georgia-Pacific and Molex, company culture, the benefits of staying private, and Chase Koch's insights on purpose-driven education.",
+              "url": "https://youtube.com/watch?v=EIo3AuyvV84"
+            },
+            {
+              "title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
+              "date": "May 10, 2026",
+              "duration": null,
+              "description": "Spencer Pratt's campaign for LA Mayor — analyzing emergency response failures, homelessness policy, NGO corruption, Karen Bass's leadership, and a vision for LA's future infrastructure.",
+              "url": "https://youtube.com/watch?v=GCpjy3TC8Pg"
+            }
+          ]
+        },
+        {
+          "show": "The Joe Rogan Experience",
+          "icon": "JRE",
+          "color": "muted",
+          "description": "The official podcast of comedian Joe Rogan — wide-ranging conversations with fascinating guests.",
+          "url": "https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk",
+          "episodes": [
+            {
+              "title": "#2503 — Eric Weinstein",
+              "date": "May 21, 2026",
+              "duration": "2h 53m",
+              "description": "Mathematical physicist and managing director Eric Weinstein joins Joe for a wide-ranging discussion on physics, economics, academia, and the institutions shaping modern society.",
+              "url": "https://jrelibrary.com/2503-eric-weinstein/"
+            },
+            {
+              "title": "#2502 — David Paulides",
+              "date": "May 20, 2026",
+              "duration": "2h 20m",
+              "description": "Former law enforcement officer and researcher David Paulides discusses his Missing 411 investigations — mysterious disappearances in national parks and wilderness areas across North America.",
+              "url": "https://jrelibrary.com/2502-david-paulides/"
+            },
+            {
+              "title": "#2501 — Marc Andreessen",
+              "date": "May 19, 2026",
+              "duration": "3h 20m",
+              "description": "Venture capitalist and tech pioneer Marc Andreessen on surveillance technology's role in law enforcement, AI's future trajectory, progressive policy effects on cities, and the state of Silicon Valley.",
+              "url": "https://jrelibrary.com/2501-marc-andreessen/"
+            }
+          ]
+        },
+        {
+          "show": "Huberman Lab",
+          "icon": "HL",
+          "color": "green",
+          "description": "Dr. Andrew Huberman discusses neuroscience and science-based tools for everyday life.",
+          "url": "https://www.hubermanlab.com/podcast",
+          "episodes": [
+            {
+              "title": "Essentials: The Science of Learning & Speaking Languages | Dr. Eddie Chang",
+              "date": "May 21, 2026",
+              "duration": null,
+              "description": "Neurosurgeon Dr. Eddie Chang reveals how the brain produces speech, the science of stuttering, and how AI-powered neural prosthetics are restoring communication in paralyzed patients.",
+              "url": "https://www.hubermanlab.com/episode/essentials-the-science-of-learning-and-speaking-languages-eddie-chang"
+            },
+            {
+              "title": "How to Overcome Social Anxiety | Dr. Nick Epley",
+              "date": "May 18, 2026",
+              "duration": null,
+              "description": "Dr. Nick Epley, behavioral scientist at the University of Chicago, explores the psychology and neuroscience behind social anxiety — and science-backed strategies to overcome it.",
+              "url": "https://www.hubermanlab.com/episode/how-to-overcome-social-anxiety-nick-epley"
+            },
+            {
+              "title": "Essentials: Understanding & Controlling Aggression",
+              "date": "May 14, 2026",
+              "duration": null,
+              "description": "The neuroscience of aggression — how hormones, genes, and environment shape aggressive behavior, plus science-backed tools to regulate it and channel it constructively.",
+              "url": "https://www.hubermanlab.com/episode/essentials-understanding-and-controlling-aggression"
+            }
+          ]
+        },
+        {
+          "show": "Pardon My Take",
+          "icon": "PMT",
+          "color": "purple",
+          "description": "Big Cat and PFT Commenter deliver sports commentary, interviews, and comedic chaos.",
+          "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756",
+          "episodes": [
+            {
+              "title": "Grit Week Continues, Lane Kiffin, Blake Bortles, Wemby's Game 1, Knicks Kill The Cavs",
+              "date": "May 20, 2026",
+              "duration": null,
+              "description": "Lane Kiffin and Blake Bortles join the show during Grit Week 2026. Plus reaction to Wemby's incredible playoff Game 1 and the Knicks eliminating the Cavs. Hot Seat/Cool Throne included.",
+              "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
+            },
+            {
+              "title": "Bill Belichick, Grit Week 2026, Cavs Win Game 7, Aaron Rai Takes The PGA",
+              "date": "May 18, 2026",
+              "duration": null,
+              "description": "Coach Bill Belichick joins to talk coaching at UNC, Super Bowls, and life in football. Plus Game 7 Cavs recap, Aaron Rai's PGA Championship win, and Who's Back of the Week.",
+              "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
+            },
+            {
+              "title": "Brooks Koepka, PGA Championship With Shane Bacon, Wemby's Revenge, LeBron's Last Game?",
+              "date": "May 13, 2026",
+              "duration": null,
+              "description": "Brooks Koepka and Shane Bacon preview the PGA Championship. Plus reactions to Wemby's bounce-back performance and debate over whether LeBron's season is over. Guys on Chicks segment.",
+              "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
+            }
+          ]
+        }
       ]
     },
     {
@@ -798,14 +950,14 @@
       "games": [
         {
           "matchup": "Montreal Canadiens 6, Carolina Hurricanes 2",
-          "context": "Eastern Conference Final \u00b7 Game 1 \u00b7 Lenovo Center, Raleigh, NC",
+          "context": "Eastern Conference Final · Game 1 · Lenovo Center, Raleigh, NC",
           "series_note": "Montreal leads series 1-0",
           "winner_abbr": "MTL",
           "away_abbr": "MTL",
           "away_score": 6,
           "home_abbr": "CAR",
           "home_score": 2,
-          "detail": "Montreal pounced for four first-period goals on a Carolina team that had been idle for 11+ days. Cole Caufield and Phillip Danault scored in the opening four minutes, Alexandre Texier added a third, and Ivan Demidov finished a breakaway to shock the Hurricanes 4-1 by the midway point of the first. Juraj Slafkovsky added two third-period goals \u2014 his second an empty-netter \u2014 to complete the route. Nick Suzuki totaled three assists. Jakob Dobes stopped 24 shots for Montreal. For Carolina \u2014 11-0 entering this series \u2014 it was a jarring first loss of the 2026 postseason."
+          "detail": "Montreal pounced for four first-period goals on a Carolina team that had been idle for 11+ days. Cole Caufield and Phillip Danault scored in the opening four minutes, Alexandre Texier added a third, and Ivan Demidov finished a breakaway to shock the Hurricanes 4-1 by the midway point of the first. Juraj Slafkovsky added two third-period goals — his second an empty-netter — to complete the route. Nick Suzuki totaled three assists. Jakob Dobes stopped 24 shots for Montreal. For Carolina — 11-0 entering this series — it was a jarring first loss of the 2026 postseason."
         }
       ],
       "series": [
@@ -814,14 +966,14 @@
           "teams": "Montreal Canadiens vs. Carolina Hurricanes",
           "status": "Montreal leads 1-0",
           "leader_abbr": "MTL",
-          "next": "Game 2 \u2014 Sat, May 23, Lenovo Center (7 p.m. ET, TNT)"
+          "next": "Game 2 — Sat, May 23, Lenovo Center (7 p.m. ET, TNT)"
         },
         {
           "name": "Western Conference Final",
           "teams": "Vegas Golden Knights vs. Colorado Avalanche",
           "status": "Vegas leads 1-0",
           "leader_abbr": "VGK",
-          "next": "Game 2 \u2014 TONIGHT, Fri May 22, Ball Arena (8 p.m. ET, ESPN)"
+          "next": "Game 2 — TONIGHT, Fri May 22, Ball Arena (8 p.m. ET, ESPN)"
         }
       ],
       "leaders": {
@@ -830,7 +982,7 @@
             "name": "Mitch Marner",
             "team": "VGK",
             "value": "19",
-            "note": "7G, 12A in 13 GP \u2014 leads the NHL"
+            "note": "7G, 12A in 13 GP — leads the NHL"
           },
           {
             "name": "Nick Suzuki",
@@ -862,7 +1014,7 @@
             "name": "Pavel Dorofeyev",
             "team": "VGK",
             "value": "10",
-            "note": "NHL lead \u2014 13 GP"
+            "note": "NHL lead — 13 GP"
           },
           {
             "name": "Brett Howden",
@@ -894,7 +1046,7 @@
             "name": "Jack Eichel",
             "team": "VGK",
             "value": "15",
-            "note": "NHL lead \u2014 1G, 15A in 13 GP"
+            "note": "NHL lead — 1G, 15A in 13 GP"
           },
           {
             "name": "Mitch Marner",
@@ -956,19 +1108,19 @@
       },
       "vgk": {
         "record": "9-4",
-        "record_detail": "9-4 in the 2026 Stanley Cup Playoffs (R1: def. Utah 4-2 \u00b7 R2: def. Anaheim 4-2 \u00b7 WCF: G1 win)",
-        "series_short": "Up 1-0 \u00b7 WCF",
+        "record_detail": "9-4 in the 2026 Stanley Cup Playoffs (R1: def. Utah 4-2 · R2: def. Anaheim 4-2 · WCF: G1 win)",
+        "series_short": "Up 1-0 · WCF",
         "series": "Lead the Colorado Avalanche 1-0 in the Western Conference Final",
-        "spotlight": "No game last night \u2014 all eyes are on tonight's Game 2 in Denver. The Golden Knights are without captain Mark Stone (lower-body, 5 consecutive games missed) but gain Brayden McNabb back after his one-game suspension. Vegas players lead the NHL in playoff points (Marner, 19), assists (Eichel, 15) and goals (Dorofeyev, 10) \u2014 one of the rare times in NHL history a single franchise owns all three top spots at the conference final stage.",
+        "spotlight": "No game last night — all eyes are on tonight's Game 2 in Denver. The Golden Knights are without captain Mark Stone (lower-body, 5 consecutive games missed) but gain Brayden McNabb back after his one-game suspension. Vegas players lead the NHL in playoff points (Marner, 19), assists (Eichel, 15) and goals (Dorofeyev, 10) — one of the rare times in NHL history a single franchise owns all three top spots at the conference final stage.",
         "notes": [
-          "Carter Hart is 9-4 with 2.35 GAA and .920 SV% \u2014 on pace for one of the top playoff goaltending seasons in franchise history.",
+          "Carter Hart is 9-4 with 2.35 GAA and .920 SV% — on pace for one of the top playoff goaltending seasons in franchise history.",
           "Mark Stone missed his fifth straight game with a lower-body injury; no official return timeline given by Tortorella.",
-          "Brayden McNabb serves his final suspension game tonight \u2014 he is available for Game 2 in Denver.",
+          "Brayden McNabb serves his final suspension game tonight — he is available for Game 2 in Denver.",
           "NHL denied the Golden Knights' appeal of sanctions: Torts' $100K fine and the forfeiture of the 2026 second-round pick both upheld.",
-          "VGK holds the NHL lead in playoff points (Marner, 19), goals (Dorofeyev, 10), and assists (Eichel, 15) \u2014 all from the same club."
+          "VGK holds the NHL lead in playoff points (Marner, 19), goals (Dorofeyev, 10), and assists (Eichel, 15) — all from the same club."
         ],
         "next": "Game 2 at Colorado",
-        "next_detail": "TONIGHT \u2014 Friday, May 22 \u00b7 8 p.m. ET (ESPN) \u00b7 Ball Arena, Denver",
+        "next_detail": "TONIGHT — Friday, May 22 · 8 p.m. ET (ESPN) · Ball Arena, Denver",
         "roster": {
           "forwards": [
             {
@@ -1235,7 +1387,7 @@
               "pim": 0,
               "sog": 0,
               "spct": "0.0",
-              "toi": "\u2014",
+              "toi": "—",
               "fow": null,
               "hits": 0,
               "blk": 0,
@@ -1400,7 +1552,7 @@
               "w": 0,
               "l": 0,
               "gaa": 0.0,
-              "svpct": "\u2014",
+              "svpct": "—",
               "so": 0,
               "toi": "0:00",
               "inj": false
@@ -1412,7 +1564,7 @@
               "w": 0,
               "l": 0,
               "gaa": 0.0,
-              "svpct": "\u2014",
+              "svpct": "—",
               "so": 0,
               "toi": "0:00",
               "inj": false
@@ -1421,11 +1573,11 @@
         }
       },
       "podcast_angles": [
-        "The Canadiens are for real \u2014 four first-period goals on the league's best team in the East. Is this the real Montreal or were the Hurricanes just rusty after 11+ days off?",
-        "Carolina went 11-0 before Game 1 \u2014 is this the normal volatility of a long layoff, or did Montreal expose a structural weakness the rest of the hockey world should pay attention to?",
-        "VGK's monopoly on the scoring race: Marner (pts), Dorofeyev (goals), Eichel (assists) \u2014 all from the same club. How rare is that, and what does it tell you about their Cup odds?",
-        "The forfeited 2026 second-round pick: what does losing that asset mean for Vegas's roster-building window if they win \u2014 or lose \u2014 the Cup this year?",
-        "Game 2 preview tonight: with Stone still out, McNabb back from suspension, and Makar's status murky for Colorado \u2014 what's the biggest factor in deciding who takes a 2-0 series lead?"
+        "The Canadiens are for real — four first-period goals on the league's best team in the East. Is this the real Montreal or were the Hurricanes just rusty after 11+ days off?",
+        "Carolina went 11-0 before Game 1 — is this the normal volatility of a long layoff, or did Montreal expose a structural weakness the rest of the hockey world should pay attention to?",
+        "VGK's monopoly on the scoring race: Marner (pts), Dorofeyev (goals), Eichel (assists) — all from the same club. How rare is that, and what does it tell you about their Cup odds?",
+        "The forfeited 2026 second-round pick: what does losing that asset mean for Vegas's roster-building window if they win — or lose — the Cup this year?",
+        "Game 2 preview tonight: with Stone still out, McNabb back from suspension, and Makar's status murky for Colorado — what's the biggest factor in deciding who takes a 2-0 series lead?"
       ],
       "rumors": [
         {
@@ -1459,7 +1611,7 @@
             "TOR"
           ],
           "vgk": false,
-          "content": "Toronto's new GM John Chayka is essentially open to listening to offers on any Maple Leafs player except team captain Auston Matthews. Players like Nylander and Rielly hold no-movement clauses. This does not signal a fire sale \u2014 Chayka is retooling, not rebuilding, and asking prices will be high.",
+          "content": "Toronto's new GM John Chayka is essentially open to listening to offers on any Maple Leafs player except team captain Auston Matthews. Players like Nylander and Rielly hold no-movement clauses. This does not signal a fire sale — Chayka is retooling, not rebuilding, and asking prices will be high.",
           "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"
         },
         {
@@ -1483,7 +1635,7 @@
             "VGK"
           ],
           "vgk": true,
-          "content": "Seravalli noted that the VGK sanctions robbed the team of positive media coverage entering the WCF. Instead of the story being Vegas's impressive playoff run, the pre-series narrative centered on the Torts fine and the forfeited pick \u2014 putting the coaching staff and front office on the defensive.",
+          "content": "Seravalli noted that the VGK sanctions robbed the team of positive media coverage entering the WCF. Instead of the story being Vegas's impressive playoff run, the pre-series narrative centered on the Torts fine and the forfeited pick — putting the coaching staff and front office on the defensive.",
           "url": "https://www.dailyfaceoff.com/news/vegas-golden-knights-robbed-positive-coverage-entering-west-final-fine-forfeited-pick-nhl-john-tortorella"
         }
       ],
@@ -1538,7 +1690,7 @@
           "position": "D",
           "status": "DTD",
           "injury": "Undisclosed",
-          "detail": "Makar did not play in WCF Game 1 and his status for Game 2 tonight remains unclear. A major factor in the series \u2014 his absence was notable in Colorado's 4-2 loss.",
+          "detail": "Makar did not play in WCF Game 1 and his status for Game 2 tonight remains unclear. A major factor in the series — his absence was notable in Colorado's 4-2 loss.",
           "vgk": false
         }
       ],
@@ -1550,13 +1702,13 @@
           "url": "https://www.nhl.com/news/montreal-canadiens-carolina-hurricanes-game-1-recap-may-21-2026"
         },
         {
-          "headline": "NHL denies Golden Knights sanctions appeal \u2014 $100K fine and 2026 second-round pick forfeiture stand",
+          "headline": "NHL denies Golden Knights sanctions appeal — $100K fine and 2026 second-round pick forfeiture stand",
           "detail": "The NHL upheld its penalties against the Vegas Golden Knights stemming from repeated violations of playoff media access rules. Head coach John Tortorella was fined $100,000 and the team forfeits its 2026 second-round draft pick. The appeal was heard in New York on May 20.",
           "source": "ESPN",
           "url": "https://www.espn.com/nhl/story/_/id/48817578/espnvgk-appeal-sanctions-led-loss-draft-pick-denied"
         },
         {
-          "headline": "2026-27 NHL salary cap to reach $104 million \u2014 Friedman",
+          "headline": "2026-27 NHL salary cap to reach $104 million — Friedman",
           "detail": "Per Elliotte Friedman, the NHL has informed teams the cap ceiling for next season will be $104 million, an all-time high. This gives teams across the league significant flexibility in shaping their rosters for the future.",
           "source": "Sportsnet",
           "url": "https://www.spectorshockey.net/2026/05/nhl-rumor-mill-may-21-2026/"
@@ -1583,7 +1735,7 @@
             "title": "Canadiens Detonate on Carolina: Breaking Down Every First-Period Goal",
             "type": "goal_breakdown",
             "published": "2026-05-22",
-            "description": "Frame-by-frame look at Montreal's four first-period goals in ECF Game 1 \u2014 Caufield's quick release, Danault's tip, Texier's redirection, and Demidov's breakaway finish that shocked the Hurricanes.",
+            "description": "Frame-by-frame look at Montreal's four first-period goals in ECF Game 1 — Caufield's quick release, Danault's tip, Texier's redirection, and Demidov's breakaway finish that shocked the Hurricanes.",
             "url": "https://www.youtube.com/@TheAMRewind",
             "thumbnail": ""
           },
@@ -1607,7 +1759,7 @@
             "title": "How Dorofeyev Became the NHL's Deadliest Goal Scorer This Postseason",
             "type": "player_breakdown",
             "published": "2026-05-20",
-            "description": "Breaking down Pavel Dorofeyev's shot mechanics, off-puck movement, and what makes his release nearly impossible to stop \u2014 10 playoff goals and counting.",
+            "description": "Breaking down Pavel Dorofeyev's shot mechanics, off-puck movement, and what makes his release nearly impossible to stop — 10 playoff goals and counting.",
             "url": "https://www.youtube.com/@TheAMRewind",
             "thumbnail": ""
           },
@@ -1615,7 +1767,7 @@
             "title": "Carter Hart Film Room: How He Stopped 36 in Denver",
             "type": "player_breakdown",
             "published": "2026-05-21",
-            "description": "A full goaltending breakdown of Hart's 36-save performance in WCF Game 1 \u2014 positioning, rebound control, and the three impossible stops that kept Vegas ahead.",
+            "description": "A full goaltending breakdown of Hart's 36-save performance in WCF Game 1 — positioning, rebound control, and the three impossible stops that kept Vegas ahead.",
             "url": "https://www.youtube.com/@TheAMRewind",
             "thumbnail": ""
           }
@@ -1643,7 +1795,159 @@
             "reply_url": "https://www.youtube.com/@TheAMRewind"
           }
         ]
-      }
+      },
+      "podcasts": [
+        {
+          "show": "Empty Netters",
+          "icon": "EN",
+          "color": "gold",
+          "description": "Brothers Dan & Chris Powers bring the best news, analysis & interviews in hockey.",
+          "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/",
+          "episodes": [
+            {
+              "title": "Game 1 Of The Eastern Conference Final Was A Nightmare For Carolina",
+              "date": "May 22, 2026",
+              "duration": "96 min",
+              "description": "Game 1 of the ECF couldn't have gone worse for the Hurricanes, and it couldn't have gone better for the Habs. The boys recap all the action and discuss what Colorado needs to get back on track in Game 2.",
+              "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/episode/game-1-of-the-eastern-conference-334509722/"
+            },
+            {
+              "title": "How Did Nobody Tell Us Makar Is Actually Hurt?!",
+              "date": "May 21, 2026",
+              "duration": "92 min",
+              "description": "Vegas takes advantage of a Makar-less Avalanche and wins Game 1. Marner continues to dominate even without Mark Stone. The boys are LIVE recapping the first night of the Conference Finals.",
+              "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/episode/how-did-nobody-tell-us-makar-334391303/"
+            },
+            {
+              "title": "NHL Conference Finals Preview w/ Alec Martinez",
+              "date": "May 20, 2026",
+              "duration": "74 min",
+              "description": "Habs vs. Canes. Vegas vs. Avs. Can Carolina stop the ECF curse? Are the Habs a team of destiny? Can the Avs break the President's Trophy curse — or can Vegas and Mitch Marner stay hot?",
+              "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/episode/nhl-conference-finals-preview-w-alec-334216394/"
+            }
+          ]
+        },
+        {
+          "show": "The All-In Podcast",
+          "icon": "AI",
+          "color": "purple",
+          "description": "Chamath, Jason, Sacks & Friedberg on tech, startups, politics, and the economy.",
+          "url": "https://allin.com/episodes",
+          "episodes": [
+            {
+              "title": "Episode #273 — Marc Benioff",
+              "date": "May 15, 2026",
+              "duration": null,
+              "description": "U.S.-China relations, Taiwan, and AI's impact on enterprise software. Marc Benioff discusses Salesforce's strategy, the OpenAI vs. Apple competition, and the science corner covers El Niño climate effects.",
+              "url": "https://youtube.com/watch?v=jJRAvZNGUvI"
+            },
+            {
+              "title": "Charles & Chase Koch: How We Grew Koch Industries to $150B Without Going Public",
+              "date": "May 12, 2026",
+              "duration": null,
+              "description": "Koch Industries' history, growth through strategic acquisitions like Georgia-Pacific and Molex, company culture, the benefits of staying private, and Chase Koch's insights on purpose-driven education.",
+              "url": "https://youtube.com/watch?v=EIo3AuyvV84"
+            },
+            {
+              "title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
+              "date": "May 10, 2026",
+              "duration": null,
+              "description": "Spencer Pratt's campaign for LA Mayor — analyzing emergency response failures, homelessness policy, NGO corruption, Karen Bass's leadership, and a vision for LA's future infrastructure.",
+              "url": "https://youtube.com/watch?v=GCpjy3TC8Pg"
+            }
+          ]
+        },
+        {
+          "show": "The Joe Rogan Experience",
+          "icon": "JRE",
+          "color": "muted",
+          "description": "The official podcast of comedian Joe Rogan — wide-ranging conversations with fascinating guests.",
+          "url": "https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk",
+          "episodes": [
+            {
+              "title": "#2503 — Eric Weinstein",
+              "date": "May 21, 2026",
+              "duration": "2h 53m",
+              "description": "Mathematical physicist and managing director Eric Weinstein joins Joe for a wide-ranging discussion on physics, economics, academia, and the institutions shaping modern society.",
+              "url": "https://jrelibrary.com/2503-eric-weinstein/"
+            },
+            {
+              "title": "#2502 — David Paulides",
+              "date": "May 20, 2026",
+              "duration": "2h 20m",
+              "description": "Former law enforcement officer and researcher David Paulides discusses his Missing 411 investigations — mysterious disappearances in national parks and wilderness areas across North America.",
+              "url": "https://jrelibrary.com/2502-david-paulides/"
+            },
+            {
+              "title": "#2501 — Marc Andreessen",
+              "date": "May 19, 2026",
+              "duration": "3h 20m",
+              "description": "Venture capitalist and tech pioneer Marc Andreessen on surveillance technology's role in law enforcement, AI's future trajectory, progressive policy effects on cities, and the state of Silicon Valley.",
+              "url": "https://jrelibrary.com/2501-marc-andreessen/"
+            }
+          ]
+        },
+        {
+          "show": "Huberman Lab",
+          "icon": "HL",
+          "color": "green",
+          "description": "Dr. Andrew Huberman discusses neuroscience and science-based tools for everyday life.",
+          "url": "https://www.hubermanlab.com/podcast",
+          "episodes": [
+            {
+              "title": "Essentials: The Science of Learning & Speaking Languages | Dr. Eddie Chang",
+              "date": "May 21, 2026",
+              "duration": null,
+              "description": "Neurosurgeon Dr. Eddie Chang reveals how the brain produces speech, the science of stuttering, and how AI-powered neural prosthetics are restoring communication in paralyzed patients.",
+              "url": "https://www.hubermanlab.com/episode/essentials-the-science-of-learning-and-speaking-languages-eddie-chang"
+            },
+            {
+              "title": "How to Overcome Social Anxiety | Dr. Nick Epley",
+              "date": "May 18, 2026",
+              "duration": null,
+              "description": "Dr. Nick Epley, behavioral scientist at the University of Chicago, explores the psychology and neuroscience behind social anxiety — and science-backed strategies to overcome it.",
+              "url": "https://www.hubermanlab.com/episode/how-to-overcome-social-anxiety-nick-epley"
+            },
+            {
+              "title": "Essentials: Understanding & Controlling Aggression",
+              "date": "May 14, 2026",
+              "duration": null,
+              "description": "The neuroscience of aggression — how hormones, genes, and environment shape aggressive behavior, plus science-backed tools to regulate it and channel it constructively.",
+              "url": "https://www.hubermanlab.com/episode/essentials-understanding-and-controlling-aggression"
+            }
+          ]
+        },
+        {
+          "show": "Pardon My Take",
+          "icon": "PMT",
+          "color": "purple",
+          "description": "Big Cat and PFT Commenter deliver sports commentary, interviews, and comedic chaos.",
+          "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756",
+          "episodes": [
+            {
+              "title": "Grit Week Continues, Lane Kiffin, Blake Bortles, Wemby's Game 1, Knicks Kill The Cavs",
+              "date": "May 20, 2026",
+              "duration": null,
+              "description": "Lane Kiffin and Blake Bortles join the show during Grit Week 2026. Plus reaction to Wemby's incredible playoff Game 1 and the Knicks eliminating the Cavs. Hot Seat/Cool Throne included.",
+              "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
+            },
+            {
+              "title": "Bill Belichick, Grit Week 2026, Cavs Win Game 7, Aaron Rai Takes The PGA",
+              "date": "May 18, 2026",
+              "duration": null,
+              "description": "Coach Bill Belichick joins to talk coaching at UNC, Super Bowls, and life in football. Plus Game 7 Cavs recap, Aaron Rai's PGA Championship win, and Who's Back of the Week.",
+              "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
+            },
+            {
+              "title": "Brooks Koepka, PGA Championship With Shane Bacon, Wemby's Revenge, LeBron's Last Game?",
+              "date": "May 13, 2026",
+              "duration": null,
+              "description": "Brooks Koepka and Shane Bacon preview the PGA Championship. Plus reactions to Wemby's bounce-back performance and debate over whether LeBron's season is over. Guys on Chicks segment.",
+              "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
