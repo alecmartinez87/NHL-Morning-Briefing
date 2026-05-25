@@ -626,53 +626,84 @@
           "insider": "Elliotte Friedman",
           "handle": "@FriedgeHNIC",
           "outlet": "Sportsnet",
-          "date": "2026-05-24",
-          "teams": [
-            "VGK",
-            "EDM"
-          ],
-          "vgk": true,
-          "content": "A Golden Knights-Oilers organizational feud has been simmering: Edmonton asked to interview a Henderson (AHL) assistant coach, were granted permission, made an offer, and Vegas then blocked the hire. The situation has added tension to the already-contentious Cassidy interview block.",
-          "url": "https://nhlrumors.com/nhl-rumors-michael-mccarron-and-a-golden-knights-oilers-feud/2026/05/24/"
-        },
-        {
-          "insider": "Elliotte Friedman",
-          "handle": "@FriedgeHNIC",
-          "outlet": "Sportsnet",
-          "date": "2026-05-24",
-          "teams": [
-            "SJS",
-            "NYR"
-          ],
-          "vgk": false,
-          "content": "Mario Ferraro (SJS) talks with San Jose are not progressing ahead of his July 1 UFA eligibility. Friedman: 'That one seems likely going to market.' The Rangers are among teams monitoring the right-shot defenseman.",
-          "url": "https://sports.yahoo.com/articles/possible-rangers-free-agent-target-185727505.html"
-        },
-        {
-          "insider": "Frank Seravalli",
-          "handle": "@frank_seravalli",
-          "outlet": "Daily Faceoff",
-          "date": "2026-05-24",
-          "teams": [
-            "CBJ"
-          ],
-          "vgk": false,
-          "content": "Columbus Blue Jackets could be aggressive at the 2026 NHL Draft in Buffalo, looking to trade up from their No. 14 pick. GM Don Waddell has the cap flexibility and the desire to accelerate the rebuild sooner rather than later.",
-          "url": "https://www.dailyfaceoff.com/news/columbus-blue-jackets-could-be-team-trade-up-2026-nhl-draft-don-waddell"
+          "tweets": [
+            {
+              "date": "2026-05-24",
+              "text": "A Golden Knights-Oilers organizational feud has been simmering: Edmonton asked to interview a Henderson (AHL) assistant coach, were granted permission, made an offer, and Vegas then blocked the hire. The situation has added tension to the already-contentious Cassidy interview block.",
+              "url": "https://nhlrumors.com/nhl-rumors-michael-mccarron-and-a-golden-knights-oilers-feud/2026/05/24/"
+            },
+            {
+              "date": "2026-05-24",
+              "text": "Mario Ferraro (SJS) talks with San Jose are not progressing ahead of his July 1 UFA eligibility. Friedman: 'That one seems likely going to market.' The Rangers are among teams monitoring the right-shot defenseman.",
+              "url": "https://sports.yahoo.com/articles/possible-rangers-free-agent-target-185727505.html"
+            }
+          ]
         },
         {
           "insider": "Pierre LeBrun",
           "handle": "@PierreVLeBrun",
           "outlet": "The Athletic",
-          "date": "2026-05-23",
-          "teams": [
-            "VGK",
-            "CAR",
-            "FLA"
-          ],
-          "vgk": true,
-          "content": "VGK and Hurricanes are the two frontrunners if Florida makes Bobrovsky available this offseason. Both teams' planning depends on their playoff run.",
-          "url": "https://www.nhltraderumor.com/nhl-teams/vegas-golden-knights-news-rumors/"
+          "tweets": [
+            {
+              "date": "2026-05-23",
+              "text": "VGK and Hurricanes are the two frontrunners if Florida makes Bobrovsky available this offseason. Both teams' planning depends on their playoff run.",
+              "url": "https://www.nhltraderumor.com/nhl-teams/vegas-golden-knights-news-rumors/"
+            }
+          ]
+        },
+        {
+          "insider": "Darren Dreger",
+          "handle": "@DarrenDreger",
+          "outlet": "TSN",
+          "tweets": []
+        },
+        {
+          "insider": "Frank Seravalli",
+          "handle": "@frank_seravalli",
+          "outlet": "Daily Faceoff",
+          "tweets": [
+            {
+              "date": "2026-05-24",
+              "text": "Columbus Blue Jackets could be aggressive at the 2026 NHL Draft in Buffalo, looking to trade up from their No. 14 pick. GM Don Waddell has the cap flexibility and the desire to accelerate the rebuild sooner rather than later.",
+              "url": "https://www.dailyfaceoff.com/news/columbus-blue-jackets-could-be-team-trade-up-2026-nhl-draft-don-waddell"
+            }
+          ]
+        },
+        {
+          "insider": "Chris Johnston",
+          "handle": "@reporterchris",
+          "outlet": "Sportsnet",
+          "tweets": []
+        },
+        {
+          "insider": "Dave Pagnotta",
+          "handle": "@TheFourthPeriod",
+          "outlet": "The Fourth Period",
+          "tweets": []
+        },
+        {
+          "insider": "Jeff Marek",
+          "handle": "@JeffMarek",
+          "outlet": "Sportsnet",
+          "tweets": []
+        },
+        {
+          "insider": "Rick Dhaliwal",
+          "handle": "@DhaliwalSports",
+          "outlet": "CHEK / Daily Faceoff",
+          "tweets": []
+        },
+        {
+          "insider": "Kevin Weekes",
+          "handle": "@KevinWeekes",
+          "outlet": "NHL Network",
+          "tweets": []
+        },
+        {
+          "insider": "Arthur Staple",
+          "handle": "@ArthurStaple",
+          "outlet": "The Athletic",
+          "tweets": []
         }
       ],
       "transactions": [],
@@ -809,7 +840,159 @@
         "description": "NHL goal breakdowns, player analysis, and film room deep-dives. New videos every week.",
         "latest_videos": [],
         "comments": []
-      }
+      },
+      "podcasts": [
+        {
+          "show": "Empty Netters",
+          "icon": "EN",
+          "color": "gold",
+          "description": "Brothers Dan & Chris Powers bring the best news, analysis & interviews in hockey.",
+          "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/",
+          "episodes": [
+            {
+              "title": "Game 3 Preview: VGK Eyes 3-0 Series Lead; Makar GTD",
+              "date": "May 24, 2026",
+              "duration": null,
+              "description": "The boys preview Game 3 of the Western Conference Final from T-Mobile Arena — VGK leads 2-0 and can put Colorado in a near-impossible hole tonight. Makar is a game-time decision.",
+              "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/"
+            },
+            {
+              "title": "Game 1 Of The Eastern Conference Final Was A Nightmare For Carolina",
+              "date": "May 22, 2026",
+              "duration": "96 min",
+              "description": "Game 1 of the ECF couldn't have gone worse for the Hurricanes, and it couldn't have gone better for the Habs. The boys recap all the action and discuss what Colorado needs to get back on track in Game 2.",
+              "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/episode/game-1-of-the-eastern-conference-334509722/"
+            },
+            {
+              "title": "How Did Nobody Tell Us Makar Is Actually Hurt?!",
+              "date": "May 21, 2026",
+              "duration": "92 min",
+              "description": "Vegas takes advantage of a Makar-less Avalanche and wins Game 1. Marner continues to dominate even without Mark Stone. The boys are LIVE recapping the first night of the Conference Finals.",
+              "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/episode/how-did-nobody-tell-us-makar-334391303/"
+            }
+          ]
+        },
+        {
+          "show": "The All-In Podcast",
+          "icon": "AI",
+          "color": "purple",
+          "description": "Chamath, Jason, Sacks & Friedberg on tech, startups, politics, and the economy.",
+          "url": "https://allin.com/episodes",
+          "episodes": [
+            {
+              "title": "Episode #273 — Marc Benioff",
+              "date": "May 15, 2026",
+              "duration": null,
+              "description": "U.S.-China relations, Taiwan, and AI's impact on enterprise software. Marc Benioff discusses Salesforce's strategy, the OpenAI vs. Apple competition, and the science corner covers El Niño climate effects.",
+              "url": "https://youtube.com/watch?v=jJRAvZNGUvI"
+            },
+            {
+              "title": "Charles & Chase Koch: How We Grew Koch Industries to $150B Without Going Public",
+              "date": "May 12, 2026",
+              "duration": null,
+              "description": "Koch Industries' history, growth through strategic acquisitions like Georgia-Pacific and Molex, company culture, the benefits of staying private, and Chase Koch's insights on purpose-driven education.",
+              "url": "https://youtube.com/watch?v=EIo3AuyvV84"
+            },
+            {
+              "title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
+              "date": "May 10, 2026",
+              "duration": null,
+              "description": "Spencer Pratt's campaign for LA Mayor — analyzing emergency response failures, homelessness policy, NGO corruption, Karen Bass's leadership, and a vision for LA's future infrastructure.",
+              "url": "https://youtube.com/watch?v=GCpjy3TC8Pg"
+            }
+          ]
+        },
+        {
+          "show": "The Joe Rogan Experience",
+          "icon": "JRE",
+          "color": "muted",
+          "description": "The official podcast of comedian Joe Rogan — wide-ranging conversations with fascinating guests.",
+          "url": "https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk",
+          "episodes": [
+            {
+              "title": "#2503 — Eric Weinstein",
+              "date": "May 21, 2026",
+              "duration": "2h 53m",
+              "description": "Mathematical physicist and managing director Eric Weinstein joins Joe for a wide-ranging discussion on physics, economics, academia, and the institutions shaping modern society.",
+              "url": "https://jrelibrary.com/2503-eric-weinstein/"
+            },
+            {
+              "title": "#2502 — David Paulides",
+              "date": "May 20, 2026",
+              "duration": "2h 20m",
+              "description": "Former law enforcement officer and researcher David Paulides discusses his Missing 411 investigations — mysterious disappearances in national parks and wilderness areas across North America.",
+              "url": "https://jrelibrary.com/2502-david-paulides/"
+            },
+            {
+              "title": "#2501 — Marc Andreessen",
+              "date": "May 19, 2026",
+              "duration": "3h 20m",
+              "description": "Venture capitalist and tech pioneer Marc Andreessen on surveillance technology's role in law enforcement, AI's future trajectory, progressive policy effects on cities, and the state of Silicon Valley.",
+              "url": "https://jrelibrary.com/2501-marc-andreessen/"
+            }
+          ]
+        },
+        {
+          "show": "Huberman Lab",
+          "icon": "HL",
+          "color": "green",
+          "description": "Dr. Andrew Huberman discusses neuroscience and science-based tools for everyday life.",
+          "url": "https://www.hubermanlab.com/podcast",
+          "episodes": [
+            {
+              "title": "Essentials: The Science of Learning & Speaking Languages | Dr. Eddie Chang",
+              "date": "May 21, 2026",
+              "duration": null,
+              "description": "Neurosurgeon Dr. Eddie Chang reveals how the brain produces speech, the science of stuttering, and how AI-powered neural prosthetics are restoring communication in paralyzed patients.",
+              "url": "https://www.hubermanlab.com/episode/essentials-the-science-of-learning-and-speaking-languages-eddie-chang"
+            },
+            {
+              "title": "How to Overcome Social Anxiety | Dr. Nick Epley",
+              "date": "May 18, 2026",
+              "duration": null,
+              "description": "Dr. Nick Epley, behavioral scientist at the University of Chicago, explores the psychology and neuroscience behind social anxiety — and science-backed strategies to overcome it.",
+              "url": "https://www.hubermanlab.com/episode/how-to-overcome-social-anxiety-nick-epley"
+            },
+            {
+              "title": "Essentials: Understanding & Controlling Aggression",
+              "date": "May 14, 2026",
+              "duration": null,
+              "description": "The neuroscience of aggression — how hormones, genes, and environment shape aggressive behavior, plus science-backed tools to regulate it and channel it constructively.",
+              "url": "https://www.hubermanlab.com/episode/essentials-understanding-and-controlling-aggression"
+            }
+          ]
+        },
+        {
+          "show": "Pardon My Take",
+          "icon": "PMT",
+          "color": "purple",
+          "description": "Big Cat and PFT Commenter deliver sports commentary, interviews, and comedic chaos.",
+          "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756",
+          "episodes": [
+            {
+              "title": "Grit Week Continues, Lane Kiffin, Blake Bortles, Wemby's Game 1, Knicks Kill The Cavs",
+              "date": "May 20, 2026",
+              "duration": null,
+              "description": "Lane Kiffin and Blake Bortles join the show during Grit Week 2026. Plus reaction to Wemby's incredible playoff Game 1 and the Knicks eliminating the Cavs. Hot Seat/Cool Throne included.",
+              "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
+            },
+            {
+              "title": "Bill Belichick, Grit Week 2026, Cavs Win Game 7, Aaron Rai Takes The PGA",
+              "date": "May 18, 2026",
+              "duration": null,
+              "description": "Coach Bill Belichick joins to talk coaching at UNC, Super Bowls, and life in football. Plus Game 7 Cavs recap, Aaron Rai's PGA Championship win, and Who's Back of the Week.",
+              "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
+            },
+            {
+              "title": "Brooks Koepka, PGA Championship With Shane Bacon, Wemby's Revenge, LeBron's Last Game?",
+              "date": "May 13, 2026",
+              "duration": null,
+              "description": "Brooks Koepka and Shane Bacon preview the PGA Championship. Plus reactions to Wemby's bounce-back performance and debate over whether LeBron's season is over. Guys on Chicks segment.",
+              "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
+            }
+          ]
+        }
+      ]
     },
     {
       "date": "2026-05-24",
@@ -1437,55 +1620,86 @@
       ],
       "rumors": [
         {
-          "insider": "Pierre LeBrun",
-          "handle": "@PierreVLeBrun",
-          "outlet": "The Athletic",
-          "date": "2026-05-23",
-          "teams": [
-            "VGK",
-            "CAR",
-            "FLA"
-          ],
-          "vgk": true,
-          "content": "VGK and Hurricanes are the two frontrunners if the Panthers make Sergei Bobrovsky available. Bobrovsky has a 16-team no-trade list. Both teams' offseason planning depends on playoff results.",
-          "url": "https://www.nhltraderumor.com/nhl-teams/vegas-golden-knights-news-rumors/"
-        },
-        {
-          "insider": "Pierre LeBrun",
-          "handle": "@PierreVLeBrun",
-          "outlet": "The Athletic",
-          "date": "2026-05-23",
-          "teams": [
-            "VGK"
-          ],
-          "vgk": true,
-          "content": "VGK have still not granted permission to any team to interview Bruce Cassidy, their former coach who was let go in late March. Cassidy has indicated he'll interview anywhere he's asked.",
-          "url": "https://lasvegassun.com/news/2026/may/20/vegas-golden-knights-spark-nhl-controversy-by-bloc/"
-        },
-        {
           "insider": "Elliotte Friedman",
           "handle": "@FriedgeHNIC",
           "outlet": "Sportsnet",
-          "date": "2026-05-23",
-          "teams": [
-            "VGK",
-            "NHL"
-          ],
-          "vgk": true,
-          "content": "VGK officially appealed NHL sanctions in New York — the league stripped VGK of a 2026 second-round pick and fined Torts $100K for refusing to speak with media after their Game 6 series-clinching win over Anaheim.",
-          "url": "https://vegashockeyknight.com/vegas-golden-knights-rumors/"
+          "tweets": [
+            {
+              "date": "2026-05-23",
+              "text": "VGK officially appealed NHL sanctions in New York — the league stripped VGK of a 2026 second-round pick and fined Torts $100K for refusing to speak with media after their Game 6 series-clinching win over Anaheim.",
+              "url": "https://vegashockeyknight.com/vegas-golden-knights-rumors/"
+            },
+            {
+              "date": "2026-05-22",
+              "text": "The NHL has informed teams the 2026-27 salary cap will rise to an all-time high of $104 million, up from $95.5M. This will significantly change the offseason trade market.",
+              "url": "https://www.nhltraderumor.com/"
+            }
+          ]
         },
         {
-          "insider": "Elliotte Friedman",
-          "handle": "@FriedgeHNIC",
+          "insider": "Pierre LeBrun",
+          "handle": "@PierreVLeBrun",
+          "outlet": "The Athletic",
+          "tweets": [
+            {
+              "date": "2026-05-23",
+              "text": "VGK and Hurricanes are the two frontrunners if the Panthers make Sergei Bobrovsky available. Bobrovsky has a 16-team no-trade list. Both teams' offseason planning depends on playoff results.",
+              "url": "https://www.nhltraderumor.com/nhl-teams/vegas-golden-knights-news-rumors/"
+            },
+            {
+              "date": "2026-05-23",
+              "text": "VGK have still not granted permission to any team to interview Bruce Cassidy, their former coach who was let go in late March. Cassidy has indicated he'll interview anywhere he's asked.",
+              "url": "https://lasvegassun.com/news/2026/may/20/vegas-golden-knights-spark-nhl-controversy-by-bloc/"
+            }
+          ]
+        },
+        {
+          "insider": "Darren Dreger",
+          "handle": "@DarrenDreger",
+          "outlet": "TSN",
+          "tweets": []
+        },
+        {
+          "insider": "Frank Seravalli",
+          "handle": "@frank_seravalli",
+          "outlet": "Daily Faceoff",
+          "tweets": []
+        },
+        {
+          "insider": "Chris Johnston",
+          "handle": "@reporterchris",
           "outlet": "Sportsnet",
-          "date": "2026-05-22",
-          "teams": [
-            "NHL"
-          ],
-          "vgk": false,
-          "content": "The NHL has informed teams the 2026-27 salary cap will rise to an all-time high of $104 million, up from $95.5M. This will significantly change the offseason trade market.",
-          "url": "https://www.nhltraderumor.com/"
+          "tweets": []
+        },
+        {
+          "insider": "Dave Pagnotta",
+          "handle": "@TheFourthPeriod",
+          "outlet": "The Fourth Period",
+          "tweets": []
+        },
+        {
+          "insider": "Jeff Marek",
+          "handle": "@JeffMarek",
+          "outlet": "Sportsnet",
+          "tweets": []
+        },
+        {
+          "insider": "Rick Dhaliwal",
+          "handle": "@DhaliwalSports",
+          "outlet": "CHEK / Daily Faceoff",
+          "tweets": []
+        },
+        {
+          "insider": "Kevin Weekes",
+          "handle": "@KevinWeekes",
+          "outlet": "NHL Network",
+          "tweets": []
+        },
+        {
+          "insider": "Arthur Staple",
+          "handle": "@ArthurStaple",
+          "outlet": "The Athletic",
+          "tweets": []
         }
       ],
       "transactions": [
@@ -1683,7 +1897,159 @@
         "description": "NHL goal breakdowns, player analysis, and film room deep-dives. New videos every week.",
         "latest_videos": [],
         "comments": []
-      }
+      },
+      "podcasts": [
+        {
+          "show": "Empty Netters",
+          "icon": "EN",
+          "color": "gold",
+          "description": "Brothers Dan & Chris Powers bring the best news, analysis & interviews in hockey.",
+          "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/",
+          "episodes": [
+            {
+              "title": "Game 3 Preview: VGK Eyes 3-0 Series Lead; Makar GTD",
+              "date": "May 24, 2026",
+              "duration": null,
+              "description": "The boys preview Game 3 of the Western Conference Final from T-Mobile Arena — VGK leads 2-0 and can put Colorado in a near-impossible hole tonight. Makar is a game-time decision.",
+              "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/"
+            },
+            {
+              "title": "Game 1 Of The Eastern Conference Final Was A Nightmare For Carolina",
+              "date": "May 22, 2026",
+              "duration": "96 min",
+              "description": "Game 1 of the ECF couldn't have gone worse for the Hurricanes, and it couldn't have gone better for the Habs. The boys recap all the action and discuss what Colorado needs to get back on track in Game 2.",
+              "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/episode/game-1-of-the-eastern-conference-334509722/"
+            },
+            {
+              "title": "How Did Nobody Tell Us Makar Is Actually Hurt?!",
+              "date": "May 21, 2026",
+              "duration": "92 min",
+              "description": "Vegas takes advantage of a Makar-less Avalanche and wins Game 1. Marner continues to dominate even without Mark Stone. The boys are LIVE recapping the first night of the Conference Finals.",
+              "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/episode/how-did-nobody-tell-us-makar-334391303/"
+            }
+          ]
+        },
+        {
+          "show": "The All-In Podcast",
+          "icon": "AI",
+          "color": "purple",
+          "description": "Chamath, Jason, Sacks & Friedberg on tech, startups, politics, and the economy.",
+          "url": "https://allin.com/episodes",
+          "episodes": [
+            {
+              "title": "Episode #273 — Marc Benioff",
+              "date": "May 15, 2026",
+              "duration": null,
+              "description": "U.S.-China relations, Taiwan, and AI's impact on enterprise software. Marc Benioff discusses Salesforce's strategy, the OpenAI vs. Apple competition, and the science corner covers El Niño climate effects.",
+              "url": "https://youtube.com/watch?v=jJRAvZNGUvI"
+            },
+            {
+              "title": "Charles & Chase Koch: How We Grew Koch Industries to $150B Without Going Public",
+              "date": "May 12, 2026",
+              "duration": null,
+              "description": "Koch Industries' history, growth through strategic acquisitions like Georgia-Pacific and Molex, company culture, the benefits of staying private, and Chase Koch's insights on purpose-driven education.",
+              "url": "https://youtube.com/watch?v=EIo3AuyvV84"
+            },
+            {
+              "title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
+              "date": "May 10, 2026",
+              "duration": null,
+              "description": "Spencer Pratt's campaign for LA Mayor — analyzing emergency response failures, homelessness policy, NGO corruption, Karen Bass's leadership, and a vision for LA's future infrastructure.",
+              "url": "https://youtube.com/watch?v=GCpjy3TC8Pg"
+            }
+          ]
+        },
+        {
+          "show": "The Joe Rogan Experience",
+          "icon": "JRE",
+          "color": "muted",
+          "description": "The official podcast of comedian Joe Rogan — wide-ranging conversations with fascinating guests.",
+          "url": "https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk",
+          "episodes": [
+            {
+              "title": "#2503 — Eric Weinstein",
+              "date": "May 21, 2026",
+              "duration": "2h 53m",
+              "description": "Mathematical physicist and managing director Eric Weinstein joins Joe for a wide-ranging discussion on physics, economics, academia, and the institutions shaping modern society.",
+              "url": "https://jrelibrary.com/2503-eric-weinstein/"
+            },
+            {
+              "title": "#2502 — David Paulides",
+              "date": "May 20, 2026",
+              "duration": "2h 20m",
+              "description": "Former law enforcement officer and researcher David Paulides discusses his Missing 411 investigations — mysterious disappearances in national parks and wilderness areas across North America.",
+              "url": "https://jrelibrary.com/2502-david-paulides/"
+            },
+            {
+              "title": "#2501 — Marc Andreessen",
+              "date": "May 19, 2026",
+              "duration": "3h 20m",
+              "description": "Venture capitalist and tech pioneer Marc Andreessen on surveillance technology's role in law enforcement, AI's future trajectory, progressive policy effects on cities, and the state of Silicon Valley.",
+              "url": "https://jrelibrary.com/2501-marc-andreessen/"
+            }
+          ]
+        },
+        {
+          "show": "Huberman Lab",
+          "icon": "HL",
+          "color": "green",
+          "description": "Dr. Andrew Huberman discusses neuroscience and science-based tools for everyday life.",
+          "url": "https://www.hubermanlab.com/podcast",
+          "episodes": [
+            {
+              "title": "Essentials: The Science of Learning & Speaking Languages | Dr. Eddie Chang",
+              "date": "May 21, 2026",
+              "duration": null,
+              "description": "Neurosurgeon Dr. Eddie Chang reveals how the brain produces speech, the science of stuttering, and how AI-powered neural prosthetics are restoring communication in paralyzed patients.",
+              "url": "https://www.hubermanlab.com/episode/essentials-the-science-of-learning-and-speaking-languages-eddie-chang"
+            },
+            {
+              "title": "How to Overcome Social Anxiety | Dr. Nick Epley",
+              "date": "May 18, 2026",
+              "duration": null,
+              "description": "Dr. Nick Epley, behavioral scientist at the University of Chicago, explores the psychology and neuroscience behind social anxiety — and science-backed strategies to overcome it.",
+              "url": "https://www.hubermanlab.com/episode/how-to-overcome-social-anxiety-nick-epley"
+            },
+            {
+              "title": "Essentials: Understanding & Controlling Aggression",
+              "date": "May 14, 2026",
+              "duration": null,
+              "description": "The neuroscience of aggression — how hormones, genes, and environment shape aggressive behavior, plus science-backed tools to regulate it and channel it constructively.",
+              "url": "https://www.hubermanlab.com/episode/essentials-understanding-and-controlling-aggression"
+            }
+          ]
+        },
+        {
+          "show": "Pardon My Take",
+          "icon": "PMT",
+          "color": "purple",
+          "description": "Big Cat and PFT Commenter deliver sports commentary, interviews, and comedic chaos.",
+          "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756",
+          "episodes": [
+            {
+              "title": "Grit Week Continues, Lane Kiffin, Blake Bortles, Wemby's Game 1, Knicks Kill The Cavs",
+              "date": "May 20, 2026",
+              "duration": null,
+              "description": "Lane Kiffin and Blake Bortles join the show during Grit Week 2026. Plus reaction to Wemby's incredible playoff Game 1 and the Knicks eliminating the Cavs. Hot Seat/Cool Throne included.",
+              "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
+            },
+            {
+              "title": "Bill Belichick, Grit Week 2026, Cavs Win Game 7, Aaron Rai Takes The PGA",
+              "date": "May 18, 2026",
+              "duration": null,
+              "description": "Coach Bill Belichick joins to talk coaching at UNC, Super Bowls, and life in football. Plus Game 7 Cavs recap, Aaron Rai's PGA Championship win, and Who's Back of the Week.",
+              "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
+            },
+            {
+              "title": "Brooks Koepka, PGA Championship With Shane Bacon, Wemby's Revenge, LeBron's Last Game?",
+              "date": "May 13, 2026",
+              "duration": null,
+              "description": "Brooks Koepka and Shane Bacon preview the PGA Championship. Plus reactions to Wemby's bounce-back performance and debate over whether LeBron's season is over. Guys on Chicks segment.",
+              "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
+            }
+          ]
+        }
+      ]
     },
     {
       "date": "2026-05-22",
