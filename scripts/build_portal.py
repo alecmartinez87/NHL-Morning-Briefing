@@ -25,8 +25,27 @@ OUT = os.path.join(BASE, "index.html")
 
 
 def git_push(date_str):
-    """No-op — pushing is handled by ~/nhl-push.sh via launchd at 5:30 AM."""
-    print("Files written locally. Mac launchd will push to GitHub at 5:30 AM.")
+    """Commit and push index.html + archive.json to GitHub → triggers GitHub Pages deploy."""
+    import subprocess
+    try:
+        cmds = [
+            ["git", "-C", BASE, "add", "index.html", "data/archive.json", "scripts/build_portal.py"],
+            ["git", "-C", BASE, "commit", "-m", f"Daily brief {date_str}"],
+            ["git", "-C", BASE, "push", "origin", "main"],
+        ]
+        for cmd in cmds:
+            result = subprocess.run(cmd, capture_output=True, text=True)
+            if result.returncode != 0:
+                # "nothing to commit" is fine — not an error
+                if "nothing to commit" in result.stdout or "nothing to commit" in result.stderr:
+                    print("Git: nothing new to commit.")
+                    return
+                print(f"Git warning ({' '.join(cmd[2:3])}): {result.stderr.strip()}")
+                return
+            print(result.stdout.strip() or result.stderr.strip())
+        print("✓ Pushed to GitHub — GitHub Pages will deploy in ~30 seconds.")
+    except Exception as e:
+        print(f"Git push failed: {e}")
 
 
 def main():
