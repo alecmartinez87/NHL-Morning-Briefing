@@ -18,7 +18,6 @@ Visual design matches the dark "NHL Morning Briefing" broadcast layout.
 import json
 import os
 import datetime
-import subprocess
 
 BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ARCHIVE = os.path.join(BASE, "data", "archive.json")
@@ -26,22 +25,8 @@ OUT = os.path.join(BASE, "index.html")
 
 
 def git_push(date_str):
-    """Commit updated files and push to GitHub (triggers Netlify deploy)."""
-    try:
-        # Remove stale lock file if present — can be left behind by interrupted runs
-        lock_file = os.path.join(BASE, ".git", "HEAD.lock")
-        if os.path.exists(lock_file):
-            try:
-                os.remove(lock_file)
-                print("Removed stale git lock file.")
-            except OSError:
-                pass  # Can't remove in sandbox; user must run: rm .git/HEAD.lock
-        subprocess.run(["git", "-C", BASE, "add", "data/archive.json", "index.html"], check=True)
-        subprocess.run(["git", "-C", BASE, "commit", "-m", "Morning briefing — %s" % date_str], check=True)
-        subprocess.run(["git", "-C", BASE, "push", "origin", "main"], check=True)
-        print("Pushed to GitHub — Netlify deploy triggered.")
-    except subprocess.CalledProcessError as e:
-        print("Git push failed: %s" % e)
+    """No-op — pushing is handled by ~/nhl-push.sh via launchd at 5:30 AM."""
+    print("Files written locally. Mac launchd will push to GitHub at 5:30 AM.")
 
 
 def main():
@@ -381,9 +366,10 @@ header {
   font-family: var(--mono); font-size: 10px; font-weight: 500; letter-spacing: 0.06em;
   padding: 3px 10px; border-radius: 20px; white-space: nowrap; flex-shrink: 0; margin-top: 2px;
 }
-.injury-status.out { background: rgba(220,60,60,0.14); color: #E87070; border: 0.5px solid rgba(220,60,60,0.3); }
-.injury-status.dtd { background: rgba(230,160,30,0.14); color: #E8C060; border: 0.5px solid rgba(230,160,30,0.3); }
-.injury-status.ir  { background: rgba(220,60,60,0.10); color: #C06060; border: 0.5px solid rgba(220,60,60,0.2); }
+.injury-status.out    { background: rgba(220,60,60,0.14); color: #E87070; border: 0.5px solid rgba(220,60,60,0.3); }
+.injury-status.dtd    { background: rgba(230,160,30,0.14); color: #E8C060; border: 0.5px solid rgba(230,160,30,0.3); }
+.injury-status.ir     { background: rgba(220,60,60,0.10); color: #C06060; border: 0.5px solid rgba(220,60,60,0.2); }
+.injury-status.active { background: rgba(61,201,123,0.13); color: var(--green); border: 0.5px solid rgba(61,201,123,0.3); }
 .injury-name { flex: 1; }
 .injury-name strong { font-size: 14px; color: #fff; font-weight: 500; display: block; margin-bottom: 2px; }
 .injury-meta { font-family: var(--mono); font-size: 10.5px; color: var(--muted2); margin-bottom: 4px; letter-spacing: 0.03em; }
@@ -1009,7 +995,7 @@ function panelInjuries(ed){
   function renderInj(arr){
     return arr.map(i => {
       const st = (i.status||'').toUpperCase();
-      const cls = st==='OUT'?'out':st==='DTD'?'dtd':'ir';
+      const cls = st==='OUT'?'out':st==='DTD'?'dtd':st==='ACTIVE'?'active':'ir';
       return '<div class="injury-row">'
         + '<span class="injury-status '+cls+'">'+esc(i.status||'?')+'</span>'
         + '<div class="injury-name">'
@@ -1063,23 +1049,35 @@ function panelTransactions(ed){
 
 function panelRumors(ed){
   const rawRumors = ed.rumors || [];
-  if(!rawRumors.length) return '<div class="card"><p class="empty">No rumor data for this edition.</p></div>';
 
-  // Support both flat {insider,content,date,url} and grouped {insider,tweets:[]} formats
+  // All 10 known insiders — always shown even with no activity
+  const KNOWN_INSIDERS = [
+    { insider:'Elliotte Friedman', handle:'@FriedgeHNIC',      outlet:'Sportsnet' },
+    { insider:'Pierre LeBrun',     handle:'@PierreVLeBrun',    outlet:'The Athletic' },
+    { insider:'Darren Dreger',     handle:'@DarrenDreger',     outlet:'TSN' },
+    { insider:'Frank Seravalli',   handle:'@frank_seravalli',  outlet:'Daily Faceoff' },
+    { insider:'Chris Johnston',    handle:'@reporterchris',    outlet:'Sportsnet' },
+    { insider:'Dave Pagnotta',     handle:'@TheFourthPeriod',  outlet:'The Fourth Period' },
+    { insider:'Jeff Marek',        handle:'@JeffMarek',        outlet:'Sportsnet' },
+    { insider:'Rick Dhaliwal',     handle:'@DhaliwalSports',   outlet:'CHEK / Daily Faceoff' },
+    { insider:'Kevin Weekes',      handle:'@KevinWeekes',      outlet:'NHL Network' },
+    { insider:'Arthur Staple',     handle:'@ArthurStaple',     outlet:'The Athletic' },
+  ];
+
+  // Merge edition rumors into insider cards
   const insiderMap = {};
-  const insiderOrder = [];
+  KNOWN_INSIDERS.forEach(ins => { insiderMap[ins.insider] = { ...ins, tweets: [] }; });
+
   rawRumors.forEach(r => {
     const key = r.insider || 'Unknown';
     if(!insiderMap[key]){
-      insiderMap[key] = { insider: r.insider, handle: r.handle, outlet: r.outlet, tweets: r.tweets || [] };
-      insiderOrder.push(key);
+      insiderMap[key] = { insider: r.insider, handle: r.handle || '', outlet: r.outlet || '', tweets: [] };
     }
-    // Flat format: promote content → tweet entry
-    if(!r.tweets && r.content){
-      insiderMap[key].tweets.push({ date: r.date, text: r.content, url: r.url || '' });
-    }
+    if(r.tweets){ r.tweets.forEach(t => insiderMap[key].tweets.push(t)); }
+    else if(r.content){ insiderMap[key].tweets.push({ date: r.date, text: r.content, url: r.url || '' }); }
   });
-  const insiders = insiderOrder.map(k => insiderMap[k]);
+
+  const insiders = KNOWN_INSIDERS.map(ins => insiderMap[ins.insider]);
 
   const cards = insiders.map((ins, idx) => {
     const tweets = ins.tweets || [];
@@ -1102,6 +1100,9 @@ function panelRumors(ed){
         + rest.length+' more <span class="rtb-chevron">▾</span></button>'
         + '<div class="rumor-overflow" id="'+overflowId+'">'+rest.map(renderTweet).join('')+'</div>'
       : '';
+    const noActivity = !tweets.length
+      ? '<div class="rumor-tweet"><div class="rumor-tweet-text" style="color:var(--muted);font-style:italic">No posts in the last 48 hrs</div></div>'
+      : '';
     return '<div class="rumor-card">'
       + '<div class="rumor-header">'
         + '<div class="rumor-avatar">'+esc(ins.avatar||ins.insider.split(' ').map(w=>w[0]).join('').slice(0,2))+'</div>'
@@ -1111,6 +1112,7 @@ function panelRumors(ed){
           + '<div class="rumor-outlet">'+esc(ins.outlet)+'</div>'
         + '</div>'
       + '</div>'
+      + noActivity
       + first5.map(renderTweet).join('')
       + moreBtn
       + '</div>';

@@ -1,0 +1,9 @@
+# Secrets — never commit these
+.env
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
