@@ -46,6 +46,8 @@ def git_push(date_str):
             env["GIT_WORK_TREE"] = BASE
 
             cmds = [
+                ["git", "fetch", "origin", "main"],
+                ["git", "reset", "--soft", "origin/main"],
                 ["git", "add", "index.html", "data/archive.json", "scripts/build_portal.py"],
                 ["git", "commit", "-m", f"Daily brief {date_str}"],
                 ["git", "push", "origin", "main"],
@@ -60,6 +62,20 @@ def git_push(date_str):
                     return
                 if result.stdout.strip():
                     print(result.stdout.strip())
+
+            # Write the new commit SHA back to the local .git so the next run
+            # starts from the correct base (prevents "fetch first" rejections).
+            sha_result = subprocess.run(
+                ["git", "rev-parse", "HEAD"],
+                env=env, cwd=BASE, capture_output=True, text=True
+            )
+            new_sha = sha_result.stdout.strip()
+            if new_sha:
+                local_ref = os.path.join(BASE, ".git", "refs", "heads", "main")
+                os.makedirs(os.path.dirname(local_ref), exist_ok=True)
+                with open(local_ref, "w") as f:
+                    f.write(new_sha + "\n")
+                print(f"✓ Local ref updated → {new_sha[:8]}")
 
             print("✓ Pushed to GitHub — GitHub Pages will deploy in ~30 seconds.")
     except Exception as e:
