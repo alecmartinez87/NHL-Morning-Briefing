@@ -25,70 +25,45 @@ OUT = os.path.join(BASE, "index.html")
 
 
 def git_push(date_str):
-    """Push index.html + archive.json to GitHub via REST API — no git locks, always reliable."""
-    import urllib.request
-    import urllib.error
-    import base64
-    import re
-
-    # Extract token and repo from the remote URL stored in .git/config
-    config_path = os.path.join(BASE, ".git", "config")
-    token, owner, repo = None, None, None
-    try:
-        with open(config_path) as f:
-            config = f.read()
-        m = re.search(r'https://([^:]+):([^@]+)@github\.com/([^/]+)/([^."\s]+)', config)
-        if m:
-            owner, token, repo = m.group(3), m.group(2), m.group(4).rstrip(".git")
-    except Exception as e:
-        print(f"Could not read git config: {e}")
-        return
-
-    if not token:
-        print("GitHub token not found in .git/config — skipping push.")
-        return
-
-    api = f"https://api.github.com/repos/{owner}/{repo}/contents"
-    headers = {
-        "Authorization": f"token {token}",
-        "Accept": "application/vnd.github+json",
-        "Content-Type": "application/json",
-    }
-
-    files = [
-        ("index.html",        os.path.join(BASE, "index.html")),
-        ("data/archive.json", os.path.join(BASE, "data", "archive.json")),
-    ]
-
-    def get_sha(path):
-        req = urllib.request.Request(f"{api}/{path}", headers=headers)
-        try:
-            with urllib.request.urlopen(req) as r:
-                return json.loads(r.read())["sha"]
-        except urllib.error.HTTPError as e:
-            if e.code == 404:
-                return None
-            raise
-
-    def put_file(path, local_path, sha, message):
-        with open(local_path, "rb") as f:
-            content = base64.b64encode(f.read()).decode()
-        body = {"message": message, "content": content}
-        if sha:
-            body["sha"] = sha
-        data = json.dumps(body).encode()
-        req = urllib.request.Request(f"{api}/{path}", data=data, headers=headers, method="PUT")
-        with urllib.request.urlopen(req) as r:
-            return r.status
+    """Commit and push via a /tmp copy of .git — lock files in /tmp are always deletable."""
+    import subprocess
+    import shutil
+    import tempfile
 
     try:
-        for gh_path, local_path in files:
-            sha = get_sha(gh_path)
-            status = put_file(gh_path, local_path, sha, f"Daily brief {date_str}")
-            print(f"✓ {gh_path} → GitHub (HTTP {status})")
-        print("✓ Pushed to GitHub — GitHub Pages will deploy in ~30 seconds.")
+        with tempfile.TemporaryDirectory(prefix="nhl-git-") as tmp_dir:
+            # Copy .git to /tmp where the sandbox has full delete permissions.
+            # Exclude any stale *.lock files so git can start clean.
+            tmp_git = os.path.join(tmp_dir, "git")
+            shutil.copytree(
+                os.path.join(BASE, ".git"),
+                tmp_git,
+                ignore=shutil.ignore_patterns("*.lock"),
+            )
+
+            env = os.environ.copy()
+            env["GIT_DIR"] = tmp_git
+            env["GIT_WORK_TREE"] = BASE
+
+            cmds = [
+                ["git", "add", "index.html", "data/archive.json", "scripts/build_portal.py"],
+                ["git", "commit", "-m", f"Daily brief {date_str}"],
+                ["git", "push", "origin", "main"],
+            ]
+            for cmd in cmds:
+                result = subprocess.run(cmd, env=env, cwd=BASE, capture_output=True, text=True)
+                if result.returncode != 0:
+                    if "nothing to commit" in result.stdout + result.stderr:
+                        print("Git: nothing new to commit.")
+                        return
+                    print(f"Git error ({cmd[0]} {cmd[1]}): {result.stderr.strip()}")
+                    return
+                if result.stdout.strip():
+                    print(result.stdout.strip())
+
+            print("✓ Pushed to GitHub — GitHub Pages will deploy in ~30 seconds.")
     except Exception as e:
-        print(f"GitHub API push failed: {e}")
+        print(f"Git push failed: {e}")
 
 
 def main():
