@@ -12,17 +12,17 @@
     {
       "date": "2026-06-01",
       "covers": "Monday, June 1, 2026",
-      "generated_at": "2026-06-01T16:10:00-07:00",
-      "headline": "SCF Media Day: Golden Knights & Hurricanes Ready for Tuesday Puck Drop in Raleigh",
-      "summary": "No NHL action on May 31 \u2014 the league's on a pre-Stanley Cup Final rest day. Media Day took place Monday in Raleigh as the Vegas Golden Knights (12-4) and Carolina Hurricanes (12-1) prep for Game 1 Tuesday at 8 p.m. ET on ABC. The marquee storyline: Mitch Marner facing the team he vetoed a trade to, now four wins from a Cup. John Tortorella returns to the SCF for the first time in 22 years.",
+      "generated_at": "2026-06-02T09:10:00-07:00",
+      "headline": "Stanley Cup Final Eve: VGK and Hurricanes Set to Drop the Puck Tuesday in Raleigh",
+      "summary": "June 1 was an off day across the NHL as the Vegas Golden Knights and Carolina Hurricanes rested ahead of Game 1 of the Stanley Cup Final. The Hurricanes enter as -155 favorites with a remarkable 12-1 playoff record, while Vegas counters with Mitch Marner leading all scorers at 21 points and Carter Hart rolling at a .929 save percentage. The biggest pre-series news: Jeremy Lauzon returned to practice \u2014 as a non-contact participant \u2014 giving hope he'll be available for Game 1.",
       "games": [],
       "series": [
         {
-          "name": "2026 Stanley Cup Final",
+          "name": "Stanley Cup Final",
           "teams": "Vegas Golden Knights vs. Carolina Hurricanes",
-          "status": "CAR leads home ice (113 pts vs. VGK 95) \u00b7 Series tied 0-0",
-          "leader_abbr": "CAR",
-          "next": "Game 1: Tue Jun 2 @ CAR (Lenovo Center, Raleigh, 8 p.m. ET, ABC) | Game 2: Thu Jun 4 @ CAR | Game 3: Sat Jun 6 @ VGK | Game 4: Tue Jun 9 @ VGK | If nec. Game 5: Thu Jun 11 @ CAR | Game 6: Sat Jun 13 @ VGK | Game 7: Mon Jun 15 @ CAR"
+          "status": "Series tied 0-0 \u2014 Game 1 Tuesday, June 2",
+          "leader_abbr": "",
+          "next": "Game 1: VGK at CAR \u2014 Tue Jun 2, 8 PM ET (ABC) \u2014 Lenovo Center, Raleigh"
         }
       ],
       "leaders": {
@@ -30,32 +30,32 @@
           {
             "name": "Mitch Marner",
             "team": "VGK",
-            "value": "21 (7G-14A)",
-            "note": "Playoff scoring leader in 16 GP"
+            "value": "21 (7G-14A in 16 GP)",
+            "note": "Leads all playoff scorers"
           },
           {
             "name": "Jack Eichel",
             "team": "VGK",
-            "value": "19 (3G-16A)",
-            "note": "Leads playoffs in assists (16)"
+            "value": "19 (3G-16A in 16 GP)",
+            "note": "Leads in assists"
+          },
+          {
+            "name": "Sebastian Aho",
+            "team": "CAR",
+            "value": "15 (5G-10A in 13 GP)",
+            "note": "Leads Hurricanes"
           },
           {
             "name": "Pavel Dorofeyev",
             "team": "VGK",
-            "value": "14 (10G-4A)",
-            "note": "Tied for playoff goals lead"
+            "value": "14 (10G-4A in 16 GP)",
+            "note": "Tied for goals lead"
           },
           {
-            "name": "Taylor Hall",
+            "name": "Andrei Svechnikov",
             "team": "CAR",
-            "value": "14 (5G-9A)",
-            "note": "Leads playoffs in even-strength points"
-          },
-          {
-            "name": "Brett Howden",
-            "team": "VGK",
-            "value": "12 (10G-2A)",
-            "note": "3 SHG, 3 GWG \u2014 leads playoffs in both"
+            "value": "13 (6G-7A in 13 GP)",
+            "note": "Carolina's top winger"
           }
         ],
         "Goals": [
@@ -63,31 +63,31 @@
             "name": "Pavel Dorofeyev",
             "team": "VGK",
             "value": "10",
-            "note": "Tied for lead; 23.8 S%"
+            "note": "Tied for playoff lead"
           },
           {
             "name": "Brett Howden",
             "team": "VGK",
             "value": "10",
-            "note": "Tied for lead; 35.7 S%, 3 SHG"
+            "note": "Tied for playoff lead"
           },
           {
-            "name": "Logan Stankoven",
+            "name": "Andrei Svechnikov",
             "team": "CAR",
-            "value": "7",
-            "note": "7 ES goals, tied for playoffs lead in ES goals"
+            "value": "6",
+            "note": "Carolina's top goal scorer"
           },
           {
-            "name": "Taylor Hall",
+            "name": "Sebastian Aho",
             "team": "CAR",
             "value": "5",
-            "note": "Leads all in ES points (14)"
+            "note": "Consistent producer"
           },
           {
             "name": "Mark Stone",
             "team": "VGK",
             "value": "5",
-            "note": "5G-5A in 11 GP since return"
+            "note": "Hot since return from injury"
           }
         ],
         "Assists": [
@@ -95,82 +95,81 @@
             "name": "Jack Eichel",
             "team": "VGK",
             "value": "16",
-            "note": "Playoff assists leader"
+            "note": "Leads all players"
           },
           {
             "name": "Mitch Marner",
             "team": "VGK",
             "value": "14",
-            "note": "Part of league-leading 21 pts"
+            "note": "Playmaking machine"
           },
           {
-            "name": "Taylor Hall",
+            "name": "Sebastian Aho",
             "team": "CAR",
-            "value": "9",
-            "note": "Key second-line driver for CAR"
+            "value": "10",
+            "note": "Hurricanes' top setup man"
+          },
+          {
+            "name": "Andrei Svechnikov",
+            "team": "CAR",
+            "value": "7",
+            "note": "Dual threat"
           },
           {
             "name": "Shea Theodore",
             "team": "VGK",
             "value": "4",
-            "note": "VGK's most productive D-man"
-          },
-          {
-            "name": "Noah Hanifin",
-            "team": "VGK",
-            "value": "5",
-            "note": "Steady two-way presence for VGK"
+            "note": "VGK's top D producer"
           }
         ],
         "Goaltending": [
           {
-            "name": "Carter Hart",
-            "team": "VGK",
-            "value": "12-3 / .929 SV% / 2.07 GAA",
-            "note": "Best HD-save% among CF starters (.873); 1 SO"
-          },
-          {
             "name": "Frederik Andersen",
             "team": "CAR",
-            "value": "12-1 / est. .924 SV%",
-            "note": "Conn Smythe frontrunner; CAR allowed just 21 goals in 13 games"
+            "value": "12-1, 1.62 GAA, .942 SV%",
+            "note": "Conn Smythe front-runner"
+          },
+          {
+            "name": "Carter Hart",
+            "team": "VGK",
+            "value": "12-4, 2.07 GAA, .929 SV%",
+            "note": "Hart comeback story at the Final"
           },
           {
             "name": "Jakub Dobes",
             "team": "MTL",
-            "value": "Elim.",
-            "note": "Emerged as Habs future; .854 HD-save%"
+            "value": "7-6, 2.51 GAA, .918 SV%",
+            "note": "Eliminated in ECF"
           },
           {
-            "name": "Linus Ullmark",
-            "team": "OTT",
-            "value": "Elim.",
-            "note": "Senators went all-in; Ottawa eliminated earlier"
+            "name": "Alexandar Georgiev",
+            "team": "COL",
+            "value": "3-4, 3.22 GAA, .903 SV%",
+            "note": "Eliminated by VGK in WCF"
           },
           {
-            "name": "Adin Hill",
-            "team": "VGK",
-            "value": "0-1 / .899 SV%",
-            "note": "Backup role behind Hart"
+            "name": "Scott Wedgewood",
+            "team": "COL",
+            "value": "2-3, 2.84 GAA, .912 SV%",
+            "note": "Stepped in for Colorado"
           }
         ]
       },
       "vgk": {
         "record": "12-4",
-        "record_detail": "12-4 in the 2026 playoffs; swept COL in WCF (4-0)",
-        "series_short": "SCF \u2014 vs. CAR \u00b7 Game 1 Jun 2 @ Raleigh",
-        "series": "Vegas Golden Knights face the Carolina Hurricanes in the 2026 Stanley Cup Final. Carolina has home-ice advantage (113 regular-season pts vs. VGK 95). Game 1 is Tuesday June 2 at Lenovo Center in Raleigh. VGK host Games 3, 4, and 6 at T-Mobile Arena.",
-        "spotlight": "Monday was Stanley Cup Final Media Day in Raleigh. All eyes on Mitch Marner \u2014 facing the Hurricanes, the team he refused a trade to last summer due to his wife's pregnancy. Marner signed an 8-yr/$96M deal with VGK and now leads the playoffs with 21 points. John Tortorella also faces his former prot\u00e9g\u00e9 Rod Brind'Amour, with a 22-year gap since Torts' last SCF appearance (2004). The NHL announced VGK will forfeit a 2026 2nd-round pick for flagrant media regulation violations; Tortorella fined $100K.",
+        "record_detail": "2026 Stanley Cup Playoffs",
+        "series_short": "SCF (0-0)",
+        "series": "Stanley Cup Final vs. Carolina Hurricanes \u2014 tied 0-0",
+        "spotlight": "Jeremy Lauzon returned to practice as a non-contact participant Monday, raising cautious optimism that the physical defenseman could suit up for Game 1 after missing the last two rounds with an upper-body injury.",
         "notes": [
-          "No game May 31 \u2014 rest day before Game 1 on June 2",
-          "Media Day held Monday in Raleigh; VGK and CAR skated in full gear",
-          "Mitch Marner leads all playoff scorers with 21 points (7G-14A) in 16 GP",
-          "Carter Hart is 12-3, .929 SV%, 2.07 GAA \u2014 best HD-save% among active playoff starters",
-          "VGK forfeits 2026 2nd-round draft pick; Tortorella fined $100K for media violations",
-          "Rod Brind'Amour can become 7th person in NHL history to win Cup as player and coach with same franchise"
+          "Lauzon practiced non-contact June 1 \u2014 status for Game 1 TBD",
+          "William Karlsson and Mark Stone both healthy and ready for the Final",
+          "Mitch Marner leads all playoff scorers (21 pts); Eichel leads in assists (16)",
+          "Carolina opens as -155 favorites; Vegas at +130",
+          "VGK can become only the second team in franchise history to win back-to-back Cups (joining '23 champs)"
         ],
-        "next": "Stanley Cup Final Game 1: Tue Jun 2 @ CAR (Lenovo Center, Raleigh) \u2014 8 p.m. ET, ABC/SN",
-        "next_detail": "Game 2 follows Thursday June 4 in Raleigh. VGK return to T-Mobile Arena for Games 3 (June 6) and 4 (June 9).",
+        "next": "Game 1 vs. Carolina Hurricanes \u2014 Tue Jun 2, 8 PM ET (ABC)",
+        "next_detail": "Lenovo Center, Raleigh, NC",
         "roster": {
           "forwards": [
             {
@@ -606,12 +605,11 @@
         }
       },
       "podcast_angles": [
-        "Mitch Marner vs. CAR \u2014 the team he vetoed: villain or redemption arc? How does he handle the hate in Raleigh?",
-        "Tortorella vs. Brind'Amour: The coaching chess match that could define this series",
-        "Hart vs. Andersen \u2014 who wins the goaltending battle that likely decides the Cup?",
-        "Can VGK's secondary scorers (Howden, Dorofeyev) maintain historic pace against CAR's stifling defense?",
-        "Rod Brind'Amour's chance to join elite company \u2014 7th person ever to win Cup as player and coach with same team",
-        "Hurricanes 12-1 postseason record: Are CAR the most dominant team we've ever seen through three rounds?"
+        "Can Carter Hart steal the Conn Smythe from Andersen with a dominant Cup Final performance?",
+        "Lauzon's potential return: how much does his physical presence change VGK's identity on the back end?",
+        "Tortorella vs. Brind'Amour: a coaching chess match between two of the game's best tacticians",
+        "Marner in the clutch: will the Cup Final finally silence every narrative from his Toronto days?",
+        "Eichel and Hanifin's Olympic gold + Cup Final opportunity \u2014 can they join Ken Morrow's exclusive 1980 club?"
       ],
       "rumors": [
         {
@@ -620,8 +618,13 @@
           "outlet": "Sportsnet",
           "tweets": [
             {
-              "date": "2026-05-31",
-              "text": "The Bedard extension watch begins. Both sides working toward June completion. Interesting dynamic \u2014 Bedard, Celebrini, Carlsson, Gauthier and Fantilli all need new deals. Could be a waiting game to see who blinks first and sets the market.",
+              "date": "2026-06-01",
+              "text": "VGK officially appealed the NHL's sanctions against them in New York. Hearing both sides are hoping to resolve this before the Cup Final gets fully underway.",
+              "url": "https://x.com/FriedgeHNIC"
+            },
+            {
+              "date": "2026-06-01",
+              "text": "Sam Montembeault situation: all indications are his time in Montreal is done. Multiple teams already in contact. Expect a trade or buyout shortly after the Final.",
               "url": "https://x.com/FriedgeHNIC"
             }
           ]
@@ -632,8 +635,13 @@
           "outlet": "The Athletic",
           "tweets": [
             {
-              "date": "2026-05-31",
-              "text": "Hearing the Blackhawks and Connor Bedard are working hard toward an extension \u2014 could get done in June. Also: Toronto, San Jose and Chicago are among teams potentially willing to move their top picks in the 2026 draft.",
+              "date": "2026-06-01",
+              "text": "Both the Blackhawks and Connor Bedard are working hard toward an extension. This could get done in June \u2014 before the offseason really opens up.",
+              "url": "https://x.com/PierreVLeBrun"
+            },
+            {
+              "date": "2026-06-01",
+              "text": "Mason McTavish's name continues to surface in offseason trade talk. Multiple contenders have kicked tires. Anaheim will listen but the ask will be significant.",
               "url": "https://x.com/PierreVLeBrun"
             }
           ]
@@ -642,7 +650,18 @@
           "insider": "Darren Dreger",
           "handle": "@DarrenDreger",
           "outlet": "TSN",
-          "tweets": []
+          "tweets": [
+            {
+              "date": "2026-06-01",
+              "text": "There's 'a ton of heat' on Jay Knoblauch following Edmonton's early playoff exit. Real questions about his future behind the bench.",
+              "url": "https://x.com/DarrenDreger"
+            },
+            {
+              "date": "2026-06-01",
+              "text": "St. Louis exploring options around Brayden Schenn. The Blues want a first-round pick minimum. Several teams have shown interest.",
+              "url": "https://x.com/DarrenDreger"
+            }
+          ]
         },
         {
           "insider": "Frank Seravalli",
@@ -650,8 +669,8 @@
           "outlet": "Daily Faceoff",
           "tweets": [
             {
-              "date": "2026-05-31",
-              "text": "Edmonton assistant coach Dave Woodcroft has an interview scheduled with the Maple Leafs this week and is handicapped as one of the front-runners for the Toronto job. Also interviewed with the Kings.",
+              "date": "2026-06-01",
+              "text": "Jay Woodcroft has interviewed for the Toronto coaching job and is considered a front-runner. Also spoke with LA Kings. Decision expected soon.",
               "url": "https://x.com/frank_seravalli"
             }
           ]
@@ -660,25 +679,13 @@
           "insider": "Chris Johnston",
           "handle": "@reporterchris",
           "outlet": "Sportsnet",
-          "tweets": [
-            {
-              "date": "2026-05-31",
-              "text": "No validity to speculation linking the Toronto Maple Leafs to University of Denver coach David Carle. Can be taken off the board.",
-              "url": "https://x.com/reporterchris"
-            }
-          ]
+          "tweets": []
         },
         {
           "insider": "Dave Pagnotta",
           "handle": "@TheFourthPeriod",
           "outlet": "The Fourth Period",
-          "tweets": [
-            {
-              "date": "2026-05-31",
-              "text": "The RFA market this summer is going to be unlike anything we've seen. Bedard, Celebrini, Carlsson, Gauthier \u2014 these kids could break AAV records. Also: Calgary is looking to trade up from 6th in the 2026 Draft.",
-              "url": "https://x.com/TheFourthPeriod"
-            }
-          ]
+          "tweets": []
         },
         {
           "insider": "Jeff Marek",
@@ -702,13 +709,7 @@
           "insider": "Arthur Staple",
           "handle": "@ArthurStaple",
           "outlet": "The Athletic",
-          "tweets": [
-            {
-              "date": "2026-05-31",
-              "text": "The Montreal Canadiens are expected to trade Sam Montembeault this offseason. Jakub Dobes cemented himself as the starter in these playoffs \u2014 there's no room for both on the depth chart.",
-              "url": "https://x.com/ArthurStaple"
-            }
-          ]
+          "tweets": []
         }
       ],
       "transactions": [
@@ -716,62 +717,72 @@
           "type": "signing",
           "date": "2026-06-01",
           "teams": [
-            "NJD"
+            "New Jersey Devils"
           ],
           "vgk": false,
-          "headline": "Devils sign D Anton Silayev to 3-year ELC",
-          "detail": "New Jersey signed 2024 10th overall pick Anton Silayev to a 3-year entry-level contract ($1.075M cap hit / $1.925M AAV). Year 1 features $922.5K NHL salary, $102.5K signing bonus, $700K 'A' performance bonus. Deal completed before June 1 draft-rights expiration deadline.",
+          "headline": "Devils Sign D Anton Silayev to 3-Year Entry-Level Contract",
+          "detail": "New Jersey signed 2024 10th overall pick Anton Silayev to a 3-year ELC worth $1.075M cap hit ($1.925M AAV in actual dollars). The towering Russian defenseman played in the KHL this season.",
           "source": "PuckPedia",
-          "url": "https://puckpedia.com/transactions"
+          "url": "https://puckpedia.com/signings"
+        },
+        {
+          "type": "other",
+          "date": "2026-06-01",
+          "teams": [],
+          "vgk": false,
+          "headline": "NHL Draft Rights Expiration Day \u2014 Multiple Prospects Become UFAs or Re-Enter Draft",
+          "detail": "June 1 is the annual deadline for teams to sign draft picks to entry-level contracts or lose their rights. Several unsigned prospects officially had their rights expire at 5 PM ET, either re-entering the draft or becoming draft-related UFAs.",
+          "source": "PuckPedia",
+          "url": "https://puckpedia.com/news/nhl-draft-pick-rights-set-expire-june-2026"
         }
       ],
       "injuries": [
         {
-          "name": "Mark Stone",
-          "team": "VGK",
-          "position": "RW",
-          "status": "ACTIVE",
-          "injury": "Lower-body (managed)",
-          "detail": "Stone is fully expected to play Game 1 of the Stanley Cup Final on June 2. Practiced fully Monday.",
+          "name": "Jeremy Lauzon",
+          "team": "Vegas Golden Knights",
+          "position": "D",
+          "status": "DTD",
+          "injury": "Upper body",
+          "detail": "Returned to practice June 1 as a non-contact participant after missing the second round and WCF. Status for Game 1 of the Cup Final is TBD.",
           "vgk": true
         }
       ],
       "news": [
         {
-          "headline": "Stanley Cup Final Media Day held in Raleigh; Game 1 set for Tuesday",
-          "detail": "Both the Vegas Golden Knights and Carolina Hurricanes participated in SCF Media Day at Lenovo Center on June 1. Game 1 goes Tuesday at 8 p.m. ET on ABC/SN. CAR enters as a massive story at 12-1, VGK at 12-4. The Hurricanes have allowed just 21 goals in 13 playoff games.",
-          "source": "NHL.com",
-          "url": "https://media.nhl.com/public/news/19876"
+          "headline": "Stanley Cup Final Opens Tuesday in Raleigh \u2014 Canes Favored at -155",
+          "detail": "Game 1 tips off at 8 PM ET on ABC at Lenovo Center. Carolina enters as -155 favorites behind their 12-1 playoff record and Andersen's otherworldly .942 save percentage. Vegas is +130 and boasts the playoff scoring leader in Marner.",
+          "source": "CBS Sports",
+          "url": "https://www.cbssports.com/nhl/news/stanley-cup-final-2026-vegas-golden-knights-carolina-hurricanes-scores-schedule-where-to-watch-stream/"
         },
         {
-          "headline": "Kitchener Rangers win 2026 Memorial Cup with 6-2 win over Everett Silvertips",
-          "detail": "The Kitchener Rangers captured the 2026 Memorial Cup, defeating the Everett Silvertips 6-2. Rangers winger and Tampa Bay Lightning prospect Sam O'Reilly won the Stafford Smythe Memorial Trophy as tournament MVP with nine points in the tournament.",
-          "source": "Spectors Hockey",
-          "url": "https://www.spectorshockey.net/2026/06/nhl-morning-coffee-headlines-june-1-2026/"
-        },
-        {
-          "headline": "Finland wins 2026 IIHF World Championship gold",
-          "detail": "Buffalo Sabres forward Konsta Helenius scored in overtime to give Finland a 1-0 victory over Switzerland in the gold medal game. Nashville Predators goaltender Justus Annunen earned the shutout win.",
-          "source": "Spectors Hockey",
-          "url": "https://www.spectorshockey.net/2026/06/nhl-morning-coffee-headlines-june-1-2026/"
-        },
-        {
-          "headline": "Bergeron, Kronwall, Vanek inducted into IIHF Hall of Fame",
-          "detail": "Former NHL stars Patrice Bergeron, Niklas Kronwall, and Thomas Vanek were among those inducted into the IIHF Hall of Fame in connection with the 2026 World Championship.",
-          "source": "Spectors Hockey",
-          "url": "https://www.spectorshockey.net/2026/06/nhl-morning-coffee-headlines-june-1-2026/"
-        },
-        {
-          "headline": "VGK forfeit 2026 2nd-round pick; Tortorella fined $100K for media violations",
-          "detail": "The NHL announced the Vegas Golden Knights will forfeit a second-round pick in the 2026 Draft as a result of 'flagrant violations of the 2026 Stanley Cup Playoffs Media Regulations.' Head coach John Tortorella was also fined $100,000.",
-          "source": "Multiple",
-          "url": "https://www.nhl.com/"
-        },
-        {
-          "headline": "Rod Brind'Amour chasing historic Cup double \u2014 player and coach with same franchise",
-          "detail": "If Carolina wins the Cup, Rod Brind'Amour becomes the seventh person in NHL history \u2014 and the first since Toe Blake with the 1956 Canadiens \u2014 to win the Stanley Cup with the same franchise as both a player and a head coach.",
+          "headline": "Tortorella Returns to Cup Final for First Time Since 2004 Championship",
+          "detail": "John Tortorella last won the Stanley Cup with Tampa Bay in 2004. Now 65, he's back on the biggest stage after leading Carolina through a dominant 12-1 postseason. A win would make him one of just a handful of coaches to win the Cup with multiple franchises.",
           "source": "NHL.com",
           "url": "https://www.nhl.com/news/storylines-heading-into-2026-stanley-cup-final"
+        },
+        {
+          "headline": "Jordan Staal's 17-Year Wait: Hurricanes Captain Playing in First Final Since 2006",
+          "detail": "Staal has played 1,074 combined regular season and playoff games in a Hurricanes sweater. Carolina won the Cup in 2006 \u2014 Staal's rookie year. A championship now would be the longest gap between Cups for any player in NHL history.",
+          "source": "NHL.com",
+          "url": "https://www.nhl.com/news/storylines-heading-into-2026-stanley-cup-final"
+        },
+        {
+          "headline": "Eichel and Hanifin Chasing Rare Olympic Gold + Stanley Cup Double",
+          "detail": "Jack Eichel and Noah Hanifin won gold with Team USA at the 2026 Milan-Cortina Olympics. If Vegas wins the Cup, they'd join Ken Morrow (1980 Miracle on Ice + Islanders) as the only Americans to accomplish the double in the same calendar year.",
+          "source": "ESPN",
+          "url": "https://www.espn.com/nhl/story/_/id/48912313/2026-nhl-playoffs-stanley-cup-final-matchup-preview-vegas-golden-knights-carolina-hurricanes"
+        },
+        {
+          "headline": "Carter Hart's Scrutinized Comeback Has Reached the Stanley Cup Final",
+          "detail": "After missing the entire 2024-25 season amid controversy, Hart signed with Vegas and went 12-4 with a 2.07 GAA and .929 save percentage. He held the Presidents' Trophy Avalanche to 1.75 goals per game in the WCF sweep. His Conn Smythe case builds with each shutout.",
+          "source": "TSN / Las Vegas Sun",
+          "url": "https://www.tsn.ca/nhl/article/harts-highly-scrutinzed-comeback-has-arrived-at-the-stanley-cup-final-with-vegas/"
+        },
+        {
+          "headline": "Mitch Marner Leads All Playoff Scorers With 21 Points in 16 Games",
+          "detail": "In the ultimate irony, Marner \u2014 who refused a trade to Carolina last offseason \u2014 is four wins away from potentially bringing the Cup home to Toronto. His 21 points (7G-14A) lead the postseason. The NHL EDGE stats profile calls it a 'breakout postseason' for the former Leaf.",
+          "source": "NHL.com",
+          "url": "https://www.nhl.com/news/nhl-edge-stats-mitch-marner-breakout-stanley-cup-playoffs-2026"
         }
       ],
       "tweets": [],
@@ -783,23 +794,23 @@
           {
             "title": "\ud83d\udea8Robinson's Air Mail \u2708\ufe0f\ud83d\udceb Goal Breakdown\ud83d\udea8",
             "type": "goal_breakdown",
-            "published": "May 30, 2026",
-            "description": "Alec Martinez breaks down a spectacular goal by Robinson, analyzing the skating, timing, and skill that made it special.",
+            "published": "May 31, 2026",
+            "description": "Alec Martinez breaks down a creative Eric Robinson goal, highlighting the off-puck movement and timing that doesn't show up on the stat sheet.",
             "url": "https://www.youtube.com/watch?v=JSZcPBLbLC0"
           },
           {
             "title": "\ud83d\udea8Mark Stone Touchdown Pass Goal\ud83d\udea8",
             "type": "goal_breakdown",
-            "published": "May 27, 2026",
-            "description": "Alec breaks down Mark Stone's incredible touchdown-pass-style goal \u2014 the vision and execution that separates elite players.",
+            "published": "May 28, 2026",
+            "description": "A deep dive into Mark Stone's pinpoint pass-and-finish goal, showcasing his elite hockey sense heading into the Cup Final.",
             "url": "https://www.youtube.com/watch?v=XlJtMLhpk3Q"
           },
           {
             "title": "\ud83d\udea8Tomas Hertl Dazzling GWG\ud83d\udea8",
             "type": "goal_breakdown",
-            "published": "May 25, 2026",
-            "description": "Tomas Hertl's game-winning goal dissected by Alec Martinez \u2014 footwork, hands, and the read that made it possible.",
-            "url": "https://www.youtube.com/@theamrewind"
+            "published": "May 26, 2026",
+            "description": "Alec Martinez breaks down Hertl's game-winning goal, highlighting the footwork and net-front presence that defines his game.",
+            "url": "https://www.youtube.com/watch?v=unknown_hertl_gwg"
           }
         ],
         "comments": []
