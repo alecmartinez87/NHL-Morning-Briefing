@@ -12424,6 +12424,955 @@
           ]
         }
       ]
+    },
+    {
+      "date": "2026-06-03",
+      "covers": "Wednesday, June 3, 2026",
+      "generated_at": "2026-06-03T09:10:00-07:00",
+      "headline": "Hertl Heist: Golden Knights Steal Game 1 in Raleigh, 5-4",
+      "summary": "Tomas Hertl scored the go-ahead goal with 3:24 left in regulation as the Vegas Golden Knights edged the Carolina Hurricanes 5-4 in a high-scoring Game 1 at Lenovo Center. Shea Theodore (1G, 2A) and Brayden McNabb (3A) dominated from the blue line while Carter Hart made 23 saves. VGK leads the 2026 Stanley Cup Final 1-0; Game 2 is Thursday in Raleigh.",
+      "games": [
+        {
+          "matchup": "Vegas 5, Carolina 4",
+          "context": "Stanley Cup Final \u00b7 Game 1 \u00b7 Lenovo Center, Raleigh",
+          "series_note": "VGK leads series 1-0",
+          "winner_abbr": "VGK",
+          "away_abbr": "VGK",
+          "away_score": 5,
+          "home_abbr": "CAR",
+          "home_score": 4,
+          "detail": "Tomas Hertl broke a 4-4 tie at 16:36 of the third for the game-winner. Nikolaj Ehlers scored twice for Carolina and Shayne Gostisbehere tied it late, but Vegas answered with the decisive goal. Shea Theodore (1G, 2A) and Brayden McNabb (3A) drove the VGK attack from the blue line; Carter Hart stopped 23 of 27 shots. Frederik Andersen made 18 saves for Carolina."
+        }
+      ],
+      "series": [
+        {
+          "name": "Stanley Cup Final",
+          "teams": "Vegas Golden Knights vs. Carolina Hurricanes",
+          "status": "VGK leads 1-0",
+          "leader_abbr": "VGK",
+          "next": "Game 2: Thu Jun 4 @ CAR \u2014 8 p.m. ET, ABC/SN"
+        }
+      ],
+      "leaders": {
+        "Points": [
+          {
+            "name": "Mitch Marner",
+            "team": "VGK",
+            "value": "22",
+            "note": "7G-15A in 17 GP"
+          },
+          {
+            "name": "Jack Eichel",
+            "team": "VGK",
+            "value": "19",
+            "note": "3G-16A in 17 GP"
+          },
+          {
+            "name": "Pavel Dorofeyev",
+            "team": "VGK",
+            "value": "14",
+            "note": "10G-4A in 17 GP"
+          },
+          {
+            "name": "Ivan Barbashev",
+            "team": "VGK",
+            "value": "12",
+            "note": "5G-7A in 17 GP"
+          },
+          {
+            "name": "Brett Howden",
+            "team": "VGK",
+            "value": "12",
+            "note": "10G-2A in 17 GP"
+          }
+        ],
+        "Goals": [
+          {
+            "name": "Pavel Dorofeyev",
+            "team": "VGK",
+            "value": "10",
+            "note": "17 GP"
+          },
+          {
+            "name": "Brett Howden",
+            "team": "VGK",
+            "value": "10",
+            "note": "17 GP"
+          },
+          {
+            "name": "Nikolaj Ehlers",
+            "team": "CAR",
+            "value": "8",
+            "note": "incl. 2G in Game 1"
+          },
+          {
+            "name": "Mitch Marner",
+            "team": "VGK",
+            "value": "7",
+            "note": "17 GP"
+          },
+          {
+            "name": "Ivan Barbashev",
+            "team": "VGK",
+            "value": "5",
+            "note": "17 GP"
+          }
+        ],
+        "Assists": [
+          {
+            "name": "Jack Eichel",
+            "team": "VGK",
+            "value": "16",
+            "note": "17 GP"
+          },
+          {
+            "name": "Mitch Marner",
+            "team": "VGK",
+            "value": "15",
+            "note": "1A in Game 1"
+          },
+          {
+            "name": "Ivan Barbashev",
+            "team": "VGK",
+            "value": "7",
+            "note": "17 GP"
+          },
+          {
+            "name": "Shea Theodore",
+            "team": "VGK",
+            "value": "6",
+            "note": "2A in Game 1"
+          },
+          {
+            "name": "Brayden McNabb",
+            "team": "VGK",
+            "value": "5",
+            "note": "3A in Game 1"
+          }
+        ],
+        "Goaltending": [
+          {
+            "name": "Carter Hart",
+            "team": "VGK",
+            "value": "13W / .929",
+            "note": "2.04 GAA, 16 GP"
+          },
+          {
+            "name": "Frederik Andersen",
+            "team": "CAR",
+            "value": "11W / .915",
+            "note": "2.31 GAA, 15 GP"
+          },
+          {
+            "name": "Jakub Dobes",
+            "team": "MTL",
+            "value": "10W / .925",
+            "note": "2.29 GAA (elim. R2)"
+          },
+          {
+            "name": "Linus Ullmark",
+            "team": "OTT",
+            "value": "6W / .912",
+            "note": "2.45 GAA (elim. R2)"
+          },
+          {
+            "name": "Jesper Wallstedt",
+            "team": "MIN",
+            "value": "4W / .908",
+            "note": "2.62 GAA (elim. R1)"
+          }
+        ]
+      },
+      "vgk": {
+        "record": "13-4",
+        "record_detail": "13 wins, 4 losses in 2026 playoffs; leads Stanley Cup Final 1-0",
+        "series_short": "SCF: VGK leads 1-0",
+        "series": "Vegas Golden Knights lead the Carolina Hurricanes 1-0 in the 2026 Stanley Cup Final. Game 1 went to VGK 5-4 on Tuesday night at Lenovo Center in Raleigh. VGK hosts Games 3, 4 & 6 at T-Mobile Arena; Game 2 is Thursday in Raleigh.",
+        "spotlight": "Tomas Hertl's late heroics defined Game 1 \u2014 his go-ahead goal at 16:36 of the third broke a 4-4 tie and lifted Vegas to the series lead. Theodore and McNabb combined for five points from the blue line, and Carter Hart was steady with 23 saves.",
+        "notes": [
+          "Jeremy Lauzon returned from upper-body injury and dressed for SCF Game 1 \u2014 a boost to VGK blue line depth.",
+          "Mitch Marner now leads all playoff scorers with 22 points (7G-15A), building a strong Conn Smythe case.",
+          "Carter Hart's .929 postseason save percentage leads all active goalies; best high-danger save rate among remaining netminders.",
+          "VGK has won 13 of 17 playoff games \u2014 one win ahead of their pace through this stage of the 2023 run."
+        ],
+        "next": "Stanley Cup Final Game 2: Thu Jun 4 @ CAR (Lenovo Center, Raleigh) \u2014 8 p.m. ET, ABC/SN",
+        "next_detail": "VGK looks to go up 2-0 and take home-ice advantage out of the equation. Carolina will need a response from Andersen and the Ehlers line.",
+        "roster": {
+          "forwards": [
+            {
+              "num": "93",
+              "name": "Mitch Marner",
+              "pos": "RW",
+              "gp": 17,
+              "g": 7,
+              "a": 15,
+              "pts": 22,
+              "pm": 10,
+              "pim": 4,
+              "sog": 35,
+              "spct": "20.0",
+              "toi": "20:08",
+              "fow": null,
+              "hits": 7,
+              "blk": 8,
+              "inj": false
+            },
+            {
+              "num": "9",
+              "name": "Jack Eichel",
+              "pos": "C",
+              "gp": 17,
+              "g": 3,
+              "a": 16,
+              "pts": 19,
+              "pm": 7,
+              "pim": 6,
+              "sog": 31,
+              "spct": "9.7",
+              "toi": "21:30",
+              "fow": 52.5,
+              "hits": 9,
+              "blk": 5,
+              "inj": false
+            },
+            {
+              "num": "16",
+              "name": "Pavel Dorofeyev",
+              "pos": "LW",
+              "gp": 17,
+              "g": 10,
+              "a": 4,
+              "pts": 14,
+              "pm": 5,
+              "pim": 0,
+              "sog": 43,
+              "spct": "23.3",
+              "toi": "16:48",
+              "fow": null,
+              "hits": 14,
+              "blk": 2,
+              "inj": false
+            },
+            {
+              "num": "49",
+              "name": "Ivan Barbashev",
+              "pos": "LW",
+              "gp": 17,
+              "g": 5,
+              "a": 7,
+              "pts": 12,
+              "pm": 4,
+              "pim": 8,
+              "sog": 25,
+              "spct": "20.0",
+              "toi": "17:22",
+              "fow": null,
+              "hits": 85,
+              "blk": 9,
+              "inj": false
+            },
+            {
+              "num": "21",
+              "name": "Brett Howden",
+              "pos": "C",
+              "gp": 17,
+              "g": 10,
+              "a": 2,
+              "pts": 12,
+              "pm": 9,
+              "pim": 4,
+              "sog": 29,
+              "spct": "34.5",
+              "toi": "16:46",
+              "fow": 60.8,
+              "hits": 47,
+              "blk": 4,
+              "inj": false
+            },
+            {
+              "num": "48",
+              "name": "Tomas Hertl",
+              "pos": "C",
+              "gp": 16,
+              "g": 5,
+              "a": 6,
+              "pts": 11,
+              "pm": 4,
+              "pim": 4,
+              "sog": 23,
+              "spct": "21.7",
+              "toi": "16:50",
+              "fow": 51.2,
+              "hits": 16,
+              "blk": 5,
+              "inj": false
+            },
+            {
+              "num": "61",
+              "name": "Mark Stone",
+              "pos": "RW",
+              "gp": 12,
+              "g": 5,
+              "a": 5,
+              "pts": 10,
+              "pm": -1,
+              "pim": 6,
+              "sog": 24,
+              "spct": "20.8",
+              "toi": "18:46",
+              "fow": null,
+              "hits": 20,
+              "blk": 4,
+              "inj": false
+            },
+            {
+              "num": "19",
+              "name": "Reilly Smith",
+              "pos": "RW",
+              "gp": 17,
+              "g": 3,
+              "a": 3,
+              "pts": 6,
+              "pm": 3,
+              "pim": 2,
+              "sog": 21,
+              "spct": "14.3",
+              "toi": "15:05",
+              "fow": null,
+              "hits": 11,
+              "blk": 5,
+              "inj": false
+            },
+            {
+              "num": "15",
+              "name": "Colton Sissons",
+              "pos": "C",
+              "gp": 17,
+              "g": 1,
+              "a": 2,
+              "pts": 3,
+              "pm": 2,
+              "pim": 2,
+              "sog": 13,
+              "spct": "7.7",
+              "toi": "12:30",
+              "fow": 52.8,
+              "hits": 16,
+              "blk": 4,
+              "inj": false
+            },
+            {
+              "num": "71",
+              "name": "William Karlsson",
+              "pos": "C",
+              "gp": 4,
+              "g": 1,
+              "a": 1,
+              "pts": 2,
+              "pm": 1,
+              "pim": 0,
+              "sog": 5,
+              "spct": "20.0",
+              "toi": "16:55",
+              "fow": null,
+              "hits": 2,
+              "blk": 1,
+              "inj": false
+            },
+            {
+              "num": "20",
+              "name": "Brandon Saad",
+              "pos": "LW",
+              "gp": 12,
+              "g": 1,
+              "a": 1,
+              "pts": 2,
+              "pm": 1,
+              "pim": 2,
+              "sog": 9,
+              "spct": "11.1",
+              "toi": "11:15",
+              "fow": null,
+              "hits": 11,
+              "blk": 2,
+              "inj": false
+            },
+            {
+              "num": "11",
+              "name": "Nic Dowd",
+              "pos": "C",
+              "gp": 17,
+              "g": 1,
+              "a": 1,
+              "pts": 2,
+              "pm": 3,
+              "pim": 2,
+              "sog": 9,
+              "spct": "11.1",
+              "toi": "10:20",
+              "fow": 54.1,
+              "hits": 13,
+              "blk": 5,
+              "inj": false
+            },
+            {
+              "num": "55",
+              "name": "Keegan Kolesar",
+              "pos": "RW",
+              "gp": 16,
+              "g": 1,
+              "a": 0,
+              "pts": 1,
+              "pm": 1,
+              "pim": 14,
+              "sog": 15,
+              "spct": "6.7",
+              "toi": "10:45",
+              "fow": null,
+              "hits": 72,
+              "blk": 3,
+              "inj": false
+            },
+            {
+              "num": "26",
+              "name": "Alexander Holtz",
+              "pos": "LW",
+              "gp": 9,
+              "g": 0,
+              "a": 1,
+              "pts": 1,
+              "pm": 0,
+              "pim": 0,
+              "sog": 6,
+              "spct": "0.0",
+              "toi": "10:05",
+              "fow": null,
+              "hits": 3,
+              "blk": 1,
+              "inj": false
+            },
+            {
+              "num": "17",
+              "name": "Cole Smith",
+              "pos": "LW",
+              "gp": 7,
+              "g": 2,
+              "a": 0,
+              "pts": 2,
+              "pm": 0,
+              "pim": 4,
+              "sog": 3,
+              "spct": "66.7",
+              "toi": "8:30",
+              "fow": null,
+              "hits": 66,
+              "blk": 1,
+              "inj": false
+            }
+          ],
+          "defense": [
+            {
+              "num": "27",
+              "name": "Shea Theodore",
+              "pos": "D",
+              "gp": 16,
+              "g": 3,
+              "a": 6,
+              "pts": 9,
+              "pm": 3,
+              "pim": 6,
+              "sog": 25,
+              "spct": "12.0",
+              "toi": "24:50",
+              "hits": 9,
+              "blk": 48,
+              "inj": false
+            },
+            {
+              "num": "22",
+              "name": "Noah Hanifin",
+              "pos": "D",
+              "gp": 17,
+              "g": 1,
+              "a": 5,
+              "pts": 6,
+              "pm": 4,
+              "pim": 2,
+              "sog": 19,
+              "spct": "5.3",
+              "toi": "22:20",
+              "hits": 13,
+              "blk": 25,
+              "inj": false
+            },
+            {
+              "num": "3",
+              "name": "Brayden McNabb",
+              "pos": "D",
+              "gp": 17,
+              "g": 0,
+              "a": 5,
+              "pts": 5,
+              "pm": 2,
+              "pim": 10,
+              "sog": 10,
+              "spct": "0.0",
+              "toi": "20:35",
+              "hits": 32,
+              "blk": 31,
+              "inj": false
+            },
+            {
+              "num": "72",
+              "name": "Rasmus Andersson",
+              "pos": "D",
+              "gp": 17,
+              "g": 0,
+              "a": 2,
+              "pts": 2,
+              "pm": 2,
+              "pim": 4,
+              "sog": 17,
+              "spct": "0.0",
+              "toi": "21:05",
+              "hits": 16,
+              "blk": 19,
+              "inj": false
+            },
+            {
+              "num": "38",
+              "name": "Kaedan Korczak",
+              "pos": "D",
+              "gp": 14,
+              "g": 0,
+              "a": 3,
+              "pts": 3,
+              "pm": 2,
+              "pim": 2,
+              "sog": 10,
+              "spct": "0.0",
+              "toi": "15:05",
+              "hits": 11,
+              "blk": 16,
+              "inj": false
+            },
+            {
+              "num": "13",
+              "name": "Jeremy Lauzon",
+              "pos": "D",
+              "gp": 17,
+              "g": 0,
+              "a": 1,
+              "pts": 1,
+              "pm": 1,
+              "pim": 10,
+              "sog": 8,
+              "spct": "0.0",
+              "toi": "18:35",
+              "hits": 34,
+              "blk": 27,
+              "inj": false
+            },
+            {
+              "num": "18",
+              "name": "Ben Hutton",
+              "pos": "D",
+              "gp": 6,
+              "g": 0,
+              "a": 0,
+              "pts": 0,
+              "pm": 0,
+              "pim": 0,
+              "sog": 2,
+              "spct": "0.0",
+              "toi": "12:00",
+              "hits": 4,
+              "blk": 4,
+              "inj": false
+            }
+          ],
+          "goalies": [
+            {
+              "num": "31",
+              "name": "Carter Hart",
+              "gp": 16,
+              "w": 13,
+              "l": 3,
+              "gaa": 2.04,
+              "svpct": ".929",
+              "so": 1,
+              "toi": "930:44",
+              "inj": false
+            },
+            {
+              "num": "33",
+              "name": "Adin Hill",
+              "gp": 3,
+              "w": 0,
+              "l": 1,
+              "gaa": 3.1,
+              "svpct": ".899",
+              "so": 0,
+              "toi": "58:04",
+              "inj": false
+            },
+            {
+              "num": "40",
+              "name": "Akira Schmid",
+              "gp": 1,
+              "w": 0,
+              "l": 0,
+              "gaa": 0.0,
+              "svpct": "\u2014",
+              "so": 0,
+              "toi": "0:00",
+              "inj": false
+            }
+          ]
+        }
+      },
+      "podcast_angles": [
+        "Hertl's GWG \u2014 was it a CAR breakdown or brilliant VGK execution under pressure?",
+        "McNabb with 3 assists \u2014 the unsung hero of VGK playoff runs and what his usage says about Cassidy's system.",
+        "Marner's Conn Smythe case at 22 pts \u2014 is it his to lose or does he need a signature moment in the Final?",
+        "Lauzon's return from injury \u2014 how much does a healthy blue line change VGK's ceiling?",
+        "Edmonton fires Kris Knoblauch \u2014 what does this mean for the Oilers rebuild and the offseason GM search?"
+      ],
+      "rumors": [
+        {
+          "insider": "Elliotte Friedman",
+          "handle": "@FriedgeHNIC",
+          "outlet": "Sportsnet",
+          "tweets": [
+            {
+              "date": "2026-06-02",
+              "text": "Nashville has hired Chris MacFarland as President of Hockey Operations & General Manager. MacFarland was previously AGM in Colorado and helped build two Cup-winning rosters.",
+              "url": "https://x.com/FriedgeHNIC"
+            }
+          ]
+        },
+        {
+          "insider": "Pierre LeBrun",
+          "handle": "@PierreVLeBrun",
+          "outlet": "The Athletic",
+          "tweets": [
+            {
+              "date": "2026-06-02",
+              "text": "Both the Chicago Blackhawks and Connor Bedard are working hard toward a long-term extension and a deal could be finalized this month.",
+              "url": "https://x.com/PierreVLeBrun"
+            },
+            {
+              "date": "2026-06-02",
+              "text": "Confirmed: Chris MacFarland named Nashville GM. Big get for the Predators as they begin a full rebuild.",
+              "url": "https://x.com/PierreVLeBrun"
+            }
+          ]
+        },
+        {
+          "insider": "Darren Dreger",
+          "handle": "@DarrenDreger",
+          "outlet": "TSN",
+          "tweets": [
+            {
+              "date": "2026-06-02",
+              "text": "The Toronto Maple Leafs prefer trading Bobby McMann this offseason over extending the 29-year-old. Multiple teams interested in the speedy winger.",
+              "url": "https://x.com/DarrenDreger"
+            }
+          ]
+        },
+        {
+          "insider": "Frank Seravalli",
+          "handle": "@frank_seravalli",
+          "outlet": "Daily Faceoff",
+          "tweets": [
+            {
+              "date": "2026-06-02",
+              "text": "Vancouver has hired Manny Malhotra as their next head coach, elevated from Abbotsford (AHL). Signals the Canucks want continuity and development-first approach at the top.",
+              "url": "https://x.com/frank_seravalli"
+            }
+          ]
+        },
+        {
+          "insider": "Chris Johnston",
+          "handle": "@reporterchris",
+          "outlet": "Sportsnet",
+          "tweets": []
+        },
+        {
+          "insider": "Dave Pagnotta",
+          "handle": "@TheFourthPeriod",
+          "outlet": "The Fourth Period",
+          "tweets": [
+            {
+              "date": "2026-06-02",
+              "text": "Among the areas Edmonton GM Stan Bowman must address: adding a speedy scoring winger alongside McDavid. Philadelphia's Owen Tippett is on Edmonton's radar.",
+              "url": "https://x.com/TheFourthPeriod"
+            }
+          ]
+        },
+        {
+          "insider": "Jeff Marek",
+          "handle": "@JeffMarek",
+          "outlet": "Sportsnet",
+          "tweets": []
+        },
+        {
+          "insider": "Rick Dhaliwal",
+          "handle": "@DhaliwalSports",
+          "outlet": "CHEK / Daily Faceoff",
+          "tweets": []
+        },
+        {
+          "insider": "Kevin Weekes",
+          "handle": "@KevinWeekes",
+          "outlet": "NHL Network",
+          "tweets": []
+        },
+        {
+          "insider": "Arthur Staple",
+          "handle": "@ArthurStaple",
+          "outlet": "The Athletic",
+          "tweets": [
+            {
+              "date": "2026-06-02",
+              "text": "Montreal expected to trade Sam Montembeault this offseason following the emergence of Jakub Dobes. NY Islanders remain active shoppers \u2014 Mathew Barzal's future in Long Island continues to be a hot topic.",
+              "url": "https://x.com/ArthurStaple"
+            }
+          ]
+        }
+      ],
+      "transactions": [],
+      "injuries": [
+        {
+          "name": "Jeremy Lauzon",
+          "team": "VGK",
+          "position": "D",
+          "status": "ACTIVE",
+          "injury": "Upper-body",
+          "detail": "Returned from upper-body injury and dressed for SCF Game 1 on June 2.",
+          "vgk": true
+        }
+      ],
+      "news": [
+        {
+          "headline": "Edmonton Oilers fire head coach Kris Knoblauch",
+          "detail": "GM Stan Bowman pulled the trigger on Kris Knoblauch following the Oilers' disappointing playoff exit. Edmonton is searching for a new bench boss and is expected to aggressively reshape the roster around Connor McDavid this offseason.",
+          "source": "Multiple",
+          "url": "https://www.nhl.com"
+        },
+        {
+          "headline": "Nashville hires Chris MacFarland as President of Hockey Ops & GM",
+          "detail": "Nashville has named former Colorado AGM Chris MacFarland as GM and President of Hockey Operations. MacFarland was a key architect of Colorado's two Cup championships and inherits a Predators team in full rebuild mode.",
+          "source": "Sportsnet / The Athletic",
+          "url": "https://www.nhl.com"
+        },
+        {
+          "headline": "Vancouver hires Manny Malhotra as head coach",
+          "detail": "The Canucks are promoting AHL Abbotsford coach Manny Malhotra to their NHL bench. Malhotra, a former Canuck player and longtime development figure, gives Vancouver a coach familiar with their prospect pipeline.",
+          "source": "Daily Faceoff",
+          "url": "https://www.nhl.com"
+        },
+        {
+          "headline": "Connor Bedard extension talks progressing in Chicago",
+          "detail": "Pierre LeBrun reports both the Blackhawks and Bedard are working toward a long-term extension, with a deal potentially finalized this month. Bedard's 2025-26 development year exceeded expectations.",
+          "source": "The Athletic",
+          "url": "https://www.nhl.com"
+        },
+        {
+          "headline": "2026 NHL Draft Combine underway in Buffalo",
+          "detail": "The 2026 NHL Scouting Combine is running at KeyBank Center and LECOM HarborCenter in Buffalo. Top prospects are meeting with teams and completing fitness testing ahead of the July draft.",
+          "source": "NHL.com",
+          "url": "https://www.nhl.com"
+        },
+        {
+          "headline": "Maple Leafs prefer to trade Bobby McMann over extension",
+          "detail": "TSN's Darren Dreger reports Toronto would rather move the 29-year-old winger than extend him. McMann scored 22 goals in the regular season and has drawn interest from multiple teams.",
+          "source": "TSN",
+          "url": "https://www.tsn.ca"
+        }
+      ],
+      "tweets": [],
+      "amrewind": {
+        "channel_url": "https://www.youtube.com/@theamrewind",
+        "channel_handle": "@TheAMRewind",
+        "description": "NHL goal breakdowns and deep dives by 3X Stanley Cup Champion and former NHL defenseman Alec Martinez \u2014 showcasing talent that doesn't always show up on the scoresheet.",
+        "latest_videos": [
+          {
+            "title": "\ud83d\udea8Robinson's Air Mail \u2708\ufe0f\ud83d\udceb Goal Breakdown\ud83d\udea8",
+            "type": "goal_breakdown",
+            "published": "May 31, 2026",
+            "description": "Alec Martinez breaks down a slick goal by Carolina's Lucas Robinson featuring precise puck movement and deceptive delivery.",
+            "url": "https://www.youtube.com/watch?v=JSZcPBLbLC0"
+          },
+          {
+            "title": "\ud83d\udea8Mark Stone Touchdown Pass Goal\ud83d\udea8",
+            "type": "goal_breakdown",
+            "published": "May 28, 2026",
+            "description": "Deep dive on Mark Stone's long-range cross-ice feed that set up a VGK playoff goal \u2014 Alec breaks down the vision and execution.",
+            "url": "https://www.youtube.com/watch?v=XlJtMLhpk3Q"
+          },
+          {
+            "title": "\ud83d\udea8Tomas Hertl Dazzling GWG\ud83d\udea8",
+            "type": "goal_breakdown",
+            "published": "May 26, 2026",
+            "description": "Breakdown of Hertl's dazzling game-winning goal \u2014 the movement, the patience, and the finish that showcase why he's been so dangerous in this run.",
+            "url": "https://www.youtube.com/@theamrewind"
+          }
+        ],
+        "comments": []
+      },
+      "podcasts": [
+        {
+          "show": "Empty Netters",
+          "icon": "EN",
+          "color": "gold",
+          "description": "Brothers Dan & Chris Powers bring the best news, analysis & interviews in hockey.",
+          "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/",
+          "episodes": [
+            {
+              "title": "Vegas Steals Game 1 in Raleigh \u2014 Hertl Hero, Lauzon's Return & Stanley Cup Final Breakdown",
+              "date": "June 2, 2026",
+              "duration": "~70 min",
+              "description": "Dan and Chris break down VGK's thrilling 5-4 Game 1 victory over Carolina. Hertl's late goal, Theodore and McNabb's big nights, and what the Canes need to do differently in Game 2.",
+              "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/"
+            },
+            {
+              "title": "It's Time For A Friday Mess Around w/ TJ Oshie and Erin Ambrose",
+              "date": "May 29, 2026",
+              "duration": "~75 min",
+              "description": "TJ Oshie joins on the morning of ECF Game 5 to break down the Habs' chances of survival and whether anyone can take down Vegas in the Cup Final. Erin Ambrose drops by for PWHL Victoire's Walter Cup championship. Plus Free For All Friday!",
+              "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/"
+            },
+            {
+              "title": "The Canes Are One Win Away From Vanquishing Their Conference Final Ghosts w/ Alec Martinez",
+              "date": "May 28, 2026",
+              "duration": "~80 min",
+              "description": "The Habs lose 4 in a row at home in the playoffs for the first time in franchise history. The Canes can taste the Stanley Cup. Vegas sweeps the Avs recap and Malkin's new Penguin contract.",
+              "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/"
+            }
+          ]
+        },
+        {
+          "show": "The All-In Podcast",
+          "icon": "AI",
+          "color": "purple",
+          "description": "Chamath, Jason, Sacks & Friedberg on tech, startups, politics, and the economy.",
+          "url": "https://allin.com/episodes",
+          "episodes": [
+            {
+              "title": "Episode #273 \u2014 Marc Benioff",
+              "date": "May 15, 2026",
+              "duration": null,
+              "description": "U.S.-China relations, Taiwan, and AI's impact on enterprise software.",
+              "url": "https://youtube.com/watch?v=jJRAvZNGUvI"
+            },
+            {
+              "title": "Charles & Chase Koch: How We Grew Koch Industries to $150B Without Going Public",
+              "date": "May 12, 2026",
+              "duration": null,
+              "description": "Koch Industries' history and growth through strategic acquisitions.",
+              "url": "https://youtube.com/watch?v=EIo3AuyvV84"
+            },
+            {
+              "title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
+              "date": "May 10, 2026",
+              "duration": null,
+              "description": "Spencer Pratt's campaign for LA Mayor.",
+              "url": "https://youtube.com/watch?v=GCpjy3TC8Pg"
+            }
+          ]
+        },
+        {
+          "show": "The Joe Rogan Experience",
+          "icon": "JRE",
+          "color": "muted",
+          "description": "The official podcast of comedian Joe Rogan \u2014 wide-ranging conversations with fascinating guests.",
+          "url": "https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk",
+          "episodes": [
+            {
+              "title": "#2503 \u2014 Eric Weinstein",
+              "date": "May 21, 2026",
+              "duration": "2h 53m",
+              "description": "Mathematical physicist Eric Weinstein on physics, economics, academia, and modern institutions.",
+              "url": "https://jrelibrary.com/2503-eric-weinstein/"
+            },
+            {
+              "title": "#2502 \u2014 David Paulides",
+              "date": "May 20, 2026",
+              "duration": "2h 20m",
+              "description": "Former law enforcement officer David Paulides on his Missing 411 investigations.",
+              "url": "https://jrelibrary.com/2502-david-paulides/"
+            },
+            {
+              "title": "#2501 \u2014 Marc Andreessen",
+              "date": "May 19, 2026",
+              "duration": "3h 20m",
+              "description": "Venture capitalist Marc Andreessen on surveillance technology, AI's future, and Silicon Valley.",
+              "url": "https://jrelibrary.com/2501-marc-andreessen/"
+            }
+          ]
+        },
+        {
+          "show": "Huberman Lab",
+          "icon": "HL",
+          "color": "green",
+          "description": "Dr. Andrew Huberman discusses neuroscience and science-based tools for everyday life.",
+          "url": "https://www.hubermanlab.com/podcast",
+          "episodes": [
+            {
+              "title": "Essentials: The Science of Learning & Speaking Languages | Dr. Eddie Chang",
+              "date": "May 21, 2026",
+              "duration": null,
+              "description": "Neurosurgeon Dr. Eddie Chang on how the brain produces speech and AI-powered neural prosthetics restoring communication.",
+              "url": "https://www.hubermanlab.com/episode/essentials-the-science-of-learning-and-speaking-languages-eddie-chang"
+            },
+            {
+              "title": "How to Overcome Social Anxiety | Dr. Nick Epley",
+              "date": "May 18, 2026",
+              "duration": null,
+              "description": "Psychology and neuroscience of social anxiety and strategies to overcome it.",
+              "url": "https://www.hubermanlab.com/episode/how-to-overcome-social-anxiety-nick-epley"
+            },
+            {
+              "title": "Essentials: Understanding & Controlling Aggression",
+              "date": "May 14, 2026",
+              "duration": null,
+              "description": "The neuroscience of aggression \u2014 hormones, genes, and environment.",
+              "url": "https://www.hubermanlab.com/episode/essentials-understanding-and-controlling-aggression"
+            }
+          ]
+        },
+        {
+          "show": "Pardon My Take",
+          "icon": "PMT",
+          "color": "purple",
+          "description": "Big Cat and PFT Commenter deliver sports commentary, interviews, and comedic chaos.",
+          "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756",
+          "episodes": [
+            {
+              "title": "Grit Week Continues, Lane Kiffin, Blake Bortles, Wemby's Game 1, Knicks Kill The Cavs",
+              "date": "May 20, 2026",
+              "duration": null,
+              "description": "Lane Kiffin and Blake Bortles join during Grit Week 2026. Plus Wemby's incredible playoff Game 1.",
+              "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
+            },
+            {
+              "title": "Bill Belichick, Grit Week 2026, Cavs Win Game 7, Aaron Rai Takes The PGA",
+              "date": "May 18, 2026",
+              "duration": null,
+              "description": "Coach Bill Belichick joins to talk coaching at UNC. Plus Game 7 Cavs recap.",
+              "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
+            },
+            {
+              "title": "Brooks Koepka, PGA Championship With Shane Bacon, Wemby's Revenge, LeBron's Last Game?",
+              "date": "May 13, 2026",
+              "duration": null,
+              "description": "Brooks Koepka and Shane Bacon preview the PGA Championship.",
+              "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
