@@ -13424,7 +13424,7 @@
     {
       "date": "2026-06-10",
       "covers": "Tuesday, June 9, 2026",
-      "generated_at": "2026-06-10T18:10:00Z",
+      "generated_at": "2026-06-10T23:08:25Z",
       "headline": "Staal Strikes Twice, Canes Even the Cup Final 2-2",
       "summary": "Jordan Staal scored twice — including the winner with 13:28 left — as Carolina beat Vegas 5-3 in Game 4 at T-Mobile Arena to even the Stanley Cup Final 2-2. The Golden Knights erased a 3-1 first-period deficit to tie it 3-3, but rookie Brandon Bussi (18 saves, first career playoff start) and Staal slammed the door. The Final is now a best-of-three with Game 5 Thursday in Raleigh. Off the ice, the Kings hired Peter Laviolette, the NHLPA asked the league to investigate Mike Babcock before any Oilers hire, and Dylan Larkin put VGK on his three-team trade list.",
       "games": [
@@ -14096,7 +14096,13 @@
           "insider": "Dave Pagnotta",
           "handle": "@TheFourthPeriod",
           "outlet": "The Fourth Period",
-          "tweets": []
+          "tweets": [
+            {
+              "date": "2026-06-09",
+              "text": "There is plenty of interest around the league in Oliver Ekman-Larsson and Scott Laughton, with the Tampa Bay Lightning among the clubs poised to add to their roster.",
+              "url": "https://www.spectorshockey.net/2026/06/nhl-rumor-mill-june-9-2026/"
+            }
+          ]
         },
         {
           "insider": "Jeff Marek",
@@ -14149,8 +14155,8 @@
             "MIN"
           ],
           "vgk": false,
-          "headline": "Wild sign Michael McCarron to 6-year, $20M extension",
-          "detail": "Minnesota locked up center Michael McCarron on a six-year, $20 million contract ($3.33M AAV) after his impactful midseason arrival.",
+          "headline": "Wild sign Michael McCarron to 6-year, $19.8M extension",
+          "detail": "Minnesota locked up center Michael McCarron on a six-year, $19.8 million extension ($3.3M AAV), announced Tuesday. McCarron, acquired from Nashville at the deadline for a 2028 second-rounder, was set for UFA; the deal includes a no-trade clause.",
           "source": "PuckPedia / AP",
           "url": "https://puckpedia.com/transactions"
         },
