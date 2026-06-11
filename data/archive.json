@@ -14435,17 +14435,17 @@
     {
       "date": "2026-06-11",
       "covers": "Wednesday, June 10, 2026",
-      "generated_at": "2026-06-11T09:11:46Z",
-      "headline": "Off-Day Calm Before Game 5: Final a Best-of-Three as Babcock Probe Rocks Edmonton",
-      "summary": "No NHL games Wednesday — a travel day before tonight's pivotal Game 5 of a Stanley Cup Final tied 2-2, with Vegas and Carolina meeting at 8:00 PM ET in Raleigh. The day's biggest story came off the ice: the NHL is moving ahead with an investigation into Mike Babcock at the NHLPA's request, effectively freezing Edmonton's pursuit of the coach, with Frank Seravalli reporting 'significant' additional claims beyond what surfaced in 2023. Carolina, meanwhile, kept its Game 5 goalie choice — rookie Brandon Bussi or rested veteran Frederik Andersen — under wraps, while the Dylan Larkin trade market (VGK among his three preferred destinations) continued to build.",
+      "generated_at": "2026-06-11T23:11:36Z",
+      "headline": "Bussi Gets the Nod: Cup Final's Best-of-Three Opens Tonight in Raleigh",
+      "summary": "No NHL games Wednesday — a travel day before tonight's pivotal Game 5 of a Stanley Cup Final tied 2-2 (8:00 PM ET, Lenovo Center). Carolina's goalie mystery is all but solved: rookie Brandon Bussi took the starter's net at the morning skate while Frederik Andersen skated alone early, putting Bussi in line to become the first goalie ever to open his playoff career with two Stanley Cup Final starts. Off the ice, the Babcock investigation continues to freeze Edmonton's coaching search, Dylan Larkin's trade market is expanding beyond his original three-team list, and Bruce Cassidy says he'd talk to Toronto — if Vegas ever grants permission.",
       "games": [],
       "series": [
         {
           "name": "Stanley Cup Final",
           "teams": "Vegas Golden Knights vs. Carolina Hurricanes",
-          "status": "Tied 2-2 — now a best-of-three; Carolina holds home ice",
+          "status": "Tied 2-2 — best-of-three; Carolina holds home ice; 33 combined goals through 4 games (8.25/gm)",
           "leader_abbr": "",
-          "next": "Game 5 — Thursday, June 11 at Lenovo Center, Raleigh (8:00 PM ET, ABC/SN/CBC/TVAS)"
+          "next": "Game 5 — TONIGHT, Thursday, June 11 at Lenovo Center, Raleigh (8:00 PM ET, ABC/SN/CBC/TVAS)"
         }
       ],
       "leaders": {
@@ -14583,15 +14583,16 @@
         "record_detail": "Stanley Cup Final tied 2-2 — best-of-three, Games 5 and 7 in Raleigh",
         "series_short": "SCF: Tied 2-2",
         "series": "Stanley Cup Final vs. Carolina Hurricanes — tied 2-2, Game 5 tonight in Raleigh",
-        "spotlight": "An off-day Wednesday before the biggest game of the season: Game 5 tonight in Raleigh with the Final tied 2-2. All signs point to Carter Hart getting the net again despite an .861 save percentage over the last three games, and the Knights need more from a five-on-five game Carolina has controlled since Game 2 (57.3 CF% over the past three). The flip side: Vegas still owns the playoffs' three top scorers, Brett Howden has hit the scoresheet in all four Final games (4G-2A), and Carolina hasn't announced whether rookie Brandon Bussi or rested veteran Frederik Andersen gets Game 5.",
+        "spotlight": "Game 5 night in Raleigh with the Final tied 2-2 and every game decided by two goals or fewer. Carolina is expected to ride rookie Brandon Bussi after his Game 4 win — he was in the starter's crease at the morning skate while Frederik Andersen didn't skate with the team — and Carter Hart (.861 SV% over the last three) gets the net for Vegas. The bigger problem: Carolina has buried the Eichel line, holding Vegas to 38.7% of shot attempts and 45.5% of expected goals with Eichel on the ice. The counter: Vegas still owns the playoffs' three top scorers, and Brett Howden has hit the scoresheet in all four Final games (4G-2A).",
         "notes": [
-          "Carter Hart expected to stay in the net for Game 5 — stopped 23 of 27 in Game 4 and sits at .861 SV% over the last three games",
+          "Carter Hart stays in the net for Game 5 — 2-2, .861 SV% and 3.60 GAA in the Final, but he hasn't faced the scrutiny Carolina's crease has",
+          "Brandon Bussi expected to start Game 5 for Carolina — took the starter's net at the morning skate; Andersen skated alone early and was absent from the main session",
+          "Eichel matchup alarm: Vegas earns just 38.7% of shot attempts and 45.5% of expected goals with Eichel on the ice in the Final (2 assists, minus-3 in 4 games)",
           "Brayden McNabb continues to play through the Game 2 facial injury (full cage) — no change in status",
           "Alex Pietrangelo (hip) remains out",
           "Mark Stone continues to manage a lower-body issue in a third-line role — scored in Game 4",
-          "Carolina has not named a Game 5 starter: rookie Brandon Bussi (won Game 4) or rested Frederik Andersen",
-          "Hurricanes have controlled 5-on-5 play over the last three games (54.9 xGF%, 57.3 CF%) — books list Carolina -145 to win the Cup, Vegas +120",
-          "Dylan Larkin's preferred trade list reportedly includes VGK (with MIN and FLA), though his $8.7M AAV is a tight fit against the Vegas cap"
+          "Bruce Cassidy says he'd interview for the Toronto job if VGK grant permission — Vegas has already denied Edmonton and LA, but its stance may soften once the Final ends",
+          "Dylan Larkin's preferred list reportedly includes VGK (with MIN and FLA), and Friedman says the list may expand — Stars and Lightning floated, with offers already submitted by teams incl. Minnesota and Florida"
         ],
         "next": "Game 5 — TONIGHT, Thursday, June 11",
         "next_detail": "Game 5 at Lenovo Center, Raleigh NC — 8:00 PM ET (ABC/SN/CBC/TVAS); Game 6, if necessary, Sunday June 14 at T-Mobile Arena",
@@ -15030,12 +15031,13 @@
         }
       },
       "podcast_angles": [
-        "Best-of-three for the Cup: every game in this Final decided by two goals or fewer — is this a coin flip, or has Carolina's 5-on-5 dominance (57.3 CF% last three games) made them the real favorite?",
-        "Goalie chess match: Hart's .861 over three games vs. Carolina's Bussi-or-Andersen mystery — which crease decision matters more tonight?",
-        "Brett Howden has scored in every game of the Final (4G-2A) — the depth-scoring story nobody projected in October",
-        "Babcock fallout: NHLPA-triggered investigation with reportedly 'significant' new claims — how does Edmonton's coaching search recover from this?",
-        "Larkin to Vegas? He reportedly listed VGK among three preferred destinations — cap gymnastics required to fit $8.7M AAV",
-        "Marner's Conn Smythe case (29 points) if Vegas wins two of three — and who takes it if Carolina wins instead?"
+        "Bussi or bust: a rookie who'd be the first goalie in NHL history to open his playoff career with two Cup Final starts — and win both? Versus Andersen's 1.89 playoff GAA but .815 SV% in this series",
+        "Jordan Staal has scored in all four Final games — first since Mike Bossy in 1982; one more and he matches Yvan Cournoyer (1973) as the only players to score in five straight Final games",
+        "The Eichel problem: 2 assists, minus-3, 38.7% shot-attempt share in the Final — Carolina's matchup game vs. a Vegas malfunction?",
+        "33 goals through four games (8.25/gm) — seven more tonight makes it the first 40-goal-through-five Final since 2010",
+        "Babcock probe: NHLPA-triggered investigation with 'significant' new claims freezes Edmonton's bench search — Seravalli openly ripping the Oilers for pursuing it",
+        "Cassidy-to-Toronto: he wants to talk, Vegas keeps saying no — how long can a team block its fired Cup-winning coach?",
+        "Larkin watch: Yzerman pushing to expand the three-team list (VGK on it) — Stars 'absolutely checked in,' Friedman says offers are already in from Minnesota and Florida"
       ],
       "rumors": [
         {
@@ -15045,12 +15047,22 @@
           "tweets": [
             {
               "date": "2026-06-10",
-              "text": "On 32 Thoughts: believes the NHL will grant the NHLPA's request to investigate Mike Babcock, and can't see the Oilers moving forward with the hire knowing the probe is coming — the request may effectively put Edmonton's process on hold.",
-              "url": "https://athlonsports.com/nhl/edmonton-oilers/elliotte-friedman-shares-latest-on-oilers-pursuit-of-mike-babcock"
+              "text": "On 32 Thoughts: hearing there could be other clubs Dylan Larkin would be willing to join beyond his original three-team list — believes Dallas and Tampa Bay could be options, and that teams including Minnesota and Florida have already submitted offers to Detroit.",
+              "url": "https://www.spectorshockey.net/2026/06/nhl-rumor-mill-june-11-2026/"
             },
             {
               "date": "2026-06-10",
-              "text": "On Alex Tuch's extension talks with Buffalo: 'The one thing I did hear is that there's still a gap. There's still work to be done.'",
+              "text": "On Montreal and Ivan Demidov: belief in Demidov is 'basically unanimous' internally and he wants a long-term deal done this summer — with the NHL expected to eliminate eight-year terms after September, both sides have urgency to move quickly.",
+              "url": "https://thehockeywriters.com/nhl-rumors-nhl-to-investigate-babcock-plus-mcdavid-and-demidov-extensions-06-10-2026/"
+            },
+            {
+              "date": "2026-06-10",
+              "text": "Believes the NHL will grant the NHLPA's request to investigate Mike Babcock before any Edmonton hire — no timeline, as 2023 Blue Jackets players must be interviewed.",
+              "url": "https://athlonsports.com/nhl/edmonton-oilers/elliotte-friedman-nhl-babcock-investigation"
+            },
+            {
+              "date": "2026-06-10",
+              "text": "On Alex Tuch's extension talks with Buffalo: 'still a gap' between the sides — raising the odds Tuch reaches the open market July 1.",
               "url": "https://sports.yahoo.com/articles/elliotte-friedmans-alex-tuch-indicates-142818109.html"
             }
           ]
@@ -15062,7 +15074,12 @@
           "tweets": [
             {
               "date": "2026-06-10",
-              "text": "Speculated Dylan Larkin could draw interest from 12-15 teams following his trade request out of Detroit — though Larkin's full no-trade clause and reported three-team preferred list (MIN, VGK, FLA per Helene St. James) narrow the realistic market.",
+              "text": "Says Zach Werenski is NOT following close friend Dylan Larkin's lead — the Blue Jackets defenseman hasn't asked Columbus for a trade despite the speculation linking the two.",
+              "url": "https://www.spectorshockey.net/2026/06/nhl-rumor-mill-june-11-2026/"
+            },
+            {
+              "date": "2026-06-10",
+              "text": "Speculated Dylan Larkin could draw interest from 12-15 teams following his trade request; in-person interviews in Toronto's coaching search begin this week — phase two of the process.",
               "url": "https://bleacherreport.com/articles/25435748-buy-or-sell-latest-nhl-trade-rumors-dylan-larkin-matthew-knies-and-more"
             }
           ]
@@ -15074,7 +15091,12 @@
           "tweets": [
             {
               "date": "2026-06-10",
-              "text": "Rangers sources say things have cooled around Vincent Trocheck — the thinking now is New York may keep him, 'though that can change with a phone call.'",
+              "text": "Reported the NHLPA has specifically asked the NHL to delay any Babcock hiring in Edmonton until a formal investigation is completed.",
+              "url": "https://www.tsn.ca/nhl/article/nhl-moving-ahead-with-babcock-investigation-following-request-from-nhlpa/"
+            },
+            {
+              "date": "2026-06-10",
+              "text": "Rangers sources say things have cooled around Vincent Trocheck — the thinking now is he's likelier to stay in New York.",
               "url": "https://bleacherreport.com/articles/25435748-buy-or-sell-latest-nhl-trade-rumors-dylan-larkin-matthew-knies-and-more"
             }
           ]
@@ -15086,8 +15108,13 @@
           "tweets": [
             {
               "date": "2026-06-10",
-              "text": "Reports the NHLPA's own investigation has surfaced 'significant' additional claims about Mike Babcock's time in Columbus that were not publicly reported in 2023 — and that the phone-photos story was not ultimately what led to his resignation.",
-              "url": "https://sports.yahoo.com/articles/oilers-rumors-nhl-makes-decision-161811473.html"
+              "text": "Reports the NHLPA's own investigation has surfaced 'significant' additional claims about Babcock's Columbus exit beyond what was public in 2023 — and publicly criticized the Oilers for pursuing the hire anyway.",
+              "url": "https://dailyhive.com/edmonton/seravalli-rips-oilers-babcock"
+            },
+            {
+              "date": "2026-06-10",
+              "text": "Daily Faceoff's updated Trade Board: the market for centers is heating up with Larkin, Hischier, Barzal and McTavish among the names to watch this offseason.",
+              "url": "https://www.dailyfaceoff.com/news/nhl-trade-board-rankings-candidates-offseason-rumors-larkin-hischier-barzal-nurse-mctavish-knies-rielly-ullmark-fox-binnington"
             }
           ]
         },
@@ -15095,7 +15122,13 @@
           "insider": "Chris Johnston",
           "handle": "@reporterchris",
           "outlet": "Sportsnet",
-          "tweets": []
+          "tweets": [
+            {
+              "date": "2026-06-11",
+              "text": "On the Leafs' coaching search: Toronto appears to be leaning toward someone with more NHL head-coaching experience than Joe Pavelski; also says there's 'no smoke' to rumours linking the Leafs to David Carle.",
+              "url": "https://www.tsn.ca/nhl/article/no-smoke-to-rumours-linking-maple-leafs-to-carle-for-head-coaching-vacancy-johnston-says/"
+            }
+          ]
         },
         {
           "insider": "Dave Pagnotta",
@@ -15113,7 +15146,13 @@
           "insider": "Rick Dhaliwal",
           "handle": "@DhaliwalSports",
           "outlet": "CHEK / Daily Faceoff",
-          "tweets": []
+          "tweets": [
+            {
+              "date": "2026-06-10",
+              "text": "Canucks are holding dinner meetings with four prospects at the draft combine in Buffalo this week — Vancouver (pick #3) has now met with the vast majority of projected top-five picks, including Gavin McKenna.",
+              "url": "https://thehockeywriters.com/are-these-the-four-players-the-canucks-are-considering-with-pick-3/"
+            }
+          ]
         },
         {
           "insider": "Kevin Weekes",
@@ -15121,9 +15160,14 @@
           "outlet": "NHL Network",
           "tweets": [
             {
+              "date": "2026-06-10",
+              "text": "Red Wings goalie prospect Sebastian Cossa could be on the move — Utah Mammoth believed to be among the suitors.",
+              "url": "https://octopusthrower.com/nhl-insider-believes-sebastian-cossa-s-time-is-up-with-red-wings-01ktpqcme4z6"
+            },
+            {
               "date": "2026-06-09",
-              "text": "Posted a cryptic social-media hint about Peter Laviolette ahead of the Kings' coaching announcement, noting two franchises still needed a bench boss — LA has since confirmed Laviolette as head coach.",
-              "url": "https://www.houseofhockey.net/nhl/news/kevin-weekes-reveals-cryptic-post-on-social-media-regarding-peter-laviolette-as-head-coach"
+              "text": "Posted a cryptic social-media hint about Peter Laviolette ahead of the Kings' coaching announcement.",
+              "url": "https://www.houseofhockey.net/nhl/news/kevin-weekes-reveals-peter-laviolette-kings"
             }
           ]
         },
@@ -15136,6 +15180,18 @@
       ],
       "transactions": [
         {
+          "type": "retirement",
+          "date": "2026-06-10",
+          "teams": [
+            "SEA"
+          ],
+          "vgk": false,
+          "headline": "Kraken F Max McCormick retires",
+          "detail": "Forward Max McCormick announced his retirement from professional hockey.",
+          "source": "PuckPedia",
+          "url": "https://puckpedia.com/transactions"
+        },
+        {
           "type": "extension",
           "date": "2026-06-09",
           "teams": [
@@ -15144,8 +15200,8 @@
           "vgk": false,
           "headline": "Wild extend Michael McCarron — 6 years, $20M",
           "detail": "Minnesota signed RW Michael McCarron to a six-year, $20 million contract extension ($3.33M AAV).",
-          "source": "Spotrac",
-          "url": "https://www.spotrac.com/nhl/transactions"
+          "source": "PuckPedia",
+          "url": "https://puckpedia.com/transactions"
         },
         {
           "type": "extension",
@@ -15156,8 +15212,8 @@
           "vgk": false,
           "headline": "Panthers extend G Cooper Black — 2 years, $1.75M",
           "detail": "Florida signed goaltender Cooper Black to a two-year, $1.75 million contract extension.",
-          "source": "Spotrac",
-          "url": "https://www.spotrac.com/nhl/transactions"
+          "source": "PuckPedia",
+          "url": "https://puckpedia.com/transactions"
         }
       ],
       "injuries": [
@@ -15191,34 +15247,40 @@
       ],
       "news": [
         {
+          "headline": "Bussi in line to start Game 5; Andersen absent from morning skate",
+          "detail": "Brandon Bussi took the starter's crease at Carolina's morning skate in Raleigh, signaling Rod Brind'Amour will stick with the rookie who won Game 4. Frederik Andersen (.815 SV%, 4.44 GAA in the Final) skated alone before the main group; Brind'Amour says everyone is available. Bussi can become the first goalie ever to open his playoff career with two Cup Final starts — and win both.",
+          "source": "ESPN / TSN",
+          "url": "https://www.espn.com/nhl/story/_/id/49031293/hurricanes-brandon-bussi-likely-game-5-starter-stanley-cup-final"
+        },
+        {
           "headline": "NHL 'moving ahead' with Babcock investigation, freezing Oilers' coach pursuit",
           "detail": "At the NHLPA's request, the NHL is investigating Mike Babcock's 2023 departure from Columbus before Edmonton can hire him. Seravalli reports the union surfaced 'significant' claims beyond the publicly known phone-photos story; there is no timeline, as 2023 Blue Jackets players must be interviewed.",
           "source": "TSN",
           "url": "https://www.tsn.ca/nhl/article/nhl-moving-ahead-with-babcock-investigation-following-request-from-nhlpa/"
         },
         {
-          "headline": "Carolina keeps Game 5 goalie decision under wraps",
-          "detail": "After healthy-scratching Frederik Andersen and winning Game 4 behind rookie Brandon Bussi's 18 saves, Rod Brind'Amour has not announced his Game 5 starter. Andersen's 1.89 GAA this postseason looms over the choice.",
-          "source": "CBS Sports",
-          "url": "https://www.cbssports.com/nhl/news/stanley-cup-final-2026-vegas-golden-knights-carolina-hurricanes-scores-schedule-where-to-watch-stream/"
+          "headline": "Larkin market expanding: Yzerman pushes past the three-team list",
+          "detail": "Detroit is seeking more flexibility than Larkin's original list (MIN, VGK, FLA). Friedman says Dallas and Tampa Bay could be additional options and that offers have already been submitted — including from the Wild and Panthers. The Stars have 'absolutely checked in.' Larkin has five years left at $8.7M AAV with a full no-trade clause.",
+          "source": "The Hockey Writers",
+          "url": "https://thehockeywriters.com/nhl-rumors-cassidy-maple-leafs-babcock-secret-larkin-trade-list-jenner-future-06-11-2026/"
         },
         {
-          "headline": "Larkin trade market builds: 12-15 teams could call, three on his list",
-          "detail": "Pierre LeBrun says Dylan Larkin could draw interest from 12-15 teams, but Helene St. James reports his preferred list is just Minnesota, Vegas and Florida. Larkin has five years left at $8.7M AAV with a full no-trade clause.",
-          "source": "Bleacher Report",
-          "url": "https://bleacherreport.com/articles/25435748-buy-or-sell-latest-nhl-trade-rumors-dylan-larkin-matthew-knies-and-more"
+          "headline": "Cassidy open to Leafs job — if Vegas allows it",
+          "detail": "Bruce Cassidy says he'd speak with Toronto about its vacancy if the Golden Knights grant permission. Vegas, which fired him in March for John Tortorella with a year left on his deal, has already denied Edmonton and LA; there's growing belief the stance could soften once the Final ends, especially for an Eastern team.",
+          "source": "theScore / Boston Globe",
+          "url": "https://www.thescore.com/nhl/news/3552226"
         },
         {
-          "headline": "Laviolette officially takes over Kings bench",
-          "detail": "Los Angeles confirmed Peter Laviolette, 61, as head coach — his seventh NHL head-coaching job. The hire continues a busy coaching carousel that has seen Vancouver promote Manny Malhotra and Columbus retain Rick Bowness.",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/nhl-coaching-changes-tracker-canucks-190550654.html"
+          "headline": "Demidov extension could come together fast in Montreal",
+          "detail": "With the NHL expected to eliminate eight-year contract terms after September, the Canadiens and Ivan Demidov have mutual urgency to get a max-term deal done this summer. Friedman says belief in Demidov internally is 'basically unanimous.'",
+          "source": "The Hockey Writers",
+          "url": "https://thehockeywriters.com/nhl-rumors-nhl-to-investigate-babcock-plus-mcdavid-and-demidov-extensions-06-10-2026/"
         },
         {
-          "headline": "Friedman: 'still a gap' between Alex Tuch and Sabres",
-          "detail": "Extension talks between Buffalo and its top pending free agent continue, but Friedman says work remains — raising the odds Tuch reaches the open market July 1.",
-          "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/articles/elliotte-friedmans-alex-tuch-indicates-142818109.html"
+          "headline": "Historic, high-scoring Final: 33 goals through four games",
+          "detail": "Every game has featured at least seven goals (8.25/gm average). Seven or more tonight would make this the first Final since 2010 with 40+ goals through five games. Jordan Staal, who has scored in all four games (first since Mike Bossy, 1982), can match Yvan Cournoyer (1973) with a goal in a fifth straight Final game.",
+          "source": "ABC11 / NHL.com",
+          "url": "https://abc11.com/post/stanley-cup-final-2026-hurricanes-golden-knights-delivering-historic-high-scoring-series-ahead-game-5/19275239/"
         }
       ],
       "tweets": [],
