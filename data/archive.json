@@ -15447,9 +15447,9 @@
   {
    "date": "2026-06-12",
    "covers": "Thursday, June 11, 2026",
-   "generated_at": "2026-06-12T09:11:39.639954+00:00",
-   "headline": "Pushed to the Brink: Canes Take Game 5 — and Vegas Loses Karlsson",
-   "summary": "Carolina beat Vegas 4-2 in Game 5 at Lenovo Center and leads the Stanley Cup Final 3-2, one win from its first Cup since 2006. Andrei Svechnikov scored twice on the power play, Jordan Staal scored for a fifth straight game, and Brandon Bussi (23 saves) became the first goalie in NHL history to win his first two career playoff starts in a Cup Final. Worse for Vegas than the loss: William Karlsson left in the second period with a left arm/shoulder injury and left the arena for testing — Tortorella said \"he's not going to be with us probably\" for Sunday's Game 6 at T-Mobile Arena, where the Knights now face elimination despite two more goals from Pavel Dorofeyev.",
+   "generated_at": "2026-06-12T23:09:30.919040+00:00",
+   "headline": "On the Brink: Vegas Faces Elimination Sunday — Torts Guarantees a Game 7",
+   "summary": "Carolina leads the Stanley Cup Final 3-2 after taking Game 5, 4-2, and Vegas heads home to T-Mobile Arena facing elimination Sunday — likely without William Karlsson, whose left arm/shoulder injury could end his series. John Tortorella isn't blinking: \"We'll be back here,\" he said, guaranteeing a Game 7 in Raleigh. Around the league, Friday brought a wave of news: Nikita Kucherov edged Connor McDavid by just 10 votes for his second Hart Trophy, and Elliotte Friedman and Mark Spector reported that Oilers defenseman Darnell Nurse has requested a trade — the second trade request in a week after Dylan Larkin's.",
    "games": [
     {
      "matchup": "Carolina Hurricanes 4, Vegas Golden Knights 2",
@@ -15609,7 +15609,8 @@
     "series": "Stanley Cup Final vs. Carolina Hurricanes — Carolina leads 3-2; Game 6 Sunday at T-Mobile Arena",
     "spotlight": "Season on the line Sunday at T-Mobile, and Vegas may play it without William Karlsson, who left Game 5 in the second period with a left arm/shoulder injury after being knocked into the boards by Sean Walker and left the arena for testing — Tortorella: \"he's not going to be with us probably.\" The discipline collapse after he left (four penalties, two Svechnikov power-play goals) decided the game. Dorofeyev keeps producing — two more goals, 12 on the playoff run and a league-best five on the power play — but the Eichel line remains buried at 5-on-5 and Marner was held off the scoresheet. Hart made 20 saves on 24 shots; Bussi has now beaten Vegas twice in two career playoff starts. Vegas is 7-3 on the road this postseason but must now win at home, where Carolina took Games 3's marathon double-OT loss in stride and won Game 4.",
     "notes": [
-     "William Karlsson left Game 5 (left arm/shoulder) after a Sean Walker hit, left the arena for testing — Tortorella says \"he's not going to be with us probably\" for Game 6",
+     "Tortorella guarantees a Game 7: \"We'll be back here\" — Vegas must win Sunday at home to get there",
+     "Karlsson (left arm/shoulder) is 'probably' out for the rest of the Final per Tortorella — third-line center and PK roles need filling; Hertl and Roy are candidates to absorb the minutes",
      "Pavel Dorofeyev scored both Vegas goals — 12 goals this run, league-leading 5th power-play goal of the playoffs",
      "Post-Karlsson discipline collapse: four penalties, two Svechnikov power-play goals against",
      "Carter Hart: 20 saves on 24 shots — .907 SV%, 2.59 GAA on the playoffs; has allowed 4+ in three of five Final games",
@@ -15618,8 +15619,8 @@
      "Bruce Cassidy-to-Toronto chatter continues — Vegas has denied permission so far, stance may soften once the Final ends",
      "Brandon Bussi has won both of his career playoff starts against Vegas — first goalie ever to open a playoff career with two Cup Final wins"
     ],
-    "next": "Game 6 — Sunday, June 14 (ELIMINATION GAME)",
-    "next_detail": "Game 6 at T-Mobile Arena, Las Vegas — 8:00 PM ET / 5:00 PM PT (ABC/SN/CBC/TVAS); Game 7, if necessary, Tuesday June 16 in Raleigh",
+    "next": "Game 6 — Sunday, June 14 vs. Carolina, T-Mobile Arena (8:00 PM ET, ABC/SN/CBC/TVAS)",
+    "next_detail": "Elimination game. Vegas is 7-3 on the road this postseason but just 7-4 at home, and has dropped Games 3 (2OT) and 4 at T-Mobile. Tortorella has guaranteed a Game 7 back in Raleigh.",
     "roster": {
      "forwards": [
       {
@@ -16055,12 +16056,12 @@
     }
    },
    "podcast_angles": [
-    "Elimination-game psychology: Vegas must win at home, where it just dropped Game 4 — and the road has been its comfort zone (7-3)",
-    "The Karlsson domino: who centers the third line and kills penalties Sunday if he's out — and can Vegas survive losing its matchup center after a 4-penalty Game 5?",
-    "Bussi vs. Hart is now THE story: a rookie making history vs. a starter who has allowed 4+ in three of five Final games — does anyone tighten up for Game 6?",
-    "Svechnikov's power play vs. Vegas's discipline: two PPG in Game 5; Carolina has flipped the special-teams script in this series",
-    "Staal, ageless: goals in five straight Final games at 37 — Conn Smythe dark horse if Carolina closes?",
-    "Conn Smythe debate if Vegas loses: does Marner (29 pts, record run) still win it from the losing side?"
+    "Torts' Game 7 guarantee: motivational masterstroke or unnecessary bulletin-board material before an elimination game?",
+    "Life without Wild Bill: who kills penalties and centers the third line Sunday — and can Vegas stay out of the box after the post-Karlsson discipline collapse in Game 5?",
+    "The 10-vote Hart: Kucherov over McDavid is the closest MVP race in memory — should award voting close before the playoffs, and does McDavid's first-round exit explain ballots that left him off the top 3?",
+    "Nurse asks out a week after Larkin: which $9M+ contract moves first, and is the Oilers core officially breaking up?",
+    "Staal chasing Beliveau: six goals in five Final games at age 37 — the Conn Smythe case if Carolina closes",
+    "Alec's broadcast angle: Vegas is 7-3 on the road but must now win two straight, one at home where Carolina has already won twice"
    ],
    "rumors": [
     {
@@ -16068,6 +16069,11 @@
      "handle": "@FriedgeHNIC",
      "outlet": "Sportsnet",
      "tweets": [
+      {
+       "date": "2026-06-12",
+       "text": "With Mark Spector: sources say Oilers defenseman Darnell Nurse has requested a trade and submitted a list of 3-5 preferred destinations. Signed through 2029-30 at $9.25M AAV with a full no-movement clause.",
+       "url": "https://www.sportsnet.ca/nhl/article/sources-darnell-nurse-asks-for-trade-agrees-its-time-to-move-from-oilers/"
+      },
       {
        "date": "2026-06-11",
        "text": "Dylan Larkin's list of acceptable destinations may be expanding beyond VGK/MIN/FLA — Stars and Lightning are clubs he might be willing to join; believes teams (incl. Minnesota and Florida) have already submitted offers to Detroit.",
@@ -16080,6 +16086,11 @@
      "handle": "@PierreVLeBrun",
      "outlet": "The Athletic",
      "tweets": [
+      {
+       "date": "2026-06-12",
+       "text": "Increasingly likely Sabres winger Alex Tuch tests the UFA market July 1. A pre-July 1 deal isn't ruled out, but doubtful Buffalo GM Kekalainen sees Tuch in the 'double-digit salary world.'",
+       "url": "https://www.spectorshockey.net/2026/06/nhl-rumor-mill-june-12-2026/"
+      },
       {
        "date": "2026-06-11",
        "text": "A third team might need to get involved to make the assets work in a Larkin trade with Detroit. Also: Larkin's request has stirred speculation about close friend Zach Werenski in Columbus, but Werenski is NOT following suit and asking out.",
@@ -16209,33 +16220,39 @@
    "news": [
     {
      "headline": "Hurricanes one win from first Stanley Cup since 2006",
-     "detail": "Carolina's 4-2 Game 5 win gives it a 3-2 Final lead heading to Vegas. Svechnikov's two power-play goals, Staal's fifth straight game with a goal and Ehlers's second consecutive three-point night powered a complete road-team performance at home.",
+     "detail": "Carolina's 4-2 Game 5 win was its most complete game of the Final — a dominant second period, two Svechnikov power-play goals, Aho's first of the series, and Jordan Staal becoming the first player since Jean Beliveau in 1956 to score in the first five games of a Cup Final. Game 6 is Sunday in Vegas; Tortorella has guaranteed his club will force a Game 7.",
      "source": "NHL.com",
      "url": "https://www.nhl.com/news/vegas-golden-knights-carolina-hurricanes-stanley-cup-final-game-5-recap-june-11-2026"
     },
     {
-     "headline": "Bussi makes history in just his second playoff start",
-     "detail": "Brandon Bussi (23 saves) became the first goalie in NHL history to make — and win — his first two career playoff starts in the Stanley Cup Final, taking the net for good from Frederik Andersen.",
-     "source": "ESPN",
-     "url": "https://www.espn.com/nhl/game/_/gameId/401874175"
+     "headline": "Kucherov wins second Hart Trophy in one of the closest votes ever",
+     "detail": "Nikita Kucherov (130 points, 2nd in NHL scoring) edged Connor McDavid 1,436 votes to 1,426 — a 10-vote margin — with Nathan MacKinnon third at 1,297. It's Kucherov's second Hart, after 2018-19. The razor-thin margin (some voters left McDavid off their top-3 entirely) immediately stirred debate about the award's voting process.",
+     "source": "NHL.com",
+     "url": "https://www.nhl.com/news/tampa-bay-lightning-nikita-kucherov-surprised-with-hart-trophy-as-nhl-mvp"
     },
     {
-     "headline": "New allegation emerges in Babcock investigation; Oilers' search still frozen",
-     "detail": "Per Seravalli, a subsequent unknown allegation — not the photo requests — forced Babcock's Columbus resignation, and the NHL is investigating. Pagnotta reports Edmonton appears aware of the details and still wants to pursue him.",
-     "source": "Daily Faceoff / The Fourth Period",
-     "url": "https://www.nhltraderumors.me/2026/06/new-allegation-emerging-against-babcock.html"
+     "headline": "Darnell Nurse requests trade out of Edmonton",
+     "detail": "Elliotte Friedman and Mark Spector report Nurse has asked out and submitted a list of 3-5 acceptable destinations. The 31-year-old carries a $9.25M AAV through 2029-30 with a full no-movement clause — a major obstacle. It's the second trade request in a week after Dylan Larkin, and raises questions about whether this Oilers core is breaking up.",
+     "source": "Sportsnet",
+     "url": "https://www.sportsnet.ca/nhl/article/sources-darnell-nurse-asks-for-trade-agrees-its-time-to-move-from-oilers/"
     },
     {
-     "headline": "Larkin trade market expands beyond his original three-team list",
-     "detail": "Friedman says the Stars and Lightning could join VGK, MIN and FLA as acceptable destinations, with offers already submitted to Detroit. LeBrun suggests a third team may be needed to complete the assets.",
-     "source": "Spector's Hockey",
-     "url": "https://www.spectorshockey.net/2026/06/nhl-rumor-mill-june-11-2026/"
+     "headline": "Pavelski confirms he's on Maple Leafs' coaching short list",
+     "detail": "Joe Pavelski acknowledged he's in the running for the Toronto head-coaching job despite never coaching at the pro level. Patrick Roy is also believed to be on the short list.",
+     "source": "Toronto Star",
+     "url": "https://www.thestar.com/sports/leafs/joe-pavelski-confirms-hes-in-running-for-maple-leafs-head-coaching-job/article_b419adc1-fa57-4459-b90e-617a6b9f79a0.html"
     },
     {
-     "headline": "Cassidy-to-Toronto waits on Vegas — and the Final",
-     "detail": "Cassidy has reportedly expressed interest in talking with Toronto about its vacancy if VGK grant permission. Vegas has declined so far (as it did with Edmonton and LA), but its stance may soften once the Final ends; new GM John Chayka says there's no artificial timeline.",
-     "source": "The Hockey Writers",
-     "url": "https://thehockeywriters.com/nhl-rumors-cassidy-maple-leafs-babcock-secret-larkin-trade-list-jenner-future-06-11-2026/"
+     "headline": "Sakic: Avalanche still contenders; Makar 'going to finish his career' in Colorado",
+     "detail": "After being swept by Vegas in the West final, Joe Sakic said Jared Bednar returns (extension possible) and expressed confidence Cale Makar — extension-eligible July 1 — signs long-term. Denver media pushed back on Sakic's 'one bad week' framing of the playoff exit.",
+     "source": "The Denver Post",
+     "url": "https://www.denverpost.com/2026/06/11/avalanche-sakic-kroenke-continuity/"
+    },
+    {
+     "headline": "Kraken add Patrik Allvin as VP/assistant GM; Pascal Vincent joins as assistant coach",
+     "detail": "Former Canucks GM Patrik Allvin joins Seattle's front office, and Pascal Vincent leaves Laval to join the Kraken bench — leaving Montreal's AHL affiliate searching for a head coach.",
+     "source": "The Seattle Times",
+     "url": "https://www.seattletimes.com/sports/kraken/kraken-hire-patrik-allvin-as-vice-president-assistant-gm/"
     }
    ],
    "tweets": [],
@@ -16255,6 +16272,13 @@
      "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/",
      "episodes": [
       {
+       "title": "Stanley Cup Live | Hurricanes vs Golden Knights Game 5",
+       "date": "June 11, 2026",
+       "duration": "Live stream",
+       "description": "Dan & Chris live-react to Game 5: Carolina's power play finally erupts, Staal makes history with a goal in five straight Final games, and Vegas loses William Karlsson with the season on the line.",
+       "url": "https://www.youtube.com/watch?v=P5XoGhSvbqI"
+      },
+      {
        "title": "Canes Play Their Best Game Of The Series And Steal Back Home Ice",
        "date": "June 10, 2026",
        "duration": "66 min",
@@ -16267,13 +16291,6 @@
        "duration": "Live stream",
        "description": "Dan and Chris live from Las Vegas for Game 4 of the Stanley Cup Final, reacting in real time as Carolina evens the series 2-2 behind two Jordan Staal goals.",
        "url": "https://www.youtube.com/watch?v=PXDVeob3rFQ"
-      },
-      {
-       "title": "The Canes Storm Back — Historic Game 2 Comeback, Larkin Wants Out & a Pokemon Rip",
-       "date": "June 5, 2026",
-       "duration": "~75 min",
-       "description": "Carolina's stunning multi-goal comeback in the final 10 minutes of regulation to win Game 2, Seth Jarvis celebrating with family in the building, Dylan Larkin's trade request out of Detroit, plus a surprise Pokemon card rip.",
-       "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/"
       }
      ]
     },
