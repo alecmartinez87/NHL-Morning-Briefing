@@ -16418,30 +16418,30 @@
     },
     {
       "date": "2026-06-15",
-      "covers": "Sunday, June 14, 2026",
-      "generated_at": "2026-06-15T07:30:00-07:00",
-      "headline": "Canes Claim the Cup — Bussi Shuts Out Vegas in Game 6, Staal Wins Conn Smythe at 37",
-      "summary": "The Carolina Hurricanes are the 2026 Stanley Cup champions after shutting out the Vegas Golden Knights 3-0 in Game 6 at T-Mobile Arena on Sunday night, capturing the franchise's second title and first since 2006. Rookie goaltender Brandon Bussi was sensational, stopping all 22 shots he faced for his first career playoff shutout while Taylor Hall, Jackson Blake, and Nikolaj Ehlers provided the offence. Captain Jordan Staal lifted the Cup and won the Conn Smythe Trophy — making history as the oldest playoff MVP in NHL history at 37 — after posting six goals in the Final. The Golden Knights, led in points by Mitch Marner's record-setting 29-point run, fall short in six games and now brace for an intense offseason with multiple UFAs and a cap crunch looming.",
+      "covers": "Monday, June 15, 2026",
+      "generated_at": "2026-06-15T09:12:00-07:00",
+      "headline": "Hurricanes Raise the Cup in Vegas — Carolina Are 2026 Stanley Cup Champions",
+      "summary": "The Carolina Hurricanes won the 2026 Stanley Cup Championship on Sunday night, shutting out the Vegas Golden Knights 3-0 in Game 6 at T-Mobile Arena to claim their second title in franchise history and first since 2006. Taylor Hall opened the scoring at 3:47 of the first, Jackson Blake doubled the lead in the second period, and Nikolaj Ehlers sealed it with an empty-net goal at 18:52 of the third. Brandon Bussi posted a 22-save shutout in just his third career playoff start after being claimed off waivers before the season. Jordan Staal won the Conn Smythe Trophy, becoming the oldest winner in history at 37 years old after scoring in five consecutive Final games.",
       "games": [
         {
           "matchup": "Carolina 3, Vegas 0",
           "context": "Stanley Cup Final · Game 6 · T-Mobile Arena, Las Vegas",
-          "series_note": "Carolina wins series 4-2 — Hurricanes are 2026 Stanley Cup Champions",
+          "series_note": "CAR wins series 4-2 — Carolina Hurricanes are 2026 Stanley Cup Champions",
           "winner_abbr": "CAR",
           "away_abbr": "CAR",
           "away_score": 3,
           "home_abbr": "VGK",
           "home_score": 0,
-          "detail": "Taylor Hall struck 3:47 into the first period to put Carolina ahead and they never looked back. Jackson Blake doubled the lead in the second on a one-timer from the right circle, and Nikolaj Ehlers iced it with an empty netter in the dying seconds. Brandon Bussi was flawless — 22 saves, first career playoff shutout — while Carter Hart turned aside 20 of 23 shots in a losing effort. Vegas's offence, led all postseason by Mitch Marner (29 pts) and Brett Howden (14 goals), went completely silent. Jordan Staal, who recorded six goals in the series, hoisted the Cup and claimed the Conn Smythe Trophy."
+          "detail": "Taylor Hall struck just 3:47 into the first period on a breakaway, Jackson Blake made it 2-0 in the second, and Nikolaj Ehlers added an empty-netter at 18:52 of the third to complete the 3-0 final. Brandon Bussi was magnificent in net, stopping all 22 shots he faced for his first career playoff shutout — becoming only the third rookie goalie in NHL history to record a shutout in a Cup-clinching game. Carter Hart was solid with 20 saves but couldn't bail out an offense that went 18:37 between shots in the second and third periods. Carolina finished 16-3 in the playoffs, the best run since the 1988 Edmonton Oilers (16-2)."
         }
       ],
       "series": [
         {
-          "name": "2026 Stanley Cup Final — FINAL",
-          "teams": "Carolina Hurricanes vs. Vegas Golden Knights",
-          "status": "Carolina wins 4-2 — Hurricanes are 2026 Stanley Cup Champions",
+          "name": "2026 Stanley Cup Final",
+          "teams": "CAR vs. VGK",
+          "status": "FINAL — Carolina wins 4-2 🏆 Hurricanes are Stanley Cup Champions",
           "leader_abbr": "CAR",
-          "next": "Playoffs complete — offseason begins"
+          "next": "Season Complete — 2026 NHL Draft, June 26, Buffalo"
         }
       ],
       "leaders": {
@@ -16450,31 +16450,31 @@
             "name": "Mitch Marner",
             "team": "VGK",
             "value": "29",
-            "note": "10G–19A in 22 GP; Golden Knights single-run franchise record"
+            "note": "10G 19A in 22 GP"
           },
           {
             "name": "Jack Eichel",
             "team": "VGK",
             "value": "21",
-            "note": "2G–19A in 22 GP; led all skaters in assists"
+            "note": "2G 19A in 22 GP"
           },
           {
             "name": "Brett Howden",
             "team": "VGK",
             "value": "18",
-            "note": "14G–4A in 22 GP; led all skaters in goals"
+            "note": "14G 4A in 22 GP"
+          },
+          {
+            "name": "Pavel Dorofeyev",
+            "team": "VGK",
+            "value": "16",
+            "note": "12G 4A in 22 GP"
           },
           {
             "name": "Shea Theodore",
             "team": "VGK",
             "value": "13",
-            "note": "4G–9A in 22 GP"
-          },
-          {
-            "name": "Jordan Staal",
-            "team": "CAR",
-            "value": "12",
-            "note": "8G–4A in 22 GP; Conn Smythe Trophy winner"
+            "note": "4G 9A in 22 GP"
           }
         ],
         "Goals": [
@@ -16482,31 +16482,31 @@
             "name": "Brett Howden",
             "team": "VGK",
             "value": "14",
-            "note": "Led all playoff scorers outright"
+            "note": "22 GP"
           },
           {
             "name": "Pavel Dorofeyev",
             "team": "VGK",
             "value": "12",
-            "note": "Included league-high 5 PPG"
+            "note": "22 GP"
           },
           {
             "name": "Mitch Marner",
             "team": "VGK",
             "value": "10",
-            "note": "Fastest hat trick in SCF history in Game 3"
+            "note": "22 GP"
           },
           {
             "name": "Jordan Staal",
             "team": "CAR",
             "value": "8",
-            "note": "6 in the Final; tied record with 5 straight Final games with a goal"
+            "note": "Conn Smythe; scored in 5 straight Final games"
           },
           {
             "name": "Taylor Hall",
             "team": "CAR",
             "value": "7",
-            "note": "Including the Cup-clinching opener in Game 6"
+            "note": "Including Cup-clinching opener in G6"
           }
         ],
         "Assists": [
@@ -16514,85 +16514,84 @@
             "name": "Mitch Marner",
             "team": "VGK",
             "value": "19",
-            "note": "Tied for playoff lead"
+            "note": "22 GP"
           },
           {
             "name": "Jack Eichel",
             "team": "VGK",
             "value": "19",
-            "note": "Tied for playoff lead"
+            "note": "22 GP"
           },
           {
             "name": "Shea Theodore",
             "team": "VGK",
             "value": "9",
-            "note": "Led all defencemen"
+            "note": "22 GP"
           },
           {
             "name": "Brayden McNabb",
             "team": "VGK",
             "value": "8",
-            "note": "Steady presence on the back end"
+            "note": "22 GP"
           },
           {
             "name": "Ivan Barbashev",
             "team": "VGK",
             "value": "7",
-            "note": "Key two-way contributor"
+            "note": "22 GP"
           }
         ],
         "Goaltending": [
           {
-            "name": "Brandon Bussi",
-            "team": "CAR",
-            "value": ".921 SV%",
-            "note": "~18 GP, ~12W; shutout in clinching Game 6 — historic rookie run"
-          },
-          {
             "name": "Carter Hart",
             "team": "VGK",
-            "value": ".905 SV%",
-            "note": "22 GP, 14W–8L, 2.63 GAA; carried VGK to the Final"
+            "value": "14-8",
+            "note": "2.62 GAA .906 SV% — 22 GP"
           },
           {
-            "name": "Juuse Saros",
-            "team": "NSH",
-            "value": ".911 SV%",
-            "note": "Strong first two rounds before elimination"
+            "name": "Frederik Andersen",
+            "team": "CAR",
+            "value": "13-3",
+            "note": "Led CAR to first three rounds; handed off to Bussi in SCF"
           },
           {
-            "name": "Cam Talbot",
-            "team": "EDM",
-            "value": ".908 SV%",
-            "note": "Steady in a surprising Oilers run"
+            "name": "Brandon Bussi",
+            "team": "CAR",
+            "value": "3-0",
+            "note": "1 SO — Cup-clinching shutout in G6; only 3 career playoff starts"
+          },
+          {
+            "name": "Tristan Jarry",
+            "team": "PIT",
+            "value": "7-6",
+            "note": "Second-round exit"
           },
           {
             "name": "Adin Hill",
             "team": "VGK",
-            "value": ".899 SV%",
-            "note": "Spot appearances in relief of Hart"
+            "value": "0-0",
+            "note": "3 relief appearances"
           }
         ]
       },
       "vgk": {
         "record": "14-8",
-        "record_detail": "Lost Stanley Cup Final 4-2 to Carolina — 2026 season complete",
-        "series_short": "SCF: CAR wins 4-2",
-        "series": "Carolina Hurricanes defeat Vegas Golden Knights 4-2 — Hurricanes are 2026 Stanley Cup Champions",
-        "spotlight": "Season ends in heartbreak on home ice as Brandon Bussi blanked Vegas 3-0 in Game 6, clinching Carolina's second Stanley Cup. Taylor Hall scored 3:47 into the first; Jackson Blake made it 2-0 in the second on a one-timer; Nikolaj Ehlers iced it empty-net. Carter Hart was decent (20 saves) but the VGK offence — which generated just 22 shots — never found a way through. Mitch Marner (29 pts, playoff scoring champion) and Jack Eichel were held pointless for just the third time all postseason. Brett Howden, who led all skaters with 14 goals this run, was also blanked. Vegas now faces a complex offseason: seven-plus UFAs including Reilly Smith, Brandon Saad, Colton Sissons, Jeremy Lauzon, Rasmus Andersson, Ben Hutton — plus no first-round picks in 2026 or 2027 and roughly $4.6M in projected cap space.",
+        "record_detail": "Eliminated in Stanley Cup Final — lost 4-2 to Carolina Hurricanes",
+        "series_short": "SCF: CAR wins 4-2 ✓",
+        "series": "Stanley Cup Final — Carolina Hurricanes defeated Vegas Golden Knights 4-2 to claim the 2026 Stanley Cup. Vegas came within two wins of the franchise's second Cup championship.",
+        "spotlight": "A devastating end for the Golden Knights. After an extraordinary run from Mitch Marner (29 pts, playoff scoring leader) and Brett Howden (14 goals), Carter Hart's struggles in the Final ultimately proved too much to overcome. Hart posted a 3.90 GAA and .855 SV% across the six-game series, and Vegas managed just 22 shots in the Cup-clinching game — going 18:37 between shots in the final two periods. The Knights now turn attention to a demanding offseason with major decisions looming.",
         "notes": [
-          "Taylor Hall opened scoring 3:47 into Game 6 — his 7th goal of the playoffs — Carter Hart made 20 saves but the dam never held",
-          "Brandon Bussi: 22 saves, first career playoff shutout — unprecedented 2-0 record in Cup Final starts as a rookie",
-          "Jordan Staal wins Conn Smythe at age 37 years, 277 days — oldest winner in NHL history, surpassing Tim Thomas (2011)",
-          "Mitch Marner's 29 points set a Golden Knights franchise playoff record but ends without a championship",
-          "Seven UFAs (Smith, Saad, Sissons, Hutton, Lauzon, Andersson + others) to address with ~$4.6M cap space this summer",
-          "Dylan Larkin (DET) formally requested a trade; VGK is on his three-team wish list — a blockbuster acquisition target",
-          "John Tortorella's contract status draws renewed attention — future unclear after Cup Final loss",
-          "William Karlsson (arm/shoulder) and Alex Pietrangelo (hip) both head to offseason recovery; no timeline on return",
-          "Bruce Cassidy-to-Toronto chatter accelerates now that Vegas's season is over — replacement search may begin soon"
+          "🏆 Season over — CAR wins Stanley Cup 4-2",
+          "Mitch Marner led all 2026 playoff scorers with 29 points (10G-19A), best in franchise history for a single postseason",
+          "Brett Howden led all skaters with 14 goals — a remarkable performance for a checking-line center",
+          "Carter Hart's SCF struggles (3.90 GAA, .855 SV%) will fuel an important offseason goaltending conversation",
+          "William Karlsson missed entire Final with injury (out since Game 4 vs. Minnesota)",
+          "VGK faces a tight offseason with Pavel Dorofeyev (UFA), Rasmus Andersson (UFA), Jeremy Lauzon (UFA) and Ben Hutton (UFA) all potentially hitting free agency",
+          "Kelly McCrimmon has ~$4.6M in cap space with 16 players under contract — major restructuring ahead",
+          "2026 NHL Draft on June 26 in Buffalo — VGK holds no first or second-round picks in 2026 or 2027"
         ],
-        "next": "2026 NHL Draft — June 27 | Free Agency opens — July 1",
-        "next_detail": "Golden Knights begin offseason with major UFA decisions and no picks in the first two rounds of the 2026 draft.",
+        "next": "2026 NHL Draft — June 26, KeyBank Center, Buffalo",
+        "next_detail": "Rounds 1 (7 p.m. ET, ESPN/SN) and 2-7 (June 27, 11 a.m. ET, NHLN/ESPN+/SN). Vegas holds no picks in the first two rounds.",
         "roster": {
           "forwards": [
             {
@@ -16743,7 +16742,7 @@
               "num": "71",
               "name": "William Karlsson",
               "pos": "C",
-              "gp": 10,
+              "gp": 9,
               "g": 3,
               "a": 2,
               "pts": 5,
@@ -16994,16 +16993,16 @@
               "gp": 22,
               "w": 14,
               "l": 8,
-              "gaa": 2.63,
-              "svpct": ".905",
+              "gaa": 2.62,
+              "svpct": ".906",
               "so": 0,
-              "toi": "1323:00",
+              "toi": "1383:00",
               "inj": false
             },
             {
               "num": "33",
               "name": "Adin Hill",
-              "gp": 4,
+              "gp": 3,
               "w": 0,
               "l": 0,
               "gaa": 3.1,
@@ -17015,7 +17014,7 @@
             {
               "num": "40",
               "name": "Akira Schmid",
-              "gp": 2,
+              "gp": 1,
               "w": 0,
               "l": 0,
               "gaa": 0.0,
@@ -17028,11 +17027,12 @@
         }
       },
       "podcast_angles": [
-        "The Curtain Falls: How Rod Brind'Amour's system strangled the Golden Knights — and what Carolina's second Cup means for hockey's 'responsible' blueprint",
-        "Jordan Staal at 37: Six goals in the Final, Conn Smythe glory, and the perfect ending to an underrated Hall-of-Fame career",
-        "Mitch Marner's Vegas Heartbreak — 29 Points and No Ring: What happens now with a Golden Knights rebuild looming?",
-        "VGK Offseason Inferno: Seven UFAs, No First-Rounders, Dylan Larkin on the Wish List, and a $4.6M Cap Crunch",
-        "Brandon Bussi's Cinderella Story: The Rookie Who Outduelled the Veterans When It Mattered Most"
+        "The Hurricanes went 16-3 — where does this Cup run rank among the all-time great playoff performances?",
+        "Jordan Staal, 37 years old, Conn Smythe Trophy winner — where does he rank among the greatest late-career performances in Cup history?",
+        "Brandon Bussi: from waiver wire castoff to Stanley Cup shutout hero — the ultimate goalie fairy tale?",
+        "Carter Hart was brilliant all playoffs long before the Final collapsed — is he still the answer in Vegas, or does McCrimmon look elsewhere?",
+        "VGK's offseason crisis: Dorofeyev, Andersson, cap crunch and no first-round picks — how do you rebuild a contender?",
+        "Carolina parade on June 20: what makes this Hurricanes team tick, and are they a dynasty in the making?"
       ],
       "rumors": [
         {
@@ -17042,13 +17042,8 @@
           "tweets": [
             {
               "date": "2026-06-14",
-              "text": "Dylan Larkin's trade request from Detroit is legitimate. The three-team wish list that surfaced — Florida Panthers, Minnesota Wild, Vegas Golden Knights — aligns with what I've heard. Winning is the primary factor. Yzerman will take his time but this will get done before the draft.",
-              "url": "https://x.com/FriedgeHNIC"
-            },
-            {
-              "date": "2026-06-14",
-              "text": "Executives I've spoken to are bracing for an incredibly active offseason. More blockbuster trades coming than most summers — lack of quality UFA talent is pushing teams into deal-making mode.",
-              "url": "https://x.com/FriedgeHNIC"
+              "text": "Detroit Red Wings captain Dylan Larkin situation is one of the most compelling storylines of the upcoming offseason. Already know teams have submitted offers. Wild and Panthers among interested clubs, per sources. Cup wasn't even awarded yet and the phones are lighting up.",
+              "url": "https://twitter.com/FriedgeHNIC"
             }
           ]
         },
@@ -17059,8 +17054,13 @@
           "tweets": [
             {
               "date": "2026-06-14",
-              "text": "Robert Thomas (St. Louis) and Vincent Trocheck (NY Rangers) are the two most prominent centers who figure to be on the move this summer. Both situations are ones to watch closely heading into the draft in Vegas.",
-              "url": "https://x.com/PierreVLeBrun"
+              "text": "On Larkin: I'm told between 12-15 teams have interest. Red Wings are listening but not shopping. Big difference. And on Nico Hischier — second meeting between his agent and Devils GM Sunny Mehta. Most likely scenario: Hischier re-signs in New Jersey. But the market will be tested.",
+              "url": "https://twitter.com/PierreVLeBrun"
+            },
+            {
+              "date": "2026-06-14",
+              "text": "Auston Matthews update: barring something dramatic, he's back in Toronto next season. Sources say no reason to believe otherwise.",
+              "url": "https://twitter.com/PierreVLeBrun"
             }
           ]
         },
@@ -17068,7 +17068,13 @@
           "insider": "Darren Dreger",
           "handle": "@DarrenDreger",
           "outlet": "TSN",
-          "tweets": []
+          "tweets": [
+            {
+              "date": "2026-06-13",
+              "text": "Rangers sources tell me things have cooled on Vinnie Trocheck. Thinking now leans toward keeping him. Not a done deal but the internal preference is shifting.",
+              "url": "https://twitter.com/DarrenDreger"
+            }
+          ]
         },
         {
           "insider": "Frank Seravalli",
@@ -17076,9 +17082,9 @@
           "outlet": "Daily Faceoff",
           "tweets": [
             {
-              "date": "2026-06-14",
-              "text": "Daily Faceoff Trade Board is live for the 2026 offseason. Top names to watch: Auston Matthews (Toronto), Brady Tkachuk (Ottawa), Mason McTavish (Anaheim). The Matthews situation in particular is one every GM is monitoring.",
-              "url": "https://x.com/frank_seravalli"
+              "date": "2026-06-13",
+              "text": "If Edmonton is serious about fixing their goaltending situation this offseason, Jordan Binnington has to be on the shortlist. He's a name that will draw real interest. Don't be surprised if Oilers make a move.",
+              "url": "https://twitter.com/frank_seravalli"
             }
           ]
         },
@@ -17089,8 +17095,8 @@
           "tweets": [
             {
               "date": "2026-06-14",
-              "text": "Multiple GMs expect this to be one of the most active offseasons in years. The lack of impact UFAs is pushing transactions toward trades. Expect fireworks at and around the draft in Vegas later this month.",
-              "url": "https://x.com/reporterchris"
+              "text": "Executives around the league are bracing for one of the busiest offseasons in recent memory. Cap space, lots of notable UFAs, and teams that fell short. Expect significant movement in the next 2-3 weeks.",
+              "url": "https://twitter.com/reporterchris"
             }
           ]
         },
@@ -17101,8 +17107,8 @@
           "tweets": [
             {
               "date": "2026-06-13",
-              "text": "The Montreal Canadiens came very close to acquiring Matthew Knies from Toronto before the deadline — discussions re-opened now. Also: Florida has made informal inquiries about Connor Hellebuyck, per sources.",
-              "url": "https://x.com/TheFourthPeriod"
+              "text": "Jay McKee expected to take an NHL head coaching job next season. Multiple clubs have expressed interest. Watch this space.",
+              "url": "https://twitter.com/TheFourthPeriod"
             }
           ]
         },
@@ -17116,7 +17122,13 @@
           "insider": "Rick Dhaliwal",
           "handle": "@DhaliwalSports",
           "outlet": "CHEK / Daily Faceoff",
-          "tweets": []
+          "tweets": [
+            {
+              "date": "2026-06-13",
+              "text": "Habs have given permission to Brendan Gallagher's agent to talk to other teams to facilitate a trade. The end of an era in Montreal is nearing. More to come.",
+              "url": "https://twitter.com/DhaliwalSports"
+            }
+          ]
         },
         {
           "insider": "Kevin Weekes",
@@ -17128,10 +17140,40 @@
           "insider": "Arthur Staple",
           "handle": "@ArthurStaple",
           "outlet": "The Athletic",
-          "tweets": []
+          "tweets": [
+            {
+              "date": "2026-06-14",
+              "text": "Islanders watching the UFA market very closely. A bounce-back summer is needed after their disappointing playoff exit. Names to watch: Mason McTavish situation in Anaheim is very much a live conversation around the league.",
+              "url": "https://twitter.com/ArthurStaple"
+            }
+          ]
         }
       ],
       "transactions": [
+        {
+          "type": "signing",
+          "date": "2026-06-13",
+          "teams": [
+            "VAN"
+          ],
+          "vgk": false,
+          "headline": "Jack Thompson re-signs with Vancouver",
+          "detail": "Defenseman Jack Thompson signed a 1-year, $850,000 contract extension with the Vancouver Canucks.",
+          "source": "PuckPedia",
+          "url": "https://puckpedia.com"
+        },
+        {
+          "type": "signing",
+          "date": "2026-06-13",
+          "teams": [
+            "CBJ"
+          ],
+          "vgk": false,
+          "headline": "James Malatesta re-signs with Columbus",
+          "detail": "Left wing James Malatesta signed a 1-year, $850,000 contract extension with the Columbus Blue Jackets.",
+          "source": "PuckPedia",
+          "url": "https://puckpedia.com"
+        },
         {
           "type": "signing",
           "date": "2026-06-14",
@@ -17139,47 +17181,10 @@
             "BOS"
           ],
           "vgk": false,
-          "headline": "Bruins sign F Attilio Biasca to 2-year deal",
-          "detail": "Boston signed 23-year-old Swiss forward Attilio Biasca to a two-year contract at $980K AAV. Biasca comes from HC Fribourg-Gottéron and won a silver medal with Switzerland at the 2026 IIHF World Championship.",
+          "headline": "Attilio Biasca signs with Boston",
+          "detail": "Forward Attilio Biasca signed with the Boston Bruins after his season with HC Fribourg-Gottéron (NLA).",
           "source": "PuckPedia",
-          "url": "https://puckpedia.com/"
-        },
-        {
-          "type": "extension",
-          "date": "2026-06-13",
-          "teams": [
-            "VAN"
-          ],
-          "vgk": false,
-          "headline": "Canucks re-sign D Jack Thompson, 1yr/$850K",
-          "detail": "Vancouver locked up defenceman Jack Thompson on a one-year, $850,000 contract extension.",
-          "source": "PuckPedia",
-          "url": "https://puckpedia.com/"
-        },
-        {
-          "type": "extension",
-          "date": "2026-06-13",
-          "teams": [
-            "CBJ"
-          ],
-          "vgk": false,
-          "headline": "Blue Jackets re-sign LW James Malatesta, 1yr/$850K",
-          "detail": "Columbus retained left wing James Malatesta on a one-year, $850,000 contract extension.",
-          "source": "PuckPedia",
-          "url": "https://puckpedia.com/"
-        },
-        {
-          "type": "trade",
-          "date": "2026-06-13",
-          "teams": [
-            "PIT",
-            "FLA"
-          ],
-          "vgk": false,
-          "headline": "Penguins trade D Emil Pieniniemi to Florida for F Oliver Okuliar",
-          "detail": "Pittsburgh sent defenceman Emil Pieniniemi to Florida in exchange for forward Oliver Okuliar in a straightforward depth swap.",
-          "source": "PuckPedia",
-          "url": "https://puckpedia.com/"
+          "url": "https://puckpedia.com"
         }
       ],
       "injuries": [
@@ -17188,74 +17193,47 @@
           "team": "VGK",
           "position": "C",
           "status": "OUT",
-          "injury": "Left arm/shoulder",
-          "detail": "Missed Game 6 after leaving Game 5 following a Sean Walker hit into the boards. Season over — will be evaluated in the offseason.",
-          "vgk": true
-        },
-        {
-          "name": "Alex Pietrangelo",
-          "team": "VGK",
-          "position": "D",
-          "status": "OUT",
-          "injury": "Hip",
-          "detail": "Did not play in the Stanley Cup Final. Off to offseason recovery — no timeline announced.",
-          "vgk": true
-        },
-        {
-          "name": "Brayden McNabb",
-          "team": "VGK",
-          "position": "D",
-          "status": "ACTIVE",
-          "injury": "Facial",
-          "detail": "Played all of Game 6 with a full cage, managing through the facial injury sustained in Game 2.",
-          "vgk": true
-        },
-        {
-          "name": "Mark Stone",
-          "team": "VGK",
-          "position": "RW",
-          "status": "ACTIVE",
           "injury": "Lower body",
-          "detail": "Played Game 6 in a limited third-line role. Season over — offseason rest expected.",
+          "detail": "Missed entire Stanley Cup Final (Games 1-6). Season ended on injured reserve.",
           "vgk": true
         }
       ],
       "news": [
         {
-          "headline": "Carolina Hurricanes Win the 2026 Stanley Cup",
-          "detail": "The Hurricanes shut out Vegas 3-0 in Game 6 at T-Mobile Arena to claim the franchise's second Stanley Cup championship and first since 2006. Rod Brind'Amour, who captained the 2006 Cup winner, now has a championship as a coach. Brandon Bussi, in only his second career playoff start, earned the shutout in a historic performance.",
+          "headline": "Carolina Hurricanes Win 2026 Stanley Cup Championship",
+          "detail": "The Carolina Hurricanes defeated the Vegas Golden Knights 3-0 in Game 6 at T-Mobile Arena on Sunday to claim their second Stanley Cup title and first since 2006. The Canes finished with a 16-3 playoff record — the fewest games needed to win the Cup since the 1988 Edmonton Oilers went 16-2.",
           "source": "NHL.com",
           "url": "https://www.nhl.com/news/carolina-hurricanes-vegas-golden-knights-stanley-cup-final-game-6-recap-june-14-2026"
         },
         {
-          "headline": "Jordan Staal, 37, Wins Conn Smythe Trophy — Oldest Winner in NHL History",
-          "detail": "Captain Jordan Staal claimed the Conn Smythe Trophy after scoring six goals in the Stanley Cup Final (8G+4A in the full playoffs). At 37 years and 277 days, he surpassed Boston's Tim Thomas (37 years, 61 days in 2011) as the oldest playoff MVP in league history. Staal also tied the NHL record for scoring in five consecutive Stanley Cup Final games.",
+          "headline": "Jordan Staal Wins Conn Smythe Trophy — Becomes Oldest-Ever Playoff MVP at 37",
+          "detail": "Hurricanes captain Jordan Staal was awarded the 2026 Conn Smythe Trophy after leading all playoff scorers in the Final with 8 goals in 6 games — including scores in five consecutive games tying an NHL Final record — and finishing with 12 points (8G-4A) in 18 playoff games overall.",
           "source": "NHL.com",
           "url": "https://www.nhl.com/news/topic/playoffs/carolina-hurricanes-jordan-staal-wins-2026-conn-smythe-trophy-playoffs-mvp"
         },
         {
-          "headline": "Brandon Bussi Makes History — First Rookie to Win Both Playoff Starts in the Stanley Cup Final",
-          "detail": "Bussi became the first goaltender in NHL history to open his playoff career with two Stanley Cup Final victories, going 2-0 with a shutout in the clincher. The 23-year-old was Carolina's playoff revelation after Frederik Andersen's health limited his availability.",
+          "headline": "Brandon Bussi's Incredible Journey: Waiver Wire to Stanley Cup Hero",
+          "detail": "Days before the 2025-26 season opened, Brandon Bussi was headed to Charlotte to play in the AHL when Carolina claimed him off waivers. Eight months later, he posted a 22-save shutout in Game 6 to clinch the Cup — becoming just the third first-year goalie in NHL history to record a shutout in a Cup-clinching game.",
+          "source": "NHL.com",
+          "url": "https://www.nhl.com/news/topic/playoffs/brandon-bussi-caps-whirlwind-season-with-shutout-in-game-6"
+        },
+        {
+          "headline": "Hurricanes Cup Parade Set for June 20 in Raleigh",
+          "detail": "Carolina Governor Josh Stein announced the Hurricanes' 2026 Stanley Cup championship parade will take place on Saturday, June 20 in Raleigh. Details on the route and timing to be announced.",
           "source": "Yahoo Sports",
-          "url": "https://sports.yahoo.com/nhl/live/golden-knights-vs-hurricanes-score-live-updates-game-6-230000422.html"
+          "url": "https://sports.yahoo.com/articles/hurricanes-stanley-cup-parade-2026-025725275.html"
         },
         {
-          "headline": "Dylan Larkin Formally Requests Trade from Detroit — VGK on Three-Team Wish List",
-          "detail": "Red Wings captain Dylan Larkin, 29, submitted a trade request to GM Steve Yzerman, citing a desire to compete for a Stanley Cup after making the playoffs only once in 11 seasons. Per Friedman, his preferred destinations are Florida, Minnesota, and Vegas. Larkin is signed through 2030-31 at $8.7M AAV with a full no-trade clause.",
-          "source": "Bleacher Report",
-          "url": "https://bleacherreport.com/articles/25435281-new-nhl-rumors-dylan-larkins-wish-list-trade-landing-spot-ahead-2026-draft-free-agency"
-        },
-        {
-          "headline": "Golden Knights Brace for Transformative Offseason — Seven UFAs, No First-Round Picks",
-          "detail": "Vegas holds no first or second-round picks in 2026 or 2027 and projects roughly $4.6M in cap space with 16 players under contract. Pending UFAs include Reilly Smith, Brandon Saad, Colton Sissons, Jeremy Lauzon, Rasmus Andersson, and Ben Hutton. GM Kelly McCrimmon faces a significant roster reconstruction despite the Cup Final appearance.",
-          "source": "Bleacher Report",
-          "url": "https://bleacherreport.com/articles/25433009-golden-knights-2026-free-agents-draft-targets-offseason-guide-after-nhl-final-loss"
-        },
-        {
-          "headline": "Mitch Marner Sets Golden Knights Playoff Scoring Record — Falls Just Short of Cup",
-          "detail": "Marner's 29 points (10G+19A) in 22 playoff games set a new franchise record, eclipsing the 26-point mark set by Jack Eichel in the 2023 run. He scored the fastest hat trick in Stanley Cup Final history in Game 3 (6:10) but was held pointless in the Game 6 clincher.",
+          "headline": "NHL Buyout Window Opens June 15; Offseason Officially Underway",
+          "detail": "The NHL buyout window opens today (June 15), 48 hours after the Stanley Cup Final concluded. Key names expected to be discussed include VGK free agents Rasmus Andersson and Pavel Dorofeyev, plus buyout candidates around the league.",
           "source": "Daily Faceoff",
-          "url": "https://www.dailyfaceoff.com/news/mitch-marner-vegas-golden-knights-carolina-hurricanes-stanley-cup-final-nhl-news-record"
+          "url": "https://www.dailyfaceoff.com/news/top-5-nhl-buyout-candidates-2026-jt-compher-brendan-gallagher-ryan-graves-jesperi-kotkaniemi-morgan-rielly-rumors"
+        },
+        {
+          "headline": "Dylan Larkin Trade Rumors Heat Up Post-Cup",
+          "detail": "With the Stanley Cup barely handed over, rumors swirled about Detroit Red Wings captain Dylan Larkin. According to Friedman, teams have already submitted trade offers; Pierre LeBrun pegged 12-15 clubs with interest. The Red Wings are listening but are not actively shopping their captain.",
+          "source": "Bleacher Report",
+          "url": "https://bleacherreport.com/articles/25435748-buy-or-sell-latest-nhl-trade-rumors-dylan-larkin-matthew-knies-and-more"
         }
       ],
       "tweets": [],
@@ -17263,15 +17241,7 @@
         "channel_url": "https://www.youtube.com/@theamrewind",
         "channel_handle": "@TheAMRewind",
         "description": "NHL goal breakdowns and deep dives by 3X Stanley Cup Champion and former NHL defenseman Alec Martinez — showcasing talent that doesn't always show up on the scoresheet.",
-        "latest_videos": [
-          {
-            "title": "Inside a Stanley Cup Mindset: Alec Martinez on Vegas, Marner, and Playoff Hockey",
-            "type": "analysis",
-            "published": "June 2026",
-            "description": "Alec breaks down the mental and tactical side of playoff hockey, reflecting on Vegas's run and what it takes to win the Cup.",
-            "url": "https://www.youtube.com/watch?v=XDl2ecLTpt8"
-          }
-        ],
+        "latest_videos": [],
         "comments": []
       },
       "podcasts": [
@@ -17283,85 +17253,85 @@
           "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/",
           "episodes": [
             {
-              "title": "Stanley Cup Live | Hurricanes vs Golden Knights Game 6",
+              "title": "Stanley Cup Live | Hurricanes vs Golden Knights Game 6 | Carolina Wins the Cup!",
               "date": "June 14, 2026",
-              "duration": "~120 min",
-              "description": "Live reaction and breakdown as the Carolina Hurricanes clinch the 2026 Stanley Cup with a 3-0 shutout of the Golden Knights in Vegas. Dan and Chris cover Bussi's masterpiece, Staal's Conn Smythe, and what it all means for VGK.",
+              "duration": "Live stream",
+              "description": "Dan & Chris live-react to Carolina's Cup-clinching 3-0 shutout win in Game 6. Bussi's incredible shutout, Staal's Conn Smythe, and what it all means for Vegas going into a crucial offseason.",
               "url": "https://www.youtube.com/watch?v=IKO8cIl3gss"
             },
             {
               "title": "Stanley Cup Live | Hurricanes vs Golden Knights Game 5",
               "date": "June 11, 2026",
-              "duration": "~90 min",
-              "description": "Carolina steals home ice in Vegas to take a 3-2 series lead; Staal ties the all-time Final goal-streak record.",
-              "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/"
+              "duration": "Live stream",
+              "description": "Dan & Chris live-react to Game 5: Carolina's power play finally erupts, Staal makes history with a goal in five straight Final games, and Vegas loses William Karlsson with the season on the line.",
+              "url": "https://www.youtube.com/watch?v=P5XoGhSvbqI"
             },
             {
               "title": "Canes Play Their Best Game Of The Series And Steal Back Home Ice",
               "date": "June 10, 2026",
-              "duration": "~60 min",
-              "description": "Post-game breakdown of Game 4 as Carolina evens the series at 2-2.",
-              "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/"
+              "duration": "66 min",
+              "description": "It's now a best-of-3 and Carolina has 2 games at home. Despite another Vegas comeback, the Canes hold off the Knights and win on the road to set up a massive Game 5 in Raleigh.",
+              "url": "https://podcasts.apple.com/us/podcast/canes-play-their-best-game-of-the-series-and-steal/id1648832044?i=1000772011859"
             }
           ]
         },
         {
           "show": "The All-In Podcast",
           "icon": "AI",
-          "color": "blue",
-          "description": "Chamath, Jason, Sacks & Friedberg on tech, culture, and politics.",
-          "url": "https://www.youtube.com/@allinpodcast",
+          "color": "purple",
+          "description": "Chamath, Jason, Sacks & Friedberg on tech, startups, politics, and the economy.",
+          "url": "https://allin.com/episodes",
           "episodes": [
             {
               "title": "Episode #273 — Marc Benioff",
               "date": "May 15, 2026",
-              "duration": "~90 min",
-              "description": "",
-              "url": ""
+              "duration": null,
+              "description": "U.S.-China relations, Taiwan, and AI's impact on enterprise software.",
+              "url": "https://youtube.com/watch?v=jJRAvZNGUvI"
             },
             {
               "title": "Charles & Chase Koch: How We Grew Koch Industries to $150B Without Going Public",
               "date": "May 12, 2026",
-              "duration": "~90 min",
-              "description": "",
-              "url": ""
+              "duration": null,
+              "description": "Koch Industries' history and growth through strategic acquisitions.",
+              "url": "https://youtube.com/watch?v=EIo3AuyvV84"
             },
             {
               "title": "Spencer Pratt on Fixing LA: Wildfires, Homelessness, Corruption & the Fight to Take It Back",
               "date": "May 10, 2026",
-              "duration": "~60 min",
-              "description": "",
-              "url": ""
+              "duration": null,
+              "description": "Spencer Pratt's campaign for LA Mayor.",
+              "url": "https://youtube.com/watch?v=GCpjy3TC8Pg"
             }
           ]
         },
         {
           "show": "The Joe Rogan Experience",
           "icon": "JRE",
-          "color": "dark",
-          "description": "Long-form conversations with the world's most interesting minds.",
+          "color": "muted",
+          "description": "The official podcast of comedian Joe Rogan — wide-ranging conversations with fascinating guests.",
           "url": "https://open.spotify.com/show/4rOoJ6Egrf8K2IrywzwOMk",
           "episodes": [
             {
               "title": "#2503 — Eric Weinstein",
               "date": "May 21, 2026",
-              "duration": "~180 min",
-              "description": "",
-              "url": ""
+              "duration": "2h 53m",
+              "description": "Mathematical physicist Eric Weinstein on physics, economics, academia, and modern institutions.",
+              "url": "https://jrelibrary.com/2503-eric-weinstein/"
             },
             {
               "title": "#2502 — David Paulides",
               "date": "May 20, 2026",
-              "duration": "~180 min",
-              "description": "",
-              "url": ""
+              "duration": "2h 20m",
+              "description": "Former law enforcement officer David Paulides on his Missing 411 investigations.",
+              "url": "https://jrelibrary.com/2502-david-paulides/"
             },
             {
               "title": "#2501 — Marc Andreessen",
               "date": "May 19, 2026",
-              "duration": "~180 min",
-              "description": "",
-              "url": ""
+              "duration": "3h 20m",
+              "description": "Venture capitalist Marc Andreessen on surveillance technology, AI's future, and Silicon Valley.",
+              "url": "https://jrelibrary.com/2501-marc-andreessen/"
             }
           ]
         },
@@ -17369,59 +17339,59 @@
           "show": "Huberman Lab",
           "icon": "HL",
           "color": "green",
-          "description": "Science and tools for everyday life with Dr. Andrew Huberman.",
-          "url": "https://www.youtube.com/@hubermanlab",
+          "description": "Dr. Andrew Huberman discusses neuroscience and science-based tools for everyday life.",
+          "url": "https://www.hubermanlab.com/podcast",
           "episodes": [
             {
               "title": "Essentials: The Science of Learning & Speaking Languages | Dr. Eddie Chang",
               "date": "May 21, 2026",
-              "duration": "~60 min",
-              "description": "",
-              "url": ""
+              "duration": null,
+              "description": "Neurosurgeon Dr. Eddie Chang on how the brain produces speech and AI-powered neural prosthetics restoring communication.",
+              "url": "https://www.hubermanlab.com/episode/essentials-the-science-of-learning-and-speaking-languages-eddie-chang"
             },
             {
               "title": "How to Overcome Social Anxiety | Dr. Nick Epley",
               "date": "May 18, 2026",
-              "duration": "~120 min",
-              "description": "",
-              "url": ""
+              "duration": null,
+              "description": "Psychology and neuroscience of social anxiety and strategies to overcome it.",
+              "url": "https://www.hubermanlab.com/episode/how-to-overcome-social-anxiety-nick-epley"
             },
             {
               "title": "Essentials: Understanding & Controlling Aggression",
               "date": "May 14, 2026",
-              "duration": "~60 min",
-              "description": "",
-              "url": ""
+              "duration": null,
+              "description": "The neuroscience of aggression — hormones, genes, and environment.",
+              "url": "https://www.hubermanlab.com/episode/essentials-understanding-and-controlling-aggression"
             }
           ]
         },
         {
           "show": "Pardon My Take",
           "icon": "PMT",
-          "color": "red",
-          "description": "Big Cat & PFT Commenter break down sports and pop culture.",
-          "url": "https://www.barstoolsports.com/shows/pardon-my-take",
+          "color": "purple",
+          "description": "Big Cat and PFT Commenter deliver sports commentary, interviews, and comedic chaos.",
+          "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756",
           "episodes": [
             {
               "title": "Grit Week Continues, Lane Kiffin, Blake Bortles, Wemby's Game 1, Knicks Kill The Cavs",
               "date": "May 20, 2026",
-              "duration": "~90 min",
-              "description": "",
-              "url": ""
+              "duration": null,
+              "description": "Lane Kiffin and Blake Bortles join during Grit Week 2026. Plus Wemby's incredible playoff Game 1.",
+              "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
             },
             {
               "title": "Bill Belichick, Grit Week 2026, Cavs Win Game 7, Aaron Rai Takes The PGA",
               "date": "May 18, 2026",
-              "duration": "~90 min",
-              "description": "",
-              "url": ""
+              "duration": null,
+              "description": "Coach Bill Belichick joins to talk coaching at UNC. Plus Game 7 Cavs recap.",
+              "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
             },
             {
               "title": "Brooks Koepka, PGA Championship With Shane Bacon, Wemby's Revenge, LeBron's Last Game?",
               "date": "May 13, 2026",
-              "duration": "~90 min",
-              "description": "",
-              "url": ""
+              "duration": null,
+              "description": "Brooks Koepka and Shane Bacon preview the PGA Championship.",
+              "url": "https://podcasts.apple.com/us/podcast/pardon-my-take/id1089022756"
             }
           ]
         }
