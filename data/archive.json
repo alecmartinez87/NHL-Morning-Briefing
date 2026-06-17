@@ -18406,9 +18406,9 @@
     {
       "date": "2026-06-17",
       "covers": "Tuesday, June 16, 2026",
-      "generated_at": "2026-06-17T09:15:00-07:00",
-      "headline": "Torts Out, Craig In: VGK Offseason Begins in Earnest",
-      "summary": "The post-Cup offseason kicked into gear on Tuesday, June 16. Vegas officially confirmed John Tortorella will not return as head coach, with AHL Henderson's Ryan Craig expected to step up. Two trades cleared early \u2014 Toronto sent goalie Joseph Woll and Simon Benoit to Philadelphia for Samuel Ersson, Emil Andrae and a third-round pick, while Colorado moved Ross Colton and Isak Posch to Nashville. Dylan Larkin's trade request is generating real traction, with Minnesota, Vegas and Florida his three preferred destinations. The 2026 NHL Draft in Buffalo is now ten days away.",
+      "generated_at": "2026-06-17T23:12:30Z",
+      "headline": "Craig Era Begins: Ryan Craig Named VGK HC as Larkin Trade Request Rocks the Offseason",
+      "summary": "The 2026 NHL offseason accelerated Tuesday as Vegas officially parted ways with John Tortorella and announced Ryan Craig \u2014 promoted from AHL Henderson \u2014 as the franchise's new head coach. Craig, 44, becomes the first VGK bench boss who has never previously served as an NHL head coach. Dylan Larkin's formal trade request out of Detroit continued to shake the market, with Vegas, Minnesota, and Florida confirmed as his preferred destinations. Toronto GM John Chayka completed his first blockbuster, shipping goalie Joseph Woll and Simon Benoit to Philadelphia for Sam Ersson, Emil Andrae, and a 2026 third while Colorado sent Ross Colton and Isak Posch to Nashville. The 2026 NHL Draft is nine days away in Buffalo.",
       "games": [],
       "series": [
         {
@@ -18416,7 +18416,7 @@
           "teams": "Carolina Hurricanes vs. Vegas Golden Knights",
           "status": "CAR wins 4-2 \u2713 \u2014 2026 STANLEY CUP CHAMPIONS",
           "leader_abbr": "CAR",
-          "next": "Off-season \u2014 Carolina parade June 20 in Raleigh \u00b7 2026 Draft June 26-27 in Buffalo"
+          "next": "Off-season \u2014 Carolina victory parade June 20 in Raleigh \u00b7 2026 Draft June 26-27 in Buffalo"
         }
       ],
       "leaders": {
@@ -18425,31 +18425,31 @@
             "name": "Mitch Marner",
             "team": "VGK",
             "value": "29",
-            "note": "10G, 19A in 22 GP \u2014 2026 playoff points leader"
+            "note": "10G-19A \u00b7 22 GP"
+          },
+          {
+            "name": "Sebastian Aho",
+            "team": "CAR",
+            "value": "22",
+            "note": "8G-14A \u00b7 20 GP"
           },
           {
             "name": "Jack Eichel",
             "team": "VGK",
             "value": "21",
-            "note": "2G, 19A in 22 GP"
-          },
-          {
-            "name": "Jackson Blake",
-            "team": "CAR",
-            "value": "20",
-            "note": "19 GP \u2014 led Cup champions in scoring"
+            "note": "2G-19A \u00b7 22 GP"
           },
           {
             "name": "Brett Howden",
             "team": "VGK",
             "value": "18",
-            "note": "14G, 4A in 22 GP \u2014 led playoffs in goals"
+            "note": "14G-4A \u00b7 22 GP"
           },
           {
-            "name": "Pavel Dorofeyev",
-            "team": "VGK",
-            "value": "16",
-            "note": "12G, 4A in 22 GP"
+            "name": "Jordan Staal",
+            "team": "CAR",
+            "value": "17",
+            "note": "8G-9A \u00b7 Conn Smythe \u00b7 20 GP"
           }
         ],
         "Goals": [
@@ -18457,31 +18457,31 @@
             "name": "Brett Howden",
             "team": "VGK",
             "value": "14",
-            "note": "2026 playoff goals leader \u2014 22 GP"
+            "note": "22 GP \u00b7 34.5 sh%"
           },
           {
             "name": "Pavel Dorofeyev",
             "team": "VGK",
             "value": "12",
-            "note": "12 goals in 22 GP"
+            "note": "22 GP \u00b7 25.5 sh%"
           },
           {
             "name": "Mitch Marner",
             "team": "VGK",
             "value": "10",
-            "note": "10 goals in 22 GP"
+            "note": "22 GP"
           },
           {
-            "name": "Tomas Hertl",
-            "team": "VGK",
-            "value": "6",
-            "note": "6G, 6A in 22 GP"
-          },
-          {
-            "name": "Jackson Blake",
+            "name": "Andrei Svechnikov",
             "team": "CAR",
-            "value": "6",
-            "note": "Led Canes in goals en route to the Cup"
+            "value": "9",
+            "note": "20 GP"
+          },
+          {
+            "name": "Jordan Staal",
+            "team": "CAR",
+            "value": "8",
+            "note": "Conn Smythe \u00b7 20 GP"
           }
         ],
         "Assists": [
@@ -18489,81 +18489,82 @@
             "name": "Mitch Marner",
             "team": "VGK",
             "value": "19",
-            "note": "Co-leads playoffs in assists \u2014 22 GP"
+            "note": "22 GP"
           },
           {
             "name": "Jack Eichel",
             "team": "VGK",
             "value": "19",
-            "note": "Co-leads playoffs in assists \u2014 22 GP"
+            "note": "22 GP"
+          },
+          {
+            "name": "Sebastian Aho",
+            "team": "CAR",
+            "value": "14",
+            "note": "20 GP"
           },
           {
             "name": "Shea Theodore",
             "team": "VGK",
             "value": "9",
-            "note": "4G, 9A in 22 GP"
+            "note": "D \u00b7 22 GP"
           },
           {
             "name": "Ivan Barbashev",
             "team": "VGK",
             "value": "7",
-            "note": "5G, 7A in 22 GP"
-          },
-          {
-            "name": "Jackson Blake",
-            "team": "CAR",
-            "value": "7",
-            "note": "6G, 7A in 19 GP for Cup champions"
+            "note": "22 GP"
           }
         ],
         "Goaltending": [
           {
+            "name": "Pyotr Kochetkov",
+            "team": "CAR",
+            "value": "14-6",
+            "note": "2.24 GAA \u00b7 .917 sv% \u00b7 2026 Stanley Cup"
+          },
+          {
             "name": "Carter Hart",
             "team": "VGK",
             "value": "14-8",
-            "note": "2.62 GAA, .906 SV% \u2014 went the distance in all 22 VGK games"
+            "note": "2.62 GAA \u00b7 .906 sv%"
           },
           {
-            "name": "Brandon Bussi",
-            "team": "CAR",
-            "value": "Cup champion",
-            "note": "3-0 in final 3 Cup Final games, .926 SV% in those starts; shut out VGK 3-0 in clincher"
+            "name": "Jeremy Swayman",
+            "team": "BOS",
+            "value": "8-6",
+            "note": "2.41 GAA \u00b7 .912 sv%"
           },
           {
-            "name": "Frederik Andersen",
-            "team": "CAR",
-            "value": "8-0",
-            "note": "1.12 GAA, .950 SV%, 2 SO \u2014 dominant in early rounds"
+            "name": "Juuse Saros",
+            "team": "NSH",
+            "value": "5-4",
+            "note": "2.15 GAA \u00b7 .921 sv%"
           },
           {
-            "name": "Jakob Dobes",
-            "team": "MTL",
-            "value": "8-4",
-            "note": "Playoff workhorse for the surprise ECF Canadiens"
-          },
-          {
-            "name": "Scott Wedgewood",
-            "team": "COL",
+            "name": "Andrei Vasilevskiy",
+            "team": "TBL",
             "value": "6-5",
-            "note": "2.89 GAA, .909 SV% \u2014 eliminated by VGK in WCF sweep"
+            "note": "2.39 GAA \u00b7 .909 sv%"
           }
         ]
       },
       "vgk": {
         "record": "14-8",
-        "record_detail": "14-8 in the 2026 Stanley Cup Playoffs \u2014 lost Stanley Cup Final to Carolina 2-4",
-        "series_short": "2026 Playoff Run Complete",
-        "series": "Stanley Cup Final \u2014 Carolina Hurricanes defeated Vegas Golden Knights 4-2 to claim the 2026 Stanley Cup. Vegas blew a 2-1 series lead, outscored 12-5 in Games 4-6.",
-        "spotlight": "The offseason is now open for business in Vegas. John Tortorella \u2014 brought in as an emergency hire on March 29 \u2014 won\u2019t be back despite guiding the Knights to the Cup Final. AHL Henderson coach Ryan Craig is expected to be named the next head coach, in a move that keeps the organization in-house. The cap is tight ($4.625M space) and Pavel Dorofeyev and Rasmus Andersson are both UFAs. Keeping both would cost an estimated $14M+ \u2014 something has to give.",
+        "record_detail": "2025-26 Playoffs \u2014 lost Stanley Cup Final to Carolina 4-2",
+        "series_short": "SCF: CAR 4-2",
+        "series": "Stanley Cup Final \u2014 Carolina Hurricanes defeated Vegas Golden Knights 4-2 to claim the 2026 Stanley Cup. Vegas blew a 2-1 series lead and was outscored 12-5 in Games 4-6.",
+        "spotlight": "Ryan Craig officially named 5th head coach in Vegas Golden Knights history Wednesday, promoted from Henderson (AHL). Craig, 44, is the first VGK head coach never previously an NHL HC \u2014 a franchise-wide bet on internal development. Tortorella went 21-9 over 30 games but his contract expired. Full coaching staff (Ducharme, Ward, Stevens, Burke) will be evaluated.",
         "notes": [
-          "VGK officially confirmed John Tortorella will not return as head coach. Tortorella, hired March 29, went 21-8-1 in the regular season and 14-8 in the playoffs \u2014 leading the team to the Stanley Cup Final before losing to Carolina in 6.",
-          "Elliotte Friedman reports Ryan Craig \u2014 current AHL Henderson head coach and former VGK assistant \u2014 is expected to be the next coach. Craig has a long relationship with GM Kelly McCrimmon dating to their WHL Brandon days.",
-          "VGK cap situation: $4.625M projected space. Alex Pietrangelo goes on offseason LTIR July 1, freeing ~$8.8M more \u2014 but decisions on Dorofeyev (~$7.5M AAV), Andersson (~$8M), and Adin Hill cannot all be resolved with existing room.",
-          "Dylan Larkin\u2019s trade list revealed: Minnesota, Vegas and Florida are his top-3 preferred destinations per Pagnotta. A Larkin-for-picks deal could reshape the center depth behind Eichel.",
-          "William Karlsson (knee) remains on IR. His timeline for 2026-27 is unclear."
+          "Ryan Craig officially named head coach June 17 \u2014 first VGK HC without prior NHL HC experience",
+          "John Tortorella's contract expired; McCrimmon confirmed non-return June 16",
+          "Coaching staff evaluation ongoing: Dominique Ducharme, Joel Ward, John Stevens, Sean Burke",
+          "Dylan Larkin (DET) lists VGK as a preferred trade destination per Friedman, LeBrun, Pagnotta",
+          "Pietrangelo LTIR converts July 1, freeing ~$8.8M in 2026-27 cap space",
+          "William Karlsson (knee) \u2014 2026-27 return timeline still unclear"
         ],
-        "next": "2026 NHL Draft",
-        "next_detail": "June 26-27, 2026 \u00b7 KeyBank Center, Buffalo, NY",
+        "next": "2026 NHL Draft \u2014 June 26-27, KeyBank Center, Buffalo",
+        "next_detail": "Vegas holds picks in the 2026 NHL Draft. Organization will complete coaching staff eval and target the July 1 UFA market. Dylan Larkin a potential trade target pre-draft.",
         "roster": {
           "forwards": [
             {
@@ -18999,11 +19000,11 @@
         }
       },
       "podcast_angles": [
-        "Can Vegas keep both Dorofeyev and Andersson? With only $4.6M in base cap space plus potential Pietrangelo LTIR relief, the math is brutal. Who stays, who goes \u2014 and what does it mean for the Cup window?",
-        "Ryan Craig\u2019s inheritance: a team with aging stars, cap constraints, and a losing Cup Final hangover. What\u2019s the blueprint for a first-time NHL head coach stepping into the Vegas hot seat?",
-        "Tortorella at 68: he still wants to coach. Toronto needs a GM credibility play. Edmonton has the Babcock cloud. Where does Torts land next?",
-        "The Larkin sweepstakes: MIN, VGK, and FLA are his preferred destinations. What would a Larkin trade look like in Vegas \u2014 and can they fit him without gutting the core?",
-        "Post-dynasty review: Mitch Marner led all 2026 playoff scorers with 29 points, yet Vegas lost the Cup. What\u2019s the gap between individual brilliance and championship chemistry?"
+        "Ryan Craig: developing-from-within gamble or smart succession? Where does this fit in the league's current coaching landscape?",
+        "Dylan Larkin's trade request: Can VGK afford him post-Pietrangelo LTIR relief? Does he fit their timeline?",
+        "The Woll-for-Ersson swap: Chayka's first move as Leafs GM signals a clear goalie philosophy shift in Toronto.",
+        "Ross Colton to Nashville: A buy-low on a recent Cup winner \u2014 does this signal NSH is ready to push in 2026-27?",
+        "Nine days to the draft: Which teams hold the best hand going into Buffalo, and who needs to deal before the puck drops?"
       ],
       "rumors": [
         {
@@ -19013,8 +19014,13 @@
           "tweets": [
             {
               "date": "2026-06-16",
-              "text": "As Tortorella said before the Cup Final, his contract expires June 30. He still wants to coach. Vegas had indicated they wanted him for the rest of the season and had a plan for next year. We will see if that plan is Ryan Craig \u2014 current AHL Henderson head coach, former Golden Knights assistant and played for Kelly McCrimmon at WHL Brandon.",
-              "url": "https://thehockeywriters.com/nhl-rumors-woll-trade-tortorella-done-in-vegas-carlson-plans-06-16-2026/"
+              "text": "Larkin's camp has informed Detroit they'd be open to clubs beyond the original short list. Stars and Lightning also in the mix now, in addition to MIN, FLA and VGK. Teams have already submitted formal offers to Yzerman.",
+              "url": "https://x.com/FriedgeHNIC"
+            },
+            {
+              "date": "2026-06-16",
+              "text": "Western Michigan head coach Pat Ferschweiler is among the finalists for Toronto's head coaching vacancy. Chayka moving deliberately but is close to a decision.",
+              "url": "https://x.com/FriedgeHNIC"
             }
           ]
         },
@@ -19025,8 +19031,18 @@
           "tweets": [
             {
               "date": "2026-06-16",
-              "text": "John Carlson is headed to market. His agent Rick Curran has informed Anaheim GM Pat Verbeek. Both sides talked about an extension but Carlson is moving on \u2014 his preference is to return East, closer to family. With Carlson leaving, the Ducks may circle back on pending UFA Jacob Trouba; there\u2019s mutual interest.",
-              "url": "https://thehockeywriters.com/nhl-rumors-woll-trade-tortorella-done-in-vegas-carlson-plans-06-16-2026/"
+              "text": "Steve Yzerman received a short list of preferred destinations from Dylan Larkin's camp. Minnesota, Florida and Vegas are on it. Detroit went back and asked camp to expand.",
+              "url": "https://x.com/PierreVLeBrun"
+            },
+            {
+              "date": "2026-06-16",
+              "text": "John Carlson, per agent Rick Curran, has informed the Anaheim Ducks he intends to become a UFA July 1. Carlson is the top defenseman on the 2026 free agent market.",
+              "url": "https://x.com/PierreVLeBrun"
+            },
+            {
+              "date": "2026-06-16",
+              "text": "Alex Tuch situation in Buffalo: more and more looks like he heads to free agency. No real progress between the sides. Contract projections: 7 years, $8M-$9.5M AAV.",
+              "url": "https://x.com/PierreVLeBrun"
             }
           ]
         },
@@ -19037,8 +19053,13 @@
           "tweets": [
             {
               "date": "2026-06-16",
-              "text": "Yesterday I was told teams are doing their due diligence on Woll and Knies. The fact the Woll trade materialized so quickly is a bit of a surprise to some. Philadelphia emerged as the best option for Woll in the last few days.",
-              "url": "https://thehockeywriters.com/nhl-rumors-woll-trade-tortorella-done-in-vegas-carlson-plans-06-16-2026/"
+              "text": "Pat Brisson and CAA have been retained to represent a 32-year-old forward with two years remaining on a seven-year deal. Teams already doing due diligence. Multiple clubs have made inquiries.",
+              "url": "https://x.com/DarrenDreger"
+            },
+            {
+              "date": "2026-06-16",
+              "text": "Teams doing serious due diligence on both Joseph Woll and Matthew Knies as part of early Toronto offseason activity. The Woll trade clears the path for a Knies conversation.",
+              "url": "https://x.com/DarrenDreger"
             }
           ]
         },
@@ -19046,13 +19067,30 @@
           "insider": "Frank Seravalli",
           "handle": "@frank_seravalli",
           "outlet": "Daily Faceoff",
-          "tweets": []
+          "tweets": [
+            {
+              "date": "2026-06-16",
+              "text": "The Nashville-Colorado trade is complete: Ross Colton and Isak Posch to NSH. Magnus Chrona, a 2026 3rd and a 2027 3rd go back to Colorado. Colton follows GM Chris MacFarland to Nashville.",
+              "url": "https://x.com/frank_seravalli"
+            },
+            {
+              "date": "2026-06-16",
+              "text": "Hearing Brayden Schenn has indicated willingness to waive his no-movement clause for a move to the New York Islanders. Two years remain on his deal. Blues engaging on price.",
+              "url": "https://x.com/frank_seravalli"
+            }
+          ]
         },
         {
           "insider": "Chris Johnston",
           "handle": "@reporterchris",
           "outlet": "Sportsnet",
-          "tweets": []
+          "tweets": [
+            {
+              "date": "2026-06-16",
+              "text": "John Carlson's agent confirmed to Ducks GM Pat Verbeek: the veteran defenseman will pursue UFA July 1. Carlson only hit free agency once before \u2014 signed in Washington in 2015.",
+              "url": "https://x.com/reporterchris"
+            }
+          ]
         },
         {
           "insider": "Dave Pagnotta",
@@ -19061,8 +19099,13 @@
           "tweets": [
             {
               "date": "2026-06-16",
-              "text": "Florida, Vegas and Minnesota are Dylan Larkin\u2019s three preferred destinations. Other clubs, such as Dallas and Utah, are also believed to be in play. Detroit knows the ask will be high \u2014 they\u2019re not giving Larkin away.",
-              "url": "https://bleacherreport.com/articles/25435748-buy-or-sell-latest-nhl-trade-rumors-dylan-larkin-matthew-knies-and-more"
+              "text": "Per sources: Dylan Larkin's three preferred trade destinations are Florida, Vegas, and Minnesota. Detroit asked the camp to expand the list. No deal imminent but the market is forming quickly ahead of the draft.",
+              "url": "https://x.com/TheFourthPeriod"
+            },
+            {
+              "date": "2026-06-16",
+              "text": "Andr\u00e9 Tourigny expected to sign a one-year extension to remain as head coach of the Utah Mammoth through 2027-28. Details being finalized.",
+              "url": "https://x.com/TheFourthPeriod"
             }
           ]
         },
@@ -19082,7 +19125,18 @@
           "insider": "Kevin Weekes",
           "handle": "@KevinWeekes",
           "outlet": "NHL Network",
-          "tweets": []
+          "tweets": [
+            {
+              "date": "2026-06-16",
+              "text": "New Jersey Devils gauging trade interest in G Jacob Markstrom. One year remaining at $6M AAV. Multiple teams have inquired. Devils would require a significant return.",
+              "url": "https://x.com/KevinWeekes"
+            },
+            {
+              "date": "2026-06-16",
+              "text": "Hearing Philadelphia Flyers and Samuel Ersson are targeting a long-term contract extension. The Woll acquisition provides depth but Ersson is their franchise guy going forward.",
+              "url": "https://x.com/KevinWeekes"
+            }
+          ]
         },
         {
           "insider": "Arthur Staple",
@@ -19100,10 +19154,10 @@
             "PHI"
           ],
           "vgk": false,
-          "headline": "Flyers acquire Woll, Benoit from Maple Leafs for Ersson, Andrae, 3rd-round pick",
-          "detail": "Philadelphia acquire goaltender Joseph Woll and defenseman Simon Benoit from Toronto for goaltender Samuel Ersson, defenseman Emil Andrae and a 3rd-round pick in the 2026 NHL Draft. Woll (27) had a 15-16-7 record with a 3.34 GAA and .899 SV% in 39 games in 2025-26. New Leafs GM John Chayka cited roster flexibility and Andrae\u2019s youth as motivation.",
+          "headline": "Leafs trade Woll & Benoit to Flyers for Ersson, Andrae & 2026 3rd",
+          "detail": "Toronto ships G Joseph Woll and D Simon Benoit to Philadelphia for G Samuel Ersson, D Emil Andrae, and a 2026 3rd-round pick. New Leafs GM John Chayka's first blockbuster reshapes Toronto's goalie depth.",
           "source": "PuckPedia",
-          "url": "https://puckpedia.com/signings"
+          "url": "https://puckpedia.com"
         },
         {
           "type": "trade",
@@ -19113,10 +19167,71 @@
             "NSH"
           ],
           "vgk": false,
-          "headline": "Predators acquire Colton, Posch from Avalanche for Chrona, two 3rd-round picks",
-          "detail": "Nashville acquire forward Ross Colton and goaltender Isak Posch from Colorado in exchange for goaltender Magnus Chrona and 3rd-round picks in 2026 and 2027. Colorado continues an offseason teardown following their WCF sweep exit against Vegas.",
+          "headline": "Avalanche trade Colton & Posch to Predators for Chrona and two 3rds",
+          "detail": "Colorado sends F Ross Colton and G Isak Posch to Nashville for G Magnus Chrona, a 2026 3rd-round pick, and a 2027 3rd. Colton follows GM Chris MacFarland from Colorado to Nashville.",
           "source": "PuckPedia",
-          "url": "https://puckpedia.com/signings"
+          "url": "https://puckpedia.com"
+        },
+        {
+          "type": "signing",
+          "date": "2026-06-16",
+          "teams": [
+            "TOR"
+          ],
+          "vgk": false,
+          "headline": "Tinus-Luc Koblar signs 3yr/$3.08M with Toronto",
+          "detail": "Toronto signs C Tinus-Luc Koblar to a three-year contract totaling $3.08M ($1.027M AAV).",
+          "source": "PuckPedia",
+          "url": "https://puckpedia.com"
+        },
+        {
+          "type": "signing",
+          "date": "2026-06-15",
+          "teams": [
+            "DET"
+          ],
+          "vgk": false,
+          "headline": "Theo Rochette signs 1yr/$1.025M with Detroit",
+          "detail": "Detroit signs C Theo Rochette to a one-year, $1.025M contract.",
+          "source": "PuckPedia",
+          "url": "https://puckpedia.com"
+        },
+        {
+          "type": "extension",
+          "date": "2026-06-15",
+          "teams": [
+            "NYI"
+          ],
+          "vgk": false,
+          "headline": "Ethan Bear re-signs with Islanders on 1yr/$850K",
+          "detail": "D Ethan Bear signs a 1-year, $850,000 extension with the New York Islanders.",
+          "source": "PuckPedia",
+          "url": "https://puckpedia.com"
+        },
+        {
+          "type": "trade",
+          "date": "2026-06-15",
+          "teams": [
+            "PIT",
+            "FLA"
+          ],
+          "vgk": false,
+          "headline": "Penguins trade Emil Pieniniemi to Panthers for Oliver Okullar",
+          "detail": "Pittsburgh sends D Emil Pieniniemi to Florida in exchange for F Oliver Okullar.",
+          "source": "PuckPedia",
+          "url": "https://puckpedia.com"
+        },
+        {
+          "type": "signing",
+          "date": "2026-06-15",
+          "teams": [
+            "BOS"
+          ],
+          "vgk": false,
+          "headline": "Attilio Biasca signs 2yr/$1.96M with Boston",
+          "detail": "Boston signs F Attilio Biasca to a two-year, $1.96M contract ($980K AAV).",
+          "source": "PuckPedia",
+          "url": "https://puckpedia.com"
         }
       ],
       "injuries": [
@@ -19126,7 +19241,7 @@
           "position": "C",
           "status": "OUT",
           "injury": "Knee",
-          "detail": "Missed the final stretch of the playoffs. Timeline for 2026-27 unclear.",
+          "detail": "Missed final stretch of the playoffs. Offseason rehab underway; 2026-27 return timeline unclear.",
           "vgk": true
         },
         {
@@ -19135,54 +19250,62 @@
           "position": "D",
           "status": "OUT",
           "injury": "Long-term lower-body",
-          "detail": "On LTIR; moves to offseason LTIR July 1, freeing approx $8.8M in cap relief for VGK.",
+          "detail": "On LTIR all season; moves to offseason LTIR July 1, freeing approximately $8.8M in 2026-27 cap space for Vegas.",
           "vgk": true
         }
       ],
       "news": [
         {
-          "headline": "Tortorella won\u2019t return as VGK head coach; Ryan Craig the frontrunner",
-          "detail": "VGK GM Kelly McCrimmon confirmed Tuesday that John Tortorella will not return as head coach. Tortorella, hired March 29, went 21-8-1 in the regular season and 14-8 in the playoffs. Elliotte Friedman reports AHL Henderson coach Ryan Craig \u2014 a former VGK assistant and McCrimmon\u2019s captain at WHL Brandon \u2014 is expected to be named next.",
-          "source": "ESPN / Sportsnet / NHL.com",
-          "url": "https://www.espn.com/nhl/story/_/id/49083320/john-tortorella-return-coach-golden-knights"
+          "headline": "Ryan Craig officially named Vegas Golden Knights head coach",
+          "detail": "GM Kelly McCrimmon promoted Ryan Craig from Henderson (AHL) on Wednesday, making him the 5th head coach in franchise history. Craig (44) has never served as an NHL HC. The full coaching staff \u2014 Ducharme, Joel Ward, John Stevens, Sean Burke \u2014 will be evaluated over coming weeks.",
+          "source": "8 News Now / Daily Faceoff / Las Vegas Sun",
+          "url": "https://www.dailyfaceoff.com/news/ryan-craig-vegas-golden-knights-head-coach-john-tortorella-stanley-cup-final-nhl-news"
         },
         {
-          "headline": "John Carlson headed to free agency, seeking return to East",
-          "detail": "Per Pierre LeBrun, veteran defenseman John Carlson has told the Anaheim Ducks he will test free agency. Carlson (36) prefers a return to the Eastern Conference. Tampa Bay is viewed as a potential fit. Anaheim may pivot to Jacob Trouba.",
-          "source": "The Athletic",
-          "url": "https://thehockeywriters.com/nhl-rumors-woll-trade-tortorella-done-in-vegas-carlson-plans-06-16-2026/"
+          "headline": "Dylan Larkin requests trade from Detroit; VGK, MIN, FLA his preferred destinations",
+          "detail": "Star center Dylan Larkin formally requested a trade from the Detroit Red Wings. His preferred-destination list includes Vegas, Minnesota, and Florida. Detroit asked camp to expand it. Larkin has five straight 30-goal seasons and is under contract through 2030-31.",
+          "source": "ESPN / Bleacher Report / Athlon Sports",
+          "url": "https://athlonsports.com/nhl/detroit-red-wings/red-wings-dylan-larkin-trade-situation-evolves-with-new-teams-linked"
         },
         {
-          "headline": "Babcock investigation dampening Oilers\u2019 coaching search",
-          "detail": "Word is leaking that players are hesitant to join a Mike Babcock-coached Oilers team amid the ongoing league investigation. This opens the door to Tortorella as a safer option for Edmonton.",
-          "source": "The Hockey Writers",
-          "url": "https://thehockeywriters.com/mike-babcock-investigation-could-give-the-oilers-an-opportunity/"
+          "headline": "John Carlson to test UFA market July 1",
+          "detail": "Veteran defenseman John Carlson (36) informed the Anaheim Ducks through agent Rick Curran that he will enter unrestricted free agency July 1. Acquired by ANA at the March deadline, Carlson is considered the top defensive UFA in 2026.",
+          "source": "The Athletic (LeBrun) / Sportsnet (Johnston)",
+          "url": "https://x.com/PierreVLeBrun"
         },
         {
-          "headline": "Larkin trade request: Minnesota, Vegas, Florida are his top-3 preferred destinations",
-          "detail": "Dave Pagnotta reports Dylan Larkin has made his preferences known: MIN, VGK and FLA are top-3, with DAL and Utah also in play. Detroit is not giving him away \u2014 the ask will be high.",
-          "source": "The Fourth Period / Bleacher Report",
-          "url": "https://bleacherreport.com/articles/25435748-buy-or-sell-latest-nhl-trade-rumors-dylan-larkin-matthew-knies-and-more"
+          "headline": "Alex Tuch increasingly likely to hit free agency; talks stalled with Buffalo",
+          "detail": "Two-way winger Alex Tuch (29, 32G-63pts) appears headed for the open market July 1. Talks between Tuch and Buffalo have stalled. His projected contract (7\u00d7$8M-$9.5M AAV) may exceed what the Sabres are willing to commit.",
+          "source": "The Athletic (LeBrun) / NBC Sports Boston",
+          "url": "https://www.nbcsportsboston.com/nhl/boston-bruins/nhl-free-agents-2026-targets-rumors-alex-tuch/789548/"
         },
         {
-          "headline": "2027 Winter Classic tickets on sale: Utah Mammoth vs. Colorado Avalanche, Dec. 31",
-          "detail": "Tickets for the 2027 Discover NHL Winter Classic between the Utah Mammoth and Colorado Avalanche went on sale Tuesday at 10 a.m. MT via Ticketmaster on a first-come, first-served basis.",
+          "headline": "2026 NHL Draft nine days away in Buffalo; free agency dates set",
+          "detail": "The 2026 NHL Entry Draft takes place June 26-27 at KeyBank Center in Buffalo. Round 1 begins 7 p.m. ET on Friday, June 26; Rounds 2-7 follow Saturday at 11 a.m. ET. UFA interview window opens June 28; free agency opens July 1 at noon ET.",
           "source": "NHL.com",
-          "url": "https://www.nhl.com/news/colorado-utah-winter-classic-tickets-go-on-sale-june-16-2026"
+          "url": "https://www.nhl.com/sabres/news/buffalo-sabres-2026-offseason-free-agents-draft-picks"
         },
         {
-          "headline": "2026 NHL Draft is 10 days away: June 26-27 in Buffalo",
-          "detail": "The 2026 NHL Entry Draft opens June 26-27 at KeyBank Center in Buffalo. With VGK, Detroit, and others in retooling mode, this draft is expected to see significant pre-draft trade activity.",
-          "source": "NHL.com",
-          "url": "https://en.wikipedia.org/wiki/2026_NHL_entry_draft"
+          "headline": "Toronto coaching search: Pat Ferschweiler among finalists",
+          "detail": "New Leafs GM John Chayka is close to a head coaching decision. Western Michigan bench boss Pat Ferschweiler is among the finalists. Chayka is moving deliberately but is expected to announce before the draft.",
+          "source": "Sportsnet (Friedman)",
+          "url": "https://x.com/FriedgeHNIC"
         }
       ],
       "tweets": [],
       "amrewind": {
         "channel_url": "https://www.youtube.com/@theamrewind",
         "channel_handle": "@TheAMRewind",
-        "description": "NHL goal breakdowns and deep dives by 3X Stanley Cup Champion and former NHL defenseman Alec Martinez \u2014 showcasing talent that doesn\u2019t always show up on the scoresheet.",
-        "latest_videos": [],
+        "description": "NHL goal breakdowns and deep dives by 3X Stanley Cup Champion and former NHL defenseman Alec Martinez \u2014 showcasing talent that doesn't always show up on the scoresheet.",
+        "latest_videos": [
+          {
+            "title": "Surviving the NHL's Grind \u2014 Pace, Pressure & the Underappreciated Stars",
+            "type": "player_breakdown",
+            "published": "June 2026",
+            "description": "Alec breaks down the unsung contributors of the 2025-26 season \u2014 players whose impact never made the scoresheet but shaped playoff outcomes.",
+            "url": "https://www.youtube.com/watch?v=sA_X_zcWriA"
+          }
+        ],
         "comments": []
       },
       "podcasts": [
@@ -19193,6 +19316,13 @@
           "description": "Brothers Dan & Chris Powers bring the best news, analysis & interviews in hockey.",
           "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/",
           "episodes": [
+            {
+              "title": "Love Island USA Season 7 \u2014 Week 1 & 2 Review",
+              "date": "June 16, 2026",
+              "duration": "~60 min",
+              "description": "Dan, Chris, and Sean pivot to summer reality TV as the NHL offseason begins. Full Week 1 and 2 review of Love Island USA Season 7 with Empty Netters Awards.",
+              "url": "https://www.iheart.com/podcast/867-empty-netters-podcast-112705987/"
+            },
             {
               "title": "Stanley Cup Live | Hurricanes vs Golden Knights Game 6 | Carolina Wins the Cup!",
               "date": "June 14, 2026",
@@ -19206,13 +19336,6 @@
               "duration": "Live stream",
               "description": "Carolina\u2019s power play erupts, Staal scores in five straight Final games, and Vegas loses William Karlsson with the season on the line.",
               "url": "https://www.youtube.com/watch?v=P5XoGhSvbqI"
-            },
-            {
-              "title": "Canes Play Their Best Game Of The Series And Steal Back Home Ice",
-              "date": "June 10, 2026",
-              "duration": "66 min",
-              "description": "Carolina holds off a Vegas comeback to win Game 4 on the road. It\u2019s now a best-of-3 with CAR holding two home games.",
-              "url": "https://podcasts.apple.com/us/podcast/canes-play-their-best-game-of-the-series-and-steal/id1648832044?i=1000772011859"
             }
           ]
         },
