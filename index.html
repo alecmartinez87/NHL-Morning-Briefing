@@ -565,6 +565,21 @@ footer {
 .geo-legend-item { display:flex; align-items:center; gap:7px; font-size:10px; font-family:var(--font-mono); color:rgba(255,255,255,0.55); }
 .geo-legend-pip { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
 .geo-legend-count { color:rgba(255,255,255,0.75); margin-left:1px; }
+/* City stories modal */
+.geo-city-modal { position:fixed; inset:0; z-index:9999; display:flex; align-items:center; justify-content:center; background:rgba(0,0,0,0.72); backdrop-filter:blur(4px); }
+.geo-city-modal-inner { background:#0f1623; border:1px solid rgba(255,255,255,0.13); border-radius:12px; padding:22px 26px; max-width:560px; width:calc(100vw - 40px); max-height:80vh; overflow-y:auto; box-shadow:0 24px 64px rgba(0,0,0,0.8); }
+.geo-city-modal-title { font-size:15px; font-weight:700; color:#fff; margin-bottom:16px; display:flex; justify-content:space-between; align-items:center; gap:12px; }
+.geo-city-modal-city { display:flex; align-items:center; gap:8px; }
+.geo-city-modal-dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
+.geo-city-modal-close { cursor:pointer; color:rgba(255,255,255,0.38); font-size:22px; line-height:1; flex-shrink:0; padding:0 4px; border-radius:4px; transition:color .15s,background .15s; }
+.geo-city-modal-close:hover { color:#fff; background:rgba(255,255,255,0.1); }
+.geo-city-story { border-bottom:1px solid rgba(255,255,255,0.07); padding:11px 0; }
+.geo-city-story:last-child { border-bottom:none; padding-bottom:0; }
+.geo-city-story-type { font-size:9px; font-family:var(--font-mono); color:rgba(255,255,255,0.32); text-transform:uppercase; letter-spacing:.08em; margin-bottom:5px; }
+.geo-city-story-headline { font-size:13px; font-weight:600; color:rgba(255,255,255,0.88); margin-bottom:5px; line-height:1.4; }
+.geo-city-story-headline a { color:inherit; text-decoration:none; border-bottom:1px solid rgba(255,255,255,0.18); transition:color .15s,border-color .15s; }
+.geo-city-story-headline a:hover { color:var(--gold); border-color:var(--gold); }
+.geo-city-story-detail { font-size:11px; color:rgba(255,255,255,0.48); line-height:1.58; }
 </style>
 </head>
 <body>
@@ -645,20 +660,46 @@ const GEO_KW={
 
 function buildGeoData(ed){
   var counts={};
-  function scan(text){
+  var stories={};
+  function addStory(abbr,s){
+    if(!stories[abbr]) stories[abbr]=[];
+    var h=s.headline||'';
+    if(!stories[abbr].some(function(x){return x.headline===h;})) stories[abbr].push(s);
+  }
+  function scan(text,story){
     if(!text||typeof text!=='string') return;
     var t=text.toLowerCase();
-    for(var kw in GEO_KW){ if(t.indexOf(kw)>=0){ var c=GEO_KW[kw]; counts[c]=(counts[c]||0)+1; } }
+    var matched={};
+    for(var kw in GEO_KW){
+      if(t.indexOf(kw)>=0){
+        var c=GEO_KW[kw];
+        if(!matched[c]){ counts[c]=(counts[c]||0)+1; matched[c]=true; if(story) addStory(c,story); }
+      }
+    }
   }
-  (ed.news||[]).forEach(function(x){scan(x.headline);scan(x.detail);});
-  (ed.rumors||[]).forEach(function(x){
-    scan(x.insider);
-    (x.tweets||[]).forEach(function(t){scan(t.text);});
+  (ed.news||[]).forEach(function(x){
+    var s={type:'News',headline:x.headline,detail:x.detail,url:x.url,source:x.source};
+    scan(x.headline,s); scan(x.detail,s);
   });
-  (ed.transactions||[]).forEach(function(x){scan(x.headline);scan(x.detail);});
-  (ed.injuries||[]).forEach(function(x){scan(x.name);scan(x.team);scan(x.detail);});
-  if(ed.vgk){ scan(ed.vgk.headline); scan(ed.vgk.analysis); }
-  return counts;
+  (ed.rumors||[]).forEach(function(x){
+    (x.tweets||[]).forEach(function(t){
+      var s={type:'Rumor',headline:(x.insider||'')+(x.outlet?' · '+x.outlet:''),detail:t.text,url:t.url,source:x.outlet};
+      scan(t.text,s); scan(x.insider,s);
+    });
+  });
+  (ed.transactions||[]).forEach(function(x){
+    var s={type:'Transaction',headline:x.headline,detail:x.detail,url:x.url,source:x.source};
+    scan(x.headline,s); scan(x.detail,s);
+  });
+  (ed.injuries||[]).forEach(function(x){
+    var s={type:'Injury',headline:(x.name||'')+(x.team?' ('+x.team+')':''),detail:x.detail,url:null,source:null};
+    scan(x.name,s); scan(x.team,s); scan(x.detail,s);
+  });
+  if(ed.vgk){
+    var s={type:'VGK',headline:ed.vgk.spotlight||'',detail:ed.vgk.series||'',url:null,source:null};
+    scan(ed.vgk.spotlight,s); scan(ed.vgk.series,s);
+  }
+  return {counts:counts,stories:stories};
 }
 
 function hslToRgb(h,s,l){
@@ -677,7 +718,7 @@ function toggleGeoMap(bid,wid){
   if(!open&&!w.dataset.inited){
     w.dataset.inited='1';
     var cvs=document.getElementById('geoC_'+wid);
-    if(cvs){ try{initGeoMap(cvs,JSON.parse(atob(cvs.dataset.cities)));}catch(e){} }
+    if(cvs){ try{var _d=JSON.parse(decodeURIComponent(escape(atob(cvs.dataset.cities))));initGeoMap(cvs,_d.counts||_d,_d.stories||{});}catch(e){console.error('geoMap',e);} }
   }
 }
 
@@ -729,7 +770,39 @@ function _drawPolygons(ctx,polyArrays,fillStyle,strokeStyle,lineWidth){
   });
 }
 
-function initGeoMap(canvas,cityData){
+function showCityModal(abbr,cityStories){
+  var ci=CITIES[abbr];
+  var name=(ci&&ci[2])||abbr;
+  var ss=(cityStories||{})[abbr]||[];
+  var existing=document.getElementById('geo-modal');
+  if(existing) existing.remove();
+  var counts={}; Object.keys(cityStories||{}).forEach(function(k){counts[k]=(cityStories[k]||[]).length;});
+  var max=1; Object.values(counts).forEach(function(v){if(v>max)max=v;});
+  var norm=ss.length/max;
+  var hue=Math.round((1-norm)*120);
+  var dotColor='hsl('+hue+',95%,52%)';
+  var html='<div class="geo-city-modal" id="geo-modal" onclick="if(event.target===this)this.remove()">'
+    +'<div class="geo-city-modal-inner">'
+    +'<div class="geo-city-modal-title">'
+    +'<div class="geo-city-modal-city"><div class="geo-city-modal-dot" style="background:'+dotColor+'"></div>'+esc(name)+'</div>'
+    +'<span class="geo-city-modal-close" onclick="document.getElementById(\'geo-modal\').remove()">×</span>'
+    +'</div>';
+  if(!ss.length){
+    html+='<div style="color:rgba(255,255,255,0.38);font-size:12px;padding:8px 0">No stories found for this city.</div>';
+  } else {
+    ss.forEach(function(s){
+      html+='<div class="geo-city-story">'
+        +'<div class="geo-city-story-type">'+esc(s.type)+(s.source?' · '+esc(s.source):'')+'</div>'
+        +'<div class="geo-city-story-headline">'+(s.url?'<a href="'+esc(s.url)+'" target="_blank" rel="noopener">'+esc(s.headline)+'</a>':esc(s.headline))+'</div>'
+        +(s.detail?'<div class="geo-city-story-detail">'+esc(s.detail)+'</div>':'')
+        +'</div>';
+    });
+  }
+  html+='</div></div>';
+  document.body.insertAdjacentHTML('beforeend',html);
+}
+
+function initGeoMap(canvas,cityData,cityStories){
   var W=_GM_W,H=_GM_H;
   canvas.width=W; canvas.height=H;
   var ctx=canvas.getContext('2d');
@@ -809,7 +882,8 @@ function initGeoMap(canvas,cityData){
     hctx.putImageData(col,0,0);
     ctx.globalAlpha=0.85;ctx.drawImage(hc,0,0);ctx.globalAlpha=1;
 
-    // City markers
+    // City markers + record positions for hit-testing
+    var _cityPos=[];
     keys.forEach(function(abbr){
       var ci=CITIES[abbr];if(!ci)return;
       var p=window._geoProj(ci[0],ci[1]);
@@ -826,7 +900,23 @@ function initGeoMap(canvas,cityData){
         ctx.fillText((ci[2]||abbr).toUpperCase(),p[0],p[1]-9);
         ctx.shadowBlur=0;
       }
+      _cityPos.push({abbr:abbr,x:p[0],y:p[1]});
     });
+
+    // Click & hover handlers
+    function _hitTest(e){
+      var rect=canvas.getBoundingClientRect();
+      var sx=canvas.width/rect.width, sy=canvas.height/rect.height;
+      var mx=(e.clientX-rect.left)*sx, my=(e.clientY-rect.top)*sy;
+      for(var i=0;i<_cityPos.length;i++){
+        var cp=_cityPos[i];
+        if((mx-cp.x)*(mx-cp.x)+(my-cp.y)*(my-cp.y)<196) return cp.abbr; // 14px radius
+      }
+      return null;
+    }
+    canvas.style.cursor='default';
+    canvas.onmousemove=function(e){ canvas.style.cursor=_hitTest(e)?'pointer':'default'; };
+    canvas.onclick=function(e){ var a=_hitTest(e); if(a) showCityModal(a,cityStories); };
   }
 
   // Color scale bar
@@ -849,26 +939,33 @@ function initGeoMap(canvas,cityData){
 
 function geoMapHtml(ed,wrapId){
   var data=buildGeoData(ed);
-  if(!Object.keys(data).length) return '';
+  var counts=data.counts;
+  if(!Object.keys(counts).length) return '';
   var max=1;
-  Object.values(data).forEach(function(v){if(v>max)max=v;});
-  var sorted=Object.entries(data).sort(function(a,b){return b[1]-a[1];}).slice(0,8);
+  Object.values(counts).forEach(function(v){if(v>max)max=v;});
+  var sorted=Object.entries(counts).sort(function(a,b){return b[1]-a[1];}).slice(0,8);
   var top=sorted.map(function(e){
     var abbr=e[0],cnt=e[1];
     var ci=CITIES[abbr];if(!ci)return '';
     var norm=cnt/max;
     var hue=Math.round((1-norm)*120);
-    return '<div class="geo-legend-item">'
+    return '<div class="geo-legend-item" style="cursor:pointer" onclick="showCityModal(\''+abbr+'\',_geoStoriesOf(\''+wrapId+'\'))">'
       +'<div class="geo-legend-pip" style="background:hsl('+hue+',95%,52%)"></div>'
       +(ci[2]||abbr)
       +'<span class="geo-legend-count">'+cnt+'</span>'
       +'</div>';
   }).join('');
-  var encoded=btoa(JSON.stringify(data));
+  var encoded=btoa(unescape(encodeURIComponent(JSON.stringify(data))));
   return '<div class="geo-wrap" id="'+wrapId+'" style="display:none">'
     +'<canvas id="geoC_'+wrapId+'" class="geo-canvas" data-cities="'+encoded+'" height="420" width="700"></canvas>'
     +(top?'<div class="geo-legend">'+top+'</div>':'')
     +'</div>';
+}
+
+function _geoStoriesOf(wrapId){
+  var cvs=document.getElementById('geoC_'+wrapId);
+  if(!cvs) return {};
+  try{ var d=JSON.parse(decodeURIComponent(escape(atob(cvs.dataset.cities)))); return d.stories||{}; }catch(e){ return {}; }
 }
 
 
