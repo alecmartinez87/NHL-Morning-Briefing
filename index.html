@@ -655,7 +655,7 @@ const GEO_KW={
   'devils':'NJD','new jersey':'NJD','flyers':'PHI','philadelphia':'PHI',
   'penguins':'PIT','pittsburgh':'PIT','capitals':'WSH','washington':'WSH',
   'hurricanes':'CAR','carolina':'CAR','raleigh':'CAR',
-  'lightning':'TBL','tampa':'TBL','panthers':'FLA','florida':'FLA',
+  'lightning':'TBL','tampa':'TBL','panthers':'FLA','florida':'FLA','sunrise':'FLA','fort lauderdale':'FLA',
 };
 
 function buildGeoData(ed){
@@ -892,7 +892,7 @@ function initGeoMap(canvas,cityData,cityStories){
       ctx.strokeStyle='rgba(255,255,255,0.60)';ctx.lineWidth=1.2;ctx.stroke();
       ctx.beginPath();ctx.arc(p[0],p[1],2.2,0,Math.PI*2);
       ctx.fillStyle='#fff';ctx.fill();
-      if(norm>=0.15){
+      if(norm>=0){
         var label=(ci[2]||abbr).toUpperCase();
         ctx.font='600 9px -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif';
         ctx.textAlign='center';
