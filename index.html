@@ -896,20 +896,9 @@ function initGeoMap(canvas,cityData,cityStories){
         var label=(ci[2]||abbr).toUpperCase();
         ctx.font='600 9px -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif';
         ctx.textAlign='center';
-        var tw=ctx.measureText(label).width;
-        var lx=p[0], ly=p[1]-12;
-        // Pill background
-        var ph=13, pw=tw+10, pr=3;
-        var rx=lx-pw/2, ry=ly-ph+2;
-        ctx.globalAlpha=0.72;
-        ctx.fillStyle='rgba(5,8,16,0.92)';
-        if(ctx.roundRect) ctx.roundRect(rx,ry,pw,ph,pr); else ctx.rect(rx,ry,pw,ph);
-        ctx.fill();
-        ctx.globalAlpha=1;
-        // Label text
+        ctx.shadowBlur=0;
         ctx.fillStyle='rgba(255,255,255,0.92)';
-        ctx.shadowColor='rgba(0,0,0,0.0)';ctx.shadowBlur=0;
-        ctx.fillText(label,lx,ly);
+        ctx.fillText(label,p[0],p[1]-12);
       }
       _cityPos.push({abbr:abbr,x:p[0],y:p[1]});
     });
